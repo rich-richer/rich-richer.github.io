@@ -36,6 +36,8 @@ AIggy 的个人数字日报：10 份刊物，覆盖 AI、市场、算力、自�
 - 「出刊 双语每日新闻」：检索、核实、写候选稿、校验入库、测试、构建，只在本机生成，不推送。
 - 「出刊并发布 双语每日新闻」：同上，完成后提交并推送；推送后网站几分钟内自动更新。
 
+候选稿写好后，也可以手动运行出刊脚本：`node automation/publish.mjs daily-news`（加 `--push` 即发布）。任何一步失败都会中止，不会提交或推送。
+
 Claude 会按 [`editorial/README.md`](https://github.com/rich-richer/rich-richer.github.io/blob/main/editorial/README.md)（通用出刊指令）和 `editorial/<刊物 ID>.md`（各刊手册）执行。
 
 ## 本仓库新增的内容
@@ -43,6 +45,8 @@ Claude 会按 [`editorial/README.md`](https://github.com/rich-richer/rich-richer
 | 路径 | 作用 |
 | --- | --- |
 | `editorial/` | 通用出刊指令和 10 份刊物手册 |
+| `automation/publish.mjs` | 一键出刊脚本：预检、入库、测试、构建、提交，可选推送 |
+| `automation/schedule.json` | 定时入口（预留，目前全部关闭） |
 | `publications/<刊物 ID>/` | 各刊配置和正式日报数据 |
 | `config/home.json`、`config/publications.json` | 主页名称和刊物登记 |
 | `CLAUDE.md` | Claude Code 的项目说明 |

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Shanghai",
+  "note": "定时入口预留。time 为 null、enabled 为 false 表示尚未定时，目前由用户手动出刊。确定时间后填写 time（HH:MM）并把 enabled 改为 true，再据此创建定时任务，任务内容为「出刊并发布 <name>」。",
+  "publications": [
+    { "id": "daily-news", "name": "双语每日新闻", "days": ["mon", "tue", "wed", "thu", "fri"], "time": null, "enabled": false },
+    { "id": "morning-brief", "name": "工作日早晨简报", "days": ["mon", "tue", "wed", "thu", "fri"], "time": null, "enabled": false },
+    { "id": "compute-intel", "name": "电算协同每日情报", "days": ["mon", "tue", "wed", "thu", "fri"], "time": null, "enabled": false },
+    { "id": "topic-radar", "name": "自媒体选题简报", "days": ["mon", "wed", "fri"], "time": null, "enabled": false },
+    { "id": "finance-class", "name": "理财入门晚间课", "days": ["mon", "tue", "wed", "thu", "fri"], "time": null, "enabled": false },
+    { "id": "ai-architecture", "name": "AI 架构周报", "days": ["mon"], "time": null, "enabled": false },
+    { "id": "ai-safety", "name": "AI 安全公开动态", "days": ["wed"], "time": null, "enabled": false },
+    { "id": "people-watch", "name": "人物动态追踪", "days": ["thu"], "time": null, "enabled": false },
+    { "id": "venture-weekly", "name": "赛道与创业周报", "days": ["fri"], "time": null, "enabled": false },
+    { "id": "education-weekly", "name": "升学就业周报", "days": ["sat"], "time": null, "enabled": false }
+  ]
+}

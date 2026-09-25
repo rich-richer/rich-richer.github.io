@@ -7,8 +7,8 @@
 用户说「出刊 <刊物名或 ID>」时：
 
 1. 先读 [`editorial/README.md`](./editorial/README.md)（通用出刊指令），再读 `editorial/<publication-id>.md`（该刊手册）。
-2. 按其中流程检索、核实、写候选稿、校验入库、测试、构建、本机验证。
-3. 默认不推送；用户说「发布」或「出刊并发布」时才提交并推送。
+2. 按其中流程检索、核实、写候选稿，然后运行 `node automation/publish.mjs <id>` 完成预检、入库、测试、构建和提交，最后本机验证页面。
+3. 默认不推送；用户说「发布」或「出刊并发布」时才加 `--push`。推送后网站 https://rich-richer.github.io/ 自动更新。
 
 ## 边界
 

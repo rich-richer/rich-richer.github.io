@@ -112,21 +112,34 @@ GET https://aihot.news/api/v1/hot-topics
 
 ## 8. 出刊流程与命令
 
-```bash
-# 1) 校验并写入正式日报（当天日期）
-npm run process-candidate -- --publication <id> --candidate publications/<id>/data/candidates/YYYY-MM-DD.json --mode update
+候选稿写好后，用出刊脚本完成其余步骤：
 
-# 2) 测试与构建
-npm test
-npm run build
+```bash
+# 只在本机：预检 → 校验入库 → 测试 → 构建 → 提交（不推送）
+node automation/publish.mjs <id> [<id> ...]
+
+# 出刊并发布：同上，最后推送，网站几分钟内自动更新
+node automation/publish.mjs <id> [<id> ...] --push
 ```
+
+| 参数 | 作用 |
+| --- | --- |
+| `--date YYYY-MM-DD` | 指定期号日期，默认上海时间今天 |
+| `--allow-history` | 补发历史日期（须用户明确要求） |
+| `--allow-warnings` | 有长度 / 优先级提醒时仍继续（须用户明确同意，默认不用） |
+
+脚本在写入正式日报**之前**，先用原项目的校验和提醒规则预检候选稿，有问题就中止。任何一步失败都不提交、不推送，退出码为 1，日志在 `automation/logs/`（不进仓库）。它只提交本次的 `publications/<id>/data/issues/YYYY-MM-DD.json`。
 
 1. 读本文件和目标刊物手册；若当天已有正式日报，读取它的 coverage 和已有 id。
 2. 检索（手册规定的来源和 AIHOT）→ 逐条打开原文核实。
 3. 写草稿 → sepia 语言后处理 → 写候选稿到 `publications/<id>/data/candidates/YYYY-MM-DD.json`。
-4. 运行上面的命令 1。校验失败时只修改候选稿后重试，**不直接修改** `data/issues/`、`data/compiled/`、`data/index.json`、`data/submissions/`。
-5. 运行命令 2，全部通过后启动本机服务（`npm start`），请求 `/p/<id>/` 确认返回正常。
-6. 用户要求发布时，只提交 `publications/<id>/data/issues/` 下的正式日报，提交信息用 `content(<id>): YYYY-MM-DD`，然后推送。
+4. 运行出刊脚本。中止时按提示只修改候选稿后重试，**不直接修改** `data/issues/`、`data/compiled/`、`data/index.json`、`data/submissions/`。
+5. 脚本成功后启动本机服务（`npm start`），在浏览器里打开 `/p/<id>/` 确认内容正常显示（页面由脚本渲染，只看 HTTP 状态不够）。
+6. 用户说「发布」或「出刊并发布」时才加 `--push`。
+
+## 定时（预留）
+
+[`automation/schedule.json`](../automation/schedule.json) 记录每份刊物的建议频率，`time` 为空、`enabled` 为 `false`，表示尚未定时。用户确定时间后：填写 `time` 并把 `enabled` 改为 `true`，再创建定时任务（须用户单独确认），任务内容为「出刊并发布 <刊物名>」。
 
 ## 9. 交付前自检
 
