@@ -1341,3 +1341,206 @@ main:focus-visible {
 .story__expand:active {
   color: var(--color-accent-text);
 }
+
+/* 本地改动（见 docs/LOCAL_CHANGES.md）：刊名报头、导航不换行，以及「大报经典」外观。
+   报头与导航规则对所有主题生效；配色与版式细节只覆盖默认主题 newspaper-default，
+   切换到其他官方主题时不生效（不新增主题，是为了不改变原项目的主题库与测试）。 */
+.publication-menu {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.publication-menu a,
+.date-nav__button,
+.date-nav__current {
+  white-space: nowrap;
+}
+
+.nameplate {
+  width: min(calc(100% - var(--page-gutter)), var(--page-width));
+  margin: 0 auto;
+  padding-top: 32px;
+  text-align: center;
+}
+
+.nameplate p {
+  margin: 0;
+}
+
+.nameplate__eyebrow {
+  color: var(--color-muted);
+  font-size: 13px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
+
+.nameplate__title {
+  margin: 8px 0 20px !important;
+  font-family: var(--font-headline);
+  font-size: clamp(44px, 8.4vw, 118px);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.08em;
+}
+
+.nameplate__dateline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 18px;
+  padding: 9px 2px 8px;
+  border-top: 4px double var(--color-text);
+  border-bottom: var(--rule-width) solid var(--color-text);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.08em;
+}
+
+.nameplate__motto {
+  color: var(--color-accent-text);
+  font-weight: 700;
+}
+
+:root[data-theme="newspaper-default"] {
+  --color-background: #F5EFE3;
+  --color-text: #151412;
+  --color-muted: #5F594F;
+  --color-accent: #B22222;
+  --color-accent-text: #B22222;
+  --color-rule: #CBBFA8;
+  --surface-background: var(--color-background);
+  --font-numeral: "Bodoni 72", Didot, "Bodoni MT", Georgia, serif;
+  --font-english: Baskerville, "Baskerville Old Face", Georgia, serif;
+}
+
+:root[data-theme="newspaper-default"] body {
+  background: var(--color-background);
+}
+
+:root[data-theme="newspaper-default"] .masthead {
+  border-top: 0;
+  background: var(--color-background);
+  backdrop-filter: none;
+}
+
+:root[data-theme="newspaper-default"] .brand {
+  flex-shrink: 0;
+}
+
+:root[data-theme="newspaper-default"] .brand__name {
+  font-family: var(--font-headline);
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+:root[data-theme="newspaper-default"] .nameplate__eyebrow {
+  font-family: var(--font-numeral);
+  font-size: 14px;
+  letter-spacing: 0.45em;
+}
+
+:root[data-theme="newspaper-default"] .layout-row--first {
+  border-bottom: 4px double var(--color-text);
+}
+
+:root[data-theme="newspaper-default"] .story--large::before {
+  display: none;
+}
+
+:root[data-theme="newspaper-default"] .news-page {
+  counter-reset: story;
+}
+
+:root[data-theme="newspaper-default"] .story {
+  counter-increment: story;
+}
+
+:root[data-theme="newspaper-default"] .story__header::before {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--color-accent);
+  content: counter(story, decimal-leading-zero);
+  font-family: var(--font-numeral);
+  font-size: 40px;
+  line-height: 1;
+}
+
+:root[data-theme="newspaper-default"] .story--large .story__header::before {
+  font-size: 64px;
+}
+
+:root[data-theme="newspaper-default"] .story__category {
+  letter-spacing: 0.24em;
+}
+
+:root[data-theme="newspaper-default"] .story__title {
+  font-weight: 900;
+  transition: color 160ms ease;
+}
+
+:root[data-theme="newspaper-default"] .story:hover .story__title {
+  color: var(--color-accent-text);
+}
+
+:root[data-theme="newspaper-default"] .story__en,
+:root[data-theme="newspaper-default"] .home-highlight p.home-highlight__en {
+  color: #6B5E4B;
+  font-family: var(--font-english);
+  font-style: italic;
+}
+
+:root[data-theme="newspaper-default"] .home-overview__intro {
+  padding-bottom: 0;
+  border-bottom: 0;
+  text-align: center;
+}
+
+:root[data-theme="newspaper-default"] .home-overview__intro p {
+  font-family: var(--font-numeral);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.4em;
+}
+
+:root[data-theme="newspaper-default"] .home-overview__intro h1 {
+  padding-bottom: 20px;
+  border-bottom: 4px double var(--color-text);
+  font-size: clamp(44px, 8.4vw, 118px);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 899px) {
+  .nameplate {
+    padding-top: 22px;
+  }
+
+  .nameplate__eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.3em;
+  }
+
+  .nameplate__title {
+    margin-bottom: 14px !important;
+    font-size: clamp(34px, 11vw, 56px);
+    letter-spacing: 0.04em;
+  }
+
+  .nameplate__motto {
+    display: none;
+  }
+
+  :root[data-theme="newspaper-default"] .story__header::before {
+    font-size: 34px;
+  }
+
+  :root[data-theme="newspaper-default"] .story--large .story__header::before {
+    font-size: 48px;
+  }
+
+  :root[data-theme="newspaper-default"] .home-overview__intro h1 {
+    font-size: clamp(34px, 11vw, 56px);
+    letter-spacing: 0.04em;
+  }
+}

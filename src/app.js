@@ -360,6 +360,26 @@ function setupSite(site, hasTheme) {
   }
 }
 
+// 本地改动（见 docs/LOCAL_CHANGES.md）：正文上方的刊名报头与日期线
+function createNameplate(name) {
+  const plate = element("div", "nameplate");
+  const dateline = element("p", "nameplate__dateline");
+  dateline.append(
+    element("span", "nameplate__date"),
+    element("span", "nameplate__motto", "事实优先 · 来源可查"),
+    element("span", "nameplate__count"),
+  );
+  plate.append(element("p", "nameplate__eyebrow", "AIggy Daily Briefing"), element("p", "nameplate__title", name), dateline);
+  document.querySelector("#content").before(plate);
+}
+
+function updateNameplate(issue) {
+  const [year, month, day] = issue.date.split("-").map(Number);
+  const weekday = "日一二三四五六"[new Date(Date.UTC(year, month - 1, day)).getUTCDay()];
+  document.querySelector(".nameplate__date").textContent = `${year} 年 ${month} 月 ${day} 日 · 星期${weekday}`;
+  document.querySelector(".nameplate__count").textContent = `本期 ${issue.items.length} 条`;
+}
+
 function updateNavigation(date, dates) {
   const adjacent = getAdjacentDates(date, dates);
   const current = document.querySelector(".date-nav__current");
@@ -420,6 +440,7 @@ async function loadIssue(date, dates, options = {}) {
   try {
     const issue = await fetchJson(paths.issue(date));
     renderIssue(issue);
+    updateNameplate(issue);
     updateNavigation(date, dates);
     if (historyMethod) updateDateUrl(date, historyMethod);
     document.title = `${date} · ${currentSiteName}`;
@@ -454,6 +475,7 @@ async function start() {
   }
 
   setupSite(site, Boolean(themeRequest.manifest || document.querySelector("#active-theme")));
+  createNameplate(site.name);
   await loadSubmissionNotice();
   const sourcePanel = document.querySelector("#source-panel");
   sourcePanel.querySelector(".source-panel__close").addEventListener("click", closeSourcePanel);
