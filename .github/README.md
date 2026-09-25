@@ -12,7 +12,7 @@ AIggy 的个人数字日报：10 份刊物，覆盖 AI、市场、算力、自�
 | --- | --- | --- |
 | 双语每日新闻 | 工作日 | [打开](https://rich-richer.github.io/p/daily-news/) |
 | 工作日早晨简报 | 工作日 | [打开](https://rich-richer.github.io/p/morning-brief/) |
-| 电算协同每日情报 | 工作日 | [打开](https://rich-richer.github.io/p/compute-intel/) |
+| 电算协同每日情报 | 每天 | [打开](https://rich-richer.github.io/p/compute-intel/) |
 | 自媒体选题简报 | 周一、三、五 | [打开](https://rich-richer.github.io/p/topic-radar/) |
 | 理财入门晚间课 | 工作日 | [打开](https://rich-richer.github.io/p/finance-class/) |
 | AI 架构周报 | 周一 | [打开](https://rich-richer.github.io/p/ai-architecture/) |
