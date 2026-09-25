@@ -6,7 +6,7 @@
     "start": "2026-09-24T22:47:00+08:00",
     "end": "2026-09-25T22:47:00+08:00"
   },
-  "revision": 1,
+  "revision": 2,
   "items": [
     {
       "id": "lesson-risk-diversification",
@@ -80,15 +80,21 @@
     },
     {
       "id": "crypto-prices-sep-25",
-      "title": "比特币一周涨约一成，站上 8.5 万美元",
-      "brief": "比特币约 8.52 万美元，一周涨 10.4%，但比一年前仍低 25.5%。看点：涨得快的资产，跌起来也快。",
-      "summary": "据 Yahoo Finance，截至美东时间 9 月 25 日上午 7:14，比特币报 85,199.84 美元，一周涨 10.4%，一个月涨 6.9%，但比一年前低 25.5%；以太坊报 2,738.36 美元，一周涨 9.8%，比一年前低 35.3%。两者周三都创了 8 个月新高。大白话：一周涨一成听起来很诱人，可一年前买入的人现在还亏着四分之一。数字币波动远大于股票，只适合用“亏得起”的钱了解，不要借钱或加杠杆。",
+      "title": "比特币一周涨约一成，报 8.4 万美元",
+      "brief": "比特币约 8.44 万美元，一周涨约一成，但比一年前低两成多。看点：涨得快的资产，跌起来也快。",
+      "summary": "美东时间 9 月 25 日上午 9 点，比特币报 84,413.49 美元，比前一天上午涨 0.56%，比一年前低 22.58%（Fortune）。据 Yahoo Finance，比特币一周涨 10.4%；以太坊当天早上报 2,738.36 美元，一周涨 9.8%，比一年前低 35.3%。两者周三都创了 8 个月新高。大白话：一周涨一成听起来很诱人，可一年前买入的人现在还亏着两成多。数字币波动远大于股票，只适合用“亏得起”的钱了解，不要借钱或加杠杆。",
       "category": "市场速览",
       "editorial": {
         "priority": "normal",
         "selectionReason": "例程固定项：主要数字币速览，用同一组数据讲短期涨幅和长期亏损的反差。"
       },
       "sources": [
+        {
+          "originalTitle": "Current price of Bitcoin for Sept. 25, 2026",
+          "name": "Fortune",
+          "url": "https://fortune.com/article/price-of-bitcoin-09-25-2026/",
+          "publishedAt": "2026-09-25T09:00:00-04:00"
+        },
         {
           "originalTitle": "Bitcoin and ethereum prices today, Friday, September 25, 2026: Is bitcoin finally on a path to $250,000?",
           "name": "Yahoo Finance",
@@ -120,20 +126,20 @@
       ]
     },
     {
-      "id": "how-to-read-bitcoin-250k",
-      "title": "新闻怎么读：比特币要涨到 25 万？",
-      "brief": "标题问比特币能否到 25 万美元，依据是一位对冲基金经理的判断。先问三件事：谁说的、他是否持有、他过去准不准。",
-      "summary": "Yahoo Finance 9 月 25 日的币价文章，标题是“比特币终于要走向 25 万美元了吗？”。正文里，这个数字来自对冲基金经理 Mark Yusko 的个人判断，另一位分析师说“加密寒冬结束了”。初学者读这类新闻，先分清事实和观点：币价、涨跌幅是事实；25 万美元是观点。再问三件事：说话的人是否持有这类资产、他过去的预测准不准、标题是不是用问号来吸引点击。观点可以参考，但不能当买入理由。",
+      "id": "how-to-read-goldman-capex",
+      "title": "新闻怎么读：云巨头要砸 1.2 万亿？",
+      "brief": "高盛预计美国云厂商明年 AI 开支或达约 1.2 万亿美元。先分清：这是机构预测，不是已发生的事实。",
+      "summary": "9 月 25 日的报道称，高盛亚太首席股票策略师 Timothy Moe 预计，美国大型云计算公司今年资本开支约 8000 亿美元，2027 年可能增至约 1.2 万亿美元。初学者读这类新闻，先分清事实和观点：今年的开支计划有公司财报可查，明年的 1.2 万亿是预测。再问三件事：预测来自哪家机构、它的业务是否受益于这个判断、同一机构过去的预测准不准。大数字能说明行业热度，但不能直接推出“某只股票会涨”。",
       "category": "新闻怎么读",
       "editorial": {
         "priority": "normal",
-        "selectionReason": "例程固定项：用当天真实标题示范区分事实与观点。"
+        "selectionReason": "例程固定项：用当天真实新闻示范区分事实与机构观点。"
       },
       "sources": [
         {
-          "originalTitle": "Bitcoin and ethereum prices today, Friday, September 25, 2026: Is bitcoin finally on a path to $250,000?",
-          "name": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-25-2026-is-bitcoin-finally-on-a-path-to-250000-113048042.html"
+          "originalTitle": "Goldman stays bullish on AI as cloud giants' spending heads towards $1.2 trillion",
+          "name": "investingLive",
+          "url": "https://investinglive.com/stock-market-update/goldman-stays-bullish-on-ai-as-cloud-giants-spending-heads-towards-1-2-trillion/"
         }
       ]
     }
