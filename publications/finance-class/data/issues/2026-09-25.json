@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T22:47:00+08:00",
+  "coverage": {
+    "start": "2026-09-24T22:47:00+08:00",
+    "end": "2026-09-25T22:47:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "lesson-risk-diversification",
+      "title": "一词一课：风险、分散与“亏得起”",
+      "brief": "本课仅供学习，不构成投资建议。分散不是多买几只，而是别把钱都放进同一种篮子；只投亏得起的钱。",
+      "summary": "本课仅供学习，不构成投资建议；投资有风险。一句话：只投亏得起的钱，并放进涨跌不同步的篮子。是什么：风险是结果和预期不一样的可能；“亏得起”指这笔钱就算亏掉一大半，生活也不受影响。类比：出远门不会只带一张银行卡。为什么重要：本周港股两天跌了约 1.5%，比特币一周却涨了约一成，同一周不同资产走势完全不同。常见误区：买五只科技股以为分散了，其实还是一个篮子。练习：年终奖 5 万元，半年后要交房租，A 全买一只热门股，B 先留出半年房租再分散。答案 B：先保流动性，再谈收益。本周回顾：美债收益率创多年新高，风险资产走势分化。作业：写下你亏多少钱会睡不着。",
+      "category": "一词一课",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "周五轮换主题（第 39 周为奇数周，不换区块链课）；用本周港股与比特币的分化做现成例子。"
+      },
+      "sources": [
+        {
+          "name": "中国证监会 · 投资者风险提示词条",
+          "url": "https://www.csrc.gov.cn/csrc/c100211/c1452064/content.shtml"
+        }
+      ]
+    },
+    {
+      "id": "us-market-sep-24",
+      "title": "美股：美债收益率大涨，股市收平",
+      "brief": "9 月 24 日标普 500 收于 7,704.13 点，基本持平。初学者看点：利率上升时，股票和债券可能一起承压。",
+      "summary": "美东时间 9 月 24 日，美国 10 年期国债收益率升至 2007 年以来最高，30 年期升至 2004 年以来最高。股市盘中几度反转，收盘基本回到原位：标普 500 指数跌 1.90 点，收于 7,704.13 点；道指跌 0.3%；纳指微涨。大白话：国债收益率就是国家借钱付的利息，它涨了，存量债券会跌价，股票的吸引力也会下降。这就是为什么“股债双杀”的日子里，只分散在股票和债券之间也不一定躲得开。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "例程固定项：美股速览。美债收益率大涨是本周最重要的市场变量，也是讲分散局限的好例子。"
+      },
+      "sources": [
+        {
+          "originalTitle": "How major US stock indexes fared Thursday 9/24/2026",
+          "name": "ABC News（美联社）",
+          "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-9242026-136734081"
+        },
+        {
+          "originalTitle": "30-year Treasury yield hits highest level since 2004 as bond market rout continues",
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
+          "publishedAt": "2026-09-24T07:16:10Z"
+        }
+      ]
+    },
+    {
+      "id": "china-hk-market-sep-25",
+      "title": "A 股中秋休市，港股连跌两天",
+      "brief": "A 股 9 月 25 日至 27 日休市，节前上证跌 1.23%；港股照常交易，恒指今天跌 1.17%。看点：别被节前波动带节奏。",
+      "summary": "A 股中秋休市：9 月 25 日至 27 日不交易，28 日照常开市，港股通同样暂停。节前最后一个交易日 9 月 24 日，上证综指跌 1.23%。港股没有放假：恒生指数 24 日跌 0.29%，25 日跌 1.17%。大白话：同一家中国公司，在 A 股休市时，港股的价格照样在变。初学者看点：假期前后市场容易情绪化，不要因为一两天涨跌就冲动买卖。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "例程固定项：中国股市速览。休市安排是初学者容易忽略的实用信息。"
+      },
+      "sources": [
+        {
+          "name": "21 世纪经济报道 · A 股中秋国庆休市安排",
+          "url": "https://m.21jingji.com/article/20260917/herald/01c9d6a6bc0679696789d873f8ba407e.html"
+        },
+        {
+          "originalTitle": "Hang Seng Closes Down 1.2% While Shanghai Barely Moves",
+          "name": "24/7 Wall St.",
+          "url": "https://247wallst.com/cards/hong-kong-took-the-entire-hit-in-asia-today-shedding-1-17-hsi-market-bell-01m3bsenevqn9h82y3tqe2m67h",
+          "publishedAt": "2026-09-25T08:00:00Z"
+        },
+        {
+          "originalTitle": "Hang Seng closes down 0.3% as Shanghai drops 1.23% in the same session",
+          "name": "24/7 Wall St.（9 月 24 日）",
+          "url": "https://247wallst.com/cards/hong-kong-held-most-of-its-ground-into-the-close-while-shang-hsi-market-bell-01m3972jjqy5gtsegh4jshxz3q",
+          "publishedAt": "2026-09-24T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "crypto-prices-sep-25",
+      "title": "比特币一周涨约一成，站上 8.5 万美元",
+      "brief": "比特币约 8.52 万美元，一周涨 10.4%，但比一年前仍低 25.5%。看点：涨得快的资产，跌起来也快。",
+      "summary": "据 Yahoo Finance，截至美东时间 9 月 25 日上午 7:14，比特币报 85,199.84 美元，一周涨 10.4%，一个月涨 6.9%，但比一年前低 25.5%；以太坊报 2,738.36 美元，一周涨 9.8%，比一年前低 35.3%。两者周三都创了 8 个月新高。大白话：一周涨一成听起来很诱人，可一年前买入的人现在还亏着四分之一。数字币波动远大于股票，只适合用“亏得起”的钱了解，不要借钱或加杠杆。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "例程固定项：主要数字币速览，用同一组数据讲短期涨幅和长期亏损的反差。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Bitcoin and ethereum prices today, Friday, September 25, 2026: Is bitcoin finally on a path to $250,000?",
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-25-2026-is-bitcoin-finally-on-a-path-to-250000-113048042.html"
+        }
+      ]
+    },
+    {
+      "id": "ether-etf-inflows-sep-24",
+      "title": "以太坊现货 ETF 连续 5 天净流入",
+      "brief": "9 月 24 日美国以太坊现货 ETF 净流入约 6600 万美元，连续第 5 天。看点：ETF 只是买入渠道，不会降低币价波动。",
+      "summary": "据行业数据平台统计，9 月 24 日美国以太坊现货 ETF 合计净流入约 6601 万美元，连续第 5 个交易日净流入，其中贝莱德的 ETHA 流入约 2681 万美元、富达的 FETH 流入约 2145 万美元。大白话：现货 ETF 是在证券账户里就能买的基金，基金替你持有以太坊。它让买入更方便、更受监管，但价格仍跟着以太坊一起大涨大跌，风险并没有变小。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "例程固定项：区块链动态（合规产品方向），只讲机制与风险，不荐买。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Ethereum spot ETFs recorded a $66.01 million net inflow on September 24, marking the fifth consecutive day of inflows.",
+          "name": "KuCoin 快讯",
+          "url": "https://www.kucoin.com/news/flash/ethereum-spot-etfs-see-66-01m-net-inflow-on-september-24-marking-fifth-consecutive-day-of-inflows"
+        },
+        {
+          "originalTitle": "Ethereum Spot ETFs See $66M Inflow, Five-Day Streak",
+          "name": "Phemex News",
+          "url": "https://phemex.com/news/article/ethereum-spot-etfs-record-66m-net-inflow-extending-streak-to-five-days-97820"
+        }
+      ]
+    },
+    {
+      "id": "how-to-read-bitcoin-250k",
+      "title": "新闻怎么读：比特币要涨到 25 万？",
+      "brief": "标题问比特币能否到 25 万美元，依据是一位对冲基金经理的判断。先问三件事：谁说的、他是否持有、他过去准不准。",
+      "summary": "Yahoo Finance 9 月 25 日的币价文章，标题是“比特币终于要走向 25 万美元了吗？”。正文里，这个数字来自对冲基金经理 Mark Yusko 的个人判断，另一位分析师说“加密寒冬结束了”。初学者读这类新闻，先分清事实和观点：币价、涨跌幅是事实；25 万美元是观点。再问三件事：说话的人是否持有这类资产、他过去的预测准不准、标题是不是用问号来吸引点击。观点可以参考，但不能当买入理由。",
+      "category": "新闻怎么读",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "例程固定项：用当天真实标题示范区分事实与观点。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Bitcoin and ethereum prices today, Friday, September 25, 2026: Is bitcoin finally on a path to $250,000?",
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-25-2026-is-bitcoin-finally-on-a-path-to-250000-113048042.html"
+        }
+      ]
+    }
+  ]
+}
