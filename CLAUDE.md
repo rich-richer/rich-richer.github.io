@@ -1,0 +1,18 @@
+# AIggy 每日简报：Claude Code 项目说明
+
+本仓库基于 [dingshuxin353/daily-news-app](https://github.com/dingshuxin353/daily-news-app) 二次开发。原项目的 Agent 规则见 [`AGENTS.md`](./AGENTS.md)，依然有效。
+
+## 出刊
+
+用户说「出刊 <刊物名或 ID>」时：
+
+1. 先读 [`editorial/README.md`](./editorial/README.md)（通用出刊指令），再读 `editorial/<publication-id>.md`（该刊手册）。
+2. 按其中流程检索、核实、写候选稿、校验入库、测试、构建、本机验证。
+3. 默认不推送；用户说「发布」或「出刊并发布」时才提交并推送。
+
+## 边界
+
+- 不修改原项目源码（`scripts/`、`src/`、`styles.css`、`*.html`、`themes/presets/`）；需要改时先说明影响并取得确认。
+- 不手工修改 `publications/*/data/issues/`、`compiled/`、`index.json`、`submissions/`，只通过 `npm run process-candidate` 写入。
+- 仓库和网站公开：不写真实姓名、Notion 链接、家庭信息或任何凭证（详见 `editorial/README.md` 第 7 节）。
+- 同步原项目更新：`git fetch upstream && git merge upstream/main`，合并后运行 `npm test` 与 `npm run build`。
