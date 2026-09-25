@@ -1242,3 +1242,60 @@ main:focus-visible {
   }
 
 }
+
+/* 本地改动（见 docs/LOCAL_CHANGES.md）：中英对照的英文行。
+   只有 summary 带「EN:」的条目才会生成 .story__body，其余条目结构不变。 */
+.story--large .story__body {
+  grid-area: summary;
+  align-self: end;
+}
+
+.story--large[data-media-variant="lead-split"] .story__body {
+  align-self: start;
+  margin-top: 18px;
+}
+
+.story--large[data-media-variant="lead-split"] .story__body .story__summary {
+  margin-top: 0;
+}
+
+.story--medium[data-media-variant="medium-split"] .story__body {
+  grid-area: summary;
+}
+
+.story__en {
+  display: -webkit-box;
+  margin: 10px 0 0;
+  overflow: hidden;
+  color: var(--color-muted);
+  font-size: 13px;
+  line-height: 1.5;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.story--large .story__en {
+  font-size: 15px;
+  -webkit-line-clamp: 4;
+}
+
+.home-highlight p.home-highlight__en {
+  margin-top: 10px;
+  color: var(--color-muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 899px) {
+  .story[data-media-variant]:not([data-media-variant="none"]) .story__body {
+    order: 3;
+  }
+
+  .story--large .story__body .story__summary {
+    margin-top: 18px;
+  }
+
+  .story--large .story__en {
+    font-size: 14px;
+  }
+}

@@ -164,6 +164,13 @@ export function classifyTitleLength(title) {
   return "extra-long";
 }
 
+// 本地改动（见 docs/LOCAL_CHANGES.md）：summary 中「EN:」之后的英文段单独显示
+function splitEnglish(text) {
+  const index = text.indexOf("EN:");
+  if (index <= 0) return [text, ""];
+  return [text.slice(0, index).trim(), text.slice(index + 3).trim()];
+}
+
 function createArticle(item, module, isFirst) {
   const article = element("article", `story story--${module.size}`);
   article.id = item.id;
@@ -179,7 +186,15 @@ function createArticle(item, module, isFirst) {
   }
   heading.append(element(isFirst ? "h1" : "h2", "story__title", item.title));
 
-  const summary = element("p", "story__summary", module.size === "large" ? item.summary : item.brief);
+  const [summaryZh, summaryEn] = splitEnglish(item.summary);
+  const summary = element("p", "story__summary", module.size === "large" ? summaryZh : item.brief);
+  let body = summary;
+  if (summaryEn) {
+    const english = element("p", "story__en", summaryEn);
+    english.lang = "en";
+    body = element("div", "story__body");
+    body.append(summary, english);
+  }
   let media = null;
   if (item.image && module.mediaVariant && module.mediaVariant !== "none") {
     media = element("figure", "story__media");
@@ -221,7 +236,7 @@ function createArticle(item, module, isFirst) {
     sourceCount.dataset.itemId = item.id;
     source.append(sourceCount);
   }
-  article.append(heading, ...(media ? [media] : []), summary, source);
+  article.append(heading, ...(media ? [media] : []), body, source);
   return article;
 }
 

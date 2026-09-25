@@ -174,6 +174,12 @@ function renderHomePublication(publication, primary = false) {
   }
   const [lead, ...secondary] = publication.highlights;
   const media = lead.image ? renderImage(lead.image, { eager: primary }) : "";
+  // 本地改动（见 docs/LOCAL_CHANGES.md）：summary 中「EN:」之后的英文段单独显示
+  const enIndex = primary ? lead.summary.indexOf("EN:") : -1;
+  const leadText = enIndex > 0 ? lead.summary.slice(0, enIndex).trim() : (primary ? lead.summary : lead.brief);
+  const leadEnglish = enIndex > 0
+    ? `\n              <p class="home-highlight__en" lang="en">${escapeHtml(lead.summary.slice(enIndex + 3).trim())}</p>`
+    : "";
   const secondaryHtml = secondary.length === 0 ? "" : `<ol class="home-highlights__secondary">
 ${secondary.map((item) => `            <li><a href="${escapeHtml(item.itemUrl)}">${escapeHtml(item.title)}</a></li>`).join("\n")}
           </ol>`;
@@ -189,7 +195,7 @@ ${secondary.map((item) => `            <li><a href="${escapeHtml(item.itemUrl)}"
             <div class="home-highlight__text">
               ${lead.category ? `<p class="story__category">${escapeHtml(lead.category)}</p>` : ""}
               <h3><a href="${escapeHtml(lead.itemUrl)}">${escapeHtml(lead.title)}</a></h3>
-              <p>${escapeHtml(primary ? lead.summary : lead.brief)}</p>
+              <p>${escapeHtml(leadText)}</p>${leadEnglish}
             </div>
             ${media}
           </article>
