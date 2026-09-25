@@ -10,10 +10,25 @@
 
 | 文件 | 改动 |
 | --- | --- |
-| `src/app.js` | 新增 `splitEnglish()`；`createArticle()` 在有英文段时，把摘要和英文行包进 `div.story__body`，头条摘要只显示「EN:」之前的中文 |
+| `src/app.js` | 新增 `splitEnglish()`；`createArticle()` 把摘要（及英文行）包进 `div.story__body`（第 2 项起所有条目都包），头条摘要只显示「EN:」之前的中文 |
 | `scripts/lib/build-html.js` | `renderHomePublication()`：主页头条同样拆出英文段，另起 `p.home-highlight__en` |
 | `styles.css` | 文件末尾新增一段样式（`.story__body`、`.story__en`、`.home-highlight__en` 及手机端规则） |
 
 **合并上游时**：若上游改了 `createArticle()`、主页头条模板或相关样式，保留上游改动后，按上表重新加回这几处；改动都带有「本地改动（见 docs/LOCAL_CHANGES.md）」注释，可直接搜索定位。
 
 **撤回**：`git revert` 对应提交即可，数据不受影响（英文段仍保存在 `summary` 里，只是不再单独显示）。
+
+## 2. 展开全文（2026-09-26）
+
+**目的**：卡片会按版面截断文字（头条摘要 6 行、重要条目 4 行、普通条目 3 行，英文行 3–4 行），普通和重要条目的完整 `summary`、每条的 `selectionReason`、单一来源的原标题在页面上都看不到。用户要求显示完整、不丢内容。
+
+**规则**：每条卡片底部加「展开全文」按钮，点击后原地展开、再点「收起」。展开时取消所有截断，并在摘要下方追加：非头条的完整中文 `summary`、「入选理由：」`selectionReason`、只有 1 个来源时的「原标题：」`originalTitle`（2 个以上来源的原标题仍在来源面板里）。适用于所有刊物；主页头条摘要不变，点标题进入刊物页查看全文。
+
+| 文件 | 改动 |
+| --- | --- |
+| `src/app.js` | `createArticle()`：所有条目都生成 `div.story__body`；新增 `div.story__more`（默认隐藏）和 `button.story__expand`，按钮切换文章的 `is-expanded` 类与 `aria-expanded` |
+| `styles.css` | 文件末尾新增一段样式（`.story.is-expanded` 取消截断、`.story__more`、`.story__expand`） |
+
+**合并上游时**：与第 1 项一起核对 `createArticle()` 和文件末尾样式，搜索「本地改动」即可定位。
+
+**撤回**：`git revert` 对应提交即可，数据不受影响。

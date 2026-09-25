@@ -188,13 +188,29 @@ function createArticle(item, module, isFirst) {
 
   const [summaryZh, summaryEn] = splitEnglish(item.summary);
   const summary = element("p", "story__summary", module.size === "large" ? summaryZh : item.brief);
-  let body = summary;
+  const body = element("div", "story__body");
+  body.append(summary);
   if (summaryEn) {
     const english = element("p", "story__en", summaryEn);
     english.lang = "en";
-    body = element("div", "story__body");
-    body.append(summary, english);
+    body.append(english);
   }
+  // 本地改动（见 docs/LOCAL_CHANGES.md）：「展开全文」显示被截断的文字和卡片上没有的字段
+  const more = element("div", "story__more");
+  more.id = `${item.id}-more`;
+  more.hidden = true;
+  if (module.size !== "large") more.append(element("p", "story__more-summary", summaryZh));
+  if (item.editorial?.selectionReason) {
+    more.append(element("p", "story__more-note", `入选理由：${item.editorial.selectionReason}`));
+  }
+  if (item.sources.length === 1 && item.sources[0].originalTitle) {
+    const original = element("p", "story__more-note", "原标题：");
+    const originalTitle = element("span", "", item.sources[0].originalTitle);
+    originalTitle.lang = "en";
+    original.append(originalTitle);
+    more.append(original);
+  }
+  body.append(more);
   let media = null;
   if (item.image && module.mediaVariant && module.mediaVariant !== "none") {
     media = element("figure", "story__media");
@@ -230,6 +246,17 @@ function createArticle(item, module, isFirst) {
   link.target = "_blank";
   link.rel = "noopener noreferrer";
   source.append(link);
+  const expand = element("button", "story__expand", "展开全文");
+  expand.type = "button";
+  expand.setAttribute("aria-expanded", "false");
+  expand.setAttribute("aria-controls", more.id);
+  expand.addEventListener("click", () => {
+    const expanded = article.classList.toggle("is-expanded");
+    more.hidden = !expanded;
+    expand.textContent = expanded ? "收起" : "展开全文";
+    expand.setAttribute("aria-expanded", String(expanded));
+  });
+  source.append(expand);
   if (item.sources.length > 1) {
     const sourceCount = element("button", "story__source-count", `查看全部 ${item.sources.length} 个来源`);
     sourceCount.type = "button";

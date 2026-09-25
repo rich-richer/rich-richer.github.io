@@ -1243,8 +1243,8 @@ main:focus-visible {
 
 }
 
-/* 本地改动（见 docs/LOCAL_CHANGES.md）：中英对照的英文行。
-   只有 summary 带「EN:」的条目才会生成 .story__body，其余条目结构不变。 */
+/* 本地改动（见 docs/LOCAL_CHANGES.md）：中英对照的英文行与「展开全文」。
+   每条的摘要都包在 .story__body 里；英文行只在 summary 带「EN:」时出现。 */
 .story--large .story__body {
   grid-area: summary;
   align-self: end;
@@ -1298,4 +1298,46 @@ main:focus-visible {
   .story--large .story__en {
     font-size: 14px;
   }
+}
+
+/* 本地改动（见 docs/LOCAL_CHANGES.md）：「展开全文」取消截断并显示补充字段 */
+.story.is-expanded .story__summary,
+.story.is-expanded .story__en {
+  display: block;
+  overflow: visible;
+}
+
+.story__more {
+  margin-top: 12px;
+  color: color-mix(in srgb, var(--color-text) 84%, var(--color-muted));
+  font-size: 14px;
+  line-height: 1.58;
+}
+
+.story__more[hidden] {
+  display: none;
+}
+
+.story__more p {
+  margin: 10px 0 0;
+}
+
+.story__more .story__more-note {
+  color: var(--color-muted);
+  font-size: 13px;
+}
+
+.story__expand {
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  color: var(--color-text);
+  background: transparent;
+  font-weight: 680;
+  cursor: pointer;
+}
+
+.story__expand:hover,
+.story__expand:active {
+  color: var(--color-accent-text);
 }
