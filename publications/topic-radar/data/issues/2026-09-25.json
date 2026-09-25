@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T22:42:00+08:00",
+  "coverage": {
+    "start": "2026-09-23T22:42:00+08:00",
+    "end": "2026-09-25T22:42:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "cctv-mid-autumn-gala-ai-song",
+      "title": "央视中秋晚会首推 AI 原创歌曲，“AI 入侵晚会”上热搜",
+      "brief": "总台中秋晚会节目单出现 AI 原创歌曲和 AI 短片，微博话题“AI入侵中秋晚会”当天上榜。切入：AI 创作被主流舞台接纳后，版权归谁？",
+      "summary": "总台 9 月 25 日公布中秋晚会节目单，AI 原创歌曲《南来北往的秋》由筷子兄弟演唱，另有 AI 短片《月从今夜明——博物馆里的千年相逢》。切入：一是 AI 写的歌版权归谁、谁来保护原创；二是 AI 从特效走进词曲创作，普通创作者还剩什么优势；三是自己用 AI 做一首中秋歌，现场对比。为什么火：央视晚会是国民级舞台，AI 第一次以“原创”名义直接进节目单，“AI入侵中秋晚会”当天冲上微博热搜，网上已有“谁来保护原创”的争论。",
+      "category": "国内",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "国民级舞台加上 AI 创作争议，时效就在今晚，适合 AIggy 做 AI 应用和版权类内容，受众面最广。"
+      },
+      "sources": [
+        {
+          "name": "央视网 · 总台 2026 年中秋晚会节目单",
+          "url": "https://news.cctv.com/2026/09/25/ARTIVgLi8vT0ICxwZibD4cax260925.shtml",
+          "publishedAt": "2026-09-25T11:41:18+08:00"
+        },
+        {
+          "name": "央广网 · 节目单（图片版）",
+          "url": "https://news.cnr.cn/native/gd/20260925/t20260925_527825054.shtml"
+        }
+      ]
+    },
+    {
+      "id": "claude-discovers-art-enzyme",
+      "title": "Claude 自主发现类 CRISPR 新酶系统",
+      "brief": "约 950 个 Claude 智能体 21 小时筛查基因库，找到一种未知的酶系统，CRISPR 先驱张锋点评。切入：AI 开始当科学家了吗？",
+      "summary": "Anthropic 9 月 23 日发文，约 950 个 Claude 智能体在 21 小时内自主检索大型 DNA 序列库，消耗 2.1 亿 token，从 3500 个候选中筛出 20 个，最终发现噬菌体中一种带类 CRISPR 重复序列的逆转录酶系统 ART，研究人员随后做了实验验证。CRISPR 先驱、MIT 的张锋称这是 AI 智能体参与生物发现的例子。热度来自“AI 自己做出科学发现”的叙事，Dario Amodei 也亲自发帖。切入：AI 当科学家到了哪一步；普通人怎么用智能体做研究；需要提醒的是，这项结果还是预印本，功能尚不明确。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "AIHOT 热点榜第 2，叙事强、可视化空间大，适合做 AI 科普类长内容；须同时讲清未经同行评审。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cmuefqp730041rovxbpewc3gn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sams-club-foreign-chief-merchant",
+      "title": "山姆换上外籍首席采购官，网友吵翻了",
+      "brief": "沃尔玛中国宣布，美国山姆高管 Sean Jackson 出任山姆中国首席采购官，本周冲上热搜。切入：会员店的核心竞争力到底是选品。",
+      "summary": "沃尔玛中国 9 月 22 日宣布调整采购负责人：美国山姆非食品采购高级副总裁 Sean Jackson 出任山姆会员商店首席采购官，原山姆非食品采购负责人 Amber Bynum 调任沃尔玛商店首席采购官，两人均为外籍。山姆 6 月因食品安全问题被市场监管总局约谈，前首席采购官 6 月底离任。话题 9 月 25 日冲上微博热搜，网友争论“换洋高管能不能解决选品问题”。切入：会员制零售靠什么留住中产；从山姆看采购权决定商品力；本土零售能学什么。",
+      "category": "国内",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "消费和中产话题天然有讨论度，可延伸到零售与跨境选品，和 AIggy 关注的跨境电商方向相关。"
+      },
+      "sources": [
+        {
+          "name": "中华网财经（国际金融报）",
+          "url": "https://finance.china.com/xiaofei/13004691/20260923/49761351.html",
+          "publishedAt": "2026-09-23T10:18:02+08:00"
+        },
+        {
+          "name": "新浪财经",
+          "url": "https://finance.sina.com.cn/tech/shenji/2026-09-22/doc-inissitf7072859.shtml",
+          "publishedAt": "2026-09-22T11:35:54+08:00"
+        }
+      ]
+    },
+    {
+      "id": "google-suncatcher-tpu-satellite",
+      "title": "谷歌 10 月 1 日把 TPU 送上太空",
+      "brief": "谷歌 Suncatcher 项目首颗试验卫星将搭载 TPU 芯片发射，测试太空算力。切入：数据中心搬上天，是噱头还是下一代基础设施？",
+      "summary": "谷歌 9 月 24 日在官方博客介绍 Project Suncatcher：首颗试验卫星与 Planet 合作建造，将搭乘 SpaceX 的 Transporter-18 拼车任务发射，多家媒体报道发射日为 10 月 1 日，卫星载有 4 颗 TPU。任务是测试芯片能否扛住发射震动、太空辐射和散热难题；谷歌计划 2027 年再发两颗卫星测试激光互联。热度来自“太空数据中心”的想象空间。切入：为什么要把算力放上天（近地轨道太阳能约为地面 8 倍）；马斯克、谷歌的太空算力竞赛；对国内算电协同的启发。",
+      "category": "海外",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AIHOT 热点榜第 1，发射日在下周，可以提前做预告、发射当天跟进，和算力主题强相关。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Behind Project Suncatcher, our moonshot to put AI in space",
+          "name": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+        },
+        {
+          "originalTitle": "Google to launch first TPU satellite on SpaceX Transporter-18",
+          "name": "Quartz",
+          "url": "https://qz.com/google-project-suncatcher-tpu-satellite-spacex-orbit-092426"
+        }
+      ]
+    },
+    {
+      "id": "meta-muse-charm-wearable",
+      "title": "Meta 推出“AI 电子宠物”Muse Charm",
+      "brief": "Meta 发布掌心大小的 AI 挂件，按一下指纹键就能和 AI 助手说话，12 月发货。切入：手机之后，AI 硬件的下一个形态是什么？",
+      "summary": "Meta 9 月 23 日在 Connect 大会发布 Muse Charm：一个掌心大小、可挂在钥匙扣上的设备，小屏幕上显示 AI 形象，按下角落的指纹键即可和 Meta 的 AI 助手 Muse 实时语音对话，不用解锁手机或打开应用。扎克伯格称，不戴眼镜时，这是和 Muse 交流最快的方式。计划 12 月假期前发货，价格未公布。TechCrunch 形容它像电子宠物。切入：AI 硬件为什么都想摆脱手机；电子宠物式设计的情感营销；对比国内 AI 挂件和 AI 玩具赛道。",
+      "category": "海外",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "新奇硬件有画面感，适合短视频；可延伸到国内 AI 玩具和挂件的创业机会。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/"
+        },
+        {
+          "originalTitle": "Everything We Announced at Meta Connect 2026",
+          "name": "Meta",
+          "url": "https://www.meta.com/blog/meta-connect-2026-everything-we-announced/"
+        }
+      ]
+    }
+  ]
+}
