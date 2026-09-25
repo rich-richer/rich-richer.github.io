@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T22:30:00+08:00",
+  "coverage": {
+    "start": "2026-09-24T22:30:00+08:00",
+    "end": "2026-09-25T22:30:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "treasury-yields-weigh-on-etfs",
+      "title": "美债收益率升至多年新高，宽基 ETF 基本收平",
+      "brief": "美债长端收益率升至多年新高，市场押注美联储 10 月再加息。意义：成长股和长久期债券 ETF 同时承压。",
+      "summary": "美东时间 9 月 24 日，美国 30 年期国债收益率盘中升至 5.501%，为 2004 年 6 月以来最高；10 年期升至 5.223%，为 2007 年 6 月以来最高。意义：长债收益率走高，会同时压低成长股估值和存量债券 ETF 的价格，短期波动可能加大。当天 SPY、QQQ、VTI 均小幅收跌，基本持平。CME FedWatch 显示，交易员押注美联储 10 月再加息的概率超过 75%，一周前约为 49%。美国 30 年期固定房贷平均利率升至 7.37%。",
+      "category": "美股ETF",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "长端利率创多年新高，是当天对股票和债券 ETF 影响最大的市场变量。"
+      },
+      "sources": [
+        {
+          "originalTitle": "30-year Treasury yield hits highest level since 2004 as bond market rout continues",
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
+          "publishedAt": "2026-09-24T07:16:10Z"
+        },
+        {
+          "originalTitle": "Bond yields surge to fresh two-decade highs, but oil prices are buffeted by Iran headlines",
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/bond-yields-oil-treasury-buyback-bessent-rcna599604",
+          "publishedAt": "2026-09-24T13:59:33Z"
+        }
+      ]
+    },
+    {
+      "id": "spy-qqq-vti-sep-24",
+      "title": "SPY、QQQ、VTI 9 月 24 日小幅收跌",
+      "brief": "SPY 收于 767.18 美元，跌 0.08%；QQQ 收于 741.10 美元，跌 0.01%；VTI 收于 378.08 美元，跌 0.04%。",
+      "summary": "上一个完整交易日（美东 9 月 24 日），三只主要宽基 ETF 都小幅收跌：SPDR 标普 500 ETF（SPY）收于 767.18 美元，跌 0.08%；纳指 100 ETF（QQQ）收于 741.10 美元，跌 0.01%；Vanguard 全市场 ETF（VTI）收于 378.08 美元，跌 0.04%。当天美债收益率大涨，股市盘中几度反转，收盘基本回到原位。9 月 25 日美股出刊时仍在交易，本期不采用当日数据。",
+      "category": "美股ETF",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "例程固定项：上一美股交易日三只宽基 ETF 的表现。"
+      },
+      "sources": [
+        {
+          "name": "StockAnalysis · SPY 历史数据",
+          "url": "https://stockanalysis.com/etf/spy/history/"
+        },
+        {
+          "name": "StockAnalysis · QQQ 历史数据",
+          "url": "https://stockanalysis.com/etf/qqq/history/"
+        },
+        {
+          "name": "StockAnalysis · VTI 历史数据",
+          "url": "https://stockanalysis.com/etf/vti/history/"
+        }
+      ]
+    },
+    {
+      "id": "us-etf-launches-sep-17-24",
+      "title": "一周新 ETF：AI 主题扎堆，德州交易所迎首发",
+      "brief": "9 月 17 日至 24 日美国新发 ETF 中，AI 主题至少 4 只，德州证券交易所迎来首只主上市 ETF。意义：AI 算力已成可交易主题。",
+      "summary": "ETF Express 9 月 24 日汇总了 9 月 17 日至 24 日的美国新发 ETF。AI 主题产品集中出现，包括 xETFs AI Bottlenecks ETF（NECK）、iShares Future AI Beneficiaries ETF（AIBF）、REX AI Chipmaking ETF（CHIP）和 Grayscale AI Compute ETF（GCPU）。主打电力与基础设施的 Westwood Salient Enhanced Power & Infrastructure ETF（PWRX）成为德州证券交易所（TXSE）首只主上市产品。其余新品包括主动管理的全球基础设施 ETF 和多只市政债 ETF。意义：AI 算力和电力基础设施正被打包成可交易的主题产品，与电算协同方向直接相关。",
+      "category": "美股ETF",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "例程固定项：ETF 产品动态。本周新品集中在 AI 算力与电力基础设施，与 AIggy 关注的算力和电力方向重合。"
+      },
+      "sources": [
+        {
+          "originalTitle": "US ETF launches from 17th to 24th September, 2026",
+          "name": "ETF Express",
+          "url": "https://etfexpress.com/2026/09/24/us-etf-launches-from-17th-to-24th-september-2026/"
+        }
+      ]
+    },
+    {
+      "id": "shenyang-weather-sep-25",
+      "title": "沈阳今夜中雨，明天雷阵雨",
+      "brief": "今天夜间中雨，最低 16℃，南风不足 3 级；明天雷阵雨，12℃ 至 21℃。已于出刊当日核实。",
+      "summary": "据中国天气网沈阳预报（出刊当日核实），9 月 25 日夜间有中雨，最低气温 16℃，南风，风力不足 3 级。9 月 26 日（周六）有雷阵雨，气温 12℃ 至 21℃，白天西北风、夜间东北风，风力不足 3 级。本期出刊较晚，今天白天的天气已经过去，所以一并给出明天的预报。明天昼夜温差约 9℃，出门记得带伞。",
+      "category": "沈阳天气",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "例程固定项：当日天气。"
+      },
+      "sources": [
+        {
+          "name": "中国天气网 · 沈阳",
+          "url": "https://www.weather.com.cn/weather/101070101.shtml"
+        }
+      ]
+    }
+  ]
+}
