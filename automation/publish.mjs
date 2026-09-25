@@ -63,6 +63,15 @@ for (const id of options.ids) {
   } catch (error) {
     abort("预检", `${id} 候选稿不合格：${error.message}`);
   }
+  // 同一期里不同条目共用来源链接时，原项目在再次入库时无法确定性合并，会整次拒绝
+  const urlOwner = new Map();
+  for (const item of candidate.items) {
+    for (const source of item.sources) {
+      const owner = urlOwner.get(source.url);
+      if (owner && owner !== item.id) abort("预检", `${id} 的 ${owner} 与 ${item.id} 共用来源 ${source.url}，同一期内每个来源只能属于一条`);
+      urlOwner.set(source.url, item.id);
+    }
+  }
   const site = JSON.parse(readFileSync(path.join(rootDir, "publications", id, "config/site.json"), "utf8"));
   const { warnings } = normalizePriorities(candidate, site.priorityLimits);
   if (warnings.length > 0) {
