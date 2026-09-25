@@ -9,6 +9,8 @@ import { shanghaiDate } from "../scripts/lib/pipeline.js";
 import { validateCandidate } from "../scripts/lib/validation.js";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// 个别刊物按原例程需要更长的 summary（卡片仍按版面截断，「展开全文」可看全），此处放宽预检上限
+const SUMMARY_MAX = { "compute-intel": 650 };
 const logDir = path.join(rootDir, "automation", "logs");
 mkdirSync(logDir, { recursive: true });
 const logFile = path.join(logDir, `${new Date().toISOString().replace(/[:.]/g, "-")}.log`);
@@ -73,7 +75,8 @@ for (const id of options.ids) {
     }
   }
   const site = JSON.parse(readFileSync(path.join(rootDir, "publications", id, "config/site.json"), "utf8"));
-  const { warnings } = normalizePriorities(candidate, site.priorityLimits);
+  const warnings = normalizePriorities(candidate, site.priorityLimits).warnings.filter((warning) =>
+    !(warning.field === "summary" && warning.length >= warning.min && warning.length <= (SUMMARY_MAX[id] ?? warning.max)));
   if (warnings.length > 0) {
     warnings.forEach((warning) => log(`${id} ${formatWarning(warning)}`));
     if (!options.allowWarnings) abort("预检", `${id} 有 ${warnings.length} 条提醒，修改候选稿后重试（或加 --allow-warnings）`);
