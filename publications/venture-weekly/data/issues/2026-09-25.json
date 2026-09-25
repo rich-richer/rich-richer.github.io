@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T23:09:00+08:00",
+  "coverage": {
+    "start": "2026-09-18T23:09:00+08:00",
+    "end": "2026-09-25T23:09:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "amazon-blocks-meta-muse-shopping",
+      "title": "亚马逊封禁 Meta AI 代购，智能体电商之争公开化",
+      "brief": "亚马逊阻断 Meta 的 Muse 智能体代用户下单，称其未获授权、不表明身份。启示：卖家要开始准备给 AI 智能体看的商品数据。",
+      "summary": "本周主线：AI 智能体开始抢电商入口，巨头估值和合规同步推进。亚马逊 9 月 21 日前后阻断了 Meta 的 Muse 智能体代用户在其网站购物。启示：谁掌握“智能体下单”的入口，谁就掌握流量和广告；跨境卖家要准备结构化、可被智能体读取的商品信息。亚马逊称 Muse 未获授权、浏览时不表明身份，还会保存用户账号凭证；Meta 回应称 Muse 看不到密码明文。亚马逊去年广告收入超过 680 亿美元，此前已屏蔽谷歌、OpenAI 的购物智能体，并起诉 Perplexity。",
+      "category": "模式",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "AI 代购与平台之争直接关系跨境电商的流量来源和商品展示方式，是本周最有商业含义的模式变化。"
+      },
+      "sources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/005/418.htm",
+          "publishedAt": "2026-09-21T19:52:52+08:00",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cmub7xf1o0pu2roln165i6mhu"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-november",
+      "title": "Anthropic 拟 11 月上市，估值约 2 万亿美元",
+      "brief": "据《华尔街日报》，Anthropic 计划把 IPO 推迟到 11 月，以便展示三季度财务数据。启示：AI 头部公司开始用财报说话。",
+      "summary": "IT之家 9 月 19 日援引《华尔街日报》报道，Anthropic 计划把首次公开募股推迟到 11 月，比许多投资者预期的 10 月晚，部分顾问认为这样可以先展示第三季度财务数据。投资者此前预计其上市估值约 2 万亿美元、募资最多 1000 亿美元，两项都将超过 SpaceX 今年 6 月创下的纪录；现有投资者预计其年化收入到 2026 年底将超过 1100 亿美元。时间表仍可能变化。OpenAI 则表示 2027 年前不会上市。",
+      "category": "公司案例",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "史上最大规模 IPO 之一的动向，反映 AI 头部公司的收入规模与资本市场预期。"
+      },
+      "sources": [
+        {
+          "name": "IT之家（援引《华尔街日报》）",
+          "url": "https://www.ithome.com/1/004/369.htm",
+          "publishedAt": "2026-09-19T08:07:04+08:00",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cmu7nb3bm0jugrogroyv3fm5h"
+          }
+        }
+      ]
+    },
+    {
+      "id": "openai-apple-deal-underperformed",
+      "title": "OpenAI：与苹果的 ChatGPT 合作远低于预期",
+      "brief": "法庭文件显示，ChatGPT 接入 iPhone 后带来的订阅和活跃用户远低于 OpenAI 预期。启示：大渠道背书不等于用户增长。",
+      "summary": "据《金融时报》9 月 24 日报道，OpenAI 在法庭文件中称，2024 年与苹果合作、用 ChatGPT 支持 Apple Intelligence 的业务“表现远低于预期”：上线一个月后起步缓慢，OpenAI 下调了周活跃用户预测；到 2025 年夏季，效果已明显不及预期。苹果今年 1 月改与谷歌合作，用 Gemini 重建 Siri。这些文件来自 xAI 2025 年 8 月对苹果与 OpenAI 合作提起的反垄断诉讼。启示：嵌入大平台只是入口，用户有没有使用动机才决定转化。",
+      "category": "公司案例",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "罕见公开的渠道合作失败案例，对依赖大平台分发的创业公司有直接借鉴。"
+      },
+      "sources": [
+        {
+          "name": "IT之家（援引《金融时报》）",
+          "url": "https://www.ithome.com/1/006/548.htm",
+          "publishedAt": "2026-09-24T09:12:13+08:00",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cmueurmte03qqroyqe4rqtu2d"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grid-enhancing-tech-track",
+      "title": "AI 用电催生“电网挖潜”赛道",
+      "brief": "美国能源部拨款 19 亿美元支持 31 个电网升级项目，靠换导线、加传感器新增 23GW 以上容量。启示：电力工程经验可切入 AI 配套。",
+      "summary": "美国能源部 9 月 24 日宣布，拨款 19 亿美元支持 26 个州的 31 个电网升级项目，受助方另配套 33.5 亿美元，预计新增 23GW 以上容量。做法是存量挖潜：对 1500 多英里输电线路做部件改造，在约 2.1 万英里线路上加装实时监测天气的传感器等设备，把电力引离拥堵线路。背景是 AI 数据中心用电激增，而新建电网要好几年。启示：高容量导线、动态增容监测、电网软件这类“快速扩容”方案正在成为独立赛道，电力工程和资源整合经验有用武之地。",
+      "category": "潜力赛道",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "政策资金明确指向的细分赛道，和 AIggy 的电力工程背景直接相关。"
+      },
+      "sources": [
+        {
+          "originalTitle": "The Energy Department to spend nearly $2 billion to squeeze more power from the aging U.S. grid",
+          "name": "Fortune（美联社）",
+          "url": "https://fortune.com/2026/09/24/ai-power-grid-energy-department-electricity-bills/",
+          "publishedAt": "2026-09-24T12:05:00-04:00"
+        }
+      ]
+    },
+    {
+      "id": "fed-genius-act-stablecoin-rules",
+      "title": "美联储推进稳定币监管细则",
+      "brief": "美联储提出两项规则，落实《GENIUS 法案》：稳定币须足额流动资产支持，银行发行须报批。启示：合规稳定币进入发牌阶段。",
+      "summary": "美联储 9 月 24 日提出两项规则，落实美国《GENIUS 法案》中由它负责的部分：一是资本与储备要求，确保稳定币由流动资产足额支持，并规范发行和奖励机制；二是受监管银行发行稳定币的申请程序，需要提交商业计划和财务信息。两项规则征求公众意见 60 天。法案要求监管机构在 2026 年 7 月前出台规则，目前已逾期但进展加快。美联储理事巴尔称，稳定币只有在市场承压时也能按面值及时赎回，才算稳定。启示：美国合规稳定币正在进入牌照和资本约束阶段，只适合有合规能力的机构参与。",
+      "category": "区块链与合规",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "合法合规视角的区块链动态：受监管稳定币的规则落地进度。"
+      },
+      "sources": [
+        {
+          "originalTitle": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins"
+        }
+      ]
+    }
+  ]
+}
