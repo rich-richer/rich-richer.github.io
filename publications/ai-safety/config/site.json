@@ -1,6 +1,6 @@
 {
-  "name": "双语每日新闻",
-  "accentColor": "#B37721",
+  "name": "AI 安全公开动态",
+  "accentColor": "#3C6E71",
   "priorityLimits": {
     "lead": 1,
     "important": 2,

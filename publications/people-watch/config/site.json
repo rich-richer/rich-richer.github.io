@@ -1,6 +1,6 @@
 {
-  "name": "双语每日新闻",
-  "accentColor": "#B37721",
+  "name": "人物动态追踪",
+  "accentColor": "#7A5230",
   "priorityLimits": {
     "lead": 1,
     "important": 2,

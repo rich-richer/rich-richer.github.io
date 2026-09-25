@@ -1,6 +1,6 @@
 {
-  "name": "双语每日新闻",
-  "accentColor": "#B37721",
+  "name": "电算协同每日情报",
+  "accentColor": "#1F5F8B",
   "priorityLimits": {
     "lead": 1,
     "important": 2,

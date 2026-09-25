@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "name": "我的日报",
+  "name": "AIggy 每日简报",
   "accentColor": "#B37721",
   "activeTheme": {
     "id": "newspaper-default",

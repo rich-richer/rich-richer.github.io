@@ -2,6 +2,15 @@
   "schemaVersion": 1,
   "defaultPublicationId": "daily-news",
   "publicationIds": [
-    "daily-news"
+    "daily-news",
+    "morning-brief",
+    "compute-intel",
+    "topic-radar",
+    "finance-class",
+    "ai-architecture",
+    "people-watch",
+    "ai-safety",
+    "venture-weekly",
+    "education-weekly"
   ]
 }

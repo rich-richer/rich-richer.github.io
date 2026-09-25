@@ -1,6 +1,6 @@
 {
-  "name": "双语每日新闻",
-  "accentColor": "#B37721",
+  "name": "自媒体选题简报",
+  "accentColor": "#B8323A",
   "priorityLimits": {
     "lead": 1,
     "important": 2,

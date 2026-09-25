@@ -1,6 +1,6 @@
 {
-  "name": "双语每日新闻",
-  "accentColor": "#B37721",
+  "name": "AI 架构周报",
+  "accentColor": "#4B3F9E",
   "priorityLimits": {
     "lead": 1,
     "important": 2,
