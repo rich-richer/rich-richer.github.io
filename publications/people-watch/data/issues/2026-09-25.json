@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T23:02:00+08:00",
+  "coverage": {
+    "start": "2026-09-18T23:02:00+08:00",
+    "end": "2026-09-25T23:02:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "sam-altman-gpt-6-launch",
+      "title": "Sam Altman：GPT-6 价格减半，“按任务算更便宜”",
+      "brief": "Altman 称 GPT-6 Sol 与 Luna 单 token 价格减半、按任务算更低，并出席白宫国宴。意义：大模型进入价格战。",
+      "summary": "Sam Altman 9 月 22 日宣布 GPT-6 Sol 和 Luna，称新模型“单 token 价格减半，按任务算更便宜”。意义：头部厂商主动降价，AI 应用的成本门槛继续下降，做产品的人可以更早测算规模化利润。定价上，Sol 每百万输入/输出 token 从 4/20 美元降至 2/10 美元，Luna 从 0.20/1.20 美元降至 0.10/0.50 美元。9 月 24 日，Altman 出席白宫为习近平举行的国宴。",
+      "category": "Sam Altman",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "名单人物中本周唯一主导重大产品发布并公开表态定价策略的，直接影响 AI 应用成本。"
+      },
+      "sources": [
+        {
+          "originalTitle": "OpenAI cuts GPT-6 prices in half with Sol and Luna",
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-gpt-6-sol-luna-api-price-cut"
+        },
+        {
+          "originalTitle": "Trump welcomes Xi to White House for state dinner",
+          "name": "ABC News",
+          "url": "https://abcnews.com/Politics/trump-greets-xi-white-house-high-stakes-state/story?id=136717468"
+        }
+      ]
+    },
+    {
+      "id": "elon-musk-cgtn-state-dinner",
+      "title": "马斯克接受中国官媒采访，呼吁降关税、共建 AI 监管",
+      "brief": "马斯克 9 月 23 日接受 CGTN、CCTV 采访，呼吁中美降低关税、共建 AI 监管平台，称上海工厂是“宝石”；24 日出席白宫国宴。",
+      "summary": "马斯克 9 月 23 日接受中国国际电视台（CGTN）采访，称中国在习近平任内“极大地繁荣”，称其为“伟大的领导人”。他同时呼吁中美降低关税、减少贸易限制，并表示两国就 AI 监管建立共同平台“非常重要”。在接受央视采访时，他称特斯拉上海超级工厂是“一颗宝石”，把成功归功于中国团队。9 月 24 日，马斯克出席白宫国宴，现场照片显示他与特朗普、习近平交谈。意义：中美关系回暖期，跨国制造和 AI 规则协调的话题升温。",
+      "category": "Elon Musk",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "名单人物中对中美贸易与 AI 监管表态最直接的一位，关系跨境与制造业的政策预期。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Musk Calls Shanghai Factory a 'Gem' Ahead of Trump-Xi State Dinner",
+          "name": "TeslaNorth",
+          "url": "https://teslanorth.com/2026/09/24/musk-xi-great-leader-ai-rules/"
+        },
+        {
+          "originalTitle": "Musk hails President Xi Jinping as a 'great leader'",
+          "name": "CGTN",
+          "url": "https://news.cgtn.com/news/2026-09-23/Elon-Musk-praises-Xi-Jinping-as-very-capable--1QFLg9zKn28/p.html"
+        }
+      ]
+    },
+    {
+      "id": "dario-amodei-claude-enzyme",
+      "title": "Dario Amodei 宣布 Claude 主导发现新酶系统",
+      "brief": "Amodei 9 月 23 日宣布，Claude 主导发现一种疑似新型基因编辑机制的酶系统，但功能和意义尚不明确。意义：AI 进入科研一线。",
+      "summary": "Anthropic CEO Dario Amodei 9 月 23 日宣布，公司新成立的生命科学实验室由 Claude 主导，发现了噬菌体中一种带类 CRISPR 重复序列的酶系统，并称它可能代表一种新的基因编辑机制。他坦言其确切功能、生物技术用途和重要性“尚不清楚”。TechCrunch 报道，实验全部由人类科学家完成；Amodei 表示，未来 Claude 或许能在适当防护下自主操作实验设备，“但我们今天没有这样做”。研究结果仍需学界验证。",
+      "category": "Dario Amodei",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "名单人物本周最具话题性的公开表态，展示 AI 智能体在科研中的实际分工，也说明了局限。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Anthropic says its biology lab has already found something big",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/"
+        }
+      ]
+    },
+    {
+      "id": "jensen-huang-state-dinner",
+      "title": "黄仁勋受邀出席白宫国宴",
+      "brief": "白宫公布的国宴嘉宾名单中有英伟达 CEO 黄仁勋，CBS 援引知情人士称他将出席。意义：芯片出口是中美谈判的焦点之一。",
+      "summary": "9 月 24 日，特朗普在白宫为到访的习近平举行国宴。白宫公布的受邀名单中有英伟达 CEO 黄仁勋，同在名单上的还有马斯克、扎克伯格、库克、皮查伊、奥特曼和贝索斯等人；CBS 援引知情人士称黄仁勋将出席。本周窗口内没有检索到黄仁勋就此次会面的公开发言。意义：先进芯片出口管制是中美关系的核心议题之一，英伟达 CEO 的出场值得跟踪后续表态。",
+      "category": "Jensen Huang",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "本周唯一可核实的公开活动；本周没有新的公开发言，只做记录。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Trump welcomes China's Xi for state dinner at White House after touting \"truly great friendship\"",
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/"
+        }
+      ]
+    },
+    {
+      "id": "andrew-ng-project-stage-letter",
+      "title": "吴恩达：AI 项目要按阶段调整打法",
+      "brief": "吴恩达在 9 月 25 日的公开信中说，早期项目别过度设计，成熟产品别设计不足。意义：小团队快速试错的方法人人都该会。",
+      "summary": "吴恩达在 9 月 25 日出版的 The Batch 公开信中，讨论 AI 工程项目在不同阶段应采取不同打法：从 0 到 1 的早期项目要快速迭代，成熟产品则需要严谨、可扩展的工程方法。他写道：“在早期过度设计没有帮助，成熟产品设计不足也不行。”他还认为，即便是大公司也应该有小型创新项目，所以每个人都值得学会让小团队快速推进的高效方法。",
+      "category": "Andrew Ng",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "名单人物本周的公开观点，对创业和团队做 AI 产品有直接的方法论参考。"
+      },
+      "sources": [
+        {
+          "originalTitle": "What Stage Is Your Project? Takeaways For AI Engineering: Adjust Your Tactics to Fit Your Project's Maturity",
+          "name": "The Batch（DeepLearning.AI）",
+          "url": "https://www.deeplearning.ai/the-batch/what-stage-is-your-project-takeaways-for-ai-engineering/"
+        }
+      ]
+    }
+  ]
+}
