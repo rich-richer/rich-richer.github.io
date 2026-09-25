@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T22:36:00+08:00",
+  "coverage": {
+    "start": "2026-09-24T22:36:00+08:00",
+    "end": "2026-09-25T22:36:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "guanghuan-horinger-aidc-expansion",
+      "title": "光环新网追加 12.65 亿元，和林格尔智算中心投资翻倍",
+      "brief": "光环新网把和林格尔智算中心总投资增至约 25 亿元，改为高功率液冷设计。意义：北方大单智算需求在增加，但 IDC 租赁价格仍承压。",
+      "summary": "今天的主线是算力扩张与电力约束并行：国内厂商加码北方智算，美国拨款挖掘电网余量。光环新网 9 月 24 日晚公告，董事会同意为内蒙古和林格尔智算中心追加投资不超过 12.65 亿元，总投资增至约 25 亿元。意义：北方整建制、高功率的智算订单在增加，东北做算力要按液冷和大负载规划；但光环上半年 IDC 毛利率降至 23.17%，租赁价格仍受冲击。调整后项目可部署 7000 至 10000 个机柜，总产能约 90 至 120MW，设计 PUE 低于 1.2。",
+      "category": "中国",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "第三方 IDC 龙头加码北方智算，披露了机柜功率、PUE 和收益测算，是判断北方算力需求和定价的一手信号。"
+      },
+      "sources": [
+        {
+          "name": "每日经济新闻",
+          "url": "https://www.nbd.com.cn/articles/2026-09-24/4591778.html",
+          "publishedAt": "2026-09-24T23:04:33+08:00"
+        },
+        {
+          "name": "界面新闻",
+          "url": "https://www.jiemian.com/article/15139533.html"
+        }
+      ]
+    },
+    {
+      "id": "us-doe-grid-upgrade-1-9b",
+      "title": "美国能源部拨款 19 亿美元，挖掘现有电网余量",
+      "brief": "31 个项目覆盖 26 个州，改造 1500 多英里输电线路，预计新增 23GW 以上容量。意义：电力紧约束下，存量挖潜比新建更快。",
+      "summary": "美国能源部 9 月 24 日宣布，拨款 19 亿美元支持 31 个电网升级项目，受助方另配套 33.5 亿美元。项目分布在 26 个州，将对 1500 多英里输电线路做部件改造、对约 2.1 万英里线路加装技术，用传感器实时监测天气、把电力引离拥堵线路，预计新增 23GW 以上容量。资金来自今年 2 月发布的 SPARK 计划，重点是更换高容量导线等先进输电技术，背景是 AI 数据中心带来的用电激增。意义：电网扩容周期长，换导线、加传感器这类存量挖潜见效更快，也是国内算电协同可借鉴的做法。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "美国用财政资金为 AI 用电扩容电网，直接对应电算协同的核心矛盾：算力建设快、电网扩容慢。"
+      },
+      "sources": [
+        {
+          "originalTitle": "The Energy Department to spend nearly $2 billion to squeeze more power from the aging U.S. grid",
+          "name": "Fortune（美联社）",
+          "url": "https://fortune.com/2026/09/24/ai-power-grid-energy-department-electricity-bills/",
+          "publishedAt": "2026-09-24T12:05:00-04:00"
+        },
+        {
+          "originalTitle": "Energy Department will spend $2 billion to squeeze more electricity from aging power grid",
+          "name": "ABC News（美联社）",
+          "url": "https://abcnews.com/Business/wireStory/energy-department-spend-2-billion-squeeze-electricity-aging-136712117"
+        },
+        {
+          "originalTitle": "Energy Department Announces $1.9B Investment in Critical Grid Infrastructure to Reduce Electricity Costs",
+          "name": "美国能源部 · SPARK 计划公告（2026 年 2 月）",
+          "url": "https://www.energy.gov/articles/energy-department-announces-19b-investment-critical-grid-infrastructure-reduce-electricity",
+          "publishedAt": "2026-02-25T09:16:37-05:00"
+        }
+      ]
+    },
+    {
+      "id": "goldman-hyperscaler-capex-1-2t",
+      "title": "高盛：美国云巨头 AI 开支明年或达 1.2 万亿美元",
+      "brief": "机构观点：高盛预计大型云厂商今年资本开支约 8000 亿美元，2027 年或增至约 1.2 万亿美元。意义：算力投资周期仍在上行。",
+      "summary": "机构观点（高盛亚太首席股票策略师 Timothy Moe）：美国大型云计算公司今年资本开支预计约 8000 亿美元，2027 年可能增至约 1.2 万亿美元。Moe 认为，云厂商的巨额开支为亚洲 AI 硬件供应链提供了需求支撑；亚洲股票估值约为 10 倍市盈率，接近历史低位，可以缓冲美债收益率上升的冲击。他预计 11 月初美国中期选举前市场仍会波动。意义：海外算力投资周期未见拐点，服务器、液冷和电力配套的需求会继续外溢到国内供应链。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "头部投行对云厂商资本开支的最新预测，用来判断算力投资周期的方向。属机构观点，已在正文标注。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Goldman stays bullish on AI as cloud giants' spending heads towards $1.2 trillion",
+          "name": "investingLive",
+          "url": "https://investinglive.com/stock-market-update/goldman-stays-bullish-on-ai-as-cloud-giants-spending-heads-towards-1-2-trillion/"
+        },
+        {
+          "originalTitle": "Goldman Sees Hyperscaler AI Capex Rising 50% to $1.2 Trillion",
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-25/goldman-sees-hyperscaler-ai-capex-rising-50-to-1-2-trillion"
+        }
+      ]
+    }
+  ]
+}
