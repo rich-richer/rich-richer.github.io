@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T21:58:00+08:00",
+  "coverage": {
+    "start": "2026-09-18T21:58:00+08:00",
+    "end": "2026-09-25T21:58:00+08:00"
+  },
+  "revision": 3,
+  "items": [
+    {
+      "id": "xiaomi-mimo-v2-6-open-weights",
+      "title": "小米开源 MiMo-V2.6，万亿参数全模态模型登顶开放权重榜",
+      "brief": "小米以 MIT 许可开源 MiMo-V2.6，旗舰 Pro 为万亿参数 MoE，支持 1M 上下文。意义：开源模型又逼近闭源前沿一步。",
+      "summary": "本周主线是开源和降价，检索范围内未见实质挑战 Transformer 范式的新论文。小米 9 月 21 日在 Hugging Face 以 MIT 许可发布 MiMo-V2.6，意义在于开源模型又逼近闭源前沿一步，自建部署的门槛继续下降。旗舰 Pro 为稀疏混合专家（MoE）架构，总参数 1.02 万亿、每 token 激活 420 亿，配混合滑动窗口注意力（SWA）和 5 层多 token 预测（MTP），原生支持文本、图像、视频、音频和 1M 上下文。据 VentureBeat 报道，Pro 在 Artificial Analysis 智能指数得 46 分，开放权重模型中最高。",
+      "category": "开放权重模型",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "本周技术上最重要的开放权重发布：万亿参数全模态 MoE、1M 上下文、MIT 许可，模型卡公开了架构与强化学习训练细节。"
+      },
+      "sources": [
+        {
+          "originalTitle": "MiMo-V2.6-Pro-RL: Scaling Reinforcement Learning Toward Self-Improvement",
+          "name": "Hugging Face · XiaomiMiMo",
+          "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+          "publishedAt": "2026-09-21T15:39:33Z"
+        },
+        {
+          "originalTitle": "'Better than DeepSeek': Xiaomi's MiMo-V2.6-Pro debuts as the top open weights model in the world alongside cheaper V2.6-Flash",
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash"
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt-6-sol-luna",
+      "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 价格减半",
+      "brief": "独立评测显示，Sol 每百万 token 价格由 4/20 美元降至 2/10 美元，幻觉率从 92% 降到 60%。意义：同价位能买到的能力上移。",
+      "summary": "OpenAI 9 月 22 日发布 GPT-6 Sol 和 GPT-6 Luna。Artificial Analysis 的独立评测显示，Sol 每百万输入/输出 token 价格从 GPT-5.6 的 4/20 美元降至 2/10 美元，Luna 从 0.20/1.20 美元降至 0.10/0.50 美元。智能指数与前代基本持平，有升有降：Sol 的编码智能体指数升 2 分至 57，Luna 降 2 分至 41。两者幻觉率明显下降，Sol 从 92% 降至 60%，Luna 从 93% 降至 77%；在 GDPval-AA v2.1 上，Sol 约降 100 Elo，Luna 约降 75 Elo。",
+      "category": "基础模型",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "头部闭源基础模型换代并大幅降价，独立评测给出了能力升降的具体数据。"
+      },
+      "sources": [
+        {
+          "originalTitle": "GPT-6 Sol and Luna push the cost efficiency frontier",
+          "name": "Artificial Analysis",
+          "url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cmud2ya2c03wnrov6lnmiq2dv"
+          }
+        }
+      ]
+    },
+    {
+      "id": "epoch-ai-price-of-thought",
+      "title": "Epoch AI：同等 AI 性能的成本每季度降约 47%",
+      "brief": "Epoch AI 测算，2023 年以来同等 AI 性能的成本每季度降约 47%，折合每年约 13 倍。意义：按今天成本编的 AI 预算，一年后可能大幅高估。",
+      "summary": "Epoch AI 研究员 Luke Emberson 和 David Roodman 9 月 22 日发布报告，用数学、硬科学和策略游戏等五项基准三年的数据，追踪成本—性能帕累托前沿。结论是：2023 年以来，达到同等 AI 性能的成本每季度下降约 47%，折合每年约 13 倍。对照其他技术，电力每年约 1.05 倍、锂电池约 1.16 倍、计算约 1.51 倍、DNA 测序约 1.84 倍。越接近前沿降价越快，约每季度 66%，两年后放缓到约 32%。作者也提示了局限：基准可能被过度优化，不能完全代表真实用途，数据只有三年。",
+      "category": "训练与推理",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "量化了 AI 推理成本的下降速度，是评估 AI 项目投入产出和算力业务定价的关键参考。"
+      },
+      "sources": [
+        {
+          "originalTitle": "The plunging price of thought",
+          "name": "Epoch AI",
+          "url": "https://epoch.ai/publications/the-plunging-price-of-thought",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cmud77i8r04yerorajpj343j2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "claude-opus-5-5-release",
+      "title": "Claude Opus 5.5 发布，默认 1M 上下文",
+      "brief": "Opus 5.5 于 9 月 22 日发布：默认 1M 上下文，最长输出 128k token，价格降至每百万 token 4/20 美元。",
+      "summary": "Claude Opus 5.5 面向长时间运行的智能体编码和知识工作，9 月 22 日在 Claude API、Amazon Bedrock、Google Cloud 和 Microsoft Foundry 等平台上线。默认上下文 1M token，最长输出 128k token，自适应思考始终开启、不能关闭。价格为每百万输入/输出 token 4/20 美元，Opus 5 为 5/25 美元。API 有几处不兼容改动，例如请求关闭思考会返回 400 错误。",
+      "category": "基础模型",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "主流闭源模型的上下文、输出长度与价格同时调整，并带来 API 不兼容改动，接入方需要注意。"
+      },
+      "sources": [
+        {
+          "name": "Claude Platform 版本说明",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cmuefgoq007p2rox3gq6ng3y4"
+          }
+        }
+      ]
+    }
+  ]
+}
