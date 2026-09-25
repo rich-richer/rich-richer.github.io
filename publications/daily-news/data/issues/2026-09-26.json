@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T00:15:00+08:00",
+  "coverage": {
+    "start": "2026-09-25T00:15:00+08:00",
+    "end": "2026-09-26T00:15:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "akamai-anthropic-cloud-deal",
+      "title": "Akamai 与 Anthropic 签下七年 116 亿美元云合同",
+      "brief": "Akamai 宣布与 Anthropic 签订七年期、116 亿美元合同，承接其 CPU 负载。意义：大模型公司的算力采购从 GPU 扩展到分布式 CPU 云。",
+      "summary": "Akamai 美东时间 9 月 24 日盘后宣布，与 Anthropic 签订七年期、116 亿美元合同。意义：大模型公司的算力采购已从 GPU 扩展到 CPU 与分布式云，传统 CDN 厂商也拿到了大单。合同用 Akamai Cloud 承接 Anthropic 快速增长的 CPU 负载；若七年内追加最多 90 亿美元，总额可达约 200 亿美元。Anthropic 同时获得认股权证，最多可认购 Akamai 约 5% 的股份。 EN: Akamai signed a seven-year, $11.6 billion deal to run Anthropic's CPU workloads, expandable to about $20 billion.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "单笔金额创 Akamai 纪录，说明 AI 基础设施需求已外溢到 CPU 与边缘云，影响云厂商格局和算力投资方向。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Akamai Announces $11.6 Billion Multi-year Agreement with Anthropic to Support Growing Demand",
+          "name": "GlobeNewswire（Akamai 公告）",
+          "url": "https://www.globenewswire.com/news-release/2026/09/24/3368729/0/en/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand.html",
+          "publishedAt": "2026-09-24T20:01:00Z"
+        },
+        {
+          "originalTitle": "Akamai Lands Record $11.6B Anthropic AI Cloud Deal, Eyes $20B Potential",
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/akamai-lands-record-11-6b-230217068.html"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-founders-voting-control",
+      "title": "Anthropic 创始人拟在 IPO 前握过半投票权",
+      "brief": "据报道，Anthropic 拟让七位联合创始人以特别股合计掌握 50.1% 投票权。意义：上市后创始团队仍可主导公司决策。",
+      "summary": "TechCrunch 援引 The Information 报道，Anthropic 正请股东在近日批准一项新结构：CEO Dario Amodei 与六位联合创始人持有特别股，只要至少三人保留最低持股，就在多数公司事务上合计掌握 50.1% 的投票权。特别股不带额外经济权益。长期利益信托仍选任多数董事，创始人的董事席位由两席增至三席。 EN: Anthropic is asking shareholders to give its seven co-founders 50.1% of the vote on most matters ahead of an IPO.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "头部 AI 公司上市前的治理安排，决定未来公众股东的话语权，也是观察 AI 公司 IPO 结构的样本。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Anthropic's founders seek voting control ahead of IPO",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo",
+          "publishedAt": "2026-09-25T15:40:03Z",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cmuh5bwi004nsro55sv3t7521"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oil-falls-iran-hormuz-proposal",
+      "title": "伊朗称霍尔木兹可在七天内重开，油价回落",
+      "brief": "伊朗外长称若美方满足条件，霍尔木兹海峡可在七天后开放，周五早盘油价下跌。意义：高油价推动的通胀与加息压力或有缓解。",
+      "summary": "伊朗外长阿拉格齐 9 月 24 日在联合国大会期间表示，已通过中间方向美国提交方案：若美方兑现 6 月 17 日谅解备忘录的承诺并满足伊方条件，海峡将在七天后开放，谈判随之恢复。周五早盘布伦特原油期货跌 1.1% 至每桶 105.43 美元，WTI 跌 1.3% 至 93.40 美元。该备忘录今夏已因战事再起失效，新方案能否落地仍不确定。 EN: Oil fell after Iran said the Strait of Hormuz could reopen within seven days if the US meets conditions from a June MOU.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "油价是近期美债收益率和加息预期的主要推手，霍尔木兹海峡能否重开直接关系通胀走势。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Oil falls as potential diplomatic solution to Iran conflict emerges",
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/25/oil-falls-as-potential-diplomatic-solution-to-iran-conflict-arises.html",
+          "publishedAt": "2026-09-25T01:23:29Z"
+        }
+      ]
+    },
+    {
+      "id": "cognition-1b-run-rate",
+      "title": "Cognition 年化收入突破 10 亿美元",
+      "brief": "AI 编程智能体 Devin 的开发商 Cognition 宣布，年化收入运行率突破 10 亿美元，距 Devin 正式开放不到两年。",
+      "summary": "Cognition 9 月 25 日在官方博客宣布，年化收入运行率（annualized revenue run rate）已突破 10 亿美元。公司 2024 年 1 月创立，Devin 正式开放不到两年，客户包括 GE Aerospace、Rivian、Rohlik 和 Exa 等公司的工程团队。博客未披露利润或客户数量。 EN: Cognition, maker of the Devin coding agent, said its annualized revenue run rate has crossed $1 billion.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AI 编程智能体公司收入跨过 10 亿美元，说明企业愿意为智能体按规模付费。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Cognition Crosses $1B in Annualized Revenue Run Rate",
+          "name": "Cognition",
+          "url": "https://cognition.com/blog/1b-run-rate",
+          "publishedAt": "2026-09-25T15:42:15Z",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cmuh4q0ef044fro55mt9bfnxy"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-agents-email-researchers",
+      "title": "AI 智能体开始批量联系科研人员",
+      "brief": "《自然》报道，大量 AI 智能体给科研人员发邮件，索要数据、提议合作或推销付费服务，多数来自美国平台 iLands。",
+      "summary": "《自然》9 月 25 日报道，越来越多科研人员收到 AI 智能体发来的邮件，有的索要数据、提议合作，有的推销研究报告、事实核查等付费服务。受访者说，多数邮件来自美国平台 iLands：用户用自然语言指令即可创建智能体，智能体随后持续运行，在一定程度上独立于创建者。纽约大学哲学家 Jeff Sebo 说，本月有一周他就收到 50 多封。 EN: Nature reports that AI agents, mostly from the US platform iLands, are emailing researchers for data, collaboration and paid work.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "智能体开始主动对外联络，数据共享和身份识别成了新问题。"
+      },
+      "sources": [
+        {
+          "originalTitle": "AI bots are flooding researchers with requests for money and time",
+          "name": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-03005-2",
+          "publishedAt": "2026-09-25T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "xi-us-visit-trade-truce",
+      "title": "习近平结束访美，贸易休战延长两月",
+      "brief": "习近平按行程于 9 月 25 日参观美国国家档案馆后离美。峰会礼仪隆重，但除贸易休战延长两个月外，暂无实质协议公布。",
+      "summary": "习近平 9 月 23 日抵达华盛顿，开始近三年来首次访美，按行程 25 日参观美国国家档案馆后离美。彭博社报道，截至 24 日晚，峰会最重要的消息仍是美国财长贝森特在习近平抵达时宣布的：双方把贸易休战再延长两个月。外界期待的关税下调和 AI 沟通渠道尚未宣布，港股当天下跌，交易员认为进展有限。 EN: Xi wrapped up a three-day state visit to Washington; beyond a two-month trade-truce extension, no major deals were announced.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "中美关税走向影响外贸、供应链和跨境电商成本，休战延期给出了未来两个月的窗口。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Trump-Xi summit goes big on pomp, but key US-China deals remain elusive",
+          "name": "Business Standard（彭博社）",
+          "url": "https://www.business-standard.com/amp/world-news/trump-xi-summit-goes-big-on-pomp-but-key-us-china-deals-remain-elusive-126092500197_1.html",
+          "publishedAt": "2026-09-25T04:29:01Z"
+        },
+        {
+          "originalTitle": "Xi Jinping tours National Archives with Trump before US departure",
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/xi-caps-trump-state-visit-symbolic-final-stop-before-leaving-washington",
+          "publishedAt": "2026-09-25T10:52:26Z"
+        }
+      ]
+    },
+    {
+      "id": "orangutan-infants-learning-diet",
+      "title": "幼年猩猩边看边试，食谱宽三倍",
+      "brief": "《科学》论文追踪 21 只野生苏门答腊猩猩幼崽至独立：观察他者和自主探索都多的个体，食谱宽度约为两者都少者的三倍。",
+      "summary": "马克斯·普朗克动物行为研究所等团队 9 月 24 日在《科学》发表论文，在苏门答腊 Suaq Balimbing 追踪 21 只野生猩猩幼崽，从出生到约 8.5 岁独立，累计观察约 4700 小时。幼崽观察他者进食的次数约为自己摸索的五倍，观察后 2.5 小时内自主探索会增加。两种学习都多的个体，独立时食谱宽度约为两者都少者的三倍。研究只涉及一个地点，尚未衡量生存与繁殖。 EN: A Science study of 21 wild orangutans found infants that both watched others and explored alone developed about three times broader diets.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "十余年野外追踪数据，量化了社会学习与个体学习的配合，是理解文化学习起源的一手证据。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Learning Style Predicts Survival Skills In Young Orangutans",
+          "name": "Eurasia Review（马普所新闻稿）",
+          "url": "https://www.eurasiareview.com/24092026-learning-style-predicts-survival-skills-in-young-orangutans/",
+          "publishedAt": "2026-09-24T21:06:51Z"
+        }
+      ]
+    },
+    {
+      "id": "mayo-ai-pancreatic-cancer-risk",
+      "title": "AI 模型提前三年预测胰腺癌风险",
+      "brief": "梅奥诊所用常规病历和化验数据训练模型，提前三年区分胰腺癌高低风险人群，AUROC 为 0.853，将在外科年会报告。",
+      "summary": "梅奥诊所团队 9 月 25 日公布一项研究，将在美国外科医师学会临床年会（9 月 26–29 日）报告。模型使用电子病历中的长期健康史和常规化验结果，数据含 6066 名胰腺癌患者和 33396 名对照。提前三年预测时，AUROC 为 0.853，AUPRC 为 0.712。成果目前是会议报告，团队正在梅奥内部和一家外部医院做前瞻性验证。 EN: A Mayo Clinic model using routine health records flagged pancreatic cancer risk three years before diagnosis, with an AUROC of 0.853.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "胰腺癌多在晚期才确诊，只用常规病历数据做早筛，易在各地医院推广，值得跟踪验证结果。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Artificial intelligence model predicts pancreatic cancer risk 3 years before diagnosis",
+          "name": "EurekAlert!（美国外科医师学会）",
+          "url": "https://www.eurekalert.org/news-releases/1145250"
+        }
+      ]
+    },
+    {
+      "id": "embl-cryo-et-bacterial-machines",
+      "title": "冷冻电镜看清细菌内的分子协作",
+      "brief": "EMBL 团队在《细胞》发表两篇论文，用冷冻电子断层成像观察肺炎支原体，发现把转录与翻译直接相连的新复合物。",
+      "summary": "欧洲分子生物学实验室（EMBL）Julia Mahamid 团队 9 月 25 日在《细胞》发表两篇论文，用冷冻电子断层成像（cryo-ET）在数百个肺炎支原体细胞内统计核糖体的各种功能状态。一篇发现了把转录与翻译直接相连的新复合物；另一篇发现 Sec 转运通道与三种此前未知的蛋白组成新机器，帮助外运蛋白折叠。两项研究关注的是分子机器之间如何协作。 EN: Two EMBL papers in Cell used cryo-electron tomography to map how protein-making and transport machines cooperate inside bacteria.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "从单个分子转向观察细胞内多套机器的协作，是结构生物学方法上的进展。"
+      },
+      "sources": [
+        {
+          "originalTitle": "The bustling molecular communities inside cells",
+          "name": "EurekAlert!（EMBL）",
+          "url": "https://www.eurekalert.org/news-releases/1145479"
+        }
+      ]
+    }
+  ]
+}
