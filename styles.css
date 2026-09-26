@@ -1496,25 +1496,31 @@ main:focus-visible {
 }
 
 :root[data-theme="newspaper-default"] .home-overview__intro {
-  padding-bottom: 0;
-  border-bottom: 0;
-  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 3px solid var(--color-text);
+  container-type: inline-size;
 }
 
 :root[data-theme="newspaper-default"] .home-overview__intro p {
-  font-family: var(--font-numeral);
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0.4em;
+  margin-bottom: 14px;
+  color: var(--color-text);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.3em;
 }
 
+/* 首页标题同刊物页刊名：红底白字，字号按 --title-length（构建时写入）自动缩放 */
 :root[data-theme="newspaper-default"] .home-overview__intro h1 {
-  padding-bottom: 20px;
-  border-bottom: 4px double var(--color-text);
-  font-size: clamp(44px, 8.4vw, 118px);
+  display: inline-block;
+  max-width: 100%;
+  padding: 0.16em 0.3em 0.12em;
+  color: #FFFFFF;
+  background: var(--color-accent);
+  font-size: min(88px, calc((100cqi - 4px) / (var(--title-length, 8) * 1.02 + 0.6)));
   font-weight: 900;
   line-height: 1;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 @media (max-width: 899px) {
@@ -1550,10 +1556,5 @@ main:focus-visible {
 
   :root[data-theme="newspaper-default"] .story--large .story__header::before {
     font-size: 48px;
-  }
-
-  :root[data-theme="newspaper-default"] .home-overview__intro h1 {
-    font-size: clamp(34px, 11vw, 56px);
-    letter-spacing: 0.04em;
   }
 }

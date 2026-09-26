@@ -203,6 +203,13 @@ ${secondary.map((item) => `            <li><a href="${escapeHtml(item.itemUrl)}"
         </section>`;
 }
 
+// 本地改动（见 docs/LOCAL_CHANGES.md）：按字宽估算首页标题长度（与 src/app.js 的刊名报头一致），供样式自动缩放字号
+function titleLength(name) {
+  let length = 0;
+  for (const char of name) length += /[⺀-￿]/.test(char) ? 1 : char === " " ? 0.3 : 0.6;
+  return Math.max(length, 4).toFixed(2);
+}
+
 export function renderHomeHtml(template, {
   activeTheme,
   home,
@@ -213,7 +220,7 @@ export function renderHomeHtml(template, {
   const primary = overview.publications.find(({ id }) => id === overview.primaryPublicationId);
   const remaining = overview.publications.filter(({ id }) => id !== overview.primaryPublicationId);
   const content = `<main class="home-overview" id="content">
-        <header class="home-overview__intro">
+        <header class="home-overview__intro" style="--title-length: ${titleLength(home.name)}">
           <p>DAILY OVERVIEW · ${escapeHtml(overview.asOfDate)}</p>
           <h1>${escapeHtml(home.name)}</h1>
         </header>
