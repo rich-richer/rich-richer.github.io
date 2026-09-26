@@ -369,7 +369,12 @@ function createNameplate(name) {
     element("span", "nameplate__motto", "事实优先 · 来源可查"),
     element("span", "nameplate__count"),
   );
-  plate.append(element("p", "nameplate__eyebrow", "AIggy Daily Briefing"), element("p", "nameplate__title", name), dateline);
+  const title = element("p", "nameplate__title", name);
+  // 按字宽估算刊名长度（中文 1、英文字母 0.6、空格 0.3），样式据此算出放得下的字号
+  let length = 0;
+  for (const char of name) length += /[⺀-￿]/.test(char) ? 1 : char === " " ? 0.3 : 0.6;
+  title.style.setProperty("--title-length", String(Math.max(length, 4)));
+  plate.append(element("p", "nameplate__eyebrow", "AIggy Daily Briefing"), title, dateline);
   document.querySelector("#content").before(plate);
 }
 

@@ -1357,10 +1357,15 @@ main:focus-visible {
 }
 
 .nameplate {
+  display: grid;
   width: min(calc(100% - var(--page-gutter)), var(--page-width));
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 14px 32px;
   margin: 0 auto;
-  padding-top: 32px;
-  text-align: center;
+  padding: 30px 0 18px;
+  border-bottom: 3px solid var(--color-text);
+  container-type: inline-size;
 }
 
 .nameplate p {
@@ -1368,45 +1373,52 @@ main:focus-visible {
 }
 
 .nameplate__eyebrow {
-  color: var(--color-muted);
-  font-size: 13px;
-  letter-spacing: 0.4em;
+  grid-column: 1 / -1;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
 }
 
+/* 红底白字刊名：字号按刊名长度（--title-length，由 src/app.js 计算）和报头宽度自动缩放，保证不换行、不溢出 */
 .nameplate__title {
-  margin: 8px 0 20px !important;
+  justify-self: start;
+  max-width: 100%;
+  padding: 0.16em 0.3em 0.12em;
+  color: #FFFFFF;
+  background: var(--color-accent);
   font-family: var(--font-headline);
-  font-size: clamp(44px, 8.4vw, 118px);
+  font-size: min(78px, calc(62cqi / (var(--title-length, 8) * 1.02 + 0.6)));
   font-weight: 900;
   line-height: 1;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 .nameplate__dateline {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 4px 18px;
-  padding: 9px 2px 8px;
-  border-top: 4px double var(--color-text);
-  border-bottom: var(--rule-width) solid var(--color-text);
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px;
+  padding-bottom: 2px;
   font-size: 13px;
   font-variant-numeric: tabular-nums;
-  letter-spacing: 0.08em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-align: right;
 }
 
-.nameplate__motto {
+.nameplate__count {
   color: var(--color-accent-text);
-  font-weight: 700;
+  font-weight: 800;
 }
 
 :root[data-theme="newspaper-default"] {
   --color-background: #F5EFE3;
   --color-text: #151412;
   --color-muted: #5F594F;
-  --color-accent: #B22222;
-  --color-accent-text: #B22222;
+  --color-accent: #C8261C;
+  --color-accent-text: #C8261C;
   --color-rule: #CBBFA8;
   --surface-background: var(--color-background);
   --font-numeral: "Bodoni 72", Didot, "Bodoni MT", Georgia, serif;
@@ -1431,12 +1443,6 @@ main:focus-visible {
   font-family: var(--font-headline);
   font-weight: 900;
   letter-spacing: 0;
-}
-
-:root[data-theme="newspaper-default"] .nameplate__eyebrow {
-  font-family: var(--font-numeral);
-  font-size: 14px;
-  letter-spacing: 0.45em;
 }
 
 :root[data-theme="newspaper-default"] .layout-row--first {
@@ -1513,18 +1519,25 @@ main:focus-visible {
 
 @media (max-width: 899px) {
   .nameplate {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
     padding-top: 22px;
   }
 
   .nameplate__eyebrow {
     font-size: 11px;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.24em;
   }
 
   .nameplate__title {
-    margin-bottom: 14px !important;
-    font-size: clamp(34px, 11vw, 56px);
-    letter-spacing: 0.04em;
+    font-size: min(56px, calc((100cqi - 4px) / (var(--title-length, 8) * 1.02 + 0.6)));
+  }
+
+  .nameplate__dateline {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
   }
 
   .nameplate__motto {
