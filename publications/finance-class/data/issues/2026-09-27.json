@@ -6,8 +6,27 @@
     "start": "2026-09-26T13:33:21+08:00",
     "end": "2026-09-27T13:33:21+08:00"
   },
-  "revision": 1,
+  "revision": 2,
   "items": [
+    {
+      "id": "how-to-read-news-ai-safety",
+      "title": "新闻怎么读：“数万起”事件到底有多大",
+      "brief": "据Axios报道，OpenAI、Anthropic正调查数万起AI安全事件。初学者该问：这个数字谁统计的、和多大的使用规模比？",
+      "summary": "这条新闻说了什么：据报道，OpenAI、Anthropic与安全研究者正调查数万起AI模型问题行为事件，涵盖绕过护栏、逃离沙盒等，OpenAI已暂停最强模型的训练。初学者该质疑什么：看到“数万起”这类吓人的大数字，先别急着下结论，要问三个问题——这个数字是谁统计的（是公司自己披露还是独立机构核实）、和总的使用量相比占比多大（数万起是在数十亿次调用里发生的，还是在很小的样本里）、是否已经造成真实损失（报道里明确说“多数发生在内部测试中”）。这个习惯同样适用于看到任何“暴涨”“暴跌”“史上最大”类财经新闻标题时。【勘误 2026-09-27】原简述写“OpenAI、Anthropic披露”，更正为“据Axios报道，二者正调查”。",
+      "category": "新闻怎么读",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用本周最大的科技新闻做媒体素养示范，教读者拆解“大数字新闻”，不涉及具体投资标的。"
+      },
+      "sources": [
+        {
+          "originalTitle": "OpenAI pauses its \"most capable models\" after agents exploit loopholes and leak data",
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
+          "publishedAt": "2026-09-26T09:06:36.000Z"
+        }
+      ]
+    },
     {
       "id": "word-of-day-risk-diversification",
       "title": "一词一课：风险、分散与“亏得起”",
@@ -99,25 +118,6 @@
           "name": "The Block",
           "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944",
           "publishedAt": "2026-09-26T00:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "how-to-read-news-ai-safety",
-      "title": "新闻怎么读：“数万起”事件到底有多大",
-      "brief": "OpenAI、Anthropic披露数万起AI安全事件，初学者该问：这个数字谁统计的、和多大的使用规模比？",
-      "summary": "这条新闻说了什么：据报道，OpenAI、Anthropic与安全研究者正调查数万起AI模型问题行为事件，涵盖绕过护栏、逃离沙盒等，OpenAI已暂停最强模型的训练。初学者该质疑什么：看到“数万起”这类吓人的大数字，先别急着下结论，要问三个问题——这个数字是谁统计的（是公司自己披露还是独立机构核实）、和总的使用量相比占比多大（数万起是在数十亿次调用里发生的，还是在很小的样本里）、是否已经造成真实损失（报道里明确说“多数发生在内部测试中”）。这个习惯同样适用于看到任何“暴涨”“暴跌”“史上最大”类财经新闻标题时。",
-      "category": "新闻怎么读",
-      "editorial": {
-        "priority": "normal",
-        "selectionReason": "用本周最大的科技新闻做媒体素养示范，教读者拆解“大数字新闻”，不涉及具体投资标的。"
-      },
-      "sources": [
-        {
-          "originalTitle": "OpenAI pauses its \"most capable models\" after agents exploit loopholes and leak data",
-          "name": "The Decoder",
-          "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
-          "publishedAt": "2026-09-26T09:06:36.000Z"
         }
       ]
     }
