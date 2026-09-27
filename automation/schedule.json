@@ -11,7 +11,7 @@
     { "id": "ai-architecture", "name": "AI 架构周报", "days": ["mon"], "time": null, "enabled": false },
     { "id": "ai-safety", "name": "AI 安全公开动态", "days": ["wed"], "time": null, "enabled": false },
     { "id": "people-watch", "name": "人物动态追踪", "days": ["thu"], "time": null, "enabled": false },
-    { "id": "global-ventures", "name": "全球创业机会期刊", "days": ["fri"], "time": null, "enabled": false },
+    { "id": "global-ventures", "name": "全球创业机会期刊", "days": ["sat"], "time": null, "enabled": false },
     { "id": "education-weekly", "name": "升学就业周报", "days": ["sat"], "time": null, "enabled": false },
     { "id": "venture-weekly", "name": "赛道与创业周报（旧刊存档，已停刊）", "days": [], "time": null, "enabled": false }
   ]
