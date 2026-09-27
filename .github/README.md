@@ -10,19 +10,19 @@ AIggy 的个人数字日报：10 份在刊刊物，覆盖 AI、市场、数字�
 
 | 刊物 | 建议频率 | 链接 |
 | --- | --- | --- |
-| 双语每日新闻 | 工作日 | [打开](https://rich-richer.github.io/p/daily-news/) |
-| 工作日早晨简报 | 工作日 | [打开](https://rich-richer.github.io/p/morning-brief/) |
-| 电算协同每日情报 | 每天 | [打开](https://rich-richer.github.io/p/compute-intel/) |
-| 自媒体选题简报 | 周一、三、五 | [打开](https://rich-richer.github.io/p/topic-radar/) |
-| 理财入门晚间课 | 工作日 | [打开](https://rich-richer.github.io/p/finance-class/) |
+| 双语每日新闻 | 周一、周四 | [打开](https://rich-richer.github.io/p/daily-news/) |
+| 工作日早晨简报 | 周一、周四 | [打开](https://rich-richer.github.io/p/morning-brief/) |
+| 电算协同每日情报 | 周一、周四 | [打开](https://rich-richer.github.io/p/compute-intel/) |
+| 自媒体选题简报 | 周一、周四 | [打开](https://rich-richer.github.io/p/topic-radar/) |
+| 理财入门晚间课 | 周六 | [打开](https://rich-richer.github.io/p/finance-class/) |
 | AI 架构周报 | 周一 | [打开](https://rich-richer.github.io/p/ai-architecture/) |
-| AI 安全公开动态 | 周三 | [打开](https://rich-richer.github.io/p/ai-safety/) |
+| AI 安全公开动态 | 周六 | [打开](https://rich-richer.github.io/p/ai-safety/) |
 | 人物动态追踪 | 周四 | [打开](https://rich-richer.github.io/p/people-watch/) |
 | 全球创业机会期刊 | 周六 | [打开](https://rich-richer.github.io/p/global-ventures/) |
 | 升学就业周报 | 周六 | [打开](https://rich-richer.github.io/p/education-weekly/) |
 | 赛道与创业周报（旧刊存档） | 已停刊 | [打开](https://rich-richer.github.io/p/venture-weekly/) |
 
-目前由人工触发出刊，定时时间尚未设定。
+目前由人工触发出刊（试行：每周一、周四、周六早上各一次），定时时间尚未设定。
 
 ## 内容说明
 
