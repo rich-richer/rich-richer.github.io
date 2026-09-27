@@ -1,0 +1,53 @@
+{
+  "_说明": "各刊版面检查规则，依据 editorial/<刊物>.md。categories：允许的栏目；required：每期必出的最少条数（不足即中止）；expected：手册建议的最少条数（不足只提醒，须写进出刊报告）；lead：头条允许的栏目；leadPrefix：头条 summary 的固定开头；total：建议总条数范围（超出只提醒）。",
+  "daily-news": {
+    "categories": ["AI科技", "AI安全观察", "市场商业", "数字货币与区块链", "科学"],
+    "expected": { "AI科技": 3, "AI安全观察": 1, "市场商业": 3, "数字货币与区块链": 1, "科学": 3 }
+  },
+  "morning-brief": {
+    "categories": ["AI工具", "YouTube创作者", "美股ETF", "今日提醒", "沈阳天气"],
+    "required": { "美股ETF": 1, "沈阳天气": 1 },
+    "expected": { "AI工具": 2, "YouTube创作者": 2, "美股ETF": 2 },
+    "lead": ["AI工具", "YouTube创作者", "美股ETF", "今日提醒"]
+  },
+  "compute-intel": {
+    "categories": ["海外", "中国", "辽宁"],
+    "expected": { "海外": 3, "中国": 3 },
+    "leadPrefix": "今日主线："
+  },
+  "topic-radar": {
+    "categories": ["国内", "海外"]
+  },
+  "finance-class": {
+    "categories": ["一词一课", "市场速览", "新闻怎么读"],
+    "required": { "一词一课": 1, "市场速览": 4, "新闻怎么读": 1 },
+    "lead": ["一词一课"],
+    "leadPrefix": "本课仅供学习，不构成投资建议；投资有风险。"
+  },
+  "ai-architecture": {
+    "categories": ["架构", "训练与推理", "开放权重模型", "本周重要论文", "经典论文回顾"],
+    "required": { "经典论文回顾": 1 },
+    "expected": { "本周重要论文": 1 },
+    "total": [3, 8]
+  },
+  "people-watch": {
+    "categories": ["AI 产业", "AI 安全", "金融与加密"]
+  },
+  "ai-safety": {
+    "categories": ["漏洞与提示词注入", "越狱研究", "研究者与组织", "厂商回应与修复", "政策监管", "厂商框架", "防御工具"],
+    "leadPrefix": "本周监测结论：",
+    "total": [3, 8]
+  },
+  "global-ventures": {
+    "categories": ["机会新闻", "战略报告"],
+    "required": { "机会新闻": 3, "战略报告": 9 },
+    "lead": ["战略报告"],
+    "leadPrefix": "本期问题："
+  },
+  "education-weekly": {
+    "categories": ["数据面", "就业面", "选专业建议", "选行业建议", "政策变化"],
+    "required": { "数据面": 2, "就业面": 2, "选专业建议": 4, "选行业建议": 3 },
+    "lead": ["选专业建议", "选行业建议"],
+    "leadPrefix": "本周一句话："
+  }
+}

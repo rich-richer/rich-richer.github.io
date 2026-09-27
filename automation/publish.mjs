@@ -8,14 +8,11 @@ import { formatWarning, normalizePriorities } from "../scripts/lib/compiler.js";
 import { shanghaiDate } from "../scripts/lib/pipeline.js";
 import { validateCandidate } from "../scripts/lib/validation.js";
 import { canonicalLink, daysBefore, findDuplicateEvents, loadPublishedItems, WINDOW_DAYS } from "./events.mjs";
+import { checkLayout } from "./layout.mjs";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 // 个别刊物按原例程需要更长的 summary（卡片仍按版面截断，「展开全文」可看全），此处放宽预检上限
 const SUMMARY_MAX = { "compute-intel": 650, "global-ventures": 650 };
-// 手册规定每期必出的栏目（category → 最少条数）与头条所属栏目；勘误模式不检查
-const REQUIRED_LAYOUT = {
-  "education-weekly": { counts: { 数据面: 2, 就业面: 2, 选专业建议: 4, 选行业建议: 3 }, lead: ["选专业建议", "选行业建议"] },
-};
 const logDir = path.join(rootDir, "automation", "logs");
 mkdirSync(logDir, { recursive: true });
 const logFile = path.join(logDir, `${new Date().toISOString().replace(/[:.]/g, "-")}.log`);
@@ -80,15 +77,11 @@ for (const id of options.ids) {
       urlOwner.set(source.url, item.id);
     }
   }
-  const layout = REQUIRED_LAYOUT[id];
-  if (layout && !options.correction) {
-    const missing = Object.entries(layout.counts)
-      .map(([category, min]) => [category, min, candidate.items.filter((item) => item.category === category).length])
-      .filter(([, min, count]) => count < min)
-      .map(([category, min, count]) => `${category} ${count}/${min} 条`);
-    const lead = candidate.items.find((item) => item.editorial.priority === "lead");
-    if (!lead || !layout.lead.includes(lead.category)) missing.push(`头条须属于 ${layout.lead.join(" 或 ")}`);
-    if (missing.length > 0) abort("预检", `${id} 栏目不全（见手册）：${missing.join("；")}`);
+  // 版面检查（规则见 automation/layout.json）；勘误候选稿只含要改的条目，不检查
+  if (!options.correction) {
+    const { errors, notes } = checkLayout(id, candidate.items);
+    notes.forEach((note) => log(`提醒（不拦截，须写进出刊报告）：${id} ${note}`));
+    if (errors.length > 0) abort("预检", `${id} 版面不符合手册：${errors.join("；")}`);
   }
   const site = JSON.parse(readFileSync(path.join(rootDir, "publications", id, "config/site.json"), "utf8"));
   const warnings = normalizePriorities(candidate, site.priorityLimits).warnings.filter((warning) =>
