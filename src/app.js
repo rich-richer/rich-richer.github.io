@@ -365,24 +365,68 @@ function createNameplate(name) {
   const plate = element("div", "nameplate");
   const dateline = element("p", "nameplate__dateline");
   dateline.append(
-    element("span", "nameplate__date"),
+    element("span", "nameplate__date", "尚未出刊"),
+    element("span", "nameplate__coverage"),
+    element("span", "nameplate__published"),
     element("span", "nameplate__motto", "事实优先 · 来源可查"),
     element("span", "nameplate__count"),
   );
+  // 本地改动（见 docs/LOCAL_CHANGES.md 第 4 项）：往期目录
+  const archive = element("details", "nameplate__archive");
+  archive.append(element("summary", "", "往期目录"), element("ol", "nameplate__archive-list"));
+  archive.hidden = true;
   const title = element("p", "nameplate__title", name);
   // 按字宽估算刊名长度（中文 1、英文字母 0.6、空格 0.3），样式据此算出放得下的字号
   let length = 0;
   for (const char of name) length += /[⺀-￿]/.test(char) ? 1 : char === " " ? 0.3 : 0.6;
   title.style.setProperty("--title-length", String(Math.max(length, 4)));
-  plate.append(element("p", "nameplate__eyebrow", "AIggy Daily Briefing"), title, dateline);
+  plate.append(element("p", "nameplate__eyebrow", "AIggy Daily Briefing"), title, dateline, archive);
   document.querySelector("#content").before(plate);
 }
 
-function updateNameplate(issue) {
+// 期号按出刊日期先后编号：最早一期为第 1 期；时间统一按北京时间显示
+const nameplateTime = new Intl.DateTimeFormat("zh-CN", {
+  timeZone: "Asia/Shanghai",
+  month: "numeric",
+  day: "numeric",
+  hour: "2-digit",
+  minute: "2-digit",
+  hourCycle: "h23",
+});
+
+function formatBeijing(value) {
+  const parts = Object.fromEntries(nameplateTime.formatToParts(new Date(value)).map((part) => [part.type, part.value]));
+  return `${parts.month}月${parts.day}日 ${parts.hour}:${parts.minute}`;
+}
+
+function updateNameplate(issue, dates) {
   const [year, month, day] = issue.date.split("-").map(Number);
   const weekday = "日一二三四五六"[new Date(Date.UTC(year, month - 1, day)).getUTCDay()];
-  document.querySelector(".nameplate__date").textContent = `${year} 年 ${month} 月 ${day} 日 · 星期${weekday}`;
+  const ordered = [...dates].sort();
+  const number = ordered.indexOf(issue.date) + 1;
+  document.querySelector(".nameplate__date").textContent = `第 ${number} 期 · ${year} 年 ${month} 月 ${day} 日 · 星期${weekday}`;
+  document.querySelector(".nameplate__coverage").textContent =
+    `覆盖：${formatBeijing(issue.coverage.start)} — ${formatBeijing(issue.coverage.end)}（北京时间）`;
+  document.querySelector(".nameplate__published").textContent = `发布：${formatBeijing(issue.generatedAt)}（北京时间）`;
   document.querySelector(".nameplate__count").textContent = `本期 ${issue.items.length} 条`;
+
+  const archive = document.querySelector(".nameplate__archive");
+  archive.querySelector("summary").textContent = `往期目录（共 ${ordered.length} 期）`;
+  archive.querySelector(".nameplate__archive-list").replaceChildren(...ordered.slice().reverse().map((date) => {
+    const entry = element("li");
+    const label = `第 ${ordered.indexOf(date) + 1} 期 · ${date}`;
+    if (date === issue.date) {
+      const current = element("span", "", `${label}（当前）`);
+      current.setAttribute("aria-current", "page");
+      entry.append(current);
+    } else {
+      const link = element("a", "", label);
+      link.href = `${location.pathname}?date=${date}`;
+      entry.append(link);
+    }
+    return entry;
+  }));
+  archive.hidden = false;
 }
 
 function updateNavigation(date, dates) {
@@ -445,7 +489,7 @@ async function loadIssue(date, dates, options = {}) {
   try {
     const issue = await fetchJson(paths.issue(date));
     renderIssue(issue);
-    updateNameplate(issue);
+    updateNameplate(issue, dates);
     updateNavigation(date, dates);
     if (historyMethod) updateDateUrl(date, historyMethod);
     document.title = `${date} · ${currentSiteName}`;

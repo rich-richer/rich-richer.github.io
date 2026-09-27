@@ -7,10 +7,11 @@ import { fileURLToPath } from "node:url";
 import { formatWarning, normalizePriorities } from "../scripts/lib/compiler.js";
 import { shanghaiDate } from "../scripts/lib/pipeline.js";
 import { validateCandidate } from "../scripts/lib/validation.js";
+import { canonicalLink, daysBefore, findDuplicateEvents, loadPublishedItems, WINDOW_DAYS } from "./events.mjs";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 // 个别刊物按原例程需要更长的 summary（卡片仍按版面截断，「展开全文」可看全），此处放宽预检上限
-const SUMMARY_MAX = { "compute-intel": 650 };
+const SUMMARY_MAX = { "compute-intel": 650, "global-ventures": 650 };
 const logDir = path.join(rootDir, "automation", "logs");
 mkdirSync(logDir, { recursive: true });
 const logFile = path.join(logDir, `${new Date().toISOString().replace(/[:.]/g, "-")}.log`);
@@ -82,7 +83,25 @@ for (const id of options.ids) {
     if (!options.allowWarnings) abort("预检", `${id} 有 ${warnings.length} 条提醒，修改候选稿后重试（或加 --allow-warnings）`);
   }
   log(`✓ 预检通过：${id}（${candidate.items.length} 条）`);
-  candidates.push({ id, candidatePath });
+  candidates.push({ id, candidatePath, candidate });
+}
+
+// 跨刊物去重（规则见 editorial/README.md「事件去重」）：最近 14 天内其他刊物已完整报道的事件，
+// 本刊只能写短摘要并在 sources 中加入对方的本站链接；同批出刊的几份刊物之间同样检查
+{
+  const batch = new Set(candidates.map(({ id }) => `${id}/${options.date}`));
+  const published = loadPublishedItems(rootDir, registry.publicationIds, daysBefore(options.date, WINDOW_DAYS), options.date)
+    .filter((entry) => !batch.has(`${entry.publicationId}/${entry.date}`));
+  const fresh = candidates.flatMap(({ id, candidate }) => candidate.items.map((item) => ({ publicationId: id, date: options.date, item })));
+  const conflicts = findDuplicateEvents(fresh, published);
+  if (conflicts.length > 0) {
+    for (const { entry, other, url } of conflicts) {
+      log(`${entry.publicationId}/${entry.item.id} 与 ${other.publicationId}/${other.date}#${other.item.id} 共用来源 ${url}`);
+      log(`  → 同一事件只由一个刊物完整报道；另一方改写为短摘要，并在 sources 中加入 ${canonicalLink(other.publicationId, other.date, other.item.id)}`);
+    }
+    abort("预检", `发现 ${conflicts.length} 处跨刊物重复报道，按提示改写后重试`);
+  }
+  log("✓ 跨刊物去重通过");
 }
 
 // 2) 校验入库：交给原项目的 process-candidate

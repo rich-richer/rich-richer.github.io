@@ -1,6 +1,6 @@
 # 出刊说明书
 
-适用于 https://rich-richer.github.io/ 的 10 份刊物。最后更新：2026 年 9 月 26 日。
+适用于 https://rich-richer.github.io/ 的 10 份刊物。最后更新：2026 年 9 月 27 日（刊物改版：新增全球创业机会期刊，赛道与创业周报停刊存档）。
 
 在线版（带复制按钮）：https://claude.ai/artifact/BfXNCKcpCDJextBEiG3Be5
 
@@ -16,7 +16,7 @@
 | --- | --- | --- | --- |
 | 周一 | 早上 7 点前后 | 双语每日新闻、工作日早晨简报、电算协同每日情报、自媒体选题简报、AI 架构周报 | 5 份，收进上周五到周日的消息 |
 | 周四 | 早上 7 点前后 | 双语每日新闻、工作日早晨简报、电算协同每日情报、自媒体选题简报、人物动态追踪 | 5 份，收进周一到周三的消息 |
-| 周六 | 上午 | 理财入门晚间课、赛道与创业周报、AI 安全公开动态、升学就业周报 | 4 份，收全一整周，适合周末细读 |
+| 周六 | 上午 | 理财入门晚间课、全球创业机会期刊、AI 安全公开动态、升学就业周报 | 4 份，收全一整周，适合周末细读 |
 
 **为什么这样排**：美股在北京时间凌晨收盘，早上出能写已收盘的数据。周一和周四把一周切成两半，新闻不漏；电算情报看「最近 3 天」，正好对得上。周刊放在最适合读它的那天。
 
@@ -70,7 +70,8 @@ Dispatch 需要 Pro 或 Max 套餐。Cowork 标签里找不到 Dispatch 时，�
 | AI 架构周报 | https://rich-richer.github.io/p/ai-architecture/ |
 | 人物动态追踪 | https://rich-richer.github.io/p/people-watch/ |
 | AI 安全公开动态 | https://rich-richer.github.io/p/ai-safety/ |
-| 赛道与创业周报 | https://rich-richer.github.io/p/venture-weekly/ |
+| 全球创业机会期刊 | https://rich-richer.github.io/p/global-ventures/ |
+| 赛道与创业周报（旧刊存档，已停刊） | https://rich-richer.github.io/p/venture-weekly/ |
 | 升学就业周报 | https://rich-richer.github.io/p/education-weekly/ |
 
 - **看以前的**：刊物页顶部日期两边有「← 上一期」「下一期 →」；也可以在网址后加日期直达，例如 https://rich-richer.github.io/p/daily-news/?date=2026-09-25 。

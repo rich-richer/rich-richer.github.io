@@ -6,9 +6,17 @@
 - 主题：AI / 经济 / 美股 / 科技领域知名人物的公开动态。
 - 使用 AIHOT：否。
 
-## 关注名单
+## 关注名单（2026-09-27 起按分组）
 
-Elon Musk、Sam Altman、Jensen Huang、Andrej Karpathy、Dario Amodei、Andrew Ng、Lilian Weng、李飞飞。
+| 分组（写进 `category`） | 人物 |
+| --- | --- |
+| `AI 产业` | Elon Musk、Sam Altman、Jensen Huang、Andrej Karpathy、Dario Amodei、Andrew Ng、Lilian Weng、李飞飞 |
+| `AI 安全` | Pliny the Liberator（化名账号，只写其公开发布的动态和厂商对其的公开回应） |
+| `金融与加密` | 孙宇晨、沃伦·巴菲特（Warren Buffett）、赵长鹏（Changpeng Zhao） |
+
+- 分工：本刊负责人物**本人或其组织**的动向；与人物相关的安全事件的**技术分析**放在 AI 安全公开动态，本刊写一句并链接过去。
+- Pliny the Liberator：只写其公开发布的研究方向、厂商或媒体的公开回应，**绝不**转述越狱提示词或方法，不推测其真实身份。
+- 孙宇晨、赵长鹏、巴菲特：只写经核实的公开动态（公司公告、监管或法院文件、本人公开表态、股东信、权威媒体）；涉及诉讼和监管事项只陈述已公开的程序事实，不下结论；不构成投资建议。
 
 - 只看公开表态、产品发布、监管听证、人事 / 融资新闻，不写八卦。
 - 没有可核实动态的人直接跳过。
@@ -17,6 +25,6 @@ Elon Musk、Sam Altman、Jensen Huang、Andrej Karpathy、Dario Amodei、Andrew 
 
 ## 条目安排
 
-- 每位有动态的人物一条（同一人多件事合并为一条），`category` = 人名。
+- 每位有动态的人物一条（同一人多件事合并为一条），`category` = 所属分组，标题以人名开头（如「巴菲特：……」）。
 - Takeaways：本周最重要的 1 条动态做 `lead`，其次 2 条做 `important`。
 - 双语：英文来源填 `originalTitle`，头条尽量附 2 个以上来源，让原标题在来源面板中显示（规则见 README 第 4 节）。

@@ -2,7 +2,7 @@
 
 **网站：<https://rich-richer.github.io/>**
 
-AIggy 的个人数字日报：10 份刊物，覆盖 AI、市场、算力、自媒体、理财入门、创业赛道和升学就业。内容由 Claude 按固定编辑手册检索、核实、整理，经程序校验后发布为静态网站。
+AIggy 的个人数字日报：10 份在刊刊物，覆盖 AI、市场、数字货币、算力、AI 安全、自媒体、理财入门、全球创业机会和升学就业，另有 1 份旧刊存档。内容由 Claude 按固定编辑手册检索、核实、整理，经程序校验后发布为静态网站。
 
 本仓库基于 [dingshuxin353/daily-news-app](https://github.com/dingshuxin353/daily-news-app)（MIT 许可）二次开发，保留原作者版权声明。原项目的完整说明见 [README.md](https://github.com/rich-richer/rich-richer.github.io/blob/main/README.md)。
 
@@ -18,8 +18,9 @@ AIggy 的个人数字日报：10 份刊物，覆盖 AI、市场、算力、自�
 | AI 架构周报 | 周一 | [打开](https://rich-richer.github.io/p/ai-architecture/) |
 | AI 安全公开动态 | 周三 | [打开](https://rich-richer.github.io/p/ai-safety/) |
 | 人物动态追踪 | 周四 | [打开](https://rich-richer.github.io/p/people-watch/) |
-| 赛道与创业周报 | 周五 | [打开](https://rich-richer.github.io/p/venture-weekly/) |
+| 全球创业机会期刊 | 每周一期 | [打开](https://rich-richer.github.io/p/global-ventures/) |
 | 升学就业周报 | 周六 | [打开](https://rich-richer.github.io/p/education-weekly/) |
+| 赛道与创业周报（旧刊存档） | 已停刊 | [打开](https://rich-richer.github.io/p/venture-weekly/) |
 
 目前由人工触发出刊，定时时间尚未设定。
 
@@ -44,7 +45,7 @@ Claude 会按 [`editorial/README.md`](https://github.com/rich-richer/rich-richer
 
 | 路径 | 作用 |
 | --- | --- |
-| `editorial/` | 通用出刊指令和 10 份刊物手册 |
+| `editorial/` | 通用出刊指令、各刊手册和 AI 论文目录 |
 | `automation/publish.mjs` | 一键出刊脚本：预检、入库、测试、构建、提交，可选推送 |
 | `automation/schedule.json` | 定时入口（预留，目前全部关闭） |
 | `publications/<刊物 ID>/` | 各刊配置和正式日报数据 |

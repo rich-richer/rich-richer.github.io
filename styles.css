@@ -1413,6 +1413,44 @@ main:focus-visible {
   font-weight: 800;
 }
 
+/* 本地改动（见 docs/LOCAL_CHANGES.md 第 4 项）：覆盖时段、发布时间与往期目录 */
+.nameplate__coverage,
+.nameplate__published {
+  color: var(--color-muted);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.nameplate__archive {
+  grid-column: 1 / -1;
+  font-size: 13px;
+}
+
+.nameplate__archive summary {
+  width: fit-content;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.nameplate__archive-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+  font-variant-numeric: tabular-nums;
+}
+
+.nameplate__archive-list a {
+  color: var(--color-text);
+}
+
+.nameplate__archive-list [aria-current="page"] {
+  color: var(--color-accent-text);
+  font-weight: 700;
+}
+
 :root[data-theme="newspaper-default"] {
   --color-background: #F5EFE3;
   --color-text: #151412;
@@ -1540,9 +1578,8 @@ main:focus-visible {
   }
 
   .nameplate__dateline {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    gap: 2px;
     text-align: left;
   }
 
