@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T13:22:19+08:00",
+  "coverage": {
+    "start": "2026-09-24T00:00:00+08:00",
+    "end": "2026-09-27T13:22:19+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "texas-freezes-data-center-environmental-permits",
+      "title": "德州将数据中心审批冻结扩大至环保许可",
+      "brief": "德州州长将数据中心审批冻结从并网扩大到环保许可，直至完成ERCOT和水资源审计。意义：电力富余区域的比较优势正被政策放大。",
+      "summary": "今日主线：德州审批冻结再升级。意义：连全球最市场化、审批最快的电网所在州都收紧数据中心准入，说明电力约束已从局部摩擦变成普遍政策共识，电力富余地区的战略价值随之上升。9月21日，德州州长阿博特下令州环境质量委员会暂停向新数据中心发放环保许可，直至ERCOT与州水资源发展委员会完成对现有项目电力使用、水资源使用、税收优惠和社区影响的全面审计，这是继此前暂停并网审批、要求自建电源项目披露信息后的第三次升级。关键数字：198吉瓦（德州2026年一季度并网排队负荷）｜86吉瓦（在审新增负荷申请，接近ERCOT当前峰值负荷）｜第3次（本轮审批收紧的升级次数）。电力正在成为算力扩张比拼资源禀赋和耐心的新战场，能持续稳定供电供水的区域，才留得住产业。 EN: Texas Gov. Abbott has widened his data-center approval freeze to environmental permits, pending a full grid-and-water audit by ERCOT and the state water board.",
+      "category": "海外",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "对应选题优先级第3条：改变行业底层逻辑的趋势与数据。全球电网最市场化、审批最快的德州持续收紧数据中心准入，是判断电力约束严重程度的最直接信号。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Gov. Greg Abbott broadens moratorium on data center approvals to include environmental permits",
+          "name": "HPPR",
+          "url": "https://www.hppr.org/hppr-news/2026-09-24/gov-greg-abbott-broadens-moratorium-on-data-center-approvals-to-include-environmental-permits",
+          "publishedAt": "2026-09-24T00:00:00.000Z"
+        },
+        {
+          "originalTitle": "Gov. Greg Abbott broadens moratorium on data center approvals to include environmental permits",
+          "name": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/09/21/texas-data-center-moratorium-water-energy/",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "nano-nuclear-ip3-ai-infrastructure-loi",
+      "title": "核能企业组联盟抢占AI供电订单",
+      "brief": "三家核能企业签框架协议开拓核电供AI项目，今年美国核初创融资已达46亿美元。意义：资本把核电视为化解电力瓶颈的确定答案。",
+      "summary": "NANO Nuclear、IP3、Cybernetic Intelligence于9月25日签署合作意向书（LOI），约定NANO Nuclear作为核技术优先供应商，三方共同开拓美国及部分海外市场中由核电支持的AI、国家安全和计算基础设施项目。同日另有报道显示，2026年以来美国核能初创公司已吸引约46亿美元投资，高于2025年全年38亿美元。关键数字：46亿美元（2026年至今美国核初创企业融资额）｜38亿美元（2025年全年融资额）｜3家企业（本次LOI签约方数量）。资本正把核电视为解决算力电力瓶颈的确定性答案，而不只是长期选项；能提供稳定基荷电力、且具备条件承接大型电源直连的区域，会更早进入AI基础设施投资方的候选名单。 EN: NANO Nuclear, IP3 and Cybernetic Intelligence signed a letter of intent to jointly pursue nuclear-powered AI infrastructure, as 2026 US nuclear-startup funding already tops $4.6 billion.",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "对应选题优先级第3条：资本流向核电与算力结合的项目，反映行业正在把电力供给能力当作确定性最高的投资标的。"
+      },
+      "sources": [
+        {
+          "originalTitle": "NANO Nuclear, IP3 and Cybernetic Intelligence Sign Letter of Intent to Pursue Nuclear-Powered AI Infrastructure Projects",
+          "name": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/09/25/3369082/0/en/nano-nuclear-ip3-and-cybernetic-intelligence-sign-letter-of-intent-to-pursue-nuclear-powered-ai-infrastructure-projects.html",
+          "publishedAt": "2026-09-25T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a-share-compute-orders-disclosed",
+      "title": "多家A股公司密集披露算力大单",
+      "brief": "光环新网追加投资12.65亿元、数字政通拟采购5.76亿元服务器，4家A股公司3天内密集披露算力订单。意义：算力采购正转化为真实资本开支。",
+      "summary": "9月23日至24日，四家A股公司密集披露算力相关合同：光环新网对和林格尔智算中心项目追加投资12.65亿元，项目总投资额较此前规划增至25亿元，增幅102.43%；数字政通全资子公司政通智算与客户签订服务器采购合同，金额预计5.76亿元；奥尼电子子公司与客户签署GPU算力卡采购合同，总金额2.32亿美元（约15.56亿元人民币）；行云科技子公司与客户签订5年期智算资源租赁合同，含税总金额8.72亿元。关键数字：12.65亿元（光环新网追加投资额）｜25亿元、增幅102.43%（该项目投资总额）｜4家公司、合计超40亿元人民币的算力相关合同3天内集中披露。意义：算力设备采购正从行业预期转化为上市公司真实资本开支和收入订单，产业链中下游同步放量，说明国内算力需求的确定性在提升，而非仅停留在规划层面。",
+      "category": "中国",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "对应选题优先级第2条：可类比到辽宁的落地案例，多家上市公司公告的具体金额是判断算力投资真实节奏的直接证据。"
+      },
+      "sources": [
+        {
+          "originalTitle": "利好来了！多家A股上市公司，披露算力大单",
+          "name": "21世纪经济报道",
+          "url": "https://www.21jingji.com/article/20260926/herald/626058d077b96669a536d6fdffa79314.html",
+          "publishedAt": "2026-09-26T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "trendforce-global-datacenter-power-demand-2026",
+      "title": "TrendForce：数据中心用电需求增31%",
+      "brief": "TrendForce预计2026年全球数据中心用电需求达161吉瓦，同比增31%，AI服务器占比33.4%。",
+      "summary": "市场研究机构TrendForce最新预测，2026年全球数据中心电力需求容量将达161吉瓦（GW），同比增长约31%，其中AI服务器占整体需求容量的33.4%，是增长主力。华鑫证券等机构指出，AI资本开支正从单纯扩充算力设备，转向算力与能源基础设施协同建设，电网接入、变压器、开关设备、高压直流（HVDC）等供配电环节的需求确定性同步提升。关键数字：161吉瓦（2026年全球数据中心用电需求容量）｜31%（同比增速）｜33.4%（AI服务器占需求容量比重）。用电需求增速持续跑赢算力设备本身的扩张速度，证明电力而非芯片正成为下一阶段AI资本开支的真实约束，电网基础扎实、增量供电空间充裕的区域将更早承接这部分溢出的资本开支。 EN: TrendForce forecasts global data center power demand will reach 161GW in 2026, up about 31% year over year, with AI servers driving a third of that demand.",
+      "category": "海外",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "对应选题优先级第3条：全球数据中心用电增速的量化数据，是判断电力约束严重程度的核心趋势指标。"
+      },
+      "sources": [
+        {
+          "originalTitle": "TrendForce预估今年全球数据中心用电需求同比增长31%",
+          "name": "21世纪经济报道",
+          "url": "https://m.21jingji.com/article/20260924/herald/ba158c4e7264639b4478038fea385236.html",
+          "publishedAt": "2026-09-24T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "peoples-daily-intelligent-economy-commentary",
+      "title": "人民日报：智能经济是战略变量",
+      "brief": "人民日报署名文章称智能经济是抢占未来发展主动权的战略变量，预计“十五五”末相关产业规模超10万亿元。",
+      "summary": "人民日报9月27日刊发“金轩”署名文章《智能经济何以塑造中国发展新优势》，提出智能经济是“抢抓未来发展主动权的战略变量”，既是应对当下产业竞争的手段，也是塑造长期优势的先手棋，主张通过“点、线、面结合”的方式推进智能经济发展。文章披露多项数据：人工智能产业规模连续多年保持20%以上增速，国产开源模型下载量全球第一，我国智算总规模位居全球第二，已建成12万个高质量数据集，发电量占全球总量三分之一。关键数字：20%以上（AI产业规模连续多年增速）｜全球第二（我国智算总规模排名）｜10万亿元以上（“十五五”末预期人工智能相关产业规模）。官方媒体把智能经济提到“战略变量”高度，释放的信号是算力、数据、电力的组合能力会被作为地区竞争力的核心指标，电力保障能力扎实的地区在下一轮政策资源分配中更容易被优先考虑。",
+      "category": "中国",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AI与SaaS产业动向调剂条目：官方媒体定调释放的政策信号，对判断区域竞争力评价标准有参考价值。"
+      },
+      "sources": [
+        {
+          "originalTitle": "人民日报金轩：智能经济何以塑造中国发展新优势",
+          "name": "人民日报（经新浪财经转载）",
+          "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initfhus0438730.shtml",
+          "publishedAt": "2026-09-27T00:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}

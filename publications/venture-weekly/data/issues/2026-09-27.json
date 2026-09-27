@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T13:30:40+08:00",
+  "coverage": {
+    "start": "2026-09-20T13:30:40+08:00",
+    "end": "2026-09-27T13:30:40+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "ai-training-data-service-model",
+      "title": "AI训练数据服务商本周获数亿美元融资",
+      "brief": "Snorkel AI估值32亿美元、Micro1估值40亿美元，专给前沿实验室做训练数据。启示：卖“数据服务”比卖模型更早稳定变现。",
+      "summary": "本周（9月19日至25日）Crunchbase追踪的最大几笔融资中，两家AI训练数据公司表现突出：Snorkel AI以32亿美元估值完成3.5亿美元融资，为前沿实验室提供训练数据工具；Micro1以40亿美元估值获超1亿美元融资，向主要AI实验室提供训练数据服务。两轮均由知名机构领投。启示：模型层竞争烧钱又难形成壁垒时，给模型公司做“数据基础设施供应商”是更早、更稳定的现金流路径——门槛不在算法，而在数据质量管控和客户关系；这类B2B服务复制成本低，适合从细分领域切入，不必正面竞争模型能力。 EN: Snorkel AI ($3.2B valuation) and Micro1 ($4B valuation) each raised large rounds this week to supply training data to frontier AI labs.",
+      "category": "模式",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "两家公司同周获得高估值融资，验证“给AI实验室做数据服务”是当前变现确定性最高的商业模式之一，直接对应AIggy寻找现金流生意的诉求。"
+      },
+      "sources": [
+        {
+          "originalTitle": "The Week's 10 Biggest Funding Rounds: Cybersecurity, AI And Health Take The Lead",
+          "name": "Crunchbase News",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-ai-health-island-cyera/",
+          "publishedAt": "2026-09-25T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ai-agent-security-track",
+      "title": "数据安全公司Cyera三个月内再融4亿美元",
+      "brief": "Cyera本周再获4亿美元融资、估值超120亿美元，专做AI代理数据安全防护。启示：智能体失控事件越多，这类防护工具越有生意。",
+      "summary": "数据与身份安全公司Cyera9月22日宣布获高盛领投的4亿美元融资（Series G延伸轮），距其6月的120亿美元估值融资仅三个月，估值已超120亿美元，新产品聚焦AI代理安全：监测代理漏洞的Agent Guardian、监控员工设备AI代理活动的Cyera Endpoint。CEO称：“AI基础设施的发展速度已超过周围的安全架构。”这与同期曝光的OpenAI、Anthropic智能体失控事件几乎同步。启示：智能体自主范围扩大，“给AI代理装护栏”就是独立生意——审计、权限管控都能收费，不必自己做模型。 EN: Data security firm Cyera raised another $400M this week at a $12B+ valuation, betting that AI agent governance is now a standalone business.",
+      "category": "潜力赛道",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "与同期AI智能体安全事件形成因果呼应，说明“AI代理治理”正从需求变成有真实融资支撑的赛道，是全球和中国都可复制的方向。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Cyera raises $400M more amid AI agent security push",
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/09/22/cyera-raises-another-400m-amid-ai-agent-security-push/",
+          "publishedAt": "2026-09-22T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "tesla-semi-case-study",
+      "title": "特斯拉Semi电动卡车内华达工厂正式量产",
+      "brief": "特斯拉Semi在内华达新工厂量产，年产能5万辆，已获2500辆和500辆大单。启示：先拿到锚定大客户订单，再建产能更稳妥。",
+      "summary": "特斯拉9月25日在内华达州斯帕克斯的专属工厂正式启动Semi电动卡车量产，工厂年产能达5万辆，换用4680电芯，标准版和长续航版分别提供约500公里和800公里续航（满载37吨），售价约26万至29万美元，比同类竞品便宜约14.5万美元。行业联盟ZET SCALE已选定特斯拉为主要供应商并下单2500辆，Einride也订购500辆；Semi于2017年发布并承诺2019年量产，此次量产晚了约7年。启示：重资产制造业即便技术领先，产能爬坡也可能晚数年，先锁定大客户批量订单再扩产能，更能控制现金流风险。 EN: Tesla began high-volume production of its Semi electric truck at a new 50,000-unit-per-year Nevada factory, about seven years behind schedule.",
+      "category": "公司案例",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "商用车电动化的标志性产能落地案例，订单结构和延期教训对判断重资产创业项目的现金流节奏有直接参考价值。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Tesla Semi finally enters volume production, 7 years behind schedule",
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory/",
+          "publishedAt": "2026-09-25T00:00:00.000Z"
+        },
+        {
+          "originalTitle": "Tesla officially begins mass production of Semi electric trucks, says they \"require almost no maintenance\"",
+          "name": "The Driven",
+          "url": "https://thedriven.io/2026/09/26/tesla-officially-begins-mass-production-of-semi-electric-trucks-says-they-require-almost-no-maintenance/",
+          "publishedAt": "2026-09-26T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bitcoin-etf-inflow-venture",
+      "title": "比特币现货ETF周流入创年内新高",
+      "brief": "美国比特币现货ETF连续7个交易日净流入，本周约23.9亿美元。启示：合规通道打开后，机构资金是分批、持续进场，不是一次性冲高。",
+      "summary": "美国比特币现货ETF9月25日单日净流入1.345亿美元，为连续第7个交易日净流入超1亿美元；截至9月26日的一周累计净流入约23.9亿美元，是2026年以来最大单周流入，也让2026年以来的累计净流入转正——两个月前一度净流出近60亿美元。贝莱德IBIT当周领跑，同期以太坊现货ETF也连续6个交易日净流入。启示：合规ETF通道是当前普通人和机构参与加密资产最稳妥的方式，资金进出节奏比价格涨跌更能反映真实需求；对创业者而言，围绕合规托管、ETF数据服务的配套生意比直接做币价投机更可持续。 EN: US spot bitcoin ETFs logged a seventh straight day of inflows, pulling in about $2.39 billion for the week, their best week of 2026.",
+      "category": "区块链与合规",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "数据来自ETF发行方公开披露，是判断合规加密资产产品资金趋势的直接依据，符合本刊只写合规视角的边界。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Bitcoin ETFs turn positive for 2026 with $2.4 billion weekly inflow, their largest since October",
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944",
+          "publishedAt": "2026-09-26T00:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}

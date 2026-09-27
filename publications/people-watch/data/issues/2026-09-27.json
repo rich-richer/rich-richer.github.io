@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T13:38:53+08:00",
+  "coverage": {
+    "start": "2026-09-20T13:38:53+08:00",
+    "end": "2026-09-27T13:38:53+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "jensen-huang-doomsday-rebuttal",
+      "title": "黄仁勋驳斥AI末日论：0%概率",
+      "brief": "黄仁勋称AI导致人类灭绝的说法“0%概率”，批评这是不负责任的末日叙事，缺乏科学依据。",
+      "summary": "本周最重要的一条：英伟达首席执行官黄仁勋9月20日接受CBS新闻采访，公开驳斥前Anthropic研究员关于AI可能在十年内导致人类灭绝的警告，称“2030年不会是世界末日，这种说法发生的概率是0%”，并表示“吓唬人是没必要的，这是不负责任的”，认为此类预测“没有科学依据”。他同时透露计划出席9月24日白宫晚宴（特朗普在此宴请中国国家主席习近平），希望借此机会与中方讨论制定全球AI开发标准。 EN: Nvidia CEO Jensen Huang told CBS News there is \"0% chance\" AI causes human extinction, calling such warnings irresponsible \"doomsday narratives\" not grounded in science.",
+      "category": "Jensen Huang",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "观点鲜明、引语具体，且直接回应本周AI安全争论的核心分歧（是否应该恐慌/减速），是本周人物动态中传播性最强的一条。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Nvidia's Jensen Huang rejects AI extinction warnings as \"doomsday narratives\"",
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-rejects-ai-extinction-warnings/",
+          "publishedAt": "2026-09-20T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "sam-altman-un-security-council",
+      "title": "阿尔特曼呼吁联合国建立AI国际标准",
+      "brief": "阿尔特曼在联合国安理会呼吁建立AI能力评估和风险披露的国际标准，称任何灾难性风险都不可接受。",
+      "summary": "OpenAI首席执行官萨姆·阿尔特曼9月23日现场出席联合国安理会会议，呼吁各国建立国际标准，用于“衡量能力、评估风险、确定防护措施是否充分”，并主张政府间建立准确、迅速的安全信息报告机制，使“世界能在失败酿成灾难前吸取教训”。他表示“任何AI造成灾难的可能性都不可接受”，并主张重大决策应交由对民众负责的民主机构，而非企业自行决定。 EN: Sam Altman told the UN Security Council that no level of catastrophic AI risk is acceptable and called for international standards on capability assessment and risk reporting.",
+      "category": "Sam Altman",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "OpenAI首次在联合国安理会这一级别的场合公开表态，且与同期披露的智能体安全事件形成呼应，是本周最正式的公开表态之一。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Sam Altman, Dario Amodei urge UN Security Council to adopt international AI standards",
+          "name": "CNN Business",
+          "url": "https://edition.cnn.com/2026/09/23/tech/altman-amodei-ai-safety-un-security-council",
+          "publishedAt": "2026-09-23T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "dario-amodei-un-security-council",
+      "title": "阿莫代伊提三点AI国际合作框架",
+      "brief": "阿莫代伊向联合国安理会提出禁止AI生化武器、建立互相核验体系等三点合作框架，称这是当今最重要的全球安全议题。",
+      "summary": "Anthropic首席执行官达里奥·阿莫代伊9月23日以视频形式向联合国安理会发言，提出三点国际合作框架：达成禁止利用AI开发生物武器的全球协议、建立各国可互相核验的评估验证系统、制定统一的AI测试标准和安全事件通知机制。他表示“这是当今世界最重要的全球安全问题”。此次发言与他今年稍早呼吁行业主动放慢前沿模型研发节奏的立场一脉相承。 EN: Anthropic CEO Dario Amodei proposed a three-part international framework to the UN Security Council, including a global ban on AI-assisted bioweapons development.",
+      "category": "Dario Amodei",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "提出具体可操作的三点合作框架（而非泛泛呼吁），且与其此前公开主张放慢AI发展节奏的立场连贯，信息量大。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Sam Altman, Dario Amodei urge UN Security Council to adopt international AI standards",
+          "name": "CNN Business（经 KVIA 转载）",
+          "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2026/09/23/sam-altman-dario-amodei-urge-un-security-council-to-adopt-international-ai-standards/",
+          "publishedAt": "2026-09-23T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "musk-colossus2-people-watch",
+      "title": "马斯克：Colossus 2年底冲120万张GPU",
+      "brief": "马斯克披露xAI孟菲斯集群计划年底前将GPU总量推至约121万张，较现有规模翻倍以上。",
+      "summary": "埃隆·马斯克9月25日在X上披露，xAI的Colossus 2集群目前运行11万张GB200和44万张GB300芯片，计划再分三批各22万张GB300于下周、11月和12月底前上线，届时总量将达约121万张GB200/GB300芯片，加上Colossus 1现有23万张，孟菲斯园区总量将逼近144万张GPU。他将扩容节奏归因于“能插多少根光纤到中央交换机”这一网络限制，而非芯片供应。 EN: Elon Musk said xAI's Colossus 2 cluster could more than double its Nvidia chip count to about 1.21 million by year-end, citing fiber networking, not chip supply, as the pacing constraint.",
+      "category": "Elon Musk",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "具体的产能扩张数字和技术细节，反映马斯克本周在算力基础设施上的最新动向。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Elon Musk Aims to Double Colossus 2's Nvidia Chips by Year-End",
+          "name": "Bloomberg（经 Yahoo Finance 转载）",
+          "url": "https://finance.yahoo.com/technology/ai/articles/elon-musk-aims-double-colossus-060447907.html",
+          "publishedAt": "2026-09-25T00:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}
