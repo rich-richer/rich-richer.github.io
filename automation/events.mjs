@@ -45,7 +45,8 @@ export function linksTo(entry, target) {
   return entry.item.sources.some((source) => isSiteLink(source.url) && source.url.includes(anchor) && source.url.endsWith(`#${target.item.id}`));
 }
 
-// 返回同一事件被不同刊物重复完整报道的冲突：共用外部来源、且双方都没有链接到对方
+// 返回同一事件被不同刊物重复完整报道的冲突：新条目与其他刊物的条目共用外部来源，
+// 而新条目没有链接到其中任何一篇、也没有任何一篇链接到它（链接到该事件的任一篇完整报道即可）
 export function findDuplicateEvents(newEntries, publishedEntries) {
   const conflicts = [];
   const pool = [...publishedEntries, ...newEntries];
@@ -53,12 +54,12 @@ export function findDuplicateEvents(newEntries, publishedEntries) {
     for (const source of entry.item.sources) {
       if (isSiteLink(source.url)) continue;
       const url = normalizeUrl(source.url);
-      for (const other of pool) {
-        if (other === entry || other.publicationId === entry.publicationId) continue;
-        if (!other.item.sources.some((s) => !isSiteLink(s.url) && normalizeUrl(s.url) === url)) continue;
-        if (linksTo(entry, other) || linksTo(other, entry)) continue;
-        conflicts.push({ entry, other, url: source.url });
-      }
+      const others = pool.filter((other) => other !== entry
+        && other.publicationId !== entry.publicationId
+        && other.item.sources.some((s) => !isSiteLink(s.url) && normalizeUrl(s.url) === url));
+      if (others.length === 0) continue;
+      if (others.some((other) => linksTo(entry, other) || linksTo(other, entry))) continue;
+      conflicts.push({ entry, other: others[0], url: source.url });
     }
   }
   return conflicts;

@@ -107,6 +107,12 @@ else {
   log("✓ 跨刊物去重通过");
 }
 
+// 新克隆的仓库还没有构建生成的 data/index.json（不进仓库），入库前先补齐
+if (registry.publicationIds.some((id) => !existsSync(path.join(rootDir, "publications", id, "data/index.json")))) {
+  run(process.execPath, ["scripts/prepare-data.js"], "准备数据");
+  log("✓ 已补齐构建数据（首次在新克隆的仓库中出刊）");
+}
+
 // 2) 校验入库：交给原项目的 process-candidate
 for (const { id, candidatePath } of candidates) {
   const args = ["scripts/process-candidate.js", "--publication", id, "--candidate", candidatePath, "--mode", "update"];
