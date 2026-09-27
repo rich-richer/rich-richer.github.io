@@ -1,5 +1,5 @@
 // 一键出刊：预检 → 校验入库 → 测试 → 构建 → 提交 →（可选）推送。任何一步失败即中止。
-// 用法：node automation/publish.mjs <刊物ID...> [--date YYYY-MM-DD] [--push] [--allow-history] [--allow-warnings] [--correction]
+// 用法：node automation/publish.mjs <刊物ID...> [--date YYYY-MM-DD] [--push] [--allow-history] [--allow-warnings] [--correction] [--check]
 import { spawnSync } from "node:child_process";
 import { appendFileSync, existsSync, mkdirSync, readFileSync } from "node:fs";
 import path from "node:path";
@@ -36,7 +36,7 @@ function run(command, args, step) {
 }
 
 function parseArguments(args) {
-  const options = { ids: [], date: shanghaiDate(), push: false, allowHistory: false, allowWarnings: false, correction: false };
+  const options = { ids: [], date: shanghaiDate(), push: false, allowHistory: false, allowWarnings: false, correction: false, check: false };
   for (let index = 0; index < args.length; index += 1) {
     const argument = args[index];
     if (argument === "--date") options.date = args[++index];
@@ -44,6 +44,7 @@ function parseArguments(args) {
     else if (argument === "--allow-history") options.allowHistory = true;
     else if (argument === "--allow-warnings") options.allowWarnings = true;
     else if (argument === "--correction") options.correction = true;
+    else if (argument === "--check") options.check = true;
     else if (argument.startsWith("--")) abort("参数", `未知参数 ${argument}`);
     else options.ids.push(argument);
   }
@@ -54,7 +55,7 @@ function parseArguments(args) {
 
 const options = parseArguments(process.argv.slice(2));
 const registry = JSON.parse(readFileSync(path.join(rootDir, "config/publications.json"), "utf8"));
-log(`出刊 ${options.ids.join("、")} · ${options.date}${options.push ? " · 完成后推送" : " · 仅本机"}`);
+log(`出刊 ${options.ids.join("、")} · ${options.date}${options.check ? " · 只检查" : options.push ? " · 完成后推送" : " · 仅本机"}`);
 
 // 1) 预检：原项目的候选稿校验与长度 / 优先级提醒，在写入正式日报之前完成
 const candidates = [];
@@ -112,6 +113,12 @@ else {
     abort("预检", `发现 ${conflicts.length} 处跨刊物重复报道，按提示改写后重试`);
   }
   log("✓ 跨刊物去重通过");
+}
+
+// 只检查（--check）：并行写稿的子任务用它自查候选稿，不写入、不提交、不推送
+if (options.check) {
+  log("✓ 只检查完成：未写入、未提交、未推送。日志：" + path.relative(rootDir, logFile));
+  process.exit(0);
 }
 
 // 新克隆的仓库还没有构建生成的 data/index.json（不进仓库），入库前先补齐
