@@ -6,8 +6,30 @@
     "start": "2026-09-18T23:09:00+08:00",
     "end": "2026-09-25T23:09:00+08:00"
   },
-  "revision": 1,
+  "revision": 2,
   "items": [
+    {
+      "id": "anthropic-ipo-november",
+      "title": "Anthropic 拟 11 月上市，投资者预期估值约 2 万亿",
+      "brief": "据《华尔街日报》，Anthropic 计划把 IPO 推迟到 11 月，以便展示三季度财务数据。启示：AI 头部公司开始用财报说话。",
+      "summary": "IT之家 9 月 19 日援引《华尔街日报》报道，Anthropic 计划把首次公开募股推迟到 11 月，比许多投资者预期的 10 月晚，部分顾问认为这样可以先展示第三季度财务数据。投资者此前预计其上市估值约 2 万亿美元、募资最多 1000 亿美元 ⚠️（媒体转述），两项都将超过 SpaceX 今年 6 月创下的纪录；现有投资者预计其年化收入到 2026 年底将超过 1100 亿美元。时间表仍可能变化。OpenAI 则表示 2027 年前不会上市。【勘误 2026-09-27】原标题写“估值约 2 万亿美元”，更正为投资者预期值；该数字仅见于媒体转述。",
+      "category": "公司案例",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "史上最大规模 IPO 之一的动向，反映 AI 头部公司的收入规模与资本市场预期。"
+      },
+      "sources": [
+        {
+          "name": "IT之家（援引《华尔街日报》）",
+          "url": "https://www.ithome.com/1/004/369.htm",
+          "publishedAt": "2026-09-19T08:07:04+08:00",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cmu7nb3bm0jugrogroyv3fm5h"
+          }
+        }
+      ]
+    },
     {
       "id": "amazon-blocks-meta-muse-shopping",
       "title": "亚马逊封禁 Meta AI 代购，智能体电商之争公开化",
@@ -26,28 +48,6 @@
           "via": {
             "name": "AIHOT",
             "url": "https://aihot.news/items/cmub7xf1o0pu2roln165i6mhu"
-          }
-        }
-      ]
-    },
-    {
-      "id": "anthropic-ipo-november",
-      "title": "Anthropic 拟 11 月上市，估值约 2 万亿美元",
-      "brief": "据《华尔街日报》，Anthropic 计划把 IPO 推迟到 11 月，以便展示三季度财务数据。启示：AI 头部公司开始用财报说话。",
-      "summary": "IT之家 9 月 19 日援引《华尔街日报》报道，Anthropic 计划把首次公开募股推迟到 11 月，比许多投资者预期的 10 月晚，部分顾问认为这样可以先展示第三季度财务数据。投资者此前预计其上市估值约 2 万亿美元、募资最多 1000 亿美元，两项都将超过 SpaceX 今年 6 月创下的纪录；现有投资者预计其年化收入到 2026 年底将超过 1100 亿美元。时间表仍可能变化。OpenAI 则表示 2027 年前不会上市。",
-      "category": "公司案例",
-      "editorial": {
-        "priority": "important",
-        "selectionReason": "史上最大规模 IPO 之一的动向，反映 AI 头部公司的收入规模与资本市场预期。"
-      },
-      "sources": [
-        {
-          "name": "IT之家（援引《华尔街日报》）",
-          "url": "https://www.ithome.com/1/004/369.htm",
-          "publishedAt": "2026-09-19T08:07:04+08:00",
-          "via": {
-            "name": "AIHOT",
-            "url": "https://aihot.news/items/cmu7nb3bm0jugrogroyv3fm5h"
           }
         }
       ]
