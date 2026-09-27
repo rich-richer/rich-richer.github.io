@@ -2,9 +2,9 @@
 
 先读 [`README.md`](./README.md)。本手册只写这份刊物的特有规则。
 
-- 建议频率：周一、周四（试行出刊表）。窗口：自上一期以来（约 48–72 小时）；首期取过去 48 小时。
+- 建议频率：周一、周四（试行出刊表）。窗口：自上一期以来（约 3–4 天，`coverage.start` = 上一期的 `coverage.end`）；首期取过去 48 小时。
 - 用途：为 AIggy 的短视频 / 长内容找可核实的热点切入角度。
-- 使用 AIHOT：是（热点榜 + 24 小时精选）。
+- 使用 AIHOT：是（热点榜 + 7 天精选，按 `publishedAt` 只取窗口内的）。
 
 ## 范围
 
@@ -20,7 +20,7 @@
 
 ```text
 GET https://aihot.news/api/v1/hot-topics
-GET https://aihot.news/api/v1/items?mode=selected&window=24h&limit=30
+GET https://aihot.news/api/v1/items?mode=selected&window=7d&limit=50
 ```
 
 ## 条目安排
