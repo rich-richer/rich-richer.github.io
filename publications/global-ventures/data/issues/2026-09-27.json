@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T22:40:00+08:00",
+  "coverage": {
+    "start": "2026-09-20T22:40:00+08:00",
+    "end": "2026-09-27T22:40:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "report-agent-security-china-summary",
+      "title": "执行摘要：智能体安全工具在中国12个月内有付费需求吗",
+      "brief": "结论：需求真实，但付费集中在强监管大客户，且头部厂商已先入场；小团队宜先做评估与实施服务。置信度：中。",
+      "summary": "本期问题：企业级 AI 智能体（AI agent）安全与治理工具，在中国市场 12 个月内有没有可验证的付费需求？结论：有，但付费方集中在金融、能源、政务等强监管大客户，奇安信等头部厂商已推出产品并通过评测，新进入者更可能先在「智能体上线前安全评估 + 实施运维」这类服务环节拿到现金流，而不是做通用平台。依据：本周美国 Island 以 64 亿美元估值融资 4 亿美元，CNBC 把这类需求归因于企业防范失控智能体；本站《AI 安全公开动态》同日报道 OpenAI、Anthropic 正调查数万起智能体安全事件；国内奇安信半年报显示其智能体安全产品已首批通过信通院评估，但公司营收同比下降 14.09%，客户普遍削减预算。置信度：中——海外需求信号强，国内需求主要来自厂商自报和评测体系建立，尚缺独立的客户付费数据。分析：本报告为桌面研究，结论需用第 9 节的 30 天行动验证。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "创刊号选题：智能体安全是本周全球融资和安全事件的交汇点，也与 AIggy 关注的 AI 应用、算力与数据业务直接相关。"
+      },
+      "sources": [
+        {
+          "name": "本站 · AI 安全公开动态",
+          "url": "https://rich-richer.github.io/p/ai-safety/?date=2026-09-27#openai-anthropic-tens-of-thousands-incidents"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/24/island-ai-cybersecurity-funding.html",
+          "originalTitle": "Island raises $400 million in latest round at $6.4 billion valuation",
+          "publishedAt": "2026-09-24T10:00:01Z"
+        }
+      ]
+    },
+    {
+      "id": "numeral-series-c-sales-tax",
+      "title": "Numeral：AI代办美国销售税，获1亿美元C轮",
+      "brief": "Numeral 用 AI 替企业申报美国销售税，获 1 亿美元 C 轮，交易量同比增 327%（公司自报）。启示：跨境卖家的美国税务合规是可切入的服务市场。",
+      "summary": "做什么：美国 Numeral 用 AI 完成美国各州销售税（sales tax）的计算、申报和缴纳，客户包括电商、软件企业和会计师事务所。怎样赚钱：向企业收取软件与申报服务费（⚠️ 待核实：具体价格未核对）。增长证据：融资——9 月 23 日宣布 1 亿美元 C 轮，Insight Partners 领投，Salesforce Ventures、Benchmark、Y Combinator 等参投；业务量——公司自报总交易量同比增长 327%，预计经其税务引擎处理的交易将超过 8,000 万笔；营收与估值——⚠️ 待核实：未找到经审计或权威披露的数据。背景：美国各州普遍立法，要求电商平台代收平台内订单的销售税（marketplace facilitator），平台外订单仍由卖家自行申报。中国落地条件：需求来自跨境卖家——亚马逊等平台代收平台内订单，但独立站（DTC）订单须卖家自己在各州注册申报，这是中国卖家的真实痛点；可行模式是做美国持牌税务服务商的中国渠道或本地化服务，而不是自建申报系统。风险：法律——申报错误会产生补税和罚款，须与美国注册会计师或持牌机构合作；持续经营——各州税法频繁变化，规则库需要持续维护。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "收入模式清楚、增长数据可查，且直接对应中国跨境卖家的美国税务合规痛点，落地路径短。"
+      },
+      "sources": [
+        {
+          "name": "Numeral",
+          "url": "https://www.numeral.com/blog/series-c",
+          "originalTitle": "Numeral Raises $100 Million Series C to Expand AI-Powered Tax Compliance Across Industries",
+          "publishedAt": "2026-09-23T00:00:00Z"
+        },
+        {
+          "name": "Tax Foundation",
+          "url": "https://taxfoundation.org/research/all/state/marketplace-facilitator-laws/",
+          "originalTitle": "Marketplace Facilitator Laws"
+        }
+      ]
+    },
+    {
+      "id": "precision-neuroscience-series-d",
+      "title": "Precision：脑机接口获2.5亿美元D轮",
+      "brief": "Precision 做微创脑机接口，获 2.5 亿美元 D 轮，媒体称估值略超 10 亿美元。启示：国内脑机接口有政策支持，关键资源是临床与器械注册能力。",
+      "summary": "做什么：美国 Precision Neuroscience 开发微创脑机接口（BCI），电极薄膜贴在大脑表面而不刺入脑组织；2025 年 4 月其 Layer 7 电极获美国 FDA 许可，可临时植入最长 30 天，已在 18 家机构完成 100 多例手术，并与美敦力合作。怎样赚钱：短期靠临时植入产品和合作收入，长期靠永久植入设备销售（分析：永久植入产品获批预计还需数年）。增长证据：融资——9 月 24 日宣布 2.5 亿美元 D 轮，Pershing Square、Ackman Oxman Institute 与一家未具名生命科学基金联合领投，累计融资 4.3 亿美元；估值——TNW 援引《纽约时报》称略高于 10 亿美元（媒体转述）；营收——⚠️ 待核实：未披露。中国落地条件：新华社报道，工信部等七部门 2025 年 8 月发文，提出 2027、2030 年脑机接口产业发展目标；机构观点：赛迪顾问测算 2024 年国内市场 32.0 亿元、2028 年 61.4 亿元。门槛是三类医疗器械注册、临床试验资源和神经外科合作医院。风险：法律——器械审批周期长；声誉——植入安全事故会波及整个赛道；持续经营——商业化前需要持续大额融资。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "医疗科技方向本周最大单笔融资之一，且国内有明确产业政策，便于判断中国落地条件。"
+      },
+      "sources": [
+        {
+          "name": "BioSpace（公司新闻稿）",
+          "url": "https://www.biospace.com/press-releases/precision-neuroscience-closes-oversubscribed-250m-series-d-led-by-pershing-square-inc-the-ackman-oxman-institute-and-a-leading-life-sciences-investment-fund",
+          "originalTitle": "Precision Neuroscience Closes Oversubscribed $250M Series D Led by Pershing Square Inc., The Ackman Oxman Institute, and a Leading Life Sciences Investment Fund",
+          "publishedAt": "2026-09-24T13:15:17Z"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/precision-neuroscience-250m-series-d-1bn-valuation-ackman",
+          "originalTitle": "Precision Neuroscience raises $250M Series D at $1bn valuation",
+          "publishedAt": "2026-09-24T18:27:49Z"
+        },
+        {
+          "name": "新华网",
+          "url": "http://www.news.cn/tech/20250808/3bd25fa307d14f32b2dd67f480212cbd/c.html"
+        }
+      ]
+    },
+    {
+      "id": "enveda-series-e-natural-drugs",
+      "title": "Enveda：AI筛天然分子，估值20亿美元",
+      "brief": "Enveda 用 AI 从植物和微生物中找新药，获 3.11 亿美元 E 轮，估值一年翻倍至 20 亿美元。启示：天然产物数据可成为 AI 制药的差异化资源。",
+      "summary": "做什么：美国 Enveda 成立于 2019 年，用 AI 等技术从植物和微生物中发现候选药物，已有多款药物进入人体临床试验，包括一款针对重度皮肤病、一款用于停用 GLP-1 减重药后维持体重。怎样赚钱：生物科技典型模式——推进自有管线，靠对外授权（licensing）的首付款、里程碑付款和未来药品销售获利。增长证据：融资——9 月 23 日获 3.11 亿美元 E 轮，Catalio Capital Management 领投，Iconiq 等参投；估值——20 亿美元，为 12 个月前的两倍（TechCrunch）；营收——⚠️ 待核实：未披露。TechCrunch 同时指出，AI 至今尚未产出获 FDA 批准的药物。中国落地条件：中国有丰富的中药和天然产物资源，AI 制药初创公司也较多；门槛在于高质量分子数据、临床开发资金和新药注册经验。分析：对非药企背景的创业者，更现实的切入点是为药企提供天然产物数据整理与分析服务，而非自建临床管线。风险：持续经营——研发周期长、临床失败率高，AI 发现的分子同样要走完完整临床试验；法律——利用生物遗传资源和传统知识时须遵守获取与惠益分享的相关规定。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "估值一年翻倍，代表资本对 AI 制药进入临床阶段的定价，可对照国内中药与天然产物资源。"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
+          "originalTitle": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
+          "publishedAt": "2026-09-23T19:31:28Z"
+        }
+      ]
+    },
+    {
+      "id": "rainmaker-series-b-cloud-seeding",
+      "title": "Rainmaker：无人机人工增雨获1亿美元",
+      "brief": "Rainmaker 用无人机播撒碘化银增雨，获 1 亿美元 B 轮，自报 4 个月增水超 1.45 亿加仑。启示：国内增雨由气象部门主导，民企宜做设备与数据。",
+      "summary": "做什么：美国 Rainmaker 用无人机在云中播撒碘化银，进行人工增雨增雪（cloud seeding），并用观测数据验证效果。怎样赚钱：向需要水资源的机构出售增水服务（⚠️ 待核实：客户类型与定价未公开）。增长证据：融资——9 月 21 日宣布 1 亿美元 B 轮，NOA VC、Upfront、DCVC、Lowercarbon、Dream Ventures 等参投；业务数据——公司自报 4 个月内记录 82 次播撒信号、经验证增水超过 1.45 亿加仑，约相当于 1,800 个美国家庭一年用水；8 月在阿拉斯加荷马附近约 3 小时增水 1,900 万加仑（公司自报，未见独立验证）；营收与估值——⚠️ 待核实：未披露。中国落地条件：《人工影响天气管理条例》（2002 年施行，2020 年修订）规定，人工影响天气由各级气象主管机构组织实施，属公益性事业，作业单位须具备规定条件，作业须申请空域。分析：民营企业直接卖增雨服务的空间很小，可行方向是向气象部门供应作业无人机、催化剂和效果评估软件。风险：法律——作业资质与空域管理；声誉——增雨效果和环境影响存在科学争议；持续经营——客户集中在政府部门，受财政预算影响。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "气候与水资源方向的新融资，商业模式新但中国监管差异大，适合作为「落地条件决定机会」的反例。"
+      },
+      "sources": [
+        {
+          "name": "PR Newswire（公司新闻稿）",
+          "url": "http://www.prnewswire.com/news-releases/rainmaker-raises-100m-series-b-to-scale-low-cost-water-production-and-weather-modification-302884251.html",
+          "originalTitle": "Rainmaker Raises $100M Series B to Scale Low-Cost Water Production and Weather Modification",
+          "publishedAt": "2026-09-21T10:00:00Z"
+        },
+        {
+          "name": "中国政府网",
+          "url": "https://www.gov.cn/gongbao/content/2002/content_61404.htm",
+          "originalTitle": "人工影响天气管理条例"
+        }
+      ]
+    },
+    {
+      "id": "report-agent-security-china-market",
+      "title": "需求与市场：Gartner称AI安全支出明年增68.7%",
+      "brief": "机构观点：全球「保护 AI」市场 2027 年约 47.8 亿美元，增速最快的是 AI 使用管控和 AI 网关。",
+      "summary": "机构观点：Gartner 2026 年 8 月 26 日发布预测（本文据 SecurityBrief 转述，Gartner 原页需人机验证，未能直接读取）：「保护 AI」（securing AI）市场将从 2026 年的 28.35 亿美元增至 2027 年的 47.83 亿美元，增长 68.7%，2028 年近 77 亿美元。口径：只算保护 AI 模型、应用和内部使用的工具，不含「用 AI 做安全」的产品。细分：2027 年 AI 应用安全约 8.51 亿美元，规模最大；AI 使用管控（AI usage control）7.49 亿美元，增速最快，达 73%；AI 治理平台 4.62 亿美元；AI 网关 4.29 亿美元，增 70.9%。Gartner 还预计，到 2029 年针对 AI 智能体的成功攻击中，超过一半将利用访问控制缺陷和提示注入。分析：这是全球口径，未单列中国；增速最快的「使用管控」和「网关」，正是企业管住员工和智能体如何用 AI 的环节，也是国内头部厂商已切入的方向（见第 5 节）。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "报告第 2 节：用机构测算给出市场规模和细分增速，明确口径。"
+      },
+      "sources": [
+        {
+          "name": "SecurityBrief Australia",
+          "url": "https://securitybrief.com.au/story/gartner-sees-securing-ai-market-hit-usd-4-8bn-in-2027",
+          "originalTitle": "Gartner sees securing AI market hit USD $4.8bn in 2027",
+          "publishedAt": "2026-08-26T23:15:00Z"
+        },
+        {
+          "name": "Gartner（原新闻稿）",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-08-26-gartner-forecasts-the-market-for-securing-ai-will-reach-almost-5-billion-in-2027",
+          "originalTitle": "Gartner Forecasts the Market for Securing AI Will Reach $4.8 Billion in 2027"
+        }
+      ]
+    },
+    {
+      "id": "report-agent-security-china-peers",
+      "title": "对标公司：Island与AIR的两种打法",
+      "brief": "Island 从企业浏览器延伸到智能体管控，估值 64 亿美元；AIR 专做智能体插件供应链审查，种子轮共 5000 万美元。",
+      "summary": "Island（美国达拉斯）：原做企业浏览器，现定位为同时管理员工与 AI 智能体的「智能体控制平面」（agentic control plane），可查看、管控和审计人与智能体对应用和数据的操作。9 月 24 日宣布 4 亿美元 F 轮，Evolution Equity Partners 领投，红杉资本、Coatue、摩根大通成长股权等老股东跟投，估值 64 亿美元，公司称较 2024 年翻倍以上（营收数据见第 4 节）。AIR：团队来自以色列 8200 部队，9 月 1 日结束隐身状态，两轮种子融资共 5000 万美元（红杉领投首轮 1000 万美元，Greenoaks 领投第二轮 4000 万美元）；产品先发现企业内运行的智能体，再持续审查它们使用的技能（skills）、插件和 MCP 服务器等组件，不达标即阻断，另设经过审查的插件市场；营收未披露。分析：两家代表两种打法——Island 从已占据的大客户入口（浏览器）向上延伸；AIR 抓住智能体「软件供应链」这一新缺口。国内对应角色见第 5 节。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "报告第 3 节：一家成熟、一家早期，对照两种进入路径。"
+      },
+      "sources": [
+        {
+          "name": "Island（公司新闻稿）",
+          "url": "https://www.island.io/press/island-announces-400-million-series-f-bringing-valuation-to-6-4-billion",
+          "originalTitle": "Island Announces $400 Million Series F, Bringing Valuation to $6.4 Billion",
+          "publishedAt": "2026-09-24T00:00:00Z"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+          "originalTitle": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
+          "publishedAt": "2026-09-01T15:45:51Z"
+        }
+      ]
+    },
+    {
+      "id": "report-agent-security-china-model",
+      "title": "商业模式与收入成本：已知与未知",
+      "brief": "Island 营收约 2 亿美元、员工约 1,000 人，仍在用融资换增长；定价和毛利未公开。小团队更现实的收入是项目制服务。",
+      "summary": "已知：据以色列 Calcalist 报道，截至 2026 年 9 月 Island 营收约 2 亿美元、年增约 100%，公司称其年度经常性收入（ARR）自 2022 年上线起每个财年翻倍；员工约 1,000 人，去年为 500 多人。SiliconANGLE 介绍，其产品以软件即服务（SaaS）形式交付，能在第三方云应用界面上叠加客户自定义的安全功能，并采集用户与应用交互的遥测数据。⚠️ 待核实：Island 与 AIR 均未公开定价、毛利率和获客成本。分析：用上述两个数粗算，Island 人均营收约 20 万美元，低于不少成熟 SaaS 公司，说明它仍处在用融资换增长的阶段；这类业务的主要成本是研发和大客户直销团队，单位经济（unit economics）取决于单个大客户能否持续增加席位和模块。对小团队的含义：没有资金养大型研发和直销团队时，更现实的收入来源是按项目收费的安全评估、实施和运维服务，再逐步沉淀成可复用的工具。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "报告第 4 节：用对标公司的公开数字推算收入和成本结构，区分已知与待核实。"
+      },
+      "sources": [
+        {
+          "name": "Calcalist（CTech）",
+          "url": "https://www.calcalistech.com/ctechnews/article/bkonawz9fx",
+          "originalTitle": "Island raises $400 million at $6.4 billion valuation as AI agents reshape enterprise security",
+          "publishedAt": "2026-09-24T10:00:00Z"
+        },
+        {
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/09/24/enterprise-browser-developer-island-raises-400m-at-6-4b-valuation/",
+          "originalTitle": "Enterprise browser developer Island raises $400M at $6.4B valuation",
+          "publishedAt": "2026-09-25T00:26:05Z"
+        }
+      ]
+    },
+    {
+      "id": "report-agent-security-china-competition",
+      "title": "竞争与进入门槛：奇安信等头部厂商已入场",
+      "brief": "奇安信已推出智能体安全产品并首批通过信通院评估；渠道、资质和资金是新进入者的三道门槛。",
+      "summary": "已核实事实：奇安信 2026 年 3 月 16 日发布面向政企的「龙虾安全伴侣」，用于监测和管控 OpenClaw（一款开源自托管 AI 智能体，业内昵称「龙虾」）的调用行为、数据访问和技能（Skill）使用，并上线 Skill 安全性鉴定平台 SAFESKILL；随后首批通过中国信通院依据《OpenClaw 类智能体安全防护产品能力要求与评估方法》组织的评估，覆盖沙箱隔离、权限控制、提示注入防护、插件安全等 9 项指标（公司自报）。另据证券时报，2026 年 6 月 24 日信通院人工智能研究所与三六零联合发布《企业级智能体技术与应用研究报告（2026 年）》。分析：头部厂商已占住「产品 + 评测 + 标准」三个位置。新进入者的门槛：① 渠道——政企与金融客户依赖既有供应商和招投标；② 资质——评测结果正在成为采购参考；③ 资金——通用平台需要长期研发投入。更可能的切口是细分行业的上线前评估、Skill 与插件供应链审查，或给头部厂商做实施伙伴。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "报告第 5 节：国内竞争格局决定新进入者应做产品还是做服务。"
+      },
+      "sources": [
+        {
+          "name": "奇安信官网",
+          "url": "https://www.qianxin.com/news/detail?news_id=14691",
+          "originalTitle": "首家安全厂商！奇安信龙虾安全伴侣通过中国信通院OpenClaw类智能体安全防护产品能力评测"
+        },
+        {
+          "name": "证券时报网（人民财讯）",
+          "url": "https://www.stcn.com/article/detail/3979014.html",
+          "originalTitle": "中国信通院人工智能所联合发布《企业级智能体技术与应用研究报告（2026年）》",
+          "publishedAt": "2026-06-25T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "report-agent-security-china-conditions",
+      "title": "中国落地条件：修订后网安法写入AI条款",
+      "brief": "修订后的《网络安全法》2026 年起施行，新增 AI 安全条款；数据合规和私有化部署是落地前提，大客户账期长。",
+      "summary": "已核实事实：2025 年 10 月 28 日，全国人大常委会通过修改《网络安全法》的决定，新增第二十条专门规定人工智能安全与发展，要求完善伦理规范、加强风险监测评估和安全监管，同时支持运用 AI 等新技术提升网络安全保护水平；修改后的法律于 2026 年 1 月 1 日施行。网信办刊发的专家解读指出，这为后续专项立法细化 AI 监管、算法透明度和数据合法性审查等规则奠定了基础。分析：落地条件分五项看——① 监管：基调是发展与安全并重，目前未见强制企业采购智能体安全产品的专门规定，需求更多由网络安全等级保护（等保）、数据安全和行业监管检查带动；② 数据合规：智能体要读写企业数据，方案须支持本地化部署、日志留存和数据不出境，私有化部署产品更有优势；③ 渠道：政企和金融客户靠招投标与既有供应商，新团队通常要借助集成商；④ 人才：同时懂大模型和安全攻防的人少；⑤ 付款：大客户按项目验收付款，账期较长。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "报告第 6 节：以现行法律为依据，列出监管、数据合规、渠道、人才和付款条件。"
+      },
+      "sources": [
+        {
+          "name": "中央网信办",
+          "url": "https://www.cac.gov.cn/2026-01/02/c_1769093523928606.htm",
+          "originalTitle": "专家解读｜《网络安全法》修改，积极应对人工智能治理安全挑战",
+          "publishedAt": "2026-01-02T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "report-agent-security-china-risks",
+      "title": "主要风险：预算收紧与回款周期长",
+      "brief": "奇安信上半年营收降 14.09%、经营现金流 -7.22 亿元，客户削减预算、项目延期；小团队最大的风险是垫资和账期。",
+      "summary": "已核实事实：奇安信 2026 年半年度报告显示，上半年营业收入 14.97 亿元，同比下降 14.09%；归属于上市公司股东的净利润 -4.11 亿元，亏损较上年同期收窄；经营活动现金流量净额 -7.22 亿元（上年同期 -11.43 亿元）。公司解释：受宏观环境及政府财政情况影响，客户普遍削减预算、项目延期；行业价格竞争激烈，预算向毛利率较低的安全服务倾斜。分析：五类风险——① 持续经营：头部上市公司都承受亏损和回款压力，小团队若依赖政企项目，垫资和账期可能先耗尽现金；② 宏观：AI 安全是新增预算还是挤占原有安全预算，尚无公开数据；③ 平台规则：OpenClaw 等开源框架和大模型接口变化快，防护产品要持续适配；④ 法律：替客户做安全测试必须事先取得书面授权，越界测试可能违法；⑤ 声誉：安全产品一旦被绕过，客户信任很难恢复。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "报告第 7 节：用国内头部厂商的最新财报说明预算和现金流风险。"
+      },
+      "sources": [
+        {
+          "name": "巨潮资讯网（奇安信 2026 年半年度报告）",
+          "url": "http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260827/377875ae6cea484484c014d01a7c0adc.PDF",
+          "publishedAt": "2026-08-26T16:00:00Z"
+        },
+        {
+          "name": "腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20260828A08S2H00",
+          "originalTitle": "奇安信2026年半年度营收14.97亿元，同比下降14.09%",
+          "publishedAt": "2026-08-28T08:04:17Z"
+        }
+      ]
+    },
+    {
+      "id": "report-agent-security-china-scenarios",
+      "title": "情景预测：三种情景与触发信号",
+      "brief": "乐观看监管细则或重大事件，基准看试点附带采购，保守看预算继续收紧；以招标是否单列「智能体安全」为主要信号。",
+      "summary": "背景（机构观点）：据 CIO 报道，Gartner 2026 年 7 月 1 日称，到 2030 年最多 2,340 亿美元的企业应用软件支出面临「智能体套利」（agentic arbitrage）冲击，约占届时企业 SaaS 支出的 20%，即智能体绕过人工界面直接操作业务系统。智能体越多直接操作业务系统，权限管控和审计需求就越大。三种情景（不给概率）：乐观——前提：主管部门出台智能体安全使用的具体要求，或发生影响广泛的智能体数据泄露事件；信号：金融、能源行业招标出现「智能体安全」单列标段。基准——前提：大客户在 AI 试点项目中附带采购，预算来自原有安全预算；信号：头部厂商财报把相关收入并入 AI 安全、不单独披露。保守——前提：财政和企业预算继续收紧，智能体规模部署推迟；信号：相关采购被打包进「大模型安全网关」等项目，单价被压低。分析：结合第 5 节的厂商布局和第 7 节的预算收紧，未来 12 个月更接近基准情景，这是定性判断。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "报告第 8 节：给出三种情景的前提与可观察信号，便于后续逐期对照。"
+      },
+      "sources": [
+        {
+          "name": "CIO",
+          "url": "https://www.cio.com/article/4192242/agentic-ai-puts-234b-in-enterprise-saas-spending-at-risk-gartner-says.html",
+          "originalTitle": "Agentic AI puts $234B in enterprise SaaS spending at risk, Gartner says",
+          "publishedAt": "2026-07-02T06:40:20Z"
+        },
+        {
+          "name": "Gartner（原新闻稿）",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence",
+          "originalTitle": "Gartner Says $234 Billion in Enterprise Application Software Spend Is at Risk from Agentic AI"
+        }
+      ]
+    },
+    {
+      "id": "report-agent-security-china-actions",
+      "title": "30天可验证行动：访谈、清单、招标、落地页",
+      "brief": "30 天内做四件事：访谈 10 位安全负责人、做中文风险自查表、统计近 6 个月招标、上线服务页测预约数。",
+      "summary": "以下四项都能在 30 天内完成，并用结果判断结论对错：① 客户访谈：约 10 位金融、制造或互联网企业的信息安全负责人，问三件事——是否已在生产环境使用智能体、今年有没有单列 AI 安全预算、最担心哪类风险。判断标准：至少 3 家有明确预算或采购计划，才说明需求可付费。② 风险清单：以 OWASP 发布的《智能体应用十大风险（2026）》（OWASP Top 10 for Agentic Applications，2025 年 12 月发布，100 多位业内专家参与）为框架，做一页中文自查表，访谈时请对方勾选，找出最痛的几项。③ 招标检索：在公开招投标平台检索近 6 个月含「智能体安全」「大模型安全」的项目，统计数量、金额和中标方；若多为头部厂商中标，就转向做实施伙伴。④ 落地页测试：上线「智能体上线前安全评估」服务说明页，定向推送给上述人群，以预约咨询数衡量兴趣。风险提示：任何安全测试都须先取得客户书面授权。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "报告第 9 节：把结论变成 30 天内可检验的动作和判断标准。"
+      },
+      "sources": [
+        {
+          "name": "OWASP GenAI Security Project",
+          "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+          "originalTitle": "OWASP Top 10 for Agentic Applications for 2026",
+          "publishedAt": "2025-12-10T07:55:54Z"
+        }
+      ]
+    }
+  ]
+}
