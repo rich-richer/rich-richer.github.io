@@ -103,6 +103,20 @@
 | [双语新闻 9/27](https://rich-richer.github.io/p/daily-news/?date=2026-09-27#openai-anthropic-agent-safety-incidents)、[选题简报 9/27](https://rich-richer.github.io/p/topic-radar/?date=2026-09-27#openai-anthropic-safety-scandal-topic)、AI 安全 9/27 | 标题写「OpenAI、Anthropic 曝 / 披露数万起事件」 | The Decoder 文中没有 Anthropic 的表态；Axios 原文尚未核对 Anthropic 是否确认 | ⚠️ 待核实：核对 Axios 原文后，若无 Anthropic 确认，改为「据 Axios，OpenAI 等公司正调查数万起……」 |
 | [赛道周报 9/25](https://rich-richer.github.io/p/venture-weekly/?date=2026-09-25#anthropic-ipo-november) | 标题「估值约 2 万亿美元」 | 正文为「投资者此前预计上市估值约 2 万亿美元」，来源只有 IT 之家转述《华尔街日报》；与双语新闻 9/26 所引「5 月估值 9650 亿美元、二级市场 1.5 万亿美元」口径不同 | 标题改为「投资者预期估值约 2 万亿美元」，正文加「⚠️（媒体转述）」 |
 
+### 勘误处理结果（2026-09-27，用户同意勘误后）
+
+核对 Axios 原文后：Axios 写的是「OpenAI、Anthropic 与安全研究人员正在调查数万起事件」，OpenAI「暂停最强模型的训练」；Anthropic 未就此发表声明。据此：
+
+| 条目 | 处理 |
+| --- | --- |
+| AI 安全 9/27 头条 | **已勘误**（第 2 版）：标题改为「正调查」；删去「被官方披露」「厂商首次以具体数字承认」；摘要末尾附勘误说明 |
+| 理财课 9/27「新闻怎么读」 | **已勘误**（第 2 版）：简述改为「据 Axios 报道……正调查」；摘要末尾附勘误说明 |
+| 赛道周报 9/25「Anthropic 拟 11 月上市」 | **已勘误**（第 2 版）：标题改为「投资者预期估值约 2 万亿」；正文加「⚠️（媒体转述）」和勘误说明 |
+| 早晨简报 9/27「OpenAI 暂停最强模型训练」 | **不改**：Axios 原文即为暂停训练，表述有依据 |
+| 双语新闻 9/27「曝数万起」、选题简报 9/27 | **不改**：均写「据 Axios」「正调查」，与原文一致 |
+
+所有勘误条目的 id、来源、覆盖时段和发布时间不变，原网址和锚点有效。
+
 ## 六、检查结果（2026-09-27，本机构建）
 
 | 项目 | 结果 |

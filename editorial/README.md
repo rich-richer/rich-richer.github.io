@@ -154,6 +154,7 @@ node automation/publish.mjs <id> [<id> ...] --push
 | `--date YYYY-MM-DD` | 指定期号日期，默认上海时间今天 |
 | `--allow-history` | 补发历史日期（须用户明确要求） |
 | `--allow-warnings` | 有长度 / 优先级提醒时仍继续（须用户明确同意，默认不用） |
+| `--correction` | 勘误专用：跳过跨刊物去重检查（旧条目原本的共用来源不再拦截），其余预检照常；须用户已同意勘误 |
 
 脚本在写入正式日报**之前**，先用原项目的校验和提醒规则预检候选稿，有问题就中止。任何一步失败都不提交、不推送，退出码为 1，日志在 `automation/logs/`（不进仓库）。它只提交本次的 `publications/<id>/data/issues/YYYY-MM-DD.json`。
 
@@ -207,6 +208,6 @@ node automation/publish.mjs <id> [<id> ...] --push
 ## 11. 勘误
 
 - 不直接改写已发布的正文。发现已发布内容可能有误时，先在向用户的报告中列出「待核实 / 勘误建议」，由用户决定。
-- 用户同意勘误后，在**当期**用更新模式重新出刊（复用原 `coverage` 和条目 `id`，程序会升级 revision 并保留其他条目），在该条 summary 末尾加「【勘误 YYYY-MM-DD】原写……，更正为……」。条目 `id` 不变，原有网址和锚点继续有效。
+- 用户同意勘误后，在**当期**用更新模式重新出刊（候选稿只放要改的条目，复用原 `coverage`、`generatedAt`、条目 `id` 和来源，程序会升级 revision 并保留其他条目），在该条 summary 末尾（EN 行之前）加「【勘误 YYYY-MM-DD】原写……，更正为……」，出刊脚本加 `--correction`。条目 `id` 不变，原有网址和锚点继续有效。
 - 历史日期的勘误需要 `--allow-history`，须用户明确同意。
 

@@ -1,5 +1,5 @@
 // 一键出刊：预检 → 校验入库 → 测试 → 构建 → 提交 →（可选）推送。任何一步失败即中止。
-// 用法：node automation/publish.mjs <刊物ID...> [--date YYYY-MM-DD] [--push] [--allow-history] [--allow-warnings]
+// 用法：node automation/publish.mjs <刊物ID...> [--date YYYY-MM-DD] [--push] [--allow-history] [--allow-warnings] [--correction]
 import { spawnSync } from "node:child_process";
 import { appendFileSync, existsSync, mkdirSync, readFileSync } from "node:fs";
 import path from "node:path";
@@ -35,13 +35,14 @@ function run(command, args, step) {
 }
 
 function parseArguments(args) {
-  const options = { ids: [], date: shanghaiDate(), push: false, allowHistory: false, allowWarnings: false };
+  const options = { ids: [], date: shanghaiDate(), push: false, allowHistory: false, allowWarnings: false, correction: false };
   for (let index = 0; index < args.length; index += 1) {
     const argument = args[index];
     if (argument === "--date") options.date = args[++index];
     else if (argument === "--push") options.push = true;
     else if (argument === "--allow-history") options.allowHistory = true;
     else if (argument === "--allow-warnings") options.allowWarnings = true;
+    else if (argument === "--correction") options.correction = true;
     else if (argument.startsWith("--")) abort("参数", `未知参数 ${argument}`);
     else options.ids.push(argument);
   }
@@ -88,7 +89,9 @@ for (const id of options.ids) {
 
 // 跨刊物去重（规则见 editorial/README.md「事件去重」）：最近 14 天内其他刊物已完整报道的事件，
 // 本刊只能写短摘要并在 sources 中加入对方的本站链接；同批出刊的几份刊物之间同样检查
-{
+// 勘误（--correction）只改已发布条目的文字，旧条目原本的跨刊共用来源不在此检查
+if (options.correction) log("勘误模式：跳过跨刊物去重检查");
+else {
   const batch = new Set(candidates.map(({ id }) => `${id}/${options.date}`));
   const published = loadPublishedItems(rootDir, registry.publicationIds, daysBefore(options.date, WINDOW_DAYS), options.date)
     .filter((entry) => !batch.has(`${entry.publicationId}/${entry.date}`));
