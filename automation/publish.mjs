@@ -12,6 +12,10 @@ import { canonicalLink, daysBefore, findDuplicateEvents, loadPublishedItems, WIN
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 // 个别刊物按原例程需要更长的 summary（卡片仍按版面截断，「展开全文」可看全），此处放宽预检上限
 const SUMMARY_MAX = { "compute-intel": 650, "global-ventures": 650 };
+// 手册规定每期必出的栏目（category → 最少条数）与头条所属栏目；勘误模式不检查
+const REQUIRED_LAYOUT = {
+  "education-weekly": { counts: { 数据面: 2, 就业面: 2, 选专业建议: 4, 选行业建议: 3 }, lead: ["选专业建议", "选行业建议"] },
+};
 const logDir = path.join(rootDir, "automation", "logs");
 mkdirSync(logDir, { recursive: true });
 const logFile = path.join(logDir, `${new Date().toISOString().replace(/[:.]/g, "-")}.log`);
@@ -75,6 +79,16 @@ for (const id of options.ids) {
       if (owner && owner !== item.id) abort("预检", `${id} 的 ${owner} 与 ${item.id} 共用来源 ${source.url}，同一期内每个来源只能属于一条`);
       urlOwner.set(source.url, item.id);
     }
+  }
+  const layout = REQUIRED_LAYOUT[id];
+  if (layout && !options.correction) {
+    const missing = Object.entries(layout.counts)
+      .map(([category, min]) => [category, min, candidate.items.filter((item) => item.category === category).length])
+      .filter(([, min, count]) => count < min)
+      .map(([category, min, count]) => `${category} ${count}/${min} 条`);
+    const lead = candidate.items.find((item) => item.editorial.priority === "lead");
+    if (!lead || !layout.lead.includes(lead.category)) missing.push(`头条须属于 ${layout.lead.join(" 或 ")}`);
+    if (missing.length > 0) abort("预检", `${id} 栏目不全（见手册）：${missing.join("；")}`);
   }
   const site = JSON.parse(readFileSync(path.join(rootDir, "publications", id, "config/site.json"), "utf8"));
   const warnings = normalizePriorities(candidate, site.priorityLimits).warnings.filter((warning) =>
