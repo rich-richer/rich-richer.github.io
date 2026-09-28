@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T10:10:00+08:00",
+  "coverage": {
+    "start": "2026-09-27T13:36:46+08:00",
+    "end": "2026-09-28T10:10:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "ev-repair-cost-topic",
+      "title": "电车买得起修不起冲上热搜",
+      "brief": "电车维保成本话题冲上微博热搜第2，网友争论一体化压铸让维修变贵。切入：实测对比电车和油车的真实维修账单。",
+      "summary": "发生了什么：9月28日凌晨起，“电车买得起修不起”话题在微博发酵。网友讨论一体化压铸车身和集成电池包一旦磕碰，往往要整体更换总成，多数维修只能进4S店，保险报价也高于同级油车；也有车主反驳称，电车日常保养反而比油车省钱，不必放大焦虑。为什么火：该话题登上微博热搜榜第2位，热度值184.6万（北京时间2026年9月28日09:51采集自微博热搜实时榜）。切入角度：①找一家4S店和一家第三方修理厂，就同一处剐蹭分别问价，用真实账单回应“修不起”的说法，适合短视频；②采访做新能源配件跨境生意的商家，讲清楚“一体化压铸”为什么把零整比推高，适合长视频科普；③整理一份“买电车前必看的质保和保险条款清单”，图文形式发小红书或公众号，兼顾实用性和长尾搜索流量。",
+      "category": "国内",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "汽车维保成本是几乎所有电车车主都会遇到的真实问题，热度值184.6万、排名第2，情绪共鸣强；能自然导向AIggy关注的供应链和成本拆解角度，短视频和图文都能做，差异化空间大。"
+      },
+      "sources": [
+        {
+          "name": "新浪新闻",
+          "url": "https://www.sina.cn/weibo/detail/5348053341178252.html",
+          "publishedAt": "2026-09-28T01:25:00.000Z"
+        },
+        {
+          "name": "微博热搜榜",
+          "url": "https://s.weibo.com/top/summary?cate=realtimehot",
+          "discoveredAt": "2026-09-28T01:51:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "luoyonghao-zhenggang-tax-topic",
+      "title": "罗永浩遭郑刚实名举报偷税漏税",
+      "brief": "紫辉创投郑刚实名举报罗永浩偷税漏税，罗永浩硬刚回应。切入：借这场骂战聊聊网红公司的税务合规风险。",
+      "summary": "发生了什么：紫辉创投创始合伙人郑刚9月27日晚在微博实名举报罗永浩和“交个朋友”名下数十家已注销的有限合伙企业涉嫌重大偷税漏税。他征集律师和会计师核账，承诺按比例分成追回税款。罗永浩9月28日回应称对方诬告，已截屏取证，并反指郑刚是失信被执行人、疑似非法出境（新浪财经，2026-09-28 07:13）。双方矛盾源于锤子科技当年一笔1500万元借款纠纷，此前还因“溜溜凳”质量问题引发关注。为什么火：截至北京时间2026年9月28日09:51，“罗永浩遭实名举报偷税漏税”登上微博热搜榜第22位（热度值235586），相关词条“罗永浩大概率够给郑刚判刑了”排第23位、“郑刚锤子科技”排第33位，三条同时在榜。切入角度：①用时间线梳理两人多年恩怨，做成“网红商业纠纷”系列短视频；②借举报由头科普“公司注销后还能不能被追税”，适合图文长文；③讨论网红公司代持、空壳合伙企业的税务风险，适合长视频。",
+      "category": "国内",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "罗永浩自带流量，这场撕逼从“溜溜凳”质量问题升级到偷税指控，故事性强、素材多；税务合规角度和AIggy的企业管理经验直接相关，能做出差异化的“扒账”内容。"
+      },
+      "sources": [
+        {
+          "name": "新浪财经",
+          "url": "https://finance.sina.com.cn/tech/discovery/2026-09-28/doc-initirzp9691549.shtml",
+          "publishedAt": "2026-09-27T23:13:00.000Z"
+        },
+        {
+          "name": "搜狐网",
+          "url": "https://www.sohu.com/a/1081591046_114984"
+        }
+      ]
+    },
+    {
+      "id": "openai-devday-o-agent-topic",
+      "title": "OpenAI DevDay倒计时催热常驻智能体猜测",
+      "brief": "OpenAI在X上倒计时DevDay，网友挖出常驻智能体代号o的代码线索。切入：赶在9/29发布会前抢发预测内容。",
+      "summary": "发生了什么：OpenAI官方账号@OpenAIDevs在X连续发帖，倒计时9月29日的DevDay发布会。开发者从chatgpt.com代码里挖出代号“o”的常驻智能体（always-on agent），猜测对标Grok Bot和Meta Muse，最早本周四上线。为什么火：截至北京时间2026年9月28日10点左右，该帖“72 hours to OpenAI DevDay”已有110万次查看、591条回复、481次转发、9300次点赞（X，发布于UTC 9月27日03:28）。切入角度：①发布会前做“DevDay会发布什么”预测短视频，抢首发热度；②做“常驻智能体是什么”科普长视频，面向创业者观众；③把OpenAI“o”与Grok Bot、Meta Muse的思路做成图文对比表，适合公众号或小红书。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "DevDay是9月29日才正式揭晓的确定性事件，现在做预测内容能抢在同行前面拿到首发流量；受众是关心AI应用趋势的创业者，和AIggy想提升的AI专业能力直接相关。"
+      },
+      "sources": [
+        {
+          "originalTitle": "72 hours to OpenAI DevDay. We've been building. Time to show our work.",
+          "name": "OpenAI Developers（X）",
+          "url": "https://x.com/OpenAIDevs/status/2103929727761137940",
+          "publishedAt": "2026-09-27T03:28:00.000Z"
+        },
+        {
+          "originalTitle": "\"o\" Update — OpenAI's always-on agent, their answer to Grok Bot/Muse, spotted in chatgpt.com's code",
+          "name": "Codex Update（X）",
+          "url": "https://x.com/CodexResets1/status/2103871023942680684",
+          "publishedAt": "2026-09-26T23:35:00.000Z"
+        }
+      ]
+    }
+  ]
+}

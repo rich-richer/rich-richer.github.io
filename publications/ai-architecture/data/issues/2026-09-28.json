@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T09:45:31+08:00",
+  "coverage": {
+    "start": "2026-09-21T09:45:31+08:00",
+    "end": "2026-09-28T09:45:31+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "transformer-linear-superposition-two-thoughts",
+      "title": "Transformer天生具备线性叠加特性，一次推理出两路续写",
+      "brief": "新论文证明Transformer架构天生具有线性叠加特性，可用于设计单次前向生成双路文本的解码方法。",
+      "summary": "本周 AI 架构领域最值得关注的是一篇重新描述 Transformer 底层行为的论文。Pavel Tikhonov、Ivan Oseledets 等 9 位作者 9 月 24 日在 arXiv 发表《Your Transformer Can Hold Two Thoughts at Once》（预印本 arXiv:2609.29845；论文未标注机构，据公开资料 Oseledets 为 Skoltech 教授、AIRI 科学委员会成员）。核心发现：两段文本嵌入逐 token 平均后输入模型，输出会呈现两路下一词分布的线性叠加，这是 Transformer 架构固有属性而非训练涌现结果，会随预训练减弱但可经微调恢复；据此设计的引导解码可从单次前向传播同时生成两段连贯续写。意义：若在更大模型上成立，有望降低多路输出场景的推理成本。局限：仅验证了文本续写任务，未给出生产级模型的吞吐收益数据。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "揭示 Transformer 输出存在线性叠加性质、并给出可用的双流解码方法，直接触及本刊「挑战/扩展 Transformer 范式」的核心关注点，本周研究社区热度也较高。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2609.29845",
+          "publishedAt": "2026-09-24T00:00:00Z"
+        },
+        {
+          "originalTitle": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.29845"
+        }
+      ]
+    },
+    {
+      "id": "amazon-rufus-air-post-training-recipe",
+      "title": "亚马逊公开 GLM-4.5-Air 后训练全流程",
+      "brief": "Amazon 用公开数据和开源组件复现 8 阶段后训练流程，效果超过官方版 GLM-4.5-Air。意义：给不掌握内部数据的团队提供了可复制的对齐路径。",
+      "summary": "亚马逊 23 位作者 9 月 24 日在 arXiv 发布《Rufus-Air: An Open LLM Post-Training Recipe》（v2 9 月 25 日更新，预印本 arXiv:2609.29421）。核心贡献：在开源 MoE 底座 GLM-4.5-Air-Base（1060 亿总参数、120 亿激活参数）上，给出一套完全公开、可复现的 8 阶段后训练流程——SFT、三类强化学习（推理/代码/指令遵循）、三类智能体训练（通用/代码/搜索）、RLHF，全程只用公开数据和开源组件（Slime、Megatron-LM、SGLang，自建沙箱），单阶段用 8 到 32 台 H200。结果：除创意写作外，各项基准均超过 Z.ai 官方后训练版本。意义：为缺内部数据和对齐团队的公司提供了可复制的开源对齐路径。局限：结论仅在这一个 106B MoE 基座上验证，能否迁移尚不清楚。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "全公开、可复现的大规模后训练方案，用开源组件在开源底座上跑赢了模型原厂的官方对齐版本，对训练/推理团队有直接参考价值。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Rufus-Air: An Open LLM Post-Training Recipe",
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2609.29421",
+          "publishedAt": "2026-09-24T00:00:00Z"
+        },
+        {
+          "originalTitle": "Rufus-Air: An Open LLM Post-Training Recipe",
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.29421"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-mimo-v2-6-mopd-tool-call-fix",
+      "title": "小米公开 MiMo-V2.6 工具调用重复的修复方案",
+      "brief": "小米用 MOPD 蒸馏修复工具调用重复问题，训练成本约 9 万美元，仅为直接调低阈值重启 MixRL 方案（231 万美元）的 4%。",
+      "summary": "小米 MiMo 团队 9 月 27 日在官方博客发布技术复盘：MiMo-V2.6-Pro-RL/Flash-RL 在智能体场景中会反复发出相同或高度相似的工具调用，响应级重复率超过 0.05%。溯源发现，32 次工具调用洪泛惩罚阈值过于宽松，重复行为在强化学习训练中被逐步放大——Flash-RL 的洪泛比例从第 0 步的 11.1% 升到第 20 步的 24.6%。直接把阈值降到 8 次需重启 20 步 MixRL，预估成本 231 万美元，重复率却只从 13.45% 降到 3.83%，没能根治。小米改用 MOPD（多教师同策略蒸馏）：先用约 7000 条样本训练一个专门惩罚重复的单轮 RL 教师，仅 12 步就把重复率清零，再蒸馏回主模型，最终重复率大幅下降、整体基准表现保持稳定，全部训练成本约 9 万美元，只有前一方案的 4%。修复后的权重已开源，API 自 9 月 25 日更新。",
+      "category": "训练与推理",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "把一次强化学习训练事故的完整诊断、代价核算和低成本修复方案公开，对做规模化 RL 训练的团队是少见的详实案例。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Diagnosing and Mitigating Tool-Call Repetition in MiMo-V2.6",
+          "name": "小米 MiMo 官方博客",
+          "url": "https://mimo.xiaomi.com/blog/mimo-v2-6-tool-call-repetition",
+          "publishedAt": "2026-09-26T16:00:00.000Z",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cmuk25h00156vro9h173e1zjz"
+          }
+        },
+        {
+          "name": "Hugging Face · XiaomiMiMo/MiMo-V2.6-Pro-MOPD",
+          "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-MOPD"
+        }
+      ]
+    },
+    {
+      "id": "qwen-image-2-1-unified-generation-editing",
+      "title": "通义千问开源 Qwen-Image-2.1 图像模型",
+      "brief": "阿里通义千问开源 7B 参数 Qwen-Image-2.1，单一权重即可生成与编辑图像，原生支持透明通道，采用非商用研究许可。",
+      "summary": "阿里通义千问团队 9 月 20—21 日发布并开源 Qwen-Image-2.1：一个 7B 参数、单一权重同时支持文生图与图像编辑的统一模型。技术上，视觉生成部分为 32 层 Single-Stream DiT，搭配 80 亿参数的 Qwen3-VL 作为文本/视觉编码器，VAE 为 64 通道、16 倍空间压缩，原生支持 RGBA 透明通道输出。编辑功能最多可接受 10 张参考图，并支持圈选、涂抹或独立蒙版指定局部编辑区域，原生分辨率达 2K。权重已上传 Hugging Face 与 ModelScope，许可为非商用的 Qwen Research License Agreement，商用需另行授权。意义：生成与编辑合并进同一套权重，减少了部署时维护两套模型的成本，但许可限制了商用场景的直接落地。",
+      "category": "开放权重模型",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "生成与编辑合一的统一权重、原生透明通道输出，是本周开放权重模型里技术上最扎实的一项，但许可仅限非商用需要提醒。"
+      },
+      "sources": [
+        {
+          "name": "GitHub · QwenLM/Qwen-Image-2.1",
+          "url": "https://github.com/QwenLM/Qwen-Image-2.1",
+          "publishedAt": "2026-09-20T00:00:00Z"
+        },
+        {
+          "originalTitle": "Qwen-Image-2.1 × @HuggingApps: live demo on Spaces! One single checkpoint for generation and edit",
+          "name": "X · Alibaba_Qwen",
+          "url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
+          "publishedAt": "2026-09-21T02:50:40.000Z",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cmuao05at0q8uro5tpc85e2kj"
+          }
+        }
+      ]
+    },
+    {
+      "id": "classic-paper-attention-is-all-you-need",
+      "title": "经典回顾：Transformer开山之作",
+      "brief": "回顾 2017 年 Google 提出的 Transformer 奠基论文《Attention Is All You Need》，梳理其贡献与局限。",
+      "summary": "经典论文回顾：《Attention Is All You Need》（中文常译《注意力就是你所需要的一切》）。作者 Ashish Vaswani、Noam Shazeer 等 8 人，分属 Google Brain 与 Google Research（Gomez 以多伦多大学实习生身份参与）。论文 2017 年 6 月 12 日提交 arXiv，同年在 NeurIPS 2017 正式发表。核心贡献：提出完全基于自注意力机制的 Transformer 架构，摒弃循环和卷积结构，大幅提升训练并行度，在 WMT2014 英德、英法翻译任务上取得当时最优成绩。局限：自注意力计算量和显存占用随序列长度呈平方级增长，长上下文代价高昂，此后线性注意力、状态空间模型、稀疏注意力等大量工作都在试图解决这一问题。状态：正式发表于 NeurIPS 2017，引用超 9 万次，是深度学习史上被引用最多的论文之一。",
+      "category": "经典论文回顾",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "改版后「经典论文回顾」首期，选择 Transformer 架构的开山之作作为起点，也呼应本期头条论文讨论的线性叠加发现所处的理论脉络。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Attention Is All You Need",
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/1706.03762",
+          "publishedAt": "2017-06-12T00:00:00Z"
+        },
+        {
+          "originalTitle": "Attention is All you Need",
+          "name": "NeurIPS 2017 Proceedings",
+          "url": "https://papers.nips.cc/paper/7181-attention-is-all-you-need"
+        }
+      ]
+    }
+  ]
+}
