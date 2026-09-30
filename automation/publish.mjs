@@ -9,6 +9,7 @@ import { shanghaiDate } from "../scripts/lib/pipeline.js";
 import { validateCandidate } from "../scripts/lib/validation.js";
 import { canonicalLink, daysBefore, findDuplicateEvents, loadPublishedItems, WINDOW_DAYS } from "./events.mjs";
 import { checkLayout } from "./layout.mjs";
+import { checkWeather, WEATHER_PATH } from "./weather.mjs";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 // 个别刊物按原例程需要更长的 summary（卡片仍按版面截断，「展开全文」可看全），此处放宽预检上限
@@ -115,6 +116,11 @@ else {
   log("✓ 跨刊物去重通过");
 }
 
+// 首页天气（editorial/README.md 第 12 节）：格式不对即中止；没更新只提醒，须写进出刊报告
+const weatherCheck = checkWeather(rootDir, options.date);
+weatherCheck.notes.forEach((note) => log(`提醒（不拦截，须写进出刊报告）：${note}`));
+if (weatherCheck.errors.length > 0) abort("预检", `首页天气 ${WEATHER_PATH} 格式不对：${weatherCheck.errors.join("；")}`);
+
 // 只检查（--check）：并行写稿的子任务用它自查候选稿，不写入、不提交、不推送
 if (options.check) {
   log("✓ 只检查完成：未写入、未提交、未推送。日志：" + path.relative(rootDir, logFile));
@@ -143,8 +149,9 @@ log("✓ 测试通过");
 run("npm", ["run", "build"], "构建");
 log("✓ 构建通过");
 
-// 4) 只提交本次的正式日报
+// 4) 只提交本次的正式日报，以及本次更新过的首页天气
 const issuePaths = options.ids.map((id) => `publications/${id}/data/issues/${options.date}.json`);
+if (spawnSync("git", ["status", "--porcelain", "--", WEATHER_PATH], { cwd: rootDir, encoding: "utf8" }).stdout.trim()) issuePaths.push(WEATHER_PATH);
 run("git", ["add", "--", ...issuePaths], "提交");
 const staged = spawnSync("git", ["diff", "--cached", "--quiet", "--", ...issuePaths], { cwd: rootDir });
 if (staged.status === 0) {

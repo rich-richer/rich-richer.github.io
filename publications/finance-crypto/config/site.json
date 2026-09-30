@@ -1,6 +1,6 @@
 {
-  "name": "工作日早晨简报（旧刊存档）",
-  "accentColor": "#B4532A",
+  "name": "金融与加密简报",
+  "accentColor": "#2E7D5B",
   "priorityLimits": {
     "lead": 1,
     "important": 2,

@@ -3,15 +3,16 @@
   "defaultPublicationId": "daily-news",
   "publicationIds": [
     "daily-news",
-    "morning-brief",
     "compute-intel",
     "topic-radar",
-    "finance-class",
+    "finance-crypto",
     "ai-architecture",
     "people-watch",
     "ai-safety",
     "global-ventures",
     "education-weekly",
-    "venture-weekly"
+    "venture-weekly",
+    "morning-brief",
+    "finance-class"
   ]
 }

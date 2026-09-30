@@ -1595,3 +1595,80 @@ main:focus-visible {
     font-size: 48px;
   }
 }
+
+/* 本地改动（见 docs/LOCAL_CHANGES.md 第 5 项）：首页天气（今天起 3 天），适用于所有主题 */
+.home-weather {
+  display: grid;
+  gap: 10px;
+  padding: 18px 0 20px;
+  border-bottom: var(--rule-width) var(--rule-style) var(--color-rule);
+}
+
+.home-weather__label,
+.home-weather__source {
+  margin: 0;
+  color: var(--color-muted);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+
+.home-weather__label {
+  color: var(--color-text);
+  font-weight: 800;
+  letter-spacing: 0.2em;
+}
+
+.home-weather__days {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-weather__days li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2px 12px;
+  align-items: baseline;
+}
+
+.home-weather__date {
+  grid-column: 1 / -1;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.home-weather__sky {
+  font-family: var(--font-headline);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.home-weather__temp {
+  font-size: 18px;
+  font-variant-numeric: tabular-nums;
+}
+
+.home-weather__wind {
+  grid-column: 1 / -1;
+  color: var(--color-muted);
+  font-size: 13px;
+}
+
+.home-weather__note {
+  margin: 0;
+  color: var(--color-accent-text);
+  font-weight: 700;
+}
+
+.home-weather__source a {
+  color: inherit;
+}
+
+:root[data-theme="newspaper-default"] .home-weather__note {
+  color: var(--color-accent);
+}

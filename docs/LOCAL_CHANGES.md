@@ -67,3 +67,33 @@
 **合并上游时**：与第 3 项一起核对；搜索「本地改动」即可定位。
 
 **撤回**：`git revert` 对应提交即可，数据不受影响。
+
+## 5. 首页天气（2026-09-30）
+
+**目的**：用户要求工作日早晨简报停刊后，把沈阳天气放到首页总览页。
+
+**规则**：出刊时由主会话把沈阳今天起 3 天的预报写进 `data/weather.json`（格式见 `editorial/README.md` 第 12 节，出刊脚本 `automation/weather.mjs` 检查并随正式日报一起提交）。构建时读取该文件，在首页标题区下方显示每天的天气、最高 / 最低气温、风力，以及提醒和来源、更新时间；只显示构建当天及以后的日子，全部过期或文件不存在时不显示。
+
+| 文件 | 改动 |
+| --- | --- |
+| `scripts/lib/site-builder.js` | 新增 `readWeather()`；首页构建时读取 `data/weather.json` 并传给 `renderHomeHtml()` |
+| `scripts/lib/build-html.js` | 新增 `renderHomeWeather()`；`renderHomeHtml()` 增加 `weather` 参数，在首页标题区后渲染 `section.home-weather` |
+| `styles.css` | 文件末尾新增 `.home-weather*` 样式 |
+
+**合并上游时**：若上游改了首页构建（`buildSite()` 的首页部分）或 `renderHomeHtml()`，按上表重新加回；搜索「本地改动」即可定位。
+
+**撤回**：`git revert` 对应提交即可；`data/weather.json` 可保留或删除，不影响刊物数据。
+
+## 6. 首页不显示旧刊存档（2026-09-30）
+
+**目的**：工作日早晨简报、理财入门晚间课停刊后共有 3 份旧刊存档，用户要求首页总览只显示在刊刊物。
+
+**规则**：`renderHomeHtml()` 跳过刊名以「（旧刊存档）」结尾的刊物，不在首页总览显示；左侧目录、手机端下拉菜单和刊物页不变，旧期仍可访问。首页数据文件 `home/data/overview.json` 不变（仍含全部刊物）。停刊时只要把刊名改为「<原名>（旧刊存档）」即自动生效。
+
+| 文件 | 改动 |
+| --- | --- |
+| `scripts/lib/build-html.js` | `renderHomeHtml()` 中按刊名过滤旧刊存档 |
+
+**合并上游时**：与第 5 项一起核对。
+
+**撤回**：`git revert` 对应提交即可，数据不受影响。

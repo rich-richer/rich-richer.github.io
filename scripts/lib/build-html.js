@@ -210,20 +210,44 @@ function titleLength(name) {
   return Math.max(length, 4).toFixed(2);
 }
 
+// 本地改动（见 docs/LOCAL_CHANGES.md 第 5 项）：首页天气，只显示今天及以后的日子
+const WEEKDAYS = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+
+function renderHomeWeather(weather, asOfDate) {
+  const days = (weather?.days ?? []).filter((day) => day.date >= asOfDate);
+  if (days.length === 0) return "";
+  const dayLabel = (date) => {
+    const [, month, day] = date.split("-").map(Number);
+    return `${month}月${day}日 ${WEEKDAYS[new Date(`${date}T00:00:00Z`).getUTCDay()]}`;
+  };
+  const updated = `${dayLabel(weather.updatedAt.slice(0, 10)).split(" ")[0]} ${weather.updatedAt.slice(11, 16)}`;
+  return `<section class="home-weather" aria-label="${escapeHtml(weather.city)}天气">
+          <p class="home-weather__label">${escapeHtml(weather.city)}天气 · 今天起 ${days.length} 天</p>
+          <ol class="home-weather__days">
+${days.map((day) => `            <li><span class="home-weather__date">${dayLabel(day.date)}</span><span class="home-weather__sky">${escapeHtml(day.weather)}</span><span class="home-weather__temp">${day.high}° / ${day.low}°</span><span class="home-weather__wind">${escapeHtml(day.wind)}</span></li>`).join("\n")}
+          </ol>${weather.note ? `\n          <p class="home-weather__note">${escapeHtml(weather.note)}</p>` : ""}
+          <p class="home-weather__source">来源：<a href="${escapeHtml(weather.source.url)}">${escapeHtml(weather.source.name)}</a> · 更新于 ${escapeHtml(updated)}（北京时间）</p>
+        </section>`;
+}
+
 export function renderHomeHtml(template, {
   activeTheme,
   home,
   overview,
   publications,
   todo = null,
+  weather = null,
 }) {
+  // 本地改动（见 docs/LOCAL_CHANGES.md 第 6 项）：首页总览不显示旧刊存档（刊名以「（旧刊存档）」结尾），目录中仍保留
+  const archived = new Set(publications.filter(({ name }) => name.endsWith("（旧刊存档）")).map(({ id }) => id));
   const primary = overview.publications.find(({ id }) => id === overview.primaryPublicationId);
-  const remaining = overview.publications.filter(({ id }) => id !== overview.primaryPublicationId);
+  const remaining = overview.publications.filter(({ id }) => id !== overview.primaryPublicationId && !archived.has(id));
   const content = `<main class="home-overview" id="content">
         <header class="home-overview__intro" style="--title-length: ${titleLength(home.name)}">
           <p>DAILY OVERVIEW · ${escapeHtml(overview.asOfDate)}</p>
           <h1>${escapeHtml(home.name)}</h1>
         </header>
+        ${renderHomeWeather(weather, overview.asOfDate)}
         ${todo ? renderHomeTodo(todo) : ""}
         ${[primary, ...remaining].map((publication, index) => renderHomePublication(publication, index === 0)).join("\n")}
       </main>`;

@@ -12,6 +12,16 @@ import { loadTodoConfig } from "./todo-validation.js";
 import { buildTodoProjection } from "./todo-view.js";
 import { validateIssue } from "./validation.js";
 
+// 本地改动（见 docs/LOCAL_CHANGES.md 第 5 项）：首页天气数据，出刊时写入 data/weather.json，没有就不显示
+async function readWeather(rootDir) {
+  try {
+    return JSON.parse(await readFile(path.join(rootDir, "data", "weather.json"), "utf8"));
+  } catch (error) {
+    if (error.code === "ENOENT") return null;
+    throw error;
+  }
+}
+
 function redirectHtml(publicationId) {
   const target = `/p/${publicationId}/`;
   return `<!doctype html>
@@ -135,6 +145,7 @@ export async function buildSite(rootDir, outputDir = path.join(rootDir, "dist"),
   const overview = home.enabled
     ? await buildHomeOverview(rootDir, registry, { asOfDate: options.asOfDate })
     : null;
+  const weather = overview ? await readWeather(rootDir) : null;
 
   const resolvedOutput = path.resolve(outputDir);
   const stagingDir = path.join(
@@ -201,6 +212,7 @@ export async function buildSite(rootDir, outputDir = path.join(rootDir, "dist"),
         overview,
         publications,
         todo,
+        weather,
       }),
       "utf8",
     );

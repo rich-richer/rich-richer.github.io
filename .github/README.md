@@ -2,7 +2,7 @@
 
 **网站：<https://rich-richer.github.io/>**
 
-AIggy 的个人数字日报：10 份在刊刊物，覆盖 AI、市场、数字货币、算力、AI 安全、自媒体、理财入门、全球创业机会和升学就业，另有 1 份旧刊存档。内容由 Claude 按固定编辑手册检索、核实、整理，经程序校验后发布为静态网站。
+AIggy 的个人数字日报：9 份在刊刊物，覆盖 AI 新闻、AI 研发与论文、金融与加密、算力与电力、AI 安全、自媒体、人物动态、全球创业机会和升学就业，首页另有沈阳 3 天天气；另有 3 份旧刊存档。内容由 Claude 按固定编辑手册检索、核实、整理，经程序校验后发布为静态网站。
 
 本仓库基于 [dingshuxin353/daily-news-app](https://github.com/dingshuxin353/daily-news-app)（MIT 许可）二次开发，保留原作者版权声明。原项目的完整说明见 [README.md](https://github.com/rich-richer/rich-richer.github.io/blob/main/README.md)。
 
@@ -11,23 +11,24 @@ AIggy 的个人数字日报：10 份在刊刊物，覆盖 AI、市场、数字�
 | 刊物 | 建议频率 | 链接 |
 | --- | --- | --- |
 | 双语每日新闻 | 周一、周四 | [打开](https://rich-richer.github.io/p/daily-news/) |
-| 工作日早晨简报 | 周一、周四 | [打开](https://rich-richer.github.io/p/morning-brief/) |
 | 电算协同每日情报 | 周一、周四 | [打开](https://rich-richer.github.io/p/compute-intel/) |
 | 自媒体选题简报 | 周一、周四 | [打开](https://rich-richer.github.io/p/topic-radar/) |
-| 理财入门晚间课 | 周六 | [打开](https://rich-richer.github.io/p/finance-class/) |
-| AI 架构周报 | 周一 | [打开](https://rich-richer.github.io/p/ai-architecture/) |
+| 金融与加密简报 | 周一、周四 | [打开](https://rich-richer.github.io/p/finance-crypto/) |
+| AI 研发前沿周报 | 周一 | [打开](https://rich-richer.github.io/p/ai-architecture/) |
 | AI 安全公开动态 | 周六 | [打开](https://rich-richer.github.io/p/ai-safety/) |
 | 人物动态追踪 | 周四 | [打开](https://rich-richer.github.io/p/people-watch/) |
 | 全球创业机会期刊 | 周六 | [打开](https://rich-richer.github.io/p/global-ventures/) |
 | 升学就业周报 | 周六 | [打开](https://rich-richer.github.io/p/education-weekly/) |
 | 赛道与创业周报（旧刊存档） | 已停刊 | [打开](https://rich-richer.github.io/p/venture-weekly/) |
+| 工作日早晨简报（旧刊存档） | 已停刊 | [打开](https://rich-richer.github.io/p/morning-brief/) |
+| 理财入门晚间课（旧刊存档） | 已停刊 | [打开](https://rich-richer.github.io/p/finance-class/) |
 
 目前由人工触发出刊（试行：每周一、周四、周六早上各一次），定时时间尚未设定。
 
 ## 内容说明
 
 - 摘要由 AI 辅助整理，事实以每条新闻附带的原文链接为准；原文版权归各来源所有。
-- 理财入门晚间课是教育内容，不构成投资建议。
+- 金融与加密简报是资讯与教育内容，不构成投资建议。
 - 如发现事实错误，欢迎提 Issue。
 
 ## 如何出刊
@@ -48,13 +49,14 @@ Claude 会按 [`editorial/README.md`](https://github.com/rich-richer/rich-richer
 | `editorial/` | 通用出刊指令、各刊手册和 AI 论文目录 |
 | `automation/publish.mjs` | 一键出刊脚本：预检、入库、测试、构建、提交，可选推送 |
 | `automation/schedule.json` | 定时入口（预留，目前全部关闭） |
+| `data/weather.json` | 首页沈阳天气，每次出刊时更新 |
 | `publications/<刊物 ID>/` | 各刊配置和正式日报数据 |
 | `config/home.json`、`config/publications.json` | 主页名称和刊物登记 |
 | `CLAUDE.md` | Claude Code 的项目说明 |
 | `.github/workflows/deploy.yml` | 推送后自动测试、构建并发布网站 |
 | `.github/README.md` | 本页 |
 
-原项目的源码（`scripts/`、`src/`、`styles.css` 等）没有改动。
+原项目源码（`scripts/`、`src/`、`styles.css` 等）只做了少量经确认的改动，逐项登记在 [`docs/LOCAL_CHANGES.md`](https://github.com/rich-richer/rich-richer.github.io/blob/main/docs/LOCAL_CHANGES.md)。
 
 ## 本地运行
 
