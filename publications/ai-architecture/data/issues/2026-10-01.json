@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T00:23:37+08:00",
+  "coverage": {
+    "start": "2026-09-24T00:23:37+08:00",
+    "end": "2026-10-01T00:23:37+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "deepseek-ascend-950-inference-infra-open-source",
+      "title": "DeepSeek 把核心算子与通信库移植到昇腾 950 并开源",
+      "brief": "DeepSeek 开源昇腾版 FlashMLA、DeepGEMM、DeepEP，稀疏注意力预填充达硬件峰值 95%。意义：国产 NPU 跑大模型的软件门槛降低。",
+      "summary": "本周从训练到应用，最实在的进展在底层：DeepSeek 9 月 30 日把核心算子与通信库移植到昇腾 950 并开源。意义：国产 NPU 有了一线模型厂商调优、接口与英伟达版对齐的推理底座，换卡的软件成本明显下降。据 GitHub 说明，昇腾版 FlashMLA 稀疏注意力算子支撑 DeepSeek-V4.1 推理，预填充（prefill）410 TFlops、解码 360 TFlops，达硬件峰值的 95% 和 83%；DeepGEMM-Ascend 与原版接口兼容，支持 BF16、FP8、FP4 矩阵乘，MIT 许可；DeepEP-Ascend 负责混合专家（MoE）通信，8 卡分发带宽约 373–375 GB/s，128 卡约 313–320 GB/s。局限：通信实测用的是华为提供的非公开测试版固件，公开商用版计划 10 月中旬发布；目前只在昇腾 950DT 上验证。",
+      "category": "推理与部署",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "DeepSeek 把 FlashMLA、DeepGEMM、DeepEP、DeepSelect 等自研组件移植到昇腾 950 并开源，实测接近硬件峰值、接口与英伟达版对齐，是本周部署环节影响最大的工程进展，关系国产算力能否承接主流模型推理。"
+      },
+      "sources": [
+        {
+          "originalTitle": "FlashMLA: Efficient Multi-head Latent Attention Kernels",
+          "name": "GitHub · deepseek-ai/FlashMLA",
+          "url": "https://github.com/deepseek-ai/FlashMLA",
+          "publishedAt": "2026-09-30T01:58:27Z",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/qw3a6btvwdalftejp20ccxjb3"
+          }
+        },
+        {
+          "originalTitle": "DeepEP-Ascend: A high-performance communication library for machine learning training and inference on Huawei Ascend NPUs",
+          "name": "GitHub · deepseek-ai/DeepEP-Ascend",
+          "url": "https://github.com/deepseek-ai/DeepEP-Ascend",
+          "publishedAt": "2026-09-30T00:44:59Z"
+        },
+        {
+          "originalTitle": "DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs",
+          "name": "GitHub · deepseek-ai/DeepGEMM-Ascend",
+          "url": "https://github.com/deepseek-ai/DeepGEMM-Ascend"
+        }
+      ]
+    },
+    {
+      "id": "meta-context-language-models",
+      "title": "Meta 提出让模型自己管理上下文的「上下文语言模型」",
+      "brief": "Meta 与华盛顿大学提出上下文语言模型，把上下文当文件由模型自行改写，长任务更准、算力更省。意义：上下文管理从外部框架转为模型能力。",
+      "summary": "Meta 超级智能实验室与华盛顿大学等机构的 13 位作者 9 月 29 日在 arXiv 发布《上下文语言模型》（Context Language Models，预印本 arXiv:2609.37725，未经同行评审）。核心贡献：把上下文当作可随意改写的文件，由模型自己决定保留什么，多智能体时各持一份。用现有模型零样本构建，BrowseComp-Plus 准确率高 11.4%、算力省 21.5%；12 小时 EdgeBench 得分高 5%、算力省 59%。配套的在线强化学习让 Qwen3.5-9B 在 BrowseComp-Plus 上提升 47.6%；后缀缓存复用在效果相当时比 SGLang 少用 35% 服务端算力。意义：上下文管理从外部框架（harness）规则变成模型可学习的能力。局限：评测集中在检索与编程类长任务，未在前沿闭源模型上验证。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "头部实验室（Meta 超级智能实验室）论文，把长时程智能体的上下文管理从外部框架规则变成模型自身可学习、可强化训练的行为，同时给出准确率与算力两方面的收益和配套推理优化，横跨后训练、推理与智能体三个环节。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Context Language Models",
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2609.37725",
+          "publishedAt": "2026-09-29T14:50:08Z"
+        },
+        {
+          "originalTitle": "Context Language Models",
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.37725"
+        }
+      ]
+    },
+    {
+      "id": "qwengyre-elastic-rl-xlong-horizon-agents",
+      "title": "阿里 QwenGyre：面向超长时程智能体的强化学习框架",
+      "brief": "阿里提出 QwenGyre，训练中弹性调度 GPU 并去除冗余轨迹，比两种主流方案最高快约 1.8 倍。意义：小时级智能体任务的在线强化学习更可行。",
+      "summary": "阿里 Token Hub 等机构的 12 位作者 9 月 27 日在 arXiv 发布《QwenGyre：超长时程智能体的弹性强化学习框架》（QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents，预印本 arXiv:2609.33848，未经同行评审）。背景：智能体单次执行可达数小时、轨迹近百万 token，GPU 空转和轨迹冗余拖慢训练。核心贡献：不中断执行即可在采样（rollout）与训练间弹性调配 GPU，并对分支轨迹打分去重。结果：在论文所称旗舰模型 Qwen 3.8 2.4T 上，48 步即让 NL2RepoBench 从 52.5% 升到 58.5%；训练速度比同置、异步两种方案最高快 1.85 倍和 1.78 倍。局限：数据来自阿里内部模型，外部难复现。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "通义千问所在的阿里团队公开超长时程智能体强化学习的系统工程方案，并披露在旗舰模型上的实测收益，代表智能体后训练从短任务走向小时级任务时的关键基础设施问题。"
+      },
+      "sources": [
+        {
+          "originalTitle": "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents",
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2609.33848",
+          "publishedAt": "2026-09-27T19:02:03Z"
+        },
+        {
+          "originalTitle": "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents",
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.33848"
+        }
+      ]
+    },
+    {
+      "id": "seed-pisa-block-sparse-attention-log-linear",
+      "title": "字节 Seed 把块稀疏注意力降到 N log N",
+      "brief": "字节 Seed 与上海交大提出 PISA，用金字塔式逐级筛选替代全量打分，256K 长度下选块提速近 10 倍。",
+      "summary": "上海交通大学、上海创智学院与字节跳动 Seed 的 5 位作者 9 月 25 日在 arXiv 发布《对数线性复杂度的块稀疏注意力》（Block Sparse Attention with Log-Linear Complexity，预印本 arXiv:2609.31093，未经同行评审）。问题：块稀疏注意力要先给所有「查询—块」组合打分，选块这一步仍是平方复杂度。核心贡献：PISA 把键（key）由粗到细建成约 log N 层金字塔，逐层只对有限候选打分，整体降到 O(N log N)，并提供 Triton 内核。结果：2.67B 模型预训练 1000 亿 token 后，常识推理与基线相当、检索任务更好；64K、128K、256K 长度下选块比传统做法快 2.86、5.31、9.95 倍。局限：4K–16K 短序列反而更慢，计时不含注意力计算本身，只在 2.67B 规模验证。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "字节 Seed 参与的长上下文架构论文，直指块稀疏注意力中「选块仍是平方复杂度」的瓶颈，给出可训练的对数线性方案和内核实现，属于本刊「Transformer 之外 / 长上下文」核心关注点。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Block Sparse Attention with Log-Linear Complexity",
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2609.31093",
+          "publishedAt": "2026-09-25T10:28:58Z"
+        }
+      ]
+    },
+    {
+      "id": "tencent-encoder-free-mllm-scaling-laws",
+      "title": "腾讯：去掉视觉编码器的多模态规模定律",
+      "brief": "腾讯研究发现，不用预训练视觉编码器的多模态模型小规模时落后，预计约 10²² FLOPs 算力时追平。意义：视觉编码器的先验优势随规模递减。",
+      "summary": "腾讯基础模型部门与中科院自动化所等机构的作者 9 月 28 日在 arXiv 发布《离去掉视觉编码器还有多远？无编码器多模态预训练的规模定律》（How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining，预印本 arXiv:2609.35457，未经同行评审）。三点发现：去掉视觉编码器后，多模态目标的算力最优配置偏向更大模型，文本目标基本不变；无编码器模型小规模时落后，预计约 10²² FLOPs 追平；语言模型会自行接手视觉处理，视觉处理前移到浅层，视觉 token 的专家路由更集中。意义：预训练视觉编码器的先验优势随规模递减，统一架构值得投入。局限：追平点是外推预测，尚未在该规模实测。",
+      "category": "预训练与架构",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用规模定律方法回答多模态架构的一个根本选择——是否还需要独立视觉编码器，对预训练配方和算力分配有直接参考价值。"
+      },
+      "sources": [
+        {
+          "originalTitle": "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2609.35457",
+          "publishedAt": "2026-09-28T15:48:41Z"
+        }
+      ]
+    },
+    {
+      "id": "google-diverse-sft-traces-post-rl",
+      "title": "Google：微调数据推理路径越多样，强化学习后越强",
+      "brief": "Google 研究发现，监督微调数据选推理路径多样的样本，强化学习后在数学与谜题上泛化更好；筛选只需 CPU。",
+      "summary": "Google 的 3 位作者（一作为伊利诺伊大学厄巴纳-香槟分校学生，工作在 Google 完成）9 月 27 日在 arXiv 发布《选择多样的监督微调推理轨迹可提升强化学习后的泛化》（Selecting Diverse SFT Traces Improves Post-RL Generalization，预印本 arXiv:2609.33780，未经同行评审）。核心发现：同样正确的解答，为强化学习打底的价值不同。作者用一个基于规则、无需调用模型的指纹挑选推理路径多样的样本，同等预算下强化学习后覆盖更多问题：合成实验中 OLMo3-7B 在未见环境上的 pass@8 高 16.9 个百分点，10 个数学基准平均最多高 6.2 个点。原因：多样数据让更多题目同时出现成败，组相对强化学习（如 GRPO）能拿到更多学习信号。局限：只验证了谜题和数学。",
+      "category": "后训练与对齐",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "推理模型的「监督微调 + 强化学习」两段式后训练已是主流，这篇 Google 论文给出便宜、可直接落地的数据筛选准则，并解释了机制，对做后训练的团队实用。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Selecting Diverse SFT Traces Improves Post-RL Generalization",
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2609.33780",
+          "publishedAt": "2026-09-27T17:22:01Z"
+        }
+      ]
+    },
+    {
+      "id": "hcompany-holo4-computer-use-agents",
+      "title": "H Company 开源 Holo4 电脑操作智能体模型",
+      "brief": "H Company 开源 Holo4，同一模型可点屏幕、写代码、调 API，27B 版 OSWorld 2.0 得 61.7%，仍落后顶级闭源模型。",
+      "summary": "H Company 9 月 28 日在 Hugging Face 发布 Holo4 智能体模型，有 27B 稠密版和 35B-A3B 混合专家版，基于通义千问底座，经监督微调和强化学习训练。同一个模型可在桌面、网页、安卓、代码沙箱和业务 API 上工作，按任务选择点屏幕、写代码或调用 MCP / API 工具；训练任务来自其「智能体任务工厂」，从截图或软件文档自动生成可验证环境，目前约 1 万个。成绩：OSWorld 2.0 上 27B 版 61.7%、35B-A3B 版 30.9%，Anthropic Opus 5.5 为 81.8%；公开基准的全部轨迹一并开源。许可：27B 为 CC-BY-NC-4.0（非商用），35B-A3B 为 Apache-2.0。意义：「一个模型通吃图形界面与 API」有了开放权重实现。局限：成本对比由厂商自测，各家评测框架不同。",
+      "category": "智能体与应用",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "本周智能体方向最完整的开放权重发布：模型、训练环境生成方法、评测轨迹一并公开，展示了图形界面操作与工具调用统一在一个模型里的工程路线。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Holo4: powering generalist computer-use agents",
+          "name": "Hugging Face Blog · H Company",
+          "url": "https://huggingface.co/blog/Hcompany/holo4",
+          "publishedAt": "2026-09-28T09:44:05Z",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/y1thdkq6a9giiitpxb6e13hwo"
+          }
+        },
+        {
+          "name": "Hugging Face · Hcompany/Holo4-35B-A3B-FP8",
+          "url": "https://huggingface.co/Hcompany/Holo4-35B-A3B-FP8",
+          "publishedAt": "2026-09-25T12:07:23Z"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-kumo-tabular-open-foundation-model",
+      "title": "英伟达开源表格基础模型 Kumo Tabular",
+      "brief": "英伟达开源 Kumo Tabular，给一张带标签的表就能直接预测新行，免训练免调参，在四项表格基准排名第一，许可允许商用。",
+      "summary": "英伟达 9 月 29 日在 Hugging Face 开源表格基础模型 Kumo Tabular，参数 2800 万到 2.15 亿共三个尺寸，OpenMDW-1.1 许可、可商用。用法类似大模型的上下文学习：给一张带标签的表和待预测的行，单次前向输出分类概率或回归值，免训练、调参和特征工程。架构上先用列注意力和行注意力把每行压成向量，再由 Transformer 在已知行与待预测行之间推理，注意力温度随键数量的对数调整，防止大表稀释注意力。训练数据全是随机结构因果模型生成的人造表格，最大尺寸见过约 1.37 亿张。结果：TabArena、BeyondArena、TALENT、ScoringBench 四项基准第一。局限：只支持数值和类别列；表格远超训练范围或分布变化时准确率可能下降，官方建议自行验证；训练配方尚未公开。",
+      "category": "开放权重模型",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "表格预测是企业机器学习最常见的任务，Kumo Tabular 以可商用许可开放权重，并公开架构与合成数据训练思路，是本周技术上最扎实的开放权重发布之一。"
+      },
+      "sources": [
+        {
+          "originalTitle": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+          "name": "Hugging Face Blog · NVIDIA",
+          "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+          "publishedAt": "2026-09-29T15:30:38Z",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/tcf79upi169og7ftecq28pps2"
+          }
+        },
+        {
+          "name": "Hugging Face · nvidia/Kumo-Tabular",
+          "url": "https://huggingface.co/nvidia/Kumo-Tabular"
+        }
+      ]
+    },
+    {
+      "id": "classic-paper-turing-computing-machinery-intelligence",
+      "title": "经典回顾：图灵《计算机器与智能》",
+      "brief": "回顾 1950 年图灵提出「模仿游戏」的论文：把「机器能否思考」变成可检验的问题，至今仍是 AI 评测争论的起点。",
+      "summary": "经典论文回顾：《计算机器与智能》（Computing Machinery and Intelligence），作者艾伦·图灵（曼彻斯特大学），1950 年 10 月发表于哲学期刊《心灵》（Mind）第 59 卷第 236 期。核心贡献：把定义不清的「机器能否思考」换成可操作的「模仿游戏」——提问者通过文字与一人一机对话，看能否分辨谁是机器，后称图灵测试；文中逐条回应神学、数学局限、意识、「洛夫莱斯夫人」等九类反对意见，并设想先造「儿童机器」再靠教育让它学习，是机器学习思想的早期表述。历史位置：早于 1956 年达特茅斯会议提出「人工智能」一词，给这门学科定下第一个行为检验标准。局限：只看对话表现，不涉及理解与意识，1980 年塞尔的「中文屋」论证正针对这一点。分析：大模型已能在短对话中以假乱真，这个测试更适合当思想起点，难再作智能标尺。",
+      "category": "经典论文回顾",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "按 paper-catalog.md 第二部分序号依次回顾，序号 1 为图灵 1950 年论文，本刊此前未讲过。它是 AI 学科的思想起点，也是理解今天 AI 评测争论的背景。"
+      },
+      "sources": [
+        {
+          "originalTitle": "I.—COMPUTING MACHINERY AND INTELLIGENCE",
+          "name": "Mind（牛津大学出版社）",
+          "url": "https://doi.org/10.1093/mind/LIX.236.433",
+          "publishedAt": "1950-10-01T00:00:00Z"
+        },
+        {
+          "name": "本站·AI 论文目录（GitHub）",
+          "url": "https://github.com/rich-richer/rich-richer.github.io/blob/main/editorial/paper-catalog.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T00:18:00+08:00",
+  "coverage": {
+    "start": "2026-09-24T00:18:00+08:00",
+    "end": "2026-10-01T00:18:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "fei-fei-li-amd-world-labs",
+      "title": "李飞飞：World Labs以82亿美元并入AMD，本人任首席科学家",
+      "brief": "AMD 9月28日宣布以82亿美元全股票收购World Labs，李飞飞将任AMD执行副总裁兼首席科学家。意义：世界模型团队直接并入芯片厂。",
+      "summary": "美东时间9月28日，AMD宣布以82亿美元全股票收购李飞飞创办的世界模型（world model）公司World Labs。意义：做物理世界AI的头部团队直接并入芯片厂，AMD借此在世界模型上追赶英伟达。交易完成后，李飞飞出任AMD执行副总裁兼首席科学家，向CEO苏姿丰汇报。她在X上发长文说，没有专门的硬件投入，AI在效率和规模上都会受限；两家公司去年起已在模型训练和推理优化上合作。World Labs此前融资约10亿美元，首个产品Marble可生成用于娱乐和机器人训练的虚拟环境。交易预计年底前完成，尚需监管批准。 EN: AMD agreed to buy Fei-Fei Li's World Labs for $8.2 billion in stock; Li will become AMD's EVP and chief scientist.",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "名单人物本人职业与所创公司的重大变动：World Labs被AMD以82亿美元收购、李飞飞加入AMD任首席科学家，金额大、影响AI芯片与世界模型竞争格局，且近14天其他刊物未报道。"
+      },
+      "sources": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/09/28/amd-acquires-world-labs-startup-fei-fei-li-8-2-billion/",
+          "originalTitle": "AMD acquires Fei-Fei Li’s physical AI startup World Labs for $8.2 billion",
+          "publishedAt": "2026-09-28T21:56:04Z"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+          "originalTitle": "AMD will acquire Fei-Fei Li's World Labs for $8.2B",
+          "publishedAt": "2026-09-28T20:39:33Z"
+        }
+      ]
+    },
+    {
+      "id": "sam-altman-devday-dots-ipo",
+      "title": "阿尔特曼：发布常驻智能体Dots，安全过关前不急上市",
+      "brief": "阿尔特曼9月29日在DevDay发布常驻智能体Dots，并说要先能作出有把握的安全承诺再谈IPO。意义：OpenAI公开把安全排在上市节奏之前。",
+      "summary": "美东时间9月29日，OpenAI首席执行官萨姆·阿尔特曼在旧金山开发者大会DevDay上发布Dots系列智能体，关掉对话后仍能主动推进任务，同场推出GPT-6.1 Sol和高速档Ultrafast。前一天OpenAI以安全顾虑为由搁置一款更先进的模型；阿尔特曼接受CNBC采访时说，那个模型在几项评测上“稍差一些”，属于格外谨慎，对齐、安全、监控必须远远领先于能力。他在问答环节对记者说，公司得先能作出有把握的安全承诺，再考虑上市。当天白宫签署AI自愿协议，他没有到场，OpenAI由总裁布罗克曼出席。 EN: Altman launched Dots agents at DevDay and said OpenAI must make confident safety claims before an IPO.",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "本人主持年度发布会并就搁置新模型、IPO节奏公开表态，是本周AI公司负责人中信息量最大的一次亮相。"
+      },
+      "sources": [
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-10-01#openai-devday-2026-gpt-6-1-sol"
+        },
+        {
+          "name": "AP（经 News4JAX 转载）",
+          "url": "https://www.news4jax.com/business/2026/09/29/openai-ceo-announces-new-ai-agent-and-avoids-mention-of-security-concerns-at-developer-conference/",
+          "originalTitle": "Altman unveils 'always-on' AI agent after OpenAI shelves model over safety concerns",
+          "publishedAt": "2026-09-29T18:51:35Z"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/29/first-on-cnbc-transcript-openai-ceo-sam-altman-speaks-with-cnbcs-kate-rooney-on-halftime-report-today.html",
+          "originalTitle": "First on CNBC: Transcript: OpenAI CEO Sam Altman Speaks with CNBC’s Kate Rooney on “Halftime Report” Today",
+          "publishedAt": "2026-09-29T17:25:07Z"
+        },
+        {
+          "name": "Gizmodo",
+          "url": "https://gizmodo.com/no-openai-ipo-until-the-ai-stops-going-rogue-ceo-sam-altman-says-2000819194",
+          "originalTitle": "No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says",
+          "publishedAt": "2026-09-30T04:14:16Z"
+        }
+      ]
+    },
+    {
+      "id": "jensen-huang-agent-safety-buyback",
+      "title": "黄仁勋：推智能体安全平台，英伟达再加1500亿美元回购",
+      "brief": "英伟达9月28日发布开放智能体安全平台并追加1500亿美元回购，黄仁勋称模型蒸馏“这叫竞争”。意义：英伟达把AI安全当成可卖的工程产品。",
+      "summary": "美东时间9月28日，英伟达发布开放智能体安全平台（Open Agent Safety Platform）：OpenShell在CPU上限定AI智能体能做什么，Sentry在网络芯片上监控其行为，部分软件开源，思科、微软、甲骨文等为合作方。黄仁勋在CNBC说，这相当于“智能体的浏览器”，只放行完成任务所需的访问。同日英伟达在5月的800亿美元回购计划之外，再授权1500亿美元。被问到训练时学习对手模型输出的蒸馏（distillation）是否算盗窃，黄仁勋答“这叫竞争”，与美国财长贝森特“盗窃”的定性相左。 EN: Huang launched an agent safety platform and called distillation \"competition.\"",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "同一天发布产品、宣布创纪录回购并在中美蒸馏争议上公开表态，三件事都由黄仁勋本人在CNBC出面说明。平台的安全技术细节归AI安全刊。"
+      },
+      "sources": [
+        {
+          "name": "本站·AI 安全公开动态（完整报道）",
+          "url": "https://rich-richer.github.io/p/ai-safety/?date=2026-10-01#nvidia-open-agent-safety-platform"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+          "originalTitle": "Nvidia Open Agent Safety Platform to stop AI agents from breaking out",
+          "publishedAt": "2026-09-28T09:00:02Z"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/29/nvidia-buyback-shows-chipmaker-stock-is-too-cheap-for-huang-to-resist.html",
+          "originalTitle": "Nvidia buyback shows chipmaker stock is too cheap for Huang to resist",
+          "publishedAt": "2026-09-29T11:00:01Z"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html",
+          "originalTitle": "Nvidia's Jensen Huang: AI distillation is competition",
+          "publishedAt": "2026-09-28T13:55:33Z"
+        }
+      ]
+    },
+    {
+      "id": "dario-amodei-white-house-accord",
+      "title": "阿莫代伊签白宫AI协议，称风险真实存在",
+      "brief": "阿莫代伊9月29日与特朗普及多家AI公司负责人签署前沿AI自愿安全协议，并说这项技术“有非常真实的风险”。",
+      "summary": "9月27日晚与特朗普共进晚餐之后（本站双语每日新闻9月28日已报道），Anthropic首席执行官达里奥·阿莫代伊9月29日在白宫与特朗普、谷歌皮查伊、Meta扎克伯格、OpenAI总裁布罗克曼、英伟达黄仁勋、xAI创始人马斯克共同签署一份自愿协议。各方承诺建立“健全的内部控制”，引入独立外部审计，并在董事会设委员会审阅审计报告；协议说日后可能有必要写入法律，特朗普称它有“道德约束力”。阿莫代伊当天说，这项技术“有非常真实的风险”，怎么应对“仍在讨论中”。分析：他此前呼吁全行业放慢前沿模型研发，协议只要求企业自我监管。 EN: Amodei signed a voluntary White House AI accord, saying the technology has very real risks.",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "呼吁放慢AI研发的阿莫代伊与主张少监管的特朗普同签协议，是其立场的新进展；晚宴已由双语每日新闻完整报道，本条只附链接。"
+      },
+      "sources": [
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-10-01#white-house-superintelligence-accord"
+        },
+        {
+          "name": "AP（经 KPBS 转载）",
+          "url": "https://www.kpbs.org/news/politics/2026/09/29/trump-says-top-tech-firms-have-signed-accord-to-self-police-ai-development",
+          "originalTitle": "Trump says top tech firms have signed accord to 'self-police' AI development",
+          "publishedAt": "2026-09-30T06:54:43Z"
+        },
+        {
+          "name": "本站·双语每日新闻（晚宴完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-09-28#amodei-trump-white-house-dinner"
+        }
+      ]
+    },
+    {
+      "id": "elon-musk-tesla-credit-accord",
+      "title": "马斯克：特斯拉新签300亿美元信贷额度",
+      "brief": "特斯拉9月29日披露与花旗、富国银行签下合计300亿美元信贷额度，称2026年内不打算动用；同日马斯克在白宫签署AI自愿协议。",
+      "summary": "特斯拉9月29日向美国证券交易委员会（SEC）提交文件，披露新签三笔信贷额度，合计300亿美元：花旗牵头的200亿美元三年期延迟提款定期贷款，富国银行牵头的80亿美元五年期和20亿美元364天期循环贷款。公司称2026年内不打算提款。特斯拉此前预计今年资本开支超过250亿美元（2025年约85亿美元），Cybercab、Semi和Optimus都要新建产线。同一天，马斯克以xAI创始人身份在白宫与特朗普及多家AI公司负责人签署前沿AI自愿安全协议，当天午宴上坐在特朗普身旁。 EN: Tesla disclosed $30 billion in new credit facilities; Musk signed the White House AI accord the same day.",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "马斯克旗下特斯拉的大额融资安排，关系其Cybercab、Optimus等AI硬件扩产；附带其在白宫协议中的角色。"
+      },
+      "sources": [
+        {
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/09/29/tesla-takes-on-30-billion-in-credit-as-it-approaches-unprofitability/",
+          "originalTitle": "Tesla takes on $30 billion in credit as it approaches unprofitability",
+          "publishedAt": "2026-09-29T21:55:02Z"
+        },
+        {
+          "name": "Teslarati",
+          "url": "https://www.teslarati.com/tesla-snags-30b-fresh-credit-lines-for-expanding-biggest-projects/",
+          "originalTitle": "Tesla snags $30B in fresh credit lines for expanding its biggest projects",
+          "publishedAt": "2026-09-30T14:23:11Z"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/29/trump-top-tech-firms-sign-accord-to-self-police-ai-development",
+          "originalTitle": "Trump, tech bosses sign voluntary pact pledging ‘robust’ AI safeguards",
+          "publishedAt": "2026-09-29T23:43:32Z"
+        }
+      ]
+    },
+    {
+      "id": "changpeng-zhao-bitget-support",
+      "title": "赵长鹏：币安将援助被盗的Bitget",
+      "brief": "Bitget被盗约3.9亿美元后，赵长鹏9月25日发帖称币安、BNB Chain生态和社区会尽力相助，但没有说明具体措施和规模。",
+      "summary": "交易所Bitget于9月24日（UTC）发现热钱包遭未授权转出，损失估计随后上调至3.875亿美元。币安联合创始人赵长鹏9月25日在X上发帖，说这对Bitget是艰难的一天，他预计也相信币安、BNB Chain生态和社区会尽全力帮忙。据Bloomingbit转述Cointelegraph的报道，他没有说明援助的具体措施或规模。Bitget称自有的用户保护基金足以覆盖损失，已推出追回资产的悬赏计划，正准备恢复提现。意义：头部交易所公开表态互助，意在稳住用户情绪，实际援助内容仍待观察。以上不构成投资建议。 EN: CZ said Binance and the BNB Chain ecosystem will do everything they can to help Bitget after its $387.5 million hack.",
+      "category": "金融与加密",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "赵长鹏本人公开表态，涉及行业头部交易所之间的互助；只写其表态与已公开事实，不评价事件责任。"
+      },
+      "sources": [
+        {
+          "name": "PANews",
+          "url": "https://panews.io/articles/01a0d913-8ced-773c-8828-8cf22eb63c51",
+          "originalTitle": "CZ posts support for Bitget: Binance, BNB Chain ecosystem and community will do their best to help",
+          "publishedAt": "2026-09-25T14:58:00Z"
+        },
+        {
+          "name": "Bloomingbit",
+          "url": "https://en.bloomingbit.io/feed/news/121065",
+          "originalTitle": "Changpeng Zhao Says He Will Support Bitget With Help From Binance and BNB Chain Ecosystem",
+          "publishedAt": "2026-09-25T17:56:44Z"
+        },
+        {
+          "name": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/cryptocurrency/2026/09/26/changpeng-zhao-offers-support-to-bitget-after-388-million-hack-a-rivals-unexpected-gesture/",
+          "originalTitle": "Changpeng Zhao Offers Support to Bitget After $388 Million Hack: A Rival's Unexpected Gesture",
+          "publishedAt": "2026-09-26T16:28:25Z"
+        }
+      ]
+    },
+    {
+      "id": "justin-sun-tron-30t-volume",
+      "title": "孙宇晨：波场累计交易额破30万亿美元",
+      "brief": "TRON DAO 9月24日公告称波场累计链上交易额超30万亿美元，孙宇晨称波场已是数字美元经济的基础设施。数据为官方自报。",
+      "summary": "TRON DAO 9月24日发布公告，称波场（TRON）区块链累计结算交易额已超过30万亿美元，用户账户超4.05亿个，链上流通的USDT超过940亿美元，为各公链中最多。创始人孙宇晨在公告中说，突破30万亿美元证明波场已成为数字美元经济的重要基础设施，每一万亿美元背后都是靠稳定币做支付、储蓄和日常交易的真实用户。公告还引用Token Terminal数据，称今年以来波场USDT转账量约6万亿美元，居各链首位。以上数据均由TRON DAO自行披露，本刊未能独立核验。不构成投资建议。 EN: TRON DAO said total transaction volume on TRON has passed $30 trillion; Justin Sun called it proof of TRON's role in the digital dollar economy.",
+      "category": "金融与加密",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "孙宇晨所创波场的里程碑公告，附本人表态；属公司自报数据，已在正文标明未经独立核验。"
+      },
+      "sources": [
+        {
+          "name": "GlobeNewswire（经 The Manila Times 转载）",
+          "url": "https://manilatimes.net/2026/09/24/tmt-newswire/globenewswire/tron-surpasses-30t-in-total-transaction-volume-as-it-secures-its-place-as-leading-chain-for-stablecoins/2431945",
+          "originalTitle": "TRON Surpasses $30T in Total Transaction Volume as it Secures its Place as Leading Chain for Stablecoins",
+          "publishedAt": "2026-09-24T07:04:31Z"
+        }
+      ]
+    }
+  ]
+}
