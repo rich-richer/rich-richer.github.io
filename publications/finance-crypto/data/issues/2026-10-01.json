@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T00:05:00+08:00",
+  "coverage": {
+    "start": "2026-09-28T00:05:00+08:00",
+    "end": "2026-10-01T00:05:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "mortgage-interest-subsidy-oct-1",
+      "title": "三部门10月1日起对首套房贷贴息1个百分点，期限最长5年",
+      "brief": "中央财政首次为商业性房贷贴息：首套、120平方米以内、150万元以内，年化贴息1个百分点，单户贷款上限100万元。",
+      "summary": "本刊仅供学习，不构成投资建议；投资有风险。本期主线：国内首次由中央财政为商业房贷贴息；美国长期国债收益率走高、消费者信心降至12年低点；A股带着9月的跌幅进入国庆长假。9月29日，财政部、中国人民银行、金融监管总局联合发布通知，自10月1日起在全国实施居民购房贷款贴息，政策期暂定1年。须同时满足三个条件：用新发放的商业性个人住房贷款买首套房（新房、二手房都算，不含存量贷款置换）；建筑面积不超过120平方米；房价不超过150万元。财政按贷款本金给予年化1个百分点、最长5年的贴息，单户贷款规模上限100万元；公积金贷款和保障房不叠加享受。银行自动识别、自动扣减。对初学者的意义：符合条件的贷款，实际利率低1个百分点、月供变少；先逐条核对自己是否同时满足三个条件。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "本期对国内家庭影响最直接的金融政策，且为中央财政首次贴息商业房贷。"
+      },
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "http://www.xinhuanet.com/fortune/20260929/3f405911d2f245529eb8c02687430034/c.html",
+          "publishedAt": "2026-09-29T10:28:28Z"
+        }
+      ]
+    },
+    {
+      "id": "us-etf-sep-29-yields",
+      "title": "美股ETF连跌两日，30年期美债收益率创2002年来新高",
+      "brief": "9月29日收盘SPY −0.18%、QQQ +0.19%、VTI −0.15%；较9月25日收盘分别−0.93%、−0.88%、−1.19%。",
+      "summary": "数据（雅虎财经行情；最近收盘日为美东时间9月29日）：SPY收764.20美元，当日−0.18%；QQQ收737.93美元，+0.19%；VTI收375.26美元，−0.15%。与9月25日（上周五）收盘相比，SPY −0.93%、QQQ −0.88%、VTI −1.19%，标普500连跌两个交易日。原因：雅虎财经报道，长期美债收益率继续上升，30年期收益率盘中一度到5.62%，为2002年以来最高；美伊冲突推高油价。新华社援引美国经济咨商会数据，9月消费者信心指数降6.7点至81.9，为2014年以来最低，受访者多提到物价和油价。为什么该在意：债券收益率越高，股票的相对吸引力越低，企业和家庭借钱也越贵。注：美东9月30日行情在截稿时尚未收盘。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "市场速览第1条：美股与ETF。"
+      },
+      "sources": [
+        {
+          "name": "雅虎财经",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-29-dow-sp-500-nasdaq-080526442.html",
+          "originalTitle": "Stock market today: Dow, S&P 500, Nasdaq wobble as 30-year Treasury yield climbs to 24-year high",
+          "publishedAt": "2026-09-29T20:03:03Z"
+        },
+        {
+          "name": "雅虎财经（SPY 历史行情）",
+          "url": "https://finance.yahoo.com/quote/SPY/history/"
+        },
+        {
+          "name": "新华社（英文）",
+          "url": "https://english.news.cn/20260930/bb1e5db7a39a4af89109e4c521824c0f/c.html",
+          "originalTitle": "U.S. consumer confidence slides to 12-year low",
+          "publishedAt": "2026-09-30T00:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "a-shares-hk-sep-30-close",
+      "title": "A股节前收官：沪指涨0.31%，9月累计跌3.62%",
+      "brief": "9月30日沪指报3842.19点，深成指、创业板指小跌；恒指涨0.37%报24613.27点。A股10月8日开市。",
+      "summary": "数据：9月30日是国庆长假前最后一个交易日。上证指数收报3842.19点，涨0.31%；深证成指报12887.62点，跌0.11%；创业板指报3135.28点，跌0.23%；科创50跌2.51%。9月全月，上证指数跌3.62%，深证成指跌8.04%，创业板指跌8.82%；9月29日沪深两市成交额创14个月新低，资金从成长股转向银行、白酒等防御板块。港股方面，恒生指数9月30日涨0.37%，报24613.27点，9月累计跌超3%，恒生科技指数月跌近8%。为什么该在意：长假前市场常见缩量避险；A股休市期间海外市场照常交易，节后开盘会集中反映假期里的变化（休市安排见本期财经日历）。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "市场速览第2条：A股与港股。"
+      },
+      "sources": [
+        {
+          "name": "新浪财经",
+          "url": "https://finance.sina.com.cn/tob/2026-09-30/doc-initqvcf2127621.shtml",
+          "originalTitle": "A股九月收官：主要指数月线集体收阴 单日成交额创下14个月新低",
+          "publishedAt": "2026-09-30T07:02:02Z"
+        },
+        {
+          "name": "FX168",
+          "url": "https://www.fx168news.com/express/fastnews/1439258",
+          "publishedAt": "2026-09-30T07:04:02Z"
+        },
+        {
+          "name": "新浪财经（港股）",
+          "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-30/doc-initqzmc5724433.shtml",
+          "originalTitle": "港股9月收官！恒生科技指数月内跌近8% 新股破发率近六成",
+          "publishedAt": "2026-09-30T08:10:16Z"
+        }
+      ]
+    },
+    {
+      "id": "btc-eth-sep-30",
+      "title": "比特币约8.4万美元，三天小幅回落",
+      "brief": "北京时间10月1日0:03，比特币约84,183美元、以太坊约2,683美元，较9月28日8时分别约−0.3%、−0.15%。",
+      "summary": "数据（CoinGecko，北京时间10月1日0:03）：比特币约84,183美元，以太坊约2,683美元。与北京时间9月28日8:00相比，比特币约−0.3%（当时约84,449美元），以太坊约−0.15%（约2,688美元）；三天里比特币大致在8.3万至8.5万美元之间窄幅波动。为什么该在意：数字货币全天候交易、没有涨跌停，同样的消息下波动通常大于股票；本期美股受美债收益率拖累小跌，比特币基本横盘。价格只作背景，不构成买卖建议。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "市场速览第3条：主要数字货币。"
+      },
+      "sources": [
+        {
+          "name": "CoinGecko（比特币）",
+          "url": "https://www.coingecko.com/en/coins/bitcoin"
+        },
+        {
+          "name": "CoinGecko（以太坊）",
+          "url": "https://www.coingecko.com/en/coins/ethereum"
+        }
+      ]
+    },
+    {
+      "id": "morgan-stanley-digital-asset-lab",
+      "title": "摩根士丹利设数字资产实验室",
+      "brief": "摩根士丹利设立内部实验室，在与核心系统隔离的环境中测试稳定币支付、代币化存款、央行数字货币和DeFi。",
+      "summary": "事实：据彭博社9月29日报道、The Coin Republic 9月30日转述，摩根士丹利设立「数字资产实验室」（Digital Asset Lab），在与银行核心系统隔离、满足监管要求的环境中，测试稳定币支付、代币化存款、央行数字货币（CBDC）用例，以及按预设策略自动管理资产的DeFi金库结构。为什么该在意：华尔街大行把区块链当成支付和结算基础设施来做试验，而不只是看币价；选择隔离环境，说明银行最在意的是合规和系统风险。对初学者：稳定币、代币化这些词会越来越常见，它们首先是支付和记账工具，不等于可以炒作的币。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "机构接入区块链的代表性动向，事实清楚、风险可讲。"
+      },
+      "sources": [
+        {
+          "name": "The Coin Republic",
+          "url": "https://www.thecoinrepublic.com/2026/09/30/morgan-stanley-launches-internal-lab-to-test-stablecoin-payments/",
+          "originalTitle": "Morgan Stanley Launches Internal Lab to Test Stablecoin Payments",
+          "publishedAt": "2026-09-30T10:20:00Z"
+        },
+        {
+          "name": "彭博社",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-29/morgan-stanley-builds-crypto-lab-to-test-future-of-wall-street",
+          "originalTitle": "Morgan Stanley Launches Digital Asset Lab to Test Blockchain Technologies"
+        }
+      ]
+    },
+    {
+      "id": "citi-coinbase-stablecoin-payments",
+      "title": "花旗与Coinbase打通法币与稳定币支付",
+      "brief": "花旗与Coinbase扩大合作：企业可在结账时收稳定币，由Coinbase换成法币、花旗结算，商户不直接持币。",
+      "summary": "事实：据The Daily Hodl 9月30日报道（援引花旗发布），花旗与Coinbase扩大合作，推出两项先在美国上线的产品：Coinbase Virtual Accounts采用花旗的虚拟账户钱包，给支付客户提供类似银行账户的功能，收到的法币自动换成稳定币；花旗机构客户可通过Spring by Citi在结账时经Coinbase Payments接受稳定币付款，自动换成法币，由花旗作为记账银行结算。商户不必自己持有或托管数字资产。为什么该在意：稳定币是与美元等法币挂钩的数字货币，大银行把它接入企业收款，卖点是「商户不碰币」，把兑换和合规交给持牌机构。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "稳定币进入主流企业支付的具体产品，与摩根士丹利一条互为印证。"
+      },
+      "sources": [
+        {
+          "name": "The Daily Hodl",
+          "url": "https://dailyhodl.com/2026/09/30/citi-and-coinbase-expand-partnership-to-bridge-fiat-banking-and-stablecoin-payments/",
+          "originalTitle": "Citi and Coinbase Expand Partnership to Bridge Fiat Banking and Stablecoin Payments",
+          "publishedAt": "2026-09-30T07:15:10Z"
+        }
+      ]
+    },
+    {
+      "id": "china-pmi-september",
+      "title": "9月制造业PMI回升至50.1%",
+      "brief": "国家统计局：9月制造业PMI 50.1%，比上月升0.3个百分点，重回扩张区间；综合PMI产出指数50.7%。",
+      "summary": "数据（国家统计局9月30日）：9月制造业采购经理指数（PMI）为50.1%，比上月上升0.3个百分点，升至扩张区间；大型企业50.6%，中、小型企业分别为49.7%和48.9%，仍低于临界点。新订单指数50.5%，从业人员指数48.4%。非制造业商务活动指数50.2%，上升1.2个百分点；综合PMI产出指数50.7%，上升1.2个百分点。怎么读：PMI以50%为荣枯线，高于50%表示比上月扩张。本月回到扩张区间但幅度很小，中小企业和用工分项仍偏弱，一个月的数据不足以判断趋势。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "国内最新的宏观景气数据，节后A股开盘的重要参考。"
+      },
+      "sources": [
+        {
+          "name": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202609/t20260930_1965449.html",
+          "originalTitle": "2026年9月中国采购经理指数运行情况",
+          "publishedAt": "2026-09-30T00:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "lesson-exchange-rates",
+      "title": "一词一课：汇率与跨境资产",
+      "brief": "买海外资产要算两笔账：资产本身涨跌，加上外币对人民币的涨跌；汇率可能放大收益，也可能吃掉收益。",
+      "summary": "是什么：汇率是两种货币的兑换价格，比如1美元能换多少人民币。生活类比：出国旅游前换钱，同样的人民币，汇率不同能换到的美元就不同。为什么重要：本期美股、美债都在波动；买美股ETF或QDII基金，换回人民币的收益大致等于资产涨跌加上美元对人民币的涨跌。美国证监会投资者教育页提醒，海外投资可能在当地市场上涨，但换算回本币后反而亏损，跨境投资的费用也往往更高。常见误区：只看美股涨了多少，忽略汇率和换汇成本。小练习：一只美股ETF一年涨5%，同期美元对人民币贬值5%，换回人民币大约是？A. 涨10%　B. 基本持平　C. 跌10%。答案B：两者大致抵消，还没算费用。",
+      "category": "一词一课",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "一词一课按轮换讲第7课（接理财入门晚间课旧期的第6课「风险、分散与亏得起」）。"
+      },
+      "sources": [
+        {
+          "name": "Investor.gov（美国证监会投资者教育）",
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/international-investing",
+          "originalTitle": "International Investing"
+        }
+      ]
+    },
+    {
+      "id": "reading-news-ai-trading-bot-fraud",
+      "title": "新闻怎么读：AI机器人保证赚钱",
+      "brief": "SEC起诉两起借WhatsApp群推销「AI交易机器人」的骗局，涉案超1500万美元。该追问：谁在监管？收益凭什么保证？",
+      "summary": "新闻：美国证监会（SEC）9月29日起诉Cryptoaiml Ltd.、TSAI Pro Ltd.等四家实体，指其通过WhatsApp群等渠道，以「AI交易信号」「租用AI机器人获利」为名，收取数百名散户的数字货币和现金，合计超过1500万美元，并向投资者展示虚假收益、谎称受SEC监管。哪些是事实：起诉和金额是SEC的指控，尚待法院认定。该追问三件事：①「保证收益」可信吗？正规投资都不会保证收益；②它说受谁监管，能在监管机构官网查到吗？③钱转去了哪里，能否随时取回？一句话结论：「AI」「保证赚钱」「群里带单」同时出现时，先按骗局对待。",
+      "category": "新闻怎么读",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用真实案例示范如何识别披着AI外衣的投资骗局。"
+      },
+      "sources": [
+        {
+          "name": "Bitcoin.com News",
+          "url": "https://news.bitcoin.com/regulation-and-legal/sec-charges-whatsapp-crypto-ai-scams-allegedly-taking-over-15-3m/",
+          "originalTitle": "SEC Charges WhatsApp Crypto AI Scams Allegedly Taking Over $15.3M",
+          "publishedAt": "2026-09-30T02:50:56Z"
+        },
+        {
+          "name": "美国证监会新闻稿",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms"
+        }
+      ]
+    },
+    {
+      "id": "calendar-nfp-a-share-reopen",
+      "title": "财经日历：非农周五公布，A股8日开市",
+      "brief": "10月1日房贷贴息生效；10月2日北京时间20:30美国公布9月非农就业；A股10月1—7日休市，8日开市。",
+      "summary": "10月1日（周四）：居民购房贷款贴息政策开始实施（见本期头条）。10月2日（周五）美东时间8:30、北京时间20:30：美国劳工统计局公布9月就业报告（非农就业人数、失业率）。Kiplinger经济日历提到，8月就业报告强劲，此后不到两周美联储三年来首次加息，因此这份报告备受关注。10月1日至7日：沪深交易所国庆休市，10月8日（周四）起照常开市。休市期间美股照常交易，节后A股开盘会集中反映假期内的变化。",
+      "category": "财经日历",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "下一期出刊前最重要的数据与交易日安排。"
+      },
+      "sources": [
+        {
+          "name": "Kiplinger",
+          "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+          "originalTitle": "What to Look Out for in Economic Data This Week (Sept. 28-Oct. 2)"
+        },
+        {
+          "name": "中国证券报",
+          "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/111956.html",
+          "originalTitle": "A股2026年休市安排公布"
+        }
+      ]
+    }
+  ]
+}
