@@ -186,6 +186,7 @@ node automation/publish.mjs <id> [<id> ...] --push
 
 - 先读 `editorial/README.md` 和 `editorial/<刊物ID>.md`，严格按手册检索、核实、写稿；全自动，不向用户提问，核实不了的不收。
 - 只写一个文件：`publications/<刊物ID>/data/candidates/<日期>.json`。**不运行**不带 `--check` 的出刊脚本，不改其他任何文件，不提交、不推送、不启动本机服务。
+- 草稿脚本和下载的核对文件只放在会话临时目录下以刊物 ID 命名的子目录里（如 `<临时目录>/<刊物ID>/`），不同子任务之间不共用文件名。
 - 写完运行 `node automation/publish.mjs <刊物ID> --date <日期> --check`，有问题就改候选稿后重跑，直到通过。
 - 结束时只回报：条数与各栏目条数、没收的内容及原因、版面检查提醒、无法解决的问题。不复述正文。
 

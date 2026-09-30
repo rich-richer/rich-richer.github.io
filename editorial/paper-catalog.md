@@ -38,7 +38,7 @@ AI 研发前沿周报（原 AI 架构周报，2026-09-30 改名）的论文资�
 
 | 序号 | 年份 | 论文（英文原题 / 中文译名） | 作者 / 机构 | 发表处 | 为什么重要 | 原文 | 本刊回顾 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 1950 | Computing Machinery and Intelligence / 计算机器与智能 | A. M. Turing（曼彻斯特大学） | Mind, 1950 | 提出「模仿游戏」（图灵测试），把「机器能否思考」变成可检验的问题 | https://doi.org/10.1093/mind/LIX.236.433 |  |
+| 1 | 1950 | Computing Machinery and Intelligence / 计算机器与智能 | A. M. Turing（曼彻斯特大学） | Mind, 1950 | 提出「模仿游戏」（图灵测试），把「机器能否思考」变成可检验的问题 | https://doi.org/10.1093/mind/LIX.236.433 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-01#classic-paper-turing-computing-machinery-intelligence |
 | 2 | 1958 | The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain / 感知机 | F. Rosenblatt（康奈尔航空实验室） | Psychological Review, 1958 | 第一个能从数据中学习的神经网络模型 | https://doi.org/10.1037/h0042519 |  |
 | 3 | 1986 | Learning Representations by Back-propagating Errors / 通过误差反向传播学习表示 | Rumelhart、Hinton、Williams | Nature, 1986 | 让多层神经网络可以训练的反向传播算法 | https://doi.org/10.1038/323533a0 |  |
 | 4 | 1997 | Long Short-Term Memory / 长短期记忆网络（LSTM） | Hochreiter、Schmidhuber | Neural Computation, 1997 | 解决循环网络记不住长序列的问题，此后二十年语音与翻译的主力 | https://doi.org/10.1162/neco.1997.9.8.1735 |  |
@@ -86,7 +86,7 @@ AI 研发前沿周报（原 AI 架构周报，2026-09-30 改名）的论文资�
 | 46 | 2023 | Mamba: Linear-Time Sequence Modeling with Selective State Spaces / Mamba：选择性状态空间的线性时间序列建模 | Gu（卡内基梅隆大学）、Dao（普林斯顿大学） | 预印本 | 以线性复杂度处理长序列，Transformer 之外最受关注的架构 | https://arxiv.org/abs/2312.00752 |  |
 | 47 | 2025 | DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning / DeepSeek-R1：用强化学习激发大模型推理能力 | DeepSeek-AI | 预印本 | 公开以强化学习训练推理模型的方法并开放权重，推动推理模型普及 | https://arxiv.org/abs/2501.12948 |  |
 
-> 序号 19（Attention Is All You Need）已于 2026-09-28 讲过，本刊条目见第三部分。
+> 已讲：序号 19（2026-09-28）、序号 1（2026-10-01），本刊条目见第三部分。
 
 ## 三、本刊收录目录
 
@@ -100,5 +100,11 @@ AI 研发前沿周报（原 AI 架构周报，2026-09-30 改名）的论文资�
 | 架构 / 机制解释 | Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs / Transformer 可同时持有两路思路：LLM 中线性叠加现象的证据 | 论文未标注机构；据公开资料，作者之一 Ivan Oseledets 为 Skoltech 教授、AIRI 科学委员会成员 | 2026-09-24 | 预印本（arXiv:2609.29845） | https://arxiv.org/abs/2609.29845 | https://rich-richer.github.io/p/ai-architecture/?date=2026-09-28#transformer-linear-superposition-two-thoughts |
 | 训练与后训练 | Rufus-Air: An Open LLM Post-Training Recipe / Rufus-Air：一份开放的 LLM 后训练方案 | Amazon（23 位作者） | 2026-09-24（v2 2026-09-25） | 预印本（arXiv:2609.29421） | https://arxiv.org/abs/2609.29421 | https://rich-richer.github.io/p/ai-architecture/?date=2026-09-28#amazon-rufus-air-post-training-recipe |
 | 经典论文 · 架构奠基 | Attention Is All You Need / 注意力就是你所需要的一切 | Google Brain / Google Research（Vaswani、Shazeer、Parmar 等 8 人；Gomez 以多伦多大学实习生身份参与） | 2017-06-12（NeurIPS 2017 正式发表） | 正式发表（NeurIPS 2017） | https://arxiv.org/abs/1706.03762 | https://rich-richer.github.io/p/ai-architecture/?date=2026-09-28#classic-paper-attention-is-all-you-need |
+| 智能体 / 上下文管理 | Context Language Models / 上下文语言模型 | Meta 超级智能实验室、华盛顿大学（另有 MIT、Trillium Labs），13 人 | 2026-09-29 | 预印本（arXiv:2609.37725） | https://arxiv.org/abs/2609.37725 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-01#meta-context-language-models |
+| 训练与后训练 / 智能体强化学习系统 | QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents / QwenGyre：超长时程智能体的弹性强化学习框架 | 阿里巴巴 Token Hub（另有中国科学技术大学、清华大学），12 人 | 2026-09-27 | 预印本（arXiv:2609.33848） | https://arxiv.org/abs/2609.33848 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-01#qwengyre-elastic-rl-xlong-horizon-agents |
+| 架构 / 长上下文稀疏注意力 | Block Sparse Attention with Log-Linear Complexity / 对数线性复杂度的块稀疏注意力（PISA） | 上海交通大学、上海创智学院、字节跳动 Seed，5 人 | 2026-09-25 | 预印本（arXiv:2609.31093） | https://arxiv.org/abs/2609.31093 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-01#seed-pisa-block-sparse-attention-log-linear |
+| 预训练 / 多模态规模定律 | How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining / 离去掉视觉编码器还有多远？无编码器多模态预训练的规模定律 | 腾讯基础模型部门、中国科学院自动化研究所、中国科学院大学 | 2026-09-28 | 预印本（arXiv:2609.35457） | https://arxiv.org/abs/2609.35457 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-01#tencent-encoder-free-mllm-scaling-laws |
+| 训练与后训练 / 数据筛选 | Selecting Diverse SFT Traces Improves Post-RL Generalization / 选择多样的监督微调推理轨迹可提升强化学习后的泛化 | Google（一作为伊利诺伊大学厄巴纳-香槟分校学生，工作在 Google 完成），3 人 | 2026-09-27 | 预印本（arXiv:2609.33780） | https://arxiv.org/abs/2609.33780 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-01#google-diverse-sft-traces-post-rl |
+| 经典论文 · AI 思想起点 | Computing Machinery and Intelligence / 计算机器与智能 | A. M. Turing（曼彻斯特大学） | 1950-10 | 正式发表（Mind 第 59 卷第 236 期，433–460 页） | https://doi.org/10.1093/mind/LIX.236.433 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-01#classic-paper-turing-computing-machinery-intelligence |
 
 > 首批条目从 2026-09-27 改版后的第一期 AI 研发前沿周报（原 AI 架构周报）（2026-09-28 出刊）开始收录（「本周重要论文」与「经典论文回顾」两个板块）。
