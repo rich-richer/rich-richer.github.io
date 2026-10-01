@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T12:26:50+08:00",
+  "coverage": {
+    "start": "2026-09-28T10:10:00+08:00",
+    "end": "2026-10-01T12:26:50+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "huawei-mate90-launch-sale-today",
+      "title": "华为Mate90全系发布即开售冲热搜",
+      "brief": "华为Mate90系列今日10点发布、12:08开售，5999元起登微博热搜第1。切入：五档机型开箱横评，适合短视频首发。",
+      "summary": "发生了什么：华为Mate90系列及全场景新品发布会10月1日10点举行，12:08全渠道开售。标准版5999元起、Pro 6999元起、Pro Max 9499元起、Pro Max典藏版10999元起、RS非凡大师12999元起，全系搭载睿影XMAGE影像体系，RS非凡大师首发双卫星通信。为什么火：微博热搜榜\"华为Mate90价格\"词条，北京时间10月1日12:36排名第1，热度值1931396（采集自微博热搜实时榜）；\"Mate90全系搭载旗舰麒麟芯片\"\"华为官宣XMAGE中文名\"等相关词条同时在榜前25。切入角度：①五档机型实机开箱横评，适合短视频首发抢流量；②对比Mate80首发价做\"华为今年涨价多少\"图文长文；③围绕RS非凡大师钛金属机身和双卫星通信做长视频深度评测。",
+      "category": "国内",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "华为年度旗舰当天发布即开售，价格全系公布，微博热搜第1，时效性极强，适合在开售当天抢首发流量；跨境电商和数码消费是AIggy熟悉的领域，开箱横评和涨价分析差异化空间大。"
+      },
+      "sources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/009/017.htm",
+          "publishedAt": "2026-10-01T03:15:54.000Z"
+        },
+        {
+          "name": "微博热搜榜",
+          "url": "https://s.weibo.com/top/summary?cate=realtimehot",
+          "discoveredAt": "2026-10-01T04:36:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "flydubai-cockpit-attack-tabuk",
+      "title": "迪拜航空驾驶舱遇袭迫降沙特",
+      "brief": "迪拜航空FZ1073驾驶舱遇袭急降沙特塔布克，174人生还。切入：航空安全机制科普，适合长视频。",
+      "summary": "发生了什么：当地时间9月30日，迪拜航空FZ1073航班从迪拜飞往特拉维夫途中，阿曼籍副驾驶持刀刺伤印度籍机长并一度操控飞机俯冲，29秒内骤降14125英尺；乘客与机组随后制服袭击者，飞机改降沙特塔布克机场，174人全部生还（NBC News、欧洲新闻台）。迪拜航空声明称驾驶舱发生\"冲突\"，原因动机待查，已暂停以色列航线。为什么火：微博热搜榜\"机长被刺伤仍开舱门救乘客\"词条，北京时间10月1日12:36排名第26，热度值257680（采集自微博热搜实时榜）；trends24.in监测显示，\"Flydubai\"是过去24小时全球持续上榜时间最长的词条，达18小时（采集于北京时间10月1日12:31）。切入角度：①梳理\"驾驶舱双人在场\"等航空安全机制的长视频科普；②从乘客合力制服袭击者的细节做短视频叙事；③对比各国飞行员心理筛查制度的图文解读。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "全球多家顶级媒体同步报道的重大航空安全事件，国内外双平台同时冲上热搜，戏剧性和话题性强，航空安全和心理筛查角度适合做长期热度的长视频科普，且双语每日新闻当期未报道，不重复。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Pilot stabbed his co-pilot in apparent attempt to crash Israel-bound plane, Netanyahu says",
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/world/middle-east/flight-dubai-tel-aviv-diverted-emergency-alert-rcna600628",
+          "publishedAt": "2026-09-30T08:56:00.000Z"
+        },
+        {
+          "originalTitle": "Israel says pilot tried to crash Tel-Aviv bound plane during cockpit fight, before safe emergency landing",
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/30/flydubai-plane-traveling-to-israel-diverted-to-saudi-arabia-after-alleged-dispute-between-",
+          "publishedAt": "2026-09-30T08:16:00.000Z"
+        },
+        {
+          "name": "新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5349075906986126.html",
+          "publishedAt": "2026-09-30T00:00:00.000Z"
+        },
+        {
+          "name": "trends24.in（X全球趋势监测）",
+          "url": "https://trends24.in/",
+          "discoveredAt": "2026-10-01T04:31:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "sept-2026-auto-delivery-race",
+      "title": "零跑破10万小米破4万晒9月交付",
+      "brief": "零跑9月交付10.5万续创纪录，小米汽车破4万刷新纪录，理想3.18万累计183万。切入：解读交付数据背后的产能逻辑。",
+      "summary": "发生了什么：10月1日多家车企相继公布9月交付数据。零跑汽车9月全球交付105656台，同比增长59%，连续3个月破10万台，海外出口超2.7万台，累计全球交付超180万台；小米汽车9月交付超40000台，刷新单月纪录，新车型\"澎程\"系列首月交付破1万台；理想汽车9月交付31817辆，历史累计交付突破183万辆（均据IT之家转引三家企业官方公告）。为什么火：微博热搜榜\"各大车企9月交付量\"词条，北京时间10月1日12:36排名第43，热度值175685；\"小米汽车\"词条排名第5，热度值755043（均采集自微博热搜实时榜）。切入角度：①制作\"金九\"交付排行榜图文长图，适合公众号或小红书；②拆解零跑低价高交付量的供应链打法，适合长视频；③对比小米\"澎程\"首月破万和同价位竞品配置，适合短视频测评。",
+      "category": "国内",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "三家头部车企同日公布9月交付数据，零跑和小米均创单月纪录，市场和供应链角度正好契合AIggy的企业管理和资源整合经验，数据驱动的内容差异化程度高。"
+      },
+      "sources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/009/024.htm",
+          "publishedAt": "2026-10-01T03:40:42.000Z"
+        },
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/008/977.htm",
+          "publishedAt": "2026-10-01T01:07:27.000Z"
+        },
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/008/997.htm",
+          "publishedAt": "2026-10-01T02:20:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "zhang-shuai-asiangames-final-topic",
+      "title": "张帅亚运横扫晋级网球女单决赛",
+      "brief": "名古屋亚运网球女单半决赛，张帅6-4、6-2胜普丁塞娃晋级决赛。切入：亚运夺金倒计时短视频。",
+      "summary": "发生了什么：名古屋亚运会网球女子单打半决赛10月1日进行，中国选手张帅以6-4、6-2击败哈萨克斯坦选手普丁塞娃，晋级决赛（新浪新闻体育报道）。为什么火：微博热搜榜\"张帅2比0淘汰普丁塞娃\"词条，北京时间10月1日12:36排名第15，热度值287323（采集自微博热搜实时榜）。切入角度：①剪辑逆转关键分的短视频，赶在决赛前发布抢热度；②结合中国网球近年亚运和大满贯战绩做\"中国金花\"系列图文，适合公众号。",
+      "category": "国内",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "亚运会夺金有望的赛事进展，时效性强（决赛将在近期举行），适合在决赛前抢发预测和回顾类短视频，受众覆盖体育爱好者。"
+      },
+      "sources": [
+        {
+          "name": "新浪新闻",
+          "url": "https://news.sina.cn/gn/2026-10-01/detail-initsttz6219999.d.html",
+          "publishedAt": "2026-10-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ronaldo-leaves-portugal-camp-topic",
+      "title": "C罗突然退出葡萄牙国家队集训",
+      "brief": "C罗因与主教练热苏斯嫌隙离开葡萄牙国家队集训营，缺席对阵丹麦比赛。切入：体育圈摩擦快讯短视频。",
+      "summary": "发生了什么：当地时间9月30日，C罗（克里斯蒂亚诺·罗纳尔多）确认离开葡萄牙国家队在哥本哈根的集训营，缺席次日对阵丹麦的欧国联比赛。C罗本人声明称，在与葡萄牙足协主席佩德罗·普罗恩萨沟通后作出此决定，\"将在适当时候说出真相\"；主教练若尔热·热苏斯否认二人存在矛盾；葡萄牙足协确认C罗缺席赛前最后一堂训练课（半岛电视台）。为什么火：微博热搜榜\"多位球星点赞C罗退集训声明\"词条，北京时间10月1日12:36排名第24，热度值276091；\"C罗被告知球队需求高于个人诉求\"词条排名第39，热度值204877（均采集自微博热搜实时榜）。切入角度：①梳理C罗与热苏斯分歧时间线的短视频快讯；②讨论球星与教练组矛盾对球队成绩影响的图文分析，适合公众号。",
+      "category": "海外",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "顶级球星临场退出国家队集训的突发新闻，国内外同步关注，话题性强、素材多，适合做时效性短视频快讯。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Ronaldo leaves Portugal camp amid reports of rift with coach Jorge Jesus",
+          "name": "半岛电视台（Al Jazeera）",
+          "url": "https://www.aljazeera.com/sports/2026/9/30/cristiano-ronaldo-misses-portugal-training-as-coach-jorge-jesus-denies-rift",
+          "publishedAt": "2026-09-30T00:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}

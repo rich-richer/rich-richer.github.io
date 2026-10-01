@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T12:26:50+08:00",
+  "coverage": {
+    "start": "2026-09-28T12:26:50+08:00",
+    "end": "2026-10-01T12:26:50+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "todays-brief",
+      "title": "今日导读：电网接入成算力竞争新关卡",
+      "brief": "美国电网接入拥堵、中国同步改写并网规则，电力正取代芯片成算力竞争新关卡，电网基础扎实的区域价值被重新标定。",
+      "summary": "今日主线：电网接入成算力竞争新关卡。导读：①美国联邦能源监管委员会（FERC）9月29日为PJM区域“可靠性后备采购”机制按下暂缓键，原定9月30日的拍卖推迟至明年2月28日生效，暴露美国最大区域电网的接网能力已逼近极限（本轮目标采购6831兆瓦）；②OpenAI、黑石、软银联合五家工会成立“美国基础设施联盟”，拟在得州等7州推动数据中心建设标准、反制多州审批冻结；同日亚马逊与Constellation签署20年690兆瓦核电购电协议，带动卡尔弗特悬崖核电站30亿美元扩建；③国家能源局就新修订《电力并网运行管理规定》公开征求意见，首次将新能源、新型储能、负荷侧等主体纳入并网管理；国资委同期披露电碳算协同运营系统已把算力用电成本压低30%，蜂助手等A股公司两个月内密集签下超170亿元算力采购及服务合同；④辽宁同期完成500千伏辽西—辽中断面加强工程投运、新增输电能力250万千瓦，此前获批的国家算力互联互通区域节点建设也在推进。今日一句话：当美国电网因接入拥堵按下暂停键、中国同步改写并网规则之时，真正稀缺的不是芯片而是能立刻并网的电——电网基础扎实、新能源消纳尚有空间的区域，价值坐标正在被重新标定。",
+      "category": "今日导读",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "导读卡：汇总本期海外电网接入瓶颈、中国并网规则修订与算力资本开支、辽宁电网与算力网双线扩容三条主线，作为头条陈述当日核心事实与趋势。"
+      },
+      "sources": [
+        {
+          "name": "本站·FERC暂缓PJM电网后备采购五个月",
+          "url": "https://rich-richer.github.io/p/compute-intel/?date=2026-10-01#ferc-pjm-backstop-procurement-delayed"
+        },
+        {
+          "name": "本站·能源局修订电力并网运行管理规定",
+          "url": "https://rich-richer.github.io/p/compute-intel/?date=2026-10-01#nea-grid-interconnection-rule-revision"
+        },
+        {
+          "name": "本站·辽宁500千伏辽西辽中断面工程投运",
+          "url": "https://rich-richer.github.io/p/compute-intel/?date=2026-10-01#liaoning-liaoxi-liaozhong-500kv-section"
+        }
+      ]
+    },
+    {
+      "id": "ferc-pjm-backstop-procurement-delayed",
+      "title": "FERC暂缓PJM电网后备采购五个月",
+      "brief": "FERC有条件批准PJM可靠性后备采购但暂缓至明年2月，原定9月30日的拍卖取消。意义：美国电网接网能力逼近极限。",
+      "summary": "美国联邦能源监管委员会（FERC）9月29日对PJM的“可靠性后备采购”方案作出裁决：有条件接受，但生效时间推迟五个月至2027年2月28日，原定9月30日的拍卖随之取消。PJM此前因2028/29交付年容量缺口提出该机制，目标采购6831兆瓦电力以应对数据中心等大负荷激增，报价上限为每兆瓦日555美元。FERC主席Laura Swett表示，“本委员会不会被迫接受一个存在严重缺陷、临门一脚式仓促拟定的采购机制”，并指出方案在成本分摊、退出规则、担保要求三方面“可能不公正且不合理”。PJM回应称将尽快修改方案。关键数字：6831兆瓦（目标采购容量）｜5个月（暂缓时长）｜3项（FERC认定存在问题的条款类别）。意义：美国最大区域电网连应急性质的后备采购都被叫停重做，说明容量缺口已大到连应急机制本身都存在争议，接网瓶颈正从审批蔓延到市场机制设计。电网基础扎实、新增负荷有消纳空间的地区，相对优势会随摩擦加剧而放大。 EN: FERC Chair Laura Swett said, \"This commission will not be forced into accepting a deeply flawed, eleventh-hour procurement mechanism.\"",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "对应选题优先级第3条：改变行业底层逻辑的趋势与数据。全美最大区域电网的应急后备采购机制被监管层叫停重做，是判断美国电网接入瓶颈严重程度的直接信号。"
+      },
+      "sources": [
+        {
+          "originalTitle": "FERC chair slams PJM 'mess' as country's largest grid operator delays power auction",
+          "name": "Utility Dive",
+          "url": "https://www.utilitydive.com/news/pjm-delays-backstop-procurement-ferc-data-center/831751/",
+          "publishedAt": "2026-09-30T00:00:00.000Z"
+        },
+        {
+          "originalTitle": "FERC Suspends PJM's Backstop Procurement Five Months and PJM Pulls Its September 30 Auction",
+          "name": "mgrid.org",
+          "url": "https://mgrid.org/2026/09/29/ferc-suspends-pjm-backstop-procurement-five-months-auction-pulled/",
+          "publishedAt": "2026-09-29T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "american-infrastructure-alliance-formed",
+      "title": "OpenAI黑石软银组建联盟抗数据中心禁建",
+      "brief": "OpenAI、黑石、软银联合五家工会成立基础设施联盟，拟在7州推动数据中心标准、反制禁建潮。意义：政治摩擦成电力竞争新变量。",
+      "summary": "据Axios、The Daily Caller等媒体9月28日报道，OpenAI、黑石（Blackstone）、软银（SoftBank）与数据中心运营商QTS，联合电工工会（IBEW）等至少五家建筑工会，组建“美国基础设施联盟”，应对得克萨斯、纽约、宾夕法尼亚等州的数据中心审批冻结和禁建动议。联盟计划在2027年各州立法季前，重点在得克萨斯、佐治亚、俄亥俄、爱荷华、宾夕法尼亚、印第安纳、南卡罗来纳七州，推动数据中心建设行业标准：大负荷用户自费承担电力基础设施投资，并就噪音、照明、建筑退线与社区达成协议。联盟称该行动为“高八位数级别”的游说投入。IBEW主席Kenneth Cooper表示，“全面禁止必要的基础设施项目会损害经济、威胁中产阶级就业”。关键数字：7个州（首批游说州份）｜5家以上（联合工会数量）｜八位数美元（游说投入规模）。意义：资本与工会联手游说，说明数据中心审批冻结已从个别州摩擦演变为需跨州协调的结构性政治议题，电力接入博弈正从电网技术扩展到立法和社区关系层面。这种摩擦越制度化，审批清晰、社区接受度高、电力富余的区域，就越能在选址竞争中占据主动。 EN: IBEW President Kenneth Cooper said, \"Blanket bans on necessary infrastructure projects would set back our economy and threaten good middle-class jobs.\"",
+      "category": "海外",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "对应选题优先级第3条：改变行业底层逻辑的趋势与数据。资本与工会联手组建跨州游说联盟，反映数据中心审批摩擦已从电网技术问题演变为结构性政治议题。"
+      },
+      "sources": [
+        {
+          "originalTitle": "OpenAI and unions launch the American Infrastructure Alliance",
+          "name": "TNW (The Next Web)",
+          "url": "https://thenextweb.com/news/american-infrastructure-alliance-openai-unions-data-centres",
+          "publishedAt": "2026-09-29T00:00:00.000Z"
+        },
+        {
+          "originalTitle": "Big Tech, Unions And Private Equity Team Up To Stop States From Freezing Data Center Construction",
+          "name": "The Daily Caller",
+          "url": "https://dailycaller.com/2026/09/28/american-infrastructure-alliance-data-center-moratoriums-openai-blackstone-unions-greg-abbott/",
+          "publishedAt": "2026-09-28T20:46:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "amazon-constellation-calvert-cliffs-nuclear-ppa",
+      "title": "亚马逊签20年核电协议扩建卡尔弗特悬崖电站",
+      "brief": "亚马逊与Constellation签20年690兆瓦核电购电协议，带动30亿美元扩建。意义：核电成为算力扩张的确定性电源。",
+      "summary": "Constellation能源与亚马逊9月30日联合宣布，签署20年期电力购买协议（PPA），亚马逊将购买马里兰州卡尔弗特悬崖清洁能源中心合计690兆瓦电力，含现有机组产能和190兆瓦新增扩容产能。协议支撑Constellation投资超30亿美元用于设施升级，新增约190兆瓦零碳发电能力预计2030至2032年投产。协议同时为电站两台机组延寿创造条件：1号机组现有许可至2034年、2号机组至2036年，若延寿获批可运营至本世纪50年代中期。电站现有装机1790兆瓦，覆盖PJM电网所在的13个州及华盛顿特区。Constellation首席执行官Joe Dominguez表示，协议“展示了私人投资如何加强关键能源基础设施”。关键数字：690兆瓦（协议购电总容量，含190兆瓦新增）｜30亿美元以上（带动的基础设施投资）｜20年（协议及延寿争取的期限）。意义：云厂商开始为既有核电机组的扩容和延寿提供收入确定性，而非只等待新建项目，说明核电正从“远期选项”变成算力扩张可立即兑现的确定性电源。能提供稳定基荷电力、具备电源扩容或直连条件的区域，会更早进入云厂商长期供电候选名单。 EN: Constellation CEO Joe Dominguez said, \"This agreement demonstrates how private investment can strengthen critical energy infrastructure.\"",
+      "category": "海外",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "对应选题优先级第3条：改变行业底层逻辑的趋势与数据。云厂商为既有核电机组扩容延寿提供长期购电协议，反映核电正从远期选项变为可立即兑现的确定性电源。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Constellation and Amazon Announce 20-Year Power Purchase Agreement Adding 190 Megawatts of Nuclear Capacity at Calvert Cliffs",
+          "name": "Constellation Energy（官方新闻稿）",
+          "url": "https://www.constellationenergy.com/news/2026/09/constellation-and-amazon-announce-20-year-power-purchase-agreement-at-calvert-cliffs.html",
+          "publishedAt": "2026-09-30T00:00:00.000Z"
+        },
+        {
+          "originalTitle": "Amazon deal will power data centers, enable $3 billion Calvert Cliffs investment",
+          "name": "The Baltimore Sun",
+          "url": "https://www.baltimoresun.com/2026/09/30/amazon-deal-calvert-cliffs-nuclear/",
+          "publishedAt": "2026-09-30T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "nea-grid-interconnection-rule-revision",
+      "title": "能源局修订电力并网运行管理规定，新增多元主体",
+      "brief": "国家能源局就新修订《电力并网运行管理规定》征求意见，首次纳入新能源、储能、负荷侧并网管理。意义：接网规则适配新型电力系统。",
+      "summary": "国家能源局综合司9月30日发布通知，就新修订的《电力并网运行管理规定（征求意见稿）》向社会公开征求意见。本次修订是对现行《电力并网运行管理规定》（国能发监管规〔2021〕60号）的系统性调整，依据《中华人民共和国能源法》《中华人民共和国电力法》《电网调度管理条例》《电力监管条例》等法律法规，贯彻“深化电力体制改革、建设全国统一电力市场”的决策部署，旨在规范电力系统并网运行管理，保障电力系统安全、优质、经济运行及相关市场主体合法权益。现行规定主要针对传统发电厂的并网管理，此次修订将规范对象从“发电厂并网”扩展为覆盖新能源发电、新型储能、负荷侧等各类并网主体的全口径管理，以适配源网荷储多元互动的新型电力系统运行特征。关键数字：国能发监管规〔2021〕60号（被修订的现行规定文号）｜2021年至2026年（规定实施至此次修订的年份跨度）｜3类以上（新增覆盖的并网主体类型：新能源、新型储能、负荷侧）。意义：并网管理的规范对象从传统电厂扩展到新能源、储能和负荷侧，说明监管层正在为数据中心等新增大负荷和分布式电源的大规模接入，提前搭建统一的技术和管理框架，而不是沿用十余年前为传统电厂设计的旧规则。接网规则越清晰、越能覆盖多元主体，具备新能源消纳空间和负荷侧灵活资源的区域，接入新增用电需求的制度成本就越低。",
+      "category": "中国",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "对应选题优先级第1条：当日发布的国家级政策原文，有文号、有链接。修订将并网管理对象扩展到新能源、储能和负荷侧，直接关系到数据中心等新增大负荷未来的接入规则。"
+      },
+      "sources": [
+        {
+          "name": "国家能源局综合司（经新浪新闻转载）",
+          "url": "https://k.sina.cn/article_5953189932_162d6782c06704zrqm.html",
+          "publishedAt": "2026-09-30T09:49:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "sasac-ai-plus-power-carbon-compute-30pct",
+      "title": "国资委：电碳算协同降算力电费三成",
+      "brief": "国资委披露电碳算协同运营系统已将算力用电成本降低30%，十五五将加码算力网投资。意义：电费管理成算力竞争力指标。",
+      "summary": "国务院新闻办公室9月28日举行“开局起步‘十五五’”系列主题新闻发布会，国务院国资委规划发展局局长戴希介绍央企“AI+”专项行动进展。戴希表示，国资委已推动央企在应用、数据、算力、模型、生态五方面形成突破，推出中央企业战略性高价值场景百个标杆、四个数据产业共同体，并依托“息壤”“算网大脑”等调度平台对外提供算力服务；通过电碳算协同运营系统，算力用电成本已降低达到30%。她表示，“十五五”时期央企将继续加大算力网投资力度，合理布局生态友好型计算中心，深化算电协同、算网融合，加快落地更多绿电直连项目，推动人工智能和能源双向赋能，并以工业领域为重点打造“AI+”产业共同体。关键数字：30%（电碳算协同运营系统降低的算力用电成本比例）｜百个（中央企业战略性高价值场景标杆数量）｜四个（披露的数据产业共同体数量）。意义：央企把“电碳算协同能把用电成本压低多少”作为公开披露的量化指标，说明电力成本管理已从后台运营细节升格为算力竞争力的核心指标之一，而不只是统计口径里的装机容量或训练算力规模。能把绿电、储能和算力调度做成协同系统的区域，在下一轮央企算力网布局中会更具吸引力。",
+      "category": "中国",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "对应选题优先级第3条：改变行业底层逻辑的趋势与数据。央企首次量化披露电碳算协同对用电成本的压降幅度，是判断算力用电成本管理水平的直接依据。"
+      },
+      "sources": [
+        {
+          "name": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-09-29/doc-initmzhp3102940.shtml",
+          "publishedAt": "2026-09-29T01:38:00.000Z"
+        },
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/fortune/20260928/5c4892e582e645a297a48507639212bd/c.html",
+          "publishedAt": "2026-09-28T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fengzhushou-compute-orders-173-billion",
+      "title": "蜂助手两个月签173亿算力大单",
+      "brief": "蜂助手9月28日再签约97亿元算力采购及服务合同，两个月累计锁定173亿元。意义：算力中间商模式的杠杆风险已显性化。",
+      "summary": "创业板公司蜂助手（301382.SZ）9月28日晚公告，近期分别与C公司、D公司签订算力服务器采购协议和算力服务协议，金额分别为39.6亿元、57.17亿元（均含税，服务协议不含机柜服务费），合作期限60个月。公司计划通过自有资金、融资租赁及银行授信筹措采购资金，其中自有资金占比仅5%—20%，融资租赁占比高达80%—95%。这是蜂助手两个月内第二轮算力大单：8月4日，全资子公司雅安云算已签署采购协议30.62亿元、服务合同46.08亿元。两轮合计，公司算力采购协议金额超70亿元、服务合同金额超103亿元，累计约173亿元。而截至今年6月底，公司净资产仅19.50亿元、总资产41.32亿元，上半年营业收入13.39亿元、同比增长36.14%。公司回应称，项目投产初期折旧和融资成本先行发生，与收入确认之间“存在账期错配”，需待服务器上架率提升后收入才能同步增长。关键数字：173亿元（两个月内累计锁定的算力采购及服务合同金额）｜19.50亿元（截至6月底公司净资产）｜80%—95%（采购资金中融资租赁占比）。意义：173亿元的订单规模接近公司净资产的9倍，资金来源又高度依赖融资租赁而非自有现金，说明这一轮算力采购大单背后，资本杠杆的扩张速度已明显快于企业自身资产负债表的扩张速度，订单金额本身越来越难以直接等同于真实的算力交付能力。对于承接算力项目的地区而言，甄别交易对手的真实资金实力和履约能力，比合同金额本身更有参考价值。",
+      "category": "中国",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "对应选题优先级第2条：可类比到辽宁的落地案例。算力采购合同的金额与资金结构，是判断算力资本开支真实节奏与杠杆水平的直接证据。"
+      },
+      "sources": [
+        {
+          "originalTitle": "重磅利好！301382，签下超57亿元算力大单，还签了近40亿元的算力服务器采购协议",
+          "name": "同花顺财经",
+          "url": "http://stock.10jqka.com.cn/20260928/c680331065.shtml",
+          "publishedAt": "2026-09-28T11:55:49.000Z"
+        },
+        {
+          "originalTitle": "蜂助手2个月签百亿级算力大单：\"一手买一手卖\"，坦言成本和收入存时间错配",
+          "name": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-09-29/doc-initphzx2715439.shtml",
+          "publishedAt": "2026-09-29T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "liaoning-liaoxi-liaozhong-500kv-section",
+      "title": "辽宁500千伏辽西辽中断面工程投运",
+      "brief": "辽宁500千伏辽西—辽中断面加强工程9月23日投运，新增输电能力250万千瓦。意义：骨干网架为大负荷接入预留空间。",
+      "summary": "国网辽宁省电力有限公司投资建设的500千伏辽西—辽中断面加强工程9月23日正式投运，科技日报9月23日、9月28日两次报道。该工程自2024年9月启动建设，由500千伏北宁—虎官线路工程、阜鹤1、2线改造工程、董家—北宁与王石—北宁搭接工程三项单体工程组成，新建铁塔321基，线路折单长度259.851千米，途经锦州、营口、盘锦三个地级市。工程投运后，辽西与辽中间500千伏联络通道的输电能力提升250万千瓦，相当于新增一座中型城市的年用电负荷容量；报道同时指出，这一通道拓宽既让辽西丰富的风电、太阳能、核电等清洁能源“送得出去”，也保障了辽中负荷“用得可靠”，实现了辽宁中西部电网互联互通。关键数字：250万千瓦（辽西—辽中断面新增输电能力）｜259.851千米（新建500千伏线路折单长度）｜321基（新建铁塔数量）。意义：500千伏级骨干网架的加密通常先于具体产业项目签约数月甚至数年出现，是判断一个区域能否承接大规模用电负荷的先行指标。辽西与辽中联络通道输电能力提升，意味着辽宁中西部城市群获得更大的故障抵御裕度和清洁能源外送通道容量，为后续引入高耗能、高负荷产业项目预留了更充裕的硬件基础。",
+      "category": "辽宁",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "对应选题优先级第4条：涉及辽宁本地的动向。500千伏骨干网架加强工程投运，是判断辽宁中西部区域承接大负荷产业能力的先行指标。"
+      },
+      "sources": [
+        {
+          "name": "科技日报",
+          "url": "https://www.stdaily.com/web/gdxw/2026-09/23/content_586869.html",
+          "publishedAt": "2026-09-23T00:00:00.000Z"
+        },
+        {
+          "name": "科技日报",
+          "url": "https://www.stdaily.com/web/gdxw/2026-09/28/content_588982.html",
+          "publishedAt": "2026-09-28T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "liaoning-national-compute-interconnection-node",
+      "title": "辽宁入选国家算力互联互通节点",
+      "brief": "工信部8月20日发文、辽宁入选国家算力互联互通区域节点，9月初公开传播。意义：区域算力网络话语权提前卡位。",
+      "summary": "工业和信息化部办公厅8月20日印发《关于公布国家算力互联互通区域节点建设名单的通知》（工信厅信管函〔2026〕404号），8月28日在工信部官网公开，此后经多家媒体于9月初广泛报道。通知确定北京、河北、山西、内蒙古、辽宁、黑龙江、上海、浙江、福建、湖北、广东、重庆、四川、贵州、陕西、甘肃、宁夏等17个省（自治区、直辖市）入选国家算力互联互通区域节点建设名单，共46家实施主体。辽宁的申报单位为辽宁省通信管理局和辽宁省工业和信息化厅，实施主体为中国移动通信集团辽宁有限公司、中国联合网络通信有限公司辽宁省分公司和中国电信集团有限公司辽宁分公司。入选意味着辽宁将承担算力互联互通国家节点的建设任务，推动区域内算力资源的统一调度和跨网互通。关键数字：17个省区市（入选名单总数）｜46家（全国实施主体总数）｜3家（辽宁对应的运营商实施主体数量）。意义：算力互联互通区域节点决定了一个地区能否接入全国统一调度的算力网络、能否被优先分配跨区域算力任务，是比单纯新建机柜更稀缺的制度性资源。辽宁同时拿下算力网络节点和电网骨干网架加密两张牌，意味着无论是“网”的接入权还是“电”的供给能力，都在同步补强，为后续承接更大规模的算力和产业负荷打下双重基础。",
+      "category": "辽宁",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "对应选题优先级第4条：涉及辽宁本地的动向。入选国家算力互联互通区域节点是制度性资源，与电网骨干网架加强形成\"网电\"双重基础的互证。"
+      },
+      "sources": [
+        {
+          "originalTitle": "辽宁获批国家算力互联互通区域节点",
+          "name": "腾讯新闻（iMobile爱科技）",
+          "url": "https://news.qq.com/rain/a/20260903A082LC00",
+          "publishedAt": "2026-09-03T07:34:00.000Z"
+        },
+        {
+          "name": "smartcity.team（政策库）",
+          "url": "https://www.smartcity.team/policies/xinjijian/%E5%9B%BD%E5%AE%B6%E7%AE%97%E5%8A%9B%E4%BA%92%E8%81%94%E4%BA%92%E9%80%9A%E5%8C%BA%E5%9F%9F%E8%8A%82%E7%82%B9/",
+          "publishedAt": "2026-09-01T00:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}
