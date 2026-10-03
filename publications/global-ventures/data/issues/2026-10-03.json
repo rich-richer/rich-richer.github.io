@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T15:30:00+08:00",
+  "coverage": {
+    "start": "2026-09-26T15:30:00+08:00",
+    "end": "2026-10-03T15:30:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "report-ai-shopping-visibility-summary",
+      "title": "执行摘要：中国跨境卖家会为“被AI购物智能体推荐”付费吗",
+      "brief": "结论：有需求但窄，能先收费的是 SKU 级数据整改与效果审计，不是通用监测软件。置信度：低。",
+      "summary": "本期问题：中国出海卖家会在 12 个月内，为“让 AI 购物入口找到并推荐商品”付费吗？结论：有需求，但窄、偏晚，能先收到钱的是按 SKU 计价的数据整改和效果审计，通用监测软件的空间小。这里的服务指商品数据整理，加上 AI 渠道可见性的监测与优化，对象是亚马逊、独立站等平台上的出海卖家。依据：亚马逊近日封堵了 Meta 的 Muse，OpenAI 10 月 1 日上线虚拟试穿、此前已放弃站内结账（CNN、TechCrunch），入口之争仍在变；美国零售站点的 AI 流量和订单增速极快，但基数小（第 2 节）；Shopify 和 Google 把商品接入做成默认功能（第 5、8 节）；国内监管已点名 GEO 恶意营销（第 6 节）。置信度：低。需求信号全部来自海外平台和服务商，没有中国卖家的付费数据，须用第 9 节的行动验证。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "本周 Meta Muse、OpenAI、Shopify 的购物智能体动作集中出现，亚马逊封堵外部智能体；AIggy 关注跨境电商与 AI 应用，这一问题能直接用小成本验证。创刊号已研究智能体安全，本期换到电商入口方向。"
+      },
+      "sources": [
+        {
+          "name": "CNN Business",
+          "url": "https://www.cnn.com/2026/09/28/tech/meta-muse-ai-agents-amazon",
+          "originalTitle": "AI agents promise to do everything for you. There may be a big wrinkle in that plan",
+          "publishedAt": "2026-09-28T11:00:30Z"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+          "originalTitle": "ChatGPT can now virtually try on clothes for you",
+          "publishedAt": "2026-10-01T19:21:53Z"
+        }
+      ]
+    },
+    {
+      "id": "meshy-100m-arr-ai-3d",
+      "title": "Meshy：AI 3D 生成年化收入自报破1亿美元",
+      "brief": "Meshy 把文字和图片转成 3D 模型，自报年化收入（ARR）超 1 亿美元。启示：中国团队已在做 AI 3D 出海，空间在 3D 打印等垂直场景。",
+      "summary": "做什么：美国硅谷的 Meshy 把文字、图片或草图在约一分钟内转成可进游戏引擎、可 3D 打印的模型，9 月 30 日上线手机应用；公司披露的客户和合作方含 Nexon、网易游戏、三七互娱，以及 Bambu Lab、Creality、Elegoo 等打印机品牌。怎样赚钱：订阅制，官网设免费、Pro、Studio、企业版，按积分（credits）计费并提供接口；⚠️ 待核实：具体价格。增长证据：年化经常性收入（ARR）——公司 9 月 30 日自报超 1 亿美元，不到两年从 100 万美元涨起；融资——7 月完成近 4 亿美元 B 轮，估值 15 亿美元；用户——公司自报注册用户超 1,500 万、企业和教育机构客户超 3,000 家；利润——⚠️ 待核实：未披露。中国落地条件：这是出海机会，不是国内机会。中国的 VAST（Tripo）2026 年累计融资约 7.4 亿美元，个人订阅每月 20—90 美元，用户多在美欧日（InvestGame 汇总）。分析：新进入者不宜自研通用模型，可做 3D 打印个性化商品的“生成—拆件—打印”服务。风险：法律——Meshy 条款称，资产归属以用户未使用侵权素材为前提；分析：卖出的模型要自担侵权风险；持续经营——同类公司融资密集，价格战难免。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "本周增长证据最完整的一家：公司自报 ARR 破 1 亿美元，并有 7 月融资和客户名单可交叉；创始团队与资本都有中国背景，且与跨境电商、3D 打印硬件相邻。"
+      },
+      "sources": [
+        {
+          "name": "PR Newswire（公司新闻稿）",
+          "url": "https://www.prnewswire.com/news-releases/meshy-surpasses-100-million-in-annual-recurring-revenue-growing-100x-in-under-two-years-302894078.html",
+          "originalTitle": "Meshy Surpasses $100 Million in Annual Recurring Revenue, Growing 100x in Under Two Years",
+          "publishedAt": "2026-09-30T15:00:00Z"
+        },
+        {
+          "name": "3D Printing Industry",
+          "url": "https://3dprintingindustry.com/news/meshy-raises-nearly-400m-at-1-5b-valuation-in-largest-ai-3d-round-to-date-253294/",
+          "originalTitle": "Meshy raises nearly $400M at $1.5B valuation in largest AI 3D round to date",
+          "publishedAt": "2026-07-24T07:53:04Z"
+        },
+        {
+          "name": "InvestGame.net",
+          "url": "https://investgame.net/news/matrix-partners-china-has-led-a-446m-series-b-and-b-into-vast-maker-of-tripo-ai-in-its-fourth-round-of-2026/",
+          "originalTitle": "Matrix Partners China has led a ~$446m Series B and B+ into VAST, maker of Tripo AI, in its fourth round of 2026",
+          "publishedAt": "2026-09-06T16:31:56Z"
+        },
+        {
+          "name": "Meshy 官网定价页",
+          "url": "https://www.meshy.ai/pricing",
+          "originalTitle": "Meshy Official Pricing: Free, Pro, Studio & Enterprise Plans"
+        }
+      ]
+    },
+    {
+      "id": "instinct-series-c-personal-agent",
+      "title": "Instinct：个人智能体获10亿美元C轮，估值100亿美元",
+      "brief": "Instinct 用短信代用户订票、下单，14 人团队融资 10 亿美元，创始人称年化交易额近 10 亿美元。启示：智能体入口会截走流量，卖家商品数据要先过关。",
+      "summary": "做什么：美国 Instinct（旧金山，2026 年 8 月起邀请制）是消费者个人智能体，用自己的电话号码和电脑，通过短信替用户订机票酒店和餐厅、下单、取消订阅，暂无手机应用，团队 14 人。怎样赚钱：未披露订阅价或抽成；9 月 29 日（美国时间）推出“Instinct Selections”，与本地厨师、设计师等合作做人工甄选推荐，TechCrunch 视其为新收入来源，部分用户反感其像广告。增长证据：融资——9 月 28 日宣布 10 亿美元 C 轮，红杉、Benchmark、Coatue 参与，估值 100 亿美元，约一个月前上轮估值为 25 亿美元；业务量——创始人在播客中称年化交易额接近 10 亿美元、日增约 10%、旅行占一半以上（创始人自述，口径未说明）；营收与用户数——⚠️ 待核实：未披露。中国落地条件：国内入口由超级应用自建，阿里千问 App 2026 年 1 月起接入淘宝、支付宝、淘宝闪购、飞猪和高德，独立第三方拿不到这些生态的支付与履约接口。风险：平台规则——依赖第三方网站放行，部分平台已拒绝外部智能体（见执行摘要）；声誉——隐私政策初版被批过度索取个人信息；持续经营——营收未披露，估值一个月内涨到 4 倍。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "本周最大的消费级智能体融资，与本期战略报告的问题直接相关：智能体替用户下单，会改变商品被发现和购买的路径。"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+          "originalTitle": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+          "publishedAt": "2026-09-28T13:38:48Z"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/29/instinct-founder-said-more-than-50-of-transactions-on-the-platform-are-travel-related/",
+          "originalTitle": "Instinct founder said more than 50% of transactions on the platform are travel-related",
+          "publishedAt": "2026-09-29T15:12:07Z"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/",
+          "originalTitle": "Instinct's new product recommendations are giving some users the ick",
+          "publishedAt": "2026-09-30T15:56:28Z"
+        },
+        {
+          "name": "科技日报",
+          "url": "https://www.stdaily.com/web/gdxw/2026-01/15/content_461939.html",
+          "publishedAt": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "jeeves-110m-stablecoin-banking",
+      "title": "Jeeves：稳定币企业银行获1.1亿美元",
+      "brief": "Jeeves 为跨国企业做公司卡和跨境付款，自报收入 14 个月翻两番，年化总交易额超 50 亿美元。启示：境内不能做稳定币，可学多币种卡与应付账款。",
+      "summary": "做什么：美国迈阿密的 Jeeves 为跨国企业提供公司卡、应付账款、跨境付款和支出管理，底层用稳定币（stablecoin）结算，客户含 BMW、H&M、Lululemon，稳定币卡已覆盖 35 国。怎样赚钱：⚠️ 待核实：未披露收费结构（卡、付款、外汇与软件各占多少）。增长证据：融资——9 月 30 日媒体报道其完成 1.1 亿美元股权融资，CoinFund 领投，a16z、Coinbase Ventures、Y Combinator 等参投；营收——公司自报 14 个月内翻两番，绝对金额未披露；业务量——公司自报年化总交易额超 50 亿美元（同比 3 倍），其中稳定币年化 15 亿美元，8 个月前几乎为零。中国落地条件：境内做不了。2026 年 2 月 6 日八部门通知规定虚拟货币相关业务一律禁止，境外机构不得向境内主体提供相关服务，企业名称和经营范围不得含“稳定币”（新华社）。分析：可借鉴的是非稳定币部分，为出口拉美和欧洲的中国企业提供多币种公司卡与应付账款，结算走持牌通道。风险（分析）：法律——各国支付与反洗钱牌照要求；持续经营——收入结构和成本未披露。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "合规稳定币基础设施里增长证据较具体的一家，且客户是跨国企业；同时是检验“数字货币只从合规角度写”的好案例：国内明令禁止，机会只在可借鉴的非稳定币部分。"
+      },
+      "sources": [
+        {
+          "name": "Refresh Miami",
+          "url": "https://refreshmiami.com/news/jeeves-raises-110m-to-take-its-stablecoin-play-global/",
+          "originalTitle": "Jeeves raises $110M to take its stablecoin play global",
+          "publishedAt": "2026-09-30T14:30:00Z"
+        },
+        {
+          "name": "Crowdfund Insider",
+          "url": "https://www.crowdfundinsider.com/2026/10/314359-fintech-firm-jeeves-reports-new-funding-to-scale-stablecoin-native-banking-platform/",
+          "originalTitle": "Fintech Firm Jeeves Reports New Funding To Scale Stablecoin Native Banking Platform",
+          "publishedAt": "2026-10-01T22:30:38Z"
+        },
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/fortune/20260206/b569f51297ce4d6c980c4954922cd7c2/c.html",
+          "publishedAt": "2026-02-06T13:40:00Z"
+        }
+      ]
+    },
+    {
+      "id": "eliseai-350m-housing-healthcare",
+      "title": "EliseAI：AI做租赁与医疗行政，估值40亿美元",
+      "brief": "EliseAI 用 AI 处理租赁与医疗机构的行政运营，自报 ARR 超 2 亿美元，获 3.5 亿美元融资。启示：国内先做房源核验与看房跟进，避开资金环节。",
+      "summary": "做什么：美国纽约的 EliseAI（2017 年成立）用 AI 自动处理房产管理公司的租赁、维修和续租，以及专科医生团队的来电、转诊、预约、保险核验和病历准备。怎样赚钱：向房产管理公司和医疗机构销售软件；⚠️ 待核实：定价方式未公开。增长证据：融资——9 月 29 日宣布 3.5 亿美元，a16z 与 Bessemer 共同领投，估值 40 亿美元，是上年 8 月 E 轮估值的 2 倍；营收——公司 6 月自报 ARR 超 2 亿美元；覆盖——公司自报其软件用于美国六分之一的公寓，累计与 3,000 多万美国人交互；利润——⚠️ 待核实：未披露。中国落地条件：《住房租赁条例》（国务院令第 812 号，2025 年 9 月 15 日施行）要求房源信息真实、准确、完整，租赁企业建档，不得非法收集个人信息，转租企业设资金监管账户（中国政府网）。分析：可先做租赁企业的房源信息核验和看房跟进。风险：法律——个人信息保护；声誉——AI 答错房源信息会直接伤害租客；持续经营——客户集中在房地产行业，受周期影响。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "本周增长证据最硬的垂直 AI 公司之一：ARR 和覆盖率都有公司披露，业务落在住房与医疗行政这两块刚性成本上，国内也有明确的法规约束可对照。"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/29/a16z-backed-eliseai-raises-350m-doubles-valuation-to-4b/",
+          "originalTitle": "a16z-backed EliseAI raises $350M, doubles valuation to $4B",
+          "publishedAt": "2026-09-29T21:51:36Z"
+        },
+        {
+          "name": "GlobeNewswire（公司新闻稿）",
+          "url": "https://www.globenewswire.com/news-release/2026/09/29/3370681/0/en/eliseai-raises-350-million-at-4-billion-valuation-to-bring-ai-deeper-into-housing-and-healthcare-operations.html",
+          "originalTitle": "EliseAI Raises $350 Million at $4 Billion Valuation to Bring AI Deeper Into Housing and Healthcare Operations",
+          "publishedAt": "2026-09-29T00:00:00Z"
+        },
+        {
+          "name": "中国政府网",
+          "url": "https://www.gov.cn/zhengce/content/202507/content_7032955.htm",
+          "publishedAt": "2025-07-22T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "report-ai-shopping-visibility-market",
+      "title": "需求与市场：AI订单涨得快，但基数仍小",
+      "brief": "美国零售站点的 AI 流量一季度同比涨 393%，Shopify 称 AI 订单近 13 倍，但没有一家披露 AI 渠道占销售额的比例。",
+      "summary": "已核实事实（美国或全球口径，多为平台或服务商自报）：Adobe 称 2026 年一季度美国零售网站的 AI 流量同比增 393%，3 月 AI 流量转化率比其他来源高 42%，每次访问收入高 37%，同时约 34% 的商品页面无法被 AI 正常读取（TechCrunch 4 月 16 日转述）。Shopify 在 5 月 5 日财报电话会上称，一季度 AI 带来的店铺流量同比 8 倍，AI 搜索订单近 13 倍。Similarweb 称，2025 年 6 月至 2026 年 5 月 AI 平台月均向全球网站引荐 7.707 亿次访问，同比增 117.4%；电商市场类网站月均 4,680 万次，同比增 237.3%，且 AI 更偏向多品类大平台，而非小型垂直站点。分析：增速是在小基数上算出的，Similarweb 自己提醒，美妆增 312.5% 只多了约 150 万次月访问；以上各家数据都只给增速，没有给 AI 渠道占总销售额的比例。⚠️ 待核实：中国卖家店铺里的 AI 渠道订单占比，目前无公开数据。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告第 2 节：先确认需求信号的口径与量级，并把增速和基数分开写。"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/04/16/ai-traffic-to-us-retailers-rose-393-in-q1-and-its-boosting-their-revenue-too/",
+          "originalTitle": "AI traffic to US retailers rose 393% in Q1, and it's boosting their revenue too",
+          "publishedAt": "2026-04-16T16:14:03Z"
+        },
+        {
+          "name": "Motley Fool（财报电话会实录）",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/05/05/shopify-shop-q1-2026-earnings-transcript/",
+          "originalTitle": "Shopify (SHOP) Q1 2026 Earnings Transcript",
+          "publishedAt": "2026-05-05T16:10:36Z"
+        },
+        {
+          "name": "Similarweb",
+          "url": "https://aisearch.similarweb.com/blog/ai-referral-traffic-by-industry/",
+          "originalTitle": "AI Referral Traffic by Industry: 2026 Data",
+          "publishedAt": "2026-09-03T12:35:03Z"
+        }
+      ]
+    },
+    {
+      "id": "report-ai-shopping-visibility-peers",
+      "title": "对标公司：Profound、Peec、Scrunch",
+      "brief": "Profound 估值 10 亿美元，Peec 自报 ARR 超 1,000 万美元，Scrunch 被 Sitecore 收购；国内可比的是易点天下。",
+      "summary": "已核实事实：Profound（美国）2026 年 2 月 24 日完成 9,600 万美元 C 轮，估值 10 亿美元，Lightspeed 领投，累计融资超 1.55 亿美元，称服务 700 多家企业、覆盖财富 500 强一成以上。Peec AI（柏林，2025 年 1 月成立）5 月 28 日自报年度经常性收入（ARR）超 1,000 万美元，上线 16 个月，客户超 2,500 家，员工从 25 人增至 70 多人，累计融资 2,900 万美元。Scrunch 6 月 3 日被 Sitecore 收购，Bloomberg 报道作价 2.25 亿美元，Sitecore 未确认。国内可比对象是出海营销服务商易点天下（深交所 301171）：2026 年上半年营收 22.32 亿元，同比增 28.54%，电商出海相关业务增 22.93%，报道未提 GEO 收入。⚠️ 待核实：三家海外公司均未披露毛利率；易点天下的 AI 可见性业务规模不详。分析：已有收购和 10 亿美元估值，但买方是品牌和营销预算，不是卖家小团队。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告第 3 节：选 3 家海外对标和 1 家国内可比公司，写明规模证据与口径。"
+      },
+      "sources": [
+        {
+          "name": "GlobeNewswire（公司新闻稿）",
+          "url": "https://www.globenewswire.com/news-release/2026/02/24/3243475/0/en/Profound-Raises-Series-C-at-1B-Valuation-to-Lead-a-New-Category-of-Marketing.html",
+          "originalTitle": "Profound Raises Series C at $1B Valuation to Lead a New Category of Marketing",
+          "publishedAt": "2026-02-24T00:00:00Z"
+        },
+        {
+          "name": "The Manila Times（GlobeNewswire 转载）",
+          "url": "https://www.manilatimes.net/2026/05/28/tmt-newswire/globenewswire/peec-ai-hits-10m-arr-16-months-after-launch-as-brands-race-to-optimize-for-ai-search/2353897",
+          "originalTitle": "Peec AI hits $10M ARR 16 months after launch as brands race to optimize for AI search",
+          "publishedAt": "2026-05-28T14:18:32Z"
+        },
+        {
+          "name": "CMSWire",
+          "url": "https://www.cmswire.com/digital-experience/sitecore-acquires-scrunch-to-boost-ai-search-visibility/",
+          "originalTitle": "Sitecore Acquires Scrunch For AI Brand Presence",
+          "publishedAt": "2026-06-03T15:35:25Z"
+        },
+        {
+          "name": "证券时报网",
+          "url": "https://www.stcn.com/article/detail/4093332.html"
+        }
+      ]
+    },
+    {
+      "id": "report-ai-shopping-visibility-model",
+      "title": "商业模式与收入成本：订阅看用量，落地靠项目",
+      "brief": "监测软件按提示词、引擎和频率计价，成本随查询量线性增加；按 SKU 收费的数据整改项目更接近现金流，但无公开单价。",
+      "summary": "已核实事实：Profound 官网价目页只有免费试用档（50 个提示词，每日监测 7 天，覆盖 ChatGPT、Gemini、Google AI Overviews）和报价定制的企业档（最多覆盖 9 个引擎，含单点登录、SOC 2、接口）。Peec 官网分 Starter、Pro、Advanced、Enterprise 和面向代理机构的方案，用量按“追踪提示词数×启用模型数×频率”计算，具体金额页面动态加载，未能读取。分析：监测的主要成本是向各引擎反复提问的调用与抓取费，随提示词、引擎和频率线性增加。SparkToro 的实验显示同一问题的答案很少重复（第 7 节），要多次采样，查询量还得乘以重复次数。例：100 个 SKU、每个 5 个提示词、3 个引擎、每天 1 次，单次采样每月约 4.5 万次，重复 10 次就是 45 万次。按 Peec 自报的 ARR 约 1,000 万美元、员工 70 多人粗算，人均不足 15 万美元。⚠️ 待核实：三家均未公开毛利率、获客成本和续费率。对小团队：订阅式监测要和 Semrush 等大平台的捆绑功能比价（第 5 节）；按 SKU 收费的数据整改与审计更接近现金流，但单价和人工耗时没有公开数据，须在第 9 节的访谈里测。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告第 4 节：区分已公开的定价结构与需要推断的成本，给出可验证的单位经济假设。"
+      },
+      "sources": [
+        {
+          "name": "Profound 官网价目页",
+          "url": "https://www.tryprofound.com/pricing"
+        },
+        {
+          "name": "Peec AI 官网价目页",
+          "url": "https://peec.ai/pricing",
+          "originalTitle": "Pricing for Peec AI - AI Search Analytics for Marketing teams and SEO agencies"
+        }
+      ]
+    },
+    {
+      "id": "report-ai-shopping-visibility-competition",
+      "title": "竞争与进入门槛：平台默认功能压缩纯上架服务",
+      "brief": "Shopify 把 AI 渠道接入做成默认免费功能，亚马逊用 Rufus 留住流量，Adobe 收购 Semrush；独立服务的空间在数据质量与审计。",
+      "summary": "已核实事实：Adobe 2026 年 4 月 28 日以 18.7 亿美元完成对 Semrush 的收购，定位为搜索优化、生成式引擎优化（GEO）和智能体搜索优化（Adobe 季度报告）。Shopify 3 月 24 日宣布，商家可经 Agentic Storefronts 开箱接入 ChatGPT、Copilot、Google AI Mode 和 Gemini，商品在 ChatGPT 默认可被发现，称无需另接集成、除标准支付费外无额外交易费，并通过 Agentic 计划向非 Shopify 品牌开放 Shopify Catalog。亚马逊的 Rufus 2025 年有 3 亿客户使用，带来近 120 亿美元增量年化销售额，2026 年一季度月活同比增 115%，并已推出广告位“赞助提示词”（Modern Retail 转述亚马逊财报会）。Meta 9 月 29 日把 Muse 推给小企业，可连接 Shopify、Stripe、Klaviyo 等，基础版免费但有用量限制。分析：门槛不在技术，在三处：平台把“上架”做成免费功能；亚马逊在自家入口内卖广告，外部服务插不进；预算掌握在 Adobe、Sitecore 这类已有营销平台手里。小团队的空隙是平台不管的部分：商品数据质量、评价与内容、多平台一致性审计。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告第 5 节：竞争格局看三类对手，平台、巨头并购和亚马逊的封闭入口，并判断留给小团队的缝隙。"
+      },
+      "sources": [
+        {
+          "name": "Adobe（SEC 10-Q 季报）",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000156/adbe-20260828.htm",
+          "originalTitle": "Adobe Inc. Form 10-Q for the quarterly period ended August 28, 2026"
+        },
+        {
+          "name": "Shopify",
+          "url": "https://www.shopify.com/news/agentic-commerce-momentum",
+          "originalTitle": "Millions of merchants can sell in AI chats",
+          "publishedAt": "2026-03-24T16:00:15Z"
+        },
+        {
+          "name": "Modern Retail",
+          "url": "https://www.modernretail.co/technology/amazon-says-its-ai-shopping-assistant-is-gaining-traction-with-rufus-users-up-115/",
+          "originalTitle": "Amazon Rufus users are up 115%, while engagement is up 400%",
+          "publishedAt": "2026-04-30T13:57:16Z"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
+          "originalTitle": "Meta is expanding its AI agent Muse to small businesses",
+          "publishedAt": "2026-09-29T13:47:30Z"
+        }
+      ]
+    },
+    {
+      "id": "report-ai-shopping-visibility-china",
+      "title": "中国落地条件：监管盯上GEO，卖家基数仍大",
+      "brief": "网信办专项行动点名 GEO 恶意营销，但整治对象是编造内容；服务边界写清、只碰商品数据，监管风险可控。",
+      "summary": "已核实事实：中央网信办 2026 年 4 月 30 日部署为期 4 个月的“清朗·整治 AI 应用乱象”专项行动，把“使用 GEO 技术恶意营销”列为 AI 数据投毒；7 月 6 日通报第一阶段处置违规 AI 产品 1.4 万余款、账号 2.6 万余个。海关总署署长 7 月 22 日称，2025 年跨境电商进出口 2.84 万亿元，比上年增 4.8%；2026 年上半年跨境电商出口海外仓增长 3.3 倍。分析，落地条件分四项：① 监管：国内整治对准的是编造内容“投喂”大模型，不是替海外卖家整理商品数据，但服务边界要写进合同，不做批量灌水和刷评；② 数据：服务对象是商品信息，不碰消费者个人信息，数据风险较低；③ 技术与渠道：监测海外 AI 引擎通常要用境外账号和网络，须先核对自身合规；卖家靠行业社群和服务商触达；④ 人才：缺同时懂英文内容和各平台数据规范的人。⚠️ 待核实：中国卖家对该服务的付费意愿，需第 9 节访谈。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告第 6 节：中国落地条件，重点是 GEO 的监管口径和卖家基数。"
+      },
+      "sources": [
+        {
+          "name": "中央网信办",
+          "url": "https://www.cac.gov.cn/2026-04/30/c_1779289298718765.htm",
+          "publishedAt": "2026-04-30T00:00:00Z"
+        },
+        {
+          "name": "中国新闻网",
+          "url": "https://www.chinanews.com.cn/gn/2026/07-06/10653724.shtml",
+          "publishedAt": "2026-07-06T00:00:00Z"
+        },
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/20260722/33a5e199da764d42b08aa07edee50e73/c.html",
+          "publishedAt": "2026-07-22T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "report-ai-shopping-visibility-risks",
+      "title": "主要风险：结果不稳、平台封堵、国内GEO被点名",
+      "brief": "同一问题两次得到相同品牌清单的概率不足 1%，“承诺排名”难兑现；平台可拦截智能体，国内外对虚假评价与投毒都在收紧。",
+      "summary": "已核实事实：① 持续经营：SparkToro 联合 Gumshoe.ai（一家 GEO 初创公司）让 600 名志愿者对 ChatGPT、Claude、Google AI 重复提问 2,961 次，同一问题两次得到完全相同品牌清单的概率不足 1%，顺序也相同的约千分之一，“承诺排名”的合同很难兑现。② 平台规则：美国第九巡回上诉法院 2026 年 8 月 4 日撤销了对 Perplexity 购物智能体的禁令，认为按《计算机欺诈和滥用法》是用户而非开发者在“访问”亚马逊，但仅限现有记录，平台仍可靠服务条款和技术手段拦截（Jones Day）。③ 法律：美国联邦贸易委员会（FTC）的评价与背书规则自 2024 年 10 月 21 日生效，禁止撰写、购买或出售虚假评价，明知违规可被法院判处民事罚款。④ 声誉：2026 年 3 月 15 日央视 3·15 晚会曝光 GEO“投毒”，服务商批量发软文，两款主流大模型推荐了一款虚构的手环。分析：⑤ 依赖风险：需求取决于 OpenAI、Google 的产品路线，OpenAI 已放弃站内结账（第 8 节）。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告第 7 节：法律、平台规则、声誉、持续经营和依赖风险逐项写明，并标出对应来源。"
+      },
+      "sources": [
+        {
+          "name": "SparkToro",
+          "url": "https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/",
+          "originalTitle": "NEW Research: AIs are highly inconsistent when recommending brands or products; marketers should take care when tracking AI visibility",
+          "publishedAt": "2026-01-28T06:49:00Z"
+        },
+        {
+          "name": "Jones Day",
+          "url": "https://www.jonesday.com/en/insights/2026/09/ninth-circuit-vacates-cfaa-injunction-against-perplexitys-comet-ai-agent",
+          "originalTitle": "Ninth Circuit Vacates CFAA Injunction Against Perplexity's Comet AI Agent",
+          "publishedAt": "2026-09-11T12:00:00Z"
+        },
+        {
+          "name": "美国联邦贸易委员会（FTC）",
+          "url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+          "originalTitle": "The Consumer Reviews and Testimonials Rule: Questions and Answers",
+          "publishedAt": "2024-11-08T14:18:00Z"
+        },
+        {
+          "name": "腾讯新闻（CNMO）",
+          "url": "https://news.qq.com/rain/a/20260315A06ZCI00",
+          "publishedAt": "2026-03-15T13:39:11Z"
+        }
+      ]
+    },
+    {
+      "id": "report-ai-shopping-visibility-scenarios",
+      "title": "情景预测：三种情景与触发信号",
+      "brief": "机构预测 2030 年美国智能体商务占电商 10%—25%；未来 12 个月更接近基准情景，AI 渠道仍是低个位数占比。",
+      "summary": "机构观点（据 commercetools 2026 年 5 月 8 日汇总转述，各机构原页未能直接读取，原报告发布时间待核实）：Bain 预测 2030 年美国智能体商务达 3,000 亿至 5,000 亿美元，占电商 15%—25%；Morgan Stanley 预测 10%—20%；Gartner 预测 20% 的数字商务交易经 AI 平台完成；McKinsey 预测美国约 1 万亿美元、全球 3 万亿至 5 万亿美元。各家口径不同，均为情景预测。已核实：OpenAI 3 月放弃 Instant Checkout，CNBC 援引 Forrester 分析师称，此前约 30 家 Shopify 商家上线；Google 的 UCP 结账目前只适用于美国、加拿大和澳大利亚的合格商品。三种情景（不给概率）：乐观——前提：Google 与 OpenAI 的结账扩到更多国家，亚马逊与第三方智能体达成合作；信号：卖家后台的 AI 渠道订单占比连续数月超过 3%（本刊设的观察线，非行业标准）。基准——前提：AI 渠道保持高增速但仍是低个位数占比，平台继续把上架做成免费功能；信号：Shopify、Adobe 仍只披露增速、不披露占比。保守——前提：平台再次收缩，或国内整治波及 GEO 服务；信号：UCP 迟迟不出美加澳，或服务商被要求下架“排名承诺”类宣传。分析：未来 12 个月更接近基准，这是定性判断。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告第 8 节：乐观、基准、保守三种情景，写前提与触发信号，不给无依据的概率。"
+      },
+      "sources": [
+        {
+          "name": "commercetools",
+          "url": "https://commercetools.com/blog/agentic-commerce-stats-enterprise-guide",
+          "originalTitle": "Agentic Commerce Stats 2026: Enterprise Guide",
+          "publishedAt": "2026-05-08T00:00:00Z"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/03/20/open-ai-agentic-shopping-etsy-shopify-walmart-amazon.html",
+          "originalTitle": "OpenAI's first try at agentic shopping stumbled. It's trying again",
+          "publishedAt": "2026-03-20T17:18:25Z"
+        },
+        {
+          "name": "Google Merchant Center 帮助",
+          "url": "https://support.google.com/merchants/answer/16837055?hl=en",
+          "originalTitle": "About the Universal Commerce Protocol (UCP) and UCP-powered checkout feature on Google"
+        }
+      ]
+    },
+    {
+      "id": "report-ai-shopping-visibility-actions",
+      "title": "30天可验证行动：体检20个SKU，访谈10位卖家",
+      "brief": "30 天内做 SKU 体检、数据整改对照、10 家卖家访谈和付费体检页，至少 3 家愿付费试点才算需求成立。",
+      "summary": "以下 4 项可在 30 天内完成，并用结果判断结论对错：① SKU 体检：选 20 个自家或配合卖家的 SKU，在 ChatGPT、Gemini、Perplexity 和亚马逊 Rufus 里各问 5 个购买意图问题，每题重复 10 次，记录品牌与商品的出现率（单次排名不可信，见第 7 节）。判断标准：至少 5 个 SKU 出现率为 0 而竞品出现，才说明有整改空间。② 数据整改对照：按 OpenAI 商品数据说明（CSV 或 JSON，含标识、描述、价格、库存、媒体、评价等字段）补齐 10 个 SKU；Shopify 店铺核对 Shopify Catalog 收录；改前改后各测 2 周，对比出现率。⚠️ 待核实：OpenAI 商品数据提交对中国主体的开放范围；Instant Checkout 目前仅限获批合作方，不在验证范围内。③ 卖家访谈：约 10 位亚马逊或独立站卖家，问三件事：后台能否看到 AI 渠道订单、是否做过 AI 渠道优化、愿为整改项目付多少钱。判断标准：至少 3 家愿意付费试点，否则降为内容服务。④ 付费体检页：上线“AI 购物可见性体检”说明页，只承诺体检报告和整改清单，不承诺排名，以预约数和付费体检数衡量。合规提示：不做批量灌水、不买卖评价，对照 FTC 规则和国内专项整治要求自查。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告第 9 节：行动都能在 30 天内完成，并有明确的判断标准。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI Developers",
+          "url": "https://developers.openai.com/commerce/guides/key-concepts",
+          "originalTitle": "Key concepts – Agentic Commerce | OpenAI Developers"
+        },
+        {
+          "name": "Shopify",
+          "url": "https://www.shopify.com/news/ai-commerce-at-scale",
+          "originalTitle": "The agentic commerce platform: Shopify connects any merchant to every AI conversation",
+          "publishedAt": "2026-01-11T14:58:43Z"
+        }
+      ]
+    }
+  ]
+}
