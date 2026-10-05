@@ -39,7 +39,7 @@ AI 研发前沿周报（原 AI 架构周报，2026-09-30 改名）的论文资�
 | 序号 | 年份 | 论文（英文原题 / 中文译名） | 作者 / 机构 | 发表处 | 为什么重要 | 原文 | 本刊回顾 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 1950 | Computing Machinery and Intelligence / 计算机器与智能 | A. M. Turing（曼彻斯特大学） | Mind, 1950 | 提出「模仿游戏」（图灵测试），把「机器能否思考」变成可检验的问题 | https://doi.org/10.1093/mind/LIX.236.433 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-01#classic-paper-turing-computing-machinery-intelligence |
-| 2 | 1958 | The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain / 感知机 | F. Rosenblatt（康奈尔航空实验室） | Psychological Review, 1958 | 第一个能从数据中学习的神经网络模型 | https://doi.org/10.1037/h0042519 |  |
+| 2 | 1958 | The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain / 感知机 | F. Rosenblatt（康奈尔航空实验室） | Psychological Review, 1958 | 第一个能从数据中学习的神经网络模型 | https://doi.org/10.1037/h0042519 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#classic-paper-rosenblatt-perceptron |
 | 3 | 1986 | Learning Representations by Back-propagating Errors / 通过误差反向传播学习表示 | Rumelhart、Hinton、Williams | Nature, 1986 | 让多层神经网络可以训练的反向传播算法 | https://doi.org/10.1038/323533a0 |  |
 | 4 | 1997 | Long Short-Term Memory / 长短期记忆网络（LSTM） | Hochreiter、Schmidhuber | Neural Computation, 1997 | 解决循环网络记不住长序列的问题，此后二十年语音与翻译的主力 | https://doi.org/10.1162/neco.1997.9.8.1735 |  |
 | 5 | 1998 | Gradient-Based Learning Applied to Document Recognition / 基于梯度学习的文档识别（LeNet） | LeCun、Bottou、Bengio、Haffner（AT&T 实验室） | Proceedings of the IEEE, 1998 | 卷积神经网络走向实用（支票手写数字识别） | https://doi.org/10.1109/5.726791 |  |
@@ -86,7 +86,7 @@ AI 研发前沿周报（原 AI 架构周报，2026-09-30 改名）的论文资�
 | 46 | 2023 | Mamba: Linear-Time Sequence Modeling with Selective State Spaces / Mamba：选择性状态空间的线性时间序列建模 | Gu（卡内基梅隆大学）、Dao（普林斯顿大学） | 预印本 | 以线性复杂度处理长序列，Transformer 之外最受关注的架构 | https://arxiv.org/abs/2312.00752 |  |
 | 47 | 2025 | DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning / DeepSeek-R1：用强化学习激发大模型推理能力 | DeepSeek-AI | 预印本 | 公开以强化学习训练推理模型的方法并开放权重，推动推理模型普及 | https://arxiv.org/abs/2501.12948 |  |
 
-> 已讲：序号 19（2026-09-28）、序号 1（2026-10-01），本刊条目见第三部分。
+> 已讲：序号 19（2026-09-28）、序号 1（2026-10-01）、序号 2（2026-10-05），本刊条目见第三部分。
 
 ## 三、本刊收录目录
 
@@ -106,5 +106,13 @@ AI 研发前沿周报（原 AI 架构周报，2026-09-30 改名）的论文资�
 | 预训练 / 多模态规模定律 | How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining / 离去掉视觉编码器还有多远？无编码器多模态预训练的规模定律 | 腾讯基础模型部门、中国科学院自动化研究所、中国科学院大学 | 2026-09-28 | 预印本（arXiv:2609.35457） | https://arxiv.org/abs/2609.35457 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-01#tencent-encoder-free-mllm-scaling-laws |
 | 训练与后训练 / 数据筛选 | Selecting Diverse SFT Traces Improves Post-RL Generalization / 选择多样的监督微调推理轨迹可提升强化学习后的泛化 | Google（一作为伊利诺伊大学厄巴纳-香槟分校学生，工作在 Google 完成），3 人 | 2026-09-27 | 预印本（arXiv:2609.33780） | https://arxiv.org/abs/2609.33780 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-01#google-diverse-sft-traces-post-rl |
 | 经典论文 · AI 思想起点 | Computing Machinery and Intelligence / 计算机器与智能 | A. M. Turing（曼彻斯特大学） | 1950-10 | 正式发表（Mind 第 59 卷第 236 期，433–460 页） | https://doi.org/10.1093/mind/LIX.236.433 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-01#classic-paper-turing-computing-machinery-intelligence |
+| 训练系统 / MoE 训练基础设施 | Supercharging Olmo-core for Efficient and Scalable MoE Training / 为高效、可扩展的 MoE 训练升级 Olmo-core | Allen Institute for AI、华盛顿大学（一作 Tianhua Tao 等） | 2026-10-01（报告署 2026-10） | 技术报告（Ai2，未见 arXiv 版本） | https://allenai.org/papers/olmocore3 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#ai2-olmo-core-3-moe-training-stack |
+| 训练与后训练 / 测试时扩展 | Sharpening Tax in Post-Training / 后训练中的锐化税 | Meta 超级智能实验室、威斯康星大学麦迪逊分校、纽约大学、斯坦福大学，10 人 | 2026-10-01 | 预印本（arXiv:2610.01509） | https://arxiv.org/abs/2610.01509 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#meta-sharpening-tax-post-training-coverage |
+| 智能体 / 测试时算力 | Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents / Mid-Harness：在模型与脚手架之间扩展动作 | 英伟达、韩国科学技术院（KAIST），11 人 | 2026-09-30 | 预印本（arXiv:2609.39982） | https://arxiv.org/abs/2609.39982 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#nvidia-mid-harness-terminal-agent-action-scaling |
+| 推理 / KV 缓存压缩 | Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression / 周期性弱点：分块 KV 缓存压缩的相位敏感性 | 字节跳动 Seed、普林斯顿大学、斯坦福大学、加州大学伯克利分校，8 人 | 2026-09-28 | 预印本（arXiv:2609.36322） | https://arxiv.org/abs/2609.36322 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#seed-periodic-weak-spots-kv-cache-phase |
+| 后训练与对齐 / 诚实性 | Language Models Are "Insecure" Reporters / 语言模型是「不安全」的汇报者 | 麻省理工学院、Google Research、哈佛大学，8 人（两位高校作者工作在 Google Research 完成） | 2026-09-28 | 预印本（arXiv:2609.36139） | https://arxiv.org/abs/2609.36139 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#google-insecure-reporters-llm-honest-reporting |
+| 智能体 / 脚手架消融 | How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering? / 强智能体做自主机器学习工程，究竟还需要多少脚手架？ | 洛桑联邦理工学院（EPFL）、Apple，3 人 | 2026-09-30 | 预印本（arXiv:2609.40303） | https://arxiv.org/abs/2609.40303 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#apple-epfl-minimal-harness-mle-agent |
+| 架构 / 循环 Transformer | Improving Test-Time Scaling with Adaptive Looped Transformers / 用自适应循环 Transformer 改进测试时扩展（TaH2） | 清华大学、耶鲁大学，7 人 | 2026-09-28 | 预印本（arXiv:2609.35748） | https://arxiv.org/abs/2609.35748 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#tsinghua-tah2-adaptive-looped-transformer |
+| 经典论文 · 神经网络起点 | The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain / 感知机：大脑中信息存储与组织的概率模型 | F. Rosenblatt（康奈尔航空实验室） | 1958 | 正式发表（Psychological Review 第 65 卷第 6 期，386–408 页） | https://doi.org/10.1037/h0042519 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#classic-paper-rosenblatt-perceptron |
 
 > 首批条目从 2026-09-27 改版后的第一期 AI 研发前沿周报（原 AI 架构周报）（2026-09-28 出刊）开始收录（「本周重要论文」与「经典论文回顾」两个板块）。
