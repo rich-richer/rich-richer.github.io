@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T21:00:00+08:00",
+  "coverage": {
+    "start": "2026-10-01T12:26:50+08:00",
+    "end": "2026-10-05T10:50:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "bushaoxin-ai-short-drama-meme-topic",
+      "title": "“吃了不烧心”走红，AI短剧同质化被推上热搜",
+      "brief": "“贵是贵点，但吃了不烧心”原是AI短剧里摊贩的固定台词，现成万能夸赞梗。切入：拆AI短剧模板，教创作者避开流水线。",
+      "summary": "发生了什么：“贵是贵点，但吃了不烧心”原是AI短剧里摊贩的固定台词，被网友玩成“不烧心文学”。21财经10月4日评论称，这类短剧套同一个模板，换个商品名就能再跑一遍；中国网络视听协会称，今年一季度上线微短剧约12.8万部，AI短剧占比超95%。为什么火（北京时间10月5日采集）：百度热搜10:48排第3，热度值7713708；今日头条热榜10:46排第37，热度值430099；B站综合热门榜10:46第5位《看这个视频我不烧心！》播放量450210，标题套用该梗。切入角度：①短视频：拆“不烧心”剧本模板，做成套路清单，适合抖音、视频号；②长视频：AI短剧产量暴增与9月1日起施行的新规（AI微短剧每集须加提示标识），适合B站；③图文：怎样用AI又不写出流水线内容，适合公众号。",
+      "category": "国内",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "AIggy 做自媒体又在学 AI，这个梗正好连起两件事：三个平台同时有热度，梗易跟拍；官方数据和9月1日新规可核实，能做“蹭梗之外有干货”的内容。梗寿命短，建议本周内发。"
+      },
+      "sources": [
+        {
+          "name": "21财经",
+          "url": "https://m.21jingji.com/article/20261004/herald/3cc7efceb71beb87079b71beb9cea1f9.html",
+          "publishedAt": "2026-10-04T11:34:00.000Z"
+        },
+        {
+          "name": "中国网络视听节目服务协会",
+          "url": "http://www.cnsa.cn/art/2026/8/13/art_1955_49173.html"
+        },
+        {
+          "name": "百度热搜榜",
+          "url": "https://top.baidu.com/board?tab=realtime",
+          "discoveredAt": "2026-10-05T02:48:00.000Z"
+        },
+        {
+          "name": "哔哩哔哩综合热门榜",
+          "url": "https://www.bilibili.com/v/popular/all",
+          "discoveredAt": "2026-10-05T02:46:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "scenic-souvenir-trio-topic",
+      "title": "景区“冤种三件套”，年轻人只薅不买",
+      "brief": "护手霜、冰箱贴、文创雪糕被调侃为“冤种三件套”，微博热搜第1。切入：景区价、专柜价、电商价三方比价。",
+      "summary": "发生了什么：护手霜、城市冰箱贴、文创雪糕被网友叫作景区“冤种三件套”。腾讯新闻10月3日刊文引述调查：59.2%的受访者认为景区伴手礼定价高、性价比低，近五成认为同质化严重（⚠️ 未见原始调查报告）；同文称国庆中秋前后，义乌国际商贸城每天有超100万个冰箱贴发往全球（据不完全统计）。为什么火：微博热搜实时榜，北京时间10月5日10:46排第1，热度值1448636。切入角度：①短视频：同款商品景区价、专柜价、电商价现场比价，适合抖音、视频号；②长视频：从义乌冰箱贴工厂讲景区文创产业链，贴近跨境选品，适合B站；③图文：值得买的景区文创清单，适合小红书。",
+      "category": "国内",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "国庆假期正在进行，比价类内容容易现场拍；义乌冰箱贴这条线连到 AIggy 熟悉的跨境电商与供应链，可做出不同于普通吐槽的内容。需要提醒：59.2%这个调查数字未找到原始出处，口播时要写明“据媒体引述”。"
+      },
+      "sources": [
+        {
+          "name": "腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20261003A00KOX00",
+          "publishedAt": "2026-10-02T23:30:00.000Z"
+        },
+        {
+          "name": "腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20261004A09R0L00",
+          "publishedAt": "2026-10-04T13:29:49.000Z"
+        },
+        {
+          "name": "微博热搜榜",
+          "url": "https://s.weibo.com/top/summary?cate=realtimehot",
+          "discoveredAt": "2026-10-05T02:46:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "china-haul-foreign-shoppers-topic",
+      "title": "老外带空箱来中国扫货，“China Haul”走红",
+      "brief": "外国游客带空行李箱来华购物并晒“China Haul”开箱，1至8月外国人出入境6128.7万人次。切入：从海外买家选品看跨境机会。",
+      "summary": "发生了什么：外国游客来华购物，回国后在海外社交平台晒“China Haul”（中国扫货开箱）视频。CGTN 10月3日报道，YouTube博主Kinjal and Sushi（47.9万订阅）的深圳购物攻略视频播放量19.4万；国家移民管理局数据：1至8月外国人出入境6128.7万人次，同比上升19.5%，免签入境2372万人次。为什么火（北京时间10月5日采集）：今日头条热榜“China Haul为何兴起”10:46排第24，热度值1578162；百度热搜“这届老外来中国扫货顺便旅个游”10:48排第28，热度值5316559。切入角度：①短视频：外国人最爱带走的中国商品清单，适合抖音、视频号；②长视频：从华强北、义乌看海外买家选品逻辑，对接跨境电商，适合B站、YouTube；③图文：入境消费数据解读，适合公众号。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "话题正好落在 AIggy 关注的跨境电商：国内读者想看“老外买什么”，也有人想知道怎么把这些品类卖出去。官方入境数据可核实，海外视频指标有 CGTN 作二手引述，国庆假期持续有素材。差异化在于不停留在“老外爱中国”，而是讲选品和渠道。"
+      },
+      "sources": [
+        {
+          "originalTitle": "Holiday insights: 'China Haul' trend highlights China's growing global appeal",
+          "name": "CGTN",
+          "url": "https://news.cgtn.com/news/2026-10-03/-China-Haul-trend-highlights-China-s-growing-global-appeal-1QWEIDCf9sc/p.html",
+          "publishedAt": "2026-10-03T13:41:48.000Z"
+        },
+        {
+          "name": "中新网（转述国家移民管理局）",
+          "url": "https://www.chinanews.com.cn/gn/2026/09-10/10693783.shtml"
+        },
+        {
+          "name": "今日头条热榜",
+          "url": "https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc",
+          "discoveredAt": "2026-10-05T02:46:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": "reverse-tourism-hotel-price-topic",
+      "title": "“反向旅游”撞上国庆酒店涨价",
+      "brief": "小城“反向旅游”遇国庆房价大涨，民间统计景德镇涨2.34倍。切入：订房避坑三步清单，适合小红书。",
+      "summary": "发生了什么：国庆前后，不少人避开热门城市去小城“反向旅游”，却撞上酒店涨价。什么值得买10月1日的文章引用小红书用户的民间统计（非官方）：336个城市连锁酒店报价涨幅，景德镇2.34倍、延边2.32倍、黄山2.31倍、大同2.29倍、开封2.28倍。美团数据显示，四川合江县民宿国庆预订量同比增长139%，稻城县增长117%。为什么火（北京时间10月5日采集）：百度热搜“反向旅游依然被价格背刺”10:48排第30，热度值5144580；今日头条热榜“国庆景区热度前10被小城包揽”10:46排第31，热度值783692。切入角度：①短视频：同一周末小城与大城酒店价格对比，适合抖音；②图文：订前三步自查（价格日历、连锁数量、免费取消），适合小红书；③长视频：小城为何接不住流量，适合B站。",
+      "category": "国内",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AIggy 关注文旅，国庆返程和下一个假期前都用得上。涨幅数据来自民间统计，需注明口径；美团预订数据可由 21 财经核对。避开了热度来源不明的“热度暴涨22倍”类说法。"
+      },
+      "sources": [
+        {
+          "name": "什么值得买",
+          "url": "https://post.smzdm.com/p/awwzvr4m/",
+          "publishedAt": "2026-10-01T04:16:56.000Z"
+        },
+        {
+          "name": "21财经",
+          "url": "https://m.21jingji.com/article/20261003/herald/9acc88e8339ad88deaed56618bb2f7a3.html",
+          "publishedAt": "2026-10-03T08:13:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ev-highway-charging-record-topic",
+      "title": "国庆高速充电量创纪录，电车跑长途靠谱吗",
+      "brief": "国庆首日高速充电量2804.69万千瓦时，同比增60.4%，创节假日单日新高。切入：返程日实测服务区充电排队。",
+      "summary": "发生了什么：国家能源局统计显示，6.27万个高速公路充电枪国庆首日充电量2804.69万千瓦时，同比增长60.40%，创节假日单日新高；10月1至3日充电296.86万次，同比增长48.41%，充电量7161.93万千瓦时，同比增长49.39%。为什么火：今日头条热榜“中国人开始放心开电车跑长途了吗”，北京时间10月5日10:46排第13，热度值4741062。切入角度：①短视频：国庆返程日（10月5至6日为预测高峰）实测服务区充电排队时长，适合抖音、视频号；②长视频：移动应急充电枪、充电服务费下调等电网侧做法，贴近电力工程，适合B站；③图文：电车长途出行避坑清单，适合公众号。事实只一句带过，能源口径详见电算协同刊。",
+      "category": "国内",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "国庆返程高峰（10月5至6日）正是实测素材最多的时段，时效强；电力工程是 AIggy 的关注领域，可以从“电网怎么扛住假期充电潮”讲出差异。能源与电网类完整报道归电算协同每日情报，本条只写选题角度。"
+      },
+      "sources": [
+        {
+          "name": "本站·电算协同每日情报（完整报道）",
+          "url": "https://rich-richer.github.io/p/compute-intel/?date=2026-10-05#national-day-highway-charging-record"
+        },
+        {
+          "name": "光明网（转述国家能源局）",
+          "url": "https://m.gmw.cn/2026-10/02/content_1304570937.htm"
+        },
+        {
+          "name": "21经济网（转述国家能源局）",
+          "url": "https://www.21jingji.com/article/20261004/herald/c1c73b6c14461de33422c597b260c44b.html",
+          "publishedAt": "2026-10-04T13:13:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "takeout-bright-kitchen-fake-topic",
+      "title": "央视曝外卖“明厨亮灶”造假，多地立案",
+      "brief": "央视曝外卖商户让监控避开后厨关键区，武汉立案、丽江4家停业整顿。切入：三招辨别外卖“明厨亮灶”真假。",
+      "summary": "发生了什么：10月4日央视《每周质量报告》反映，外卖商户的“明厨亮灶”监控随意摆放、故意偏移，不对准切配、烹饪、洗消等关键区域。市场监管总局随即部署湖南、湖北、云南核查；武汉对所有曝光商户立案并督促平台下架，丽江对4家涉事主体停业整顿并立案。为什么火：百度热搜“央媒曝光外卖‘明厨亮灶’造假”，北京时间10月5日10:48排第27，热度值5406055。切入角度：①短视频：怎么看外卖店的“明厨亮灶”是真是假，适合抖音、视频号；②图文：平台责任与食品安全法修订方向（总局称推动修订），适合公众号；③长视频：无堂食外卖店与堂食店的监管差异，适合B站。",
+      "category": "国内",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "外卖是高频消费场景，受众面广，国庆期间点外卖的人多；央视曝光、总局部署、地方立案三层都有官方通报可核实，适合做“普通人怎么自保”的实用内容。"
+      },
+      "sources": [
+        {
+          "name": "IT之家（转述央视新闻）",
+          "url": "https://www.ithome.com/1/009/692.htm"
+        }
+      ]
+    },
+    {
+      "id": "wangshi-shenshi-urban-renewal-topic",
+      "title": "75岁王石任董事长，新公司不做房地产开发",
+      "brief": "王石任深圳深石城市更新董事长，经营范围未列房地产开发。切入：从拿地卖房到存量运营的房企新账本。",
+      "summary": "发生了什么：深圳深石城市更新有限公司9月28日登记，注册资本1500万元，注册地在盐田区小梅沙，75岁的万科创始人王石任董事长。新浪财经引天眼查称，王石通过关联公司间接持股约19.99%；腾讯新闻称五家股东均等持股，经营范围含商业综合体管理、旅游开发策划咨询、酒店管理，未列房地产开发经营。目前没有公开的具体项目。为什么火：百度热搜“75岁王石要再造一个‘万科’吗”，北京时间10月5日10:48排第14，热度值6665308。切入角度：①长视频：房企从拿地开发转向存量运营，账本怎么变，适合B站、视频号；②短视频：一分钟讲清城市更新和旧改的区别，适合抖音；③图文：1500万元新公司能做什么，适合公众号。",
+      "category": "国内",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AIggy 有房地产开发和企业管理背景，对“地产下半场”有自己的判断，能比泛泛的财经号多讲一层行业内视角。事实以工商登记信息为准，“要再造万科”只是热搜标题，不是事实，内容里要区分。"
+      },
+      "sources": [
+        {
+          "name": "新浪财经",
+          "url": "https://finance.sina.com.cn/wm/2026-10-03/doc-initwzsm0863905.shtml",
+          "publishedAt": "2026-10-03T00:39:22.000Z"
+        },
+        {
+          "name": "腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20261003A06S4Y00",
+          "publishedAt": "2026-10-03T10:40:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-safety-staffer-quits-topic",
+      "title": "OpenAI安全岗员工辞职，称公司文化已坏",
+      "brief": "OpenAI安全报告牵头人David Robinson在《大西洋月刊》撰文辞职。切入：核电站式AI安全是什么。",
+      "summary": "发生了什么：OpenAI前员工David Robinson（在职约三年半，牵头撰写随产品发布的安全报告）10月3日在《大西洋月刊》发文辞职，称公司文化已坏，主张前沿AI公司要像核电站和机场那样层层设防（据TechCrunch、《卫报》）。为什么火：Hacker News上该文帖子，北京时间10月5日10:50为461分、775条评论。切入角度：①长视频：对照近期智能体安全风波，讲“试错式迭代”为何被质疑，适合B站、YouTube；②短视频：三分钟讲清“核电站式”AI安全，适合抖音；③图文：AI公司安全岗离职时间线，适合公众号。事实只一句带过，完整报道归综合新闻和AI安全刊。",
+      "category": "海外",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AIggy 在系统学习 AI，这条能连到“AI 公司到底怎么管风险”的长期话题；海外讨论热度可核实（HN 数据），中文内容里还少有人讲清“核电站式安全”的概念。事件归属综合新闻刊，本条只提供选题角度。"
+      },
+      "sources": [
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-10-05#openai-safety-lead-robinson-quits-atlantic"
+        },
+        {
+          "originalTitle": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+          "publishedAt": "2026-10-03T16:30:01.000Z"
+        },
+        {
+          "originalTitle": "OpenAI safety leader quits, warning AI company’s culture is ‘broken’",
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "publishedAt": "2026-10-04T07:48:54.000Z"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49944227",
+          "discoveredAt": "2026-10-05T02:50:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "deepseek-harness-desktop-topic",
+      "title": "DeepSeek Harness推出桌面版引热议",
+      "brief": "DeepSeek Harness开源，官网提供macOS和Windows桌面版下载。切入：不会编程的人怎么用它做日常工作。",
+      "summary": "发生了什么：DeepSeek Harness是DeepSeek的开源智能体框架，官网处于公开预览，提供macOS和Windows桌面版下载，示例涵盖整理文件、分析数据、写文档和做幻灯片。为什么火：Hacker News上“DeepSeek Harness Desktop”帖子，北京时间10月5日10:50为413分、220条评论；评论里有用户称桌面版默认开启遥测（评论转述，未核实）。切入角度：①短视频：不写代码，用桌面版整理文件夹并出报告，适合抖音、视频号；②长视频：与同类智能体软件对比上手体验，适合B站；③图文：数据与隐私设置自查清单，适合公众号。事实只一句带过，产品完整报道归综合新闻刊。",
+      "category": "海外",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AIggy 做 AI 学习类内容，国产模型公司的桌面智能体既有搜索量，又有“动手实测”的空间。隐私和遥测是评论区的争议点，但属于用户转述，需要实测后才能下结论，不要在选题里当成事实。"
+      },
+      "sources": [
+        {
+          "name": "DeepSeek 官网",
+          "url": "https://www.deepseek.com/en/harness/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49929489",
+          "discoveredAt": "2026-10-05T02:50:00.000Z"
+        }
+      ]
+    }
+  ]
+}

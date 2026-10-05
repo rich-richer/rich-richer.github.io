@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T21:00:00+08:00",
+  "coverage": {
+    "start": "2026-10-01T00:05:00+08:00",
+    "end": "2026-10-05T10:50:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "us-etf-oct-2-jobs-rally",
+      "title": "美股ETF周五齐涨，SPY涨0.74%、QQQ涨1.02%",
+      "brief": "10月2日收盘SPY +0.74%、QQQ +1.02%、VTI +0.75%；较9月29日收盘累计分别+0.71%、+1.58%、+0.73%。",
+      "summary": "数据（stockanalysis.com行情页；最近收盘日为美东时间10月2日，周五，已收盘）：SPY收769.64美元，当日+0.74%；QQQ收749.58美元，+1.02%；VTI收377.99美元，+0.75%。与上期数据所用的9月29日收盘相比，SPY累计+0.71%、QQQ+1.58%、VTI+0.73%；如果从9月25日（上周五）收盘算起，本周SPY −0.22%、QQQ +0.68%、VTI −0.47%。原因：雅虎财经报道，9月非农就业远低于预期，美联储10月再加息的预期降温，科技股领涨，纳斯达克综合指数（Nasdaq Composite）涨1.2%，盘中一度创历史新高；布伦特原油仍在约102美元，中东战事是通胀压力的来源之一。为什么该在意：这次是「经济数据差，股市反而涨」，因为投资者更在意加息会不会放缓。以上是已发生的行情，不预测下一个交易日。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "市场速览第1条：美股与ETF，最近收盘日为美东10月2日。"
+      },
+      "sources": [
+        {
+          "name": "stockanalysis.com（SPY历史行情）",
+          "url": "https://stockanalysis.com/etf/spy/history/"
+        },
+        {
+          "name": "stockanalysis.com（QQQ历史行情）",
+          "url": "https://stockanalysis.com/etf/qqq/history/"
+        },
+        {
+          "name": "stockanalysis.com（VTI历史行情）",
+          "url": "https://stockanalysis.com/etf/vti/history/"
+        },
+        {
+          "name": "雅虎财经",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-2-dow-sp-500-nasdaq-september-jobs-report-080623878.html",
+          "originalTitle": "Stock market today: Dow, S&P 500, Nasdaq rally as Fed rate-hike expectations fade, tech gains",
+          "publishedAt": "2026-10-02T21:52:55Z"
+        },
+        {
+          "name": "本站·工作日早晨简报（9月24日ETF行情快照，已停刊存档）",
+          "url": "https://rich-richer.github.io/p/morning-brief/?date=2026-09-25#spy-qqq-vti-sep-24"
+        }
+      ]
+    },
+    {
+      "id": "hk-oct-2-drop-a-share-closed",
+      "title": "港股10月2日跌2.6%，A股休市至10月7日",
+      "brief": "恒指收23972.29点，较9月30日累计−2.60%；内地休市、港股通暂停。A股最近收盘日9月30日，10月8日开市。",
+      "summary": "数据：10月1日港股休市，10月2日是节后首个交易日。恒生指数收报23972.29点，跌640.98点，跌2.6%（相对上期写的9月30日收盘24613.27点，累计也是−2.60%）；恒生科技指数跌2.26%报4157.94点，国企指数跌2.31%；汇丰控股跌5.38%，腾讯控股跌2.27%。原因：内地国庆休市，10月1日至7日不提供港股通服务，香港01称这一天「无北水」，市场少了内地资金承接；金融股领跌，内房股、科网股普跌。A股方面，沪深交易所10月1日至7日休市，最近收盘日仍是9月30日：上证指数3842.19点、深证成指12887.62点、创业板指3135.28点（数据见上期）。休市期间海外市场照常交易，A股节后开盘会一次反映这几天的外部变化，方向无法预测。注：10月5日港股仍在交易，未收盘，不引用。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "市场速览第2条：A股与港股；A股休市，用最近交易日并注明。"
+      },
+      "sources": [
+        {
+          "name": "新华社（经新浪新闻）",
+          "url": "https://k.sina.cn/article_1699432410_654b47da02001wll8.html",
+          "originalTitle": "港股2日跌2.6% 收报23972.29点",
+          "publishedAt": "2026-10-02T18:23:04+08:00"
+        },
+        {
+          "name": "新浪财经（港股收评）",
+          "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-02/doc-initvpri7307809.shtml",
+          "originalTitle": "港股收评：恒指跌2.6% 科指跌2.26% 科网股、内房股普跌 光通信板块逆市活跃",
+          "publishedAt": "2026-10-02T16:10:47+08:00"
+        },
+        {
+          "name": "香港01",
+          "url": "https://global.hk01.com/%E6%94%BF%E6%83%85/60396178/%E6%81%92%E6%8C%87%E6%B3%BB640%E7%82%B9%E5%90%8C%E6%97%A5%E7%BE%8E%E8%82%A1%E5%85%A8%E7%B7%9A%E5%8D%87-%E9%99%B3%E8%8C%82%E6%B3%A2-%E7%BE%8E%E5%80%BA%E5%8D%87%E6%81%AF%E6%83%B9%E9%A1%A7%E8%99%91%E5%BD%B1%E9%9F%BF%E6%B8%AF%E8%82%A1",
+          "originalTitle": "恒指泻640点同日美股全线升　陈茂波：美债息升惹顾虑影响港股",
+          "publishedAt": "2026-10-04T04:23:01Z"
+        },
+        {
+          "name": "新浪财经（A股9月收官）",
+          "url": "https://finance.sina.com.cn/tob/2026-09-30/doc-initqvcf2127621.shtml",
+          "originalTitle": "A股九月收官：主要指数月线集体收阴 单日成交额创下14个月新低",
+          "publishedAt": "2026-09-30T07:02:02Z"
+        }
+      ]
+    },
+    {
+      "id": "btc-eth-oct-5",
+      "title": "比特币约8.66万美元，四天累计涨约2.9%",
+      "brief": "北京时间10月5日10:46，比特币约86,636美元、以太坊约2,735美元，较10月1日0:03分别约+2.9%、+1.9%。",
+      "summary": "数据（CoinGecko，北京时间10月5日10:46）：比特币约86,636美元，以太坊约2,735美元。对比上期记录的北京时间10月1日0:03（比特币约84,183美元，以太坊约2,683美元），比特币约+2.9%，以太坊约+1.9%。这几天比特币大致在8.34万至8.68万美元之间波动（CoinGecko小时数据），10月2日晚间触及区间高点。为什么该在意：同期SPY累计+0.71%，比特币涨幅更大；数字货币全天候交易、没有涨跌停，回落时也可能一样快。价格只作背景，不构成买卖建议。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "市场速览第3条：主要数字货币，注明北京时间与区间涨跌。"
+      },
+      "sources": [
+        {
+          "name": "CoinGecko（比特币）",
+          "url": "https://www.coingecko.com/en/coins/bitcoin"
+        },
+        {
+          "name": "CoinGecko（以太坊）",
+          "url": "https://www.coingecko.com/en/coins/ethereum"
+        }
+      ]
+    },
+    {
+      "id": "sec-crypto-custody-proposal",
+      "title": "SEC提议为基金和投顾持有加密资产立托管规则",
+      "brief": "美国SEC 10月1日提出托管提案：特定情形下可自行保管加密资产，州信托公司也能当托管人；意见征集60天。",
+      "summary": "事实：美国证监会（SEC）10月1日公布提案，拟为注册投资顾问和受监管基金持有加密资产设立一套托管（custody）规则，涉及《投资顾问法》和《投资公司法》。要点：特定情形下允许自行保管（self-custody）；州信托公司可以做客户和基金加密资产的托管人；同时更新投顾的财务报表审计要求，以及经纪商为受监管基金提供托管服务的规则。SEC主席阿特金斯（Paul Atkins）说，提案给投顾和基金一条此前不存在的合规路径。公开征求意见期是提案在联邦公报刊发后的60天。分析：这只是提案，还没生效；托管规则清楚后，传统基金合规持有数字资产更容易，但资产本身的价格风险不会因此变小。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "监管动向：美国把加密资产托管纳入基金和投顾的合规框架，影响机构资金入场方式。"
+      },
+      "sources": [
+        {
+          "name": "美国证监会新闻稿",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
+          "originalTitle": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws"
+        },
+        {
+          "name": "雅虎财经",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/sec-proposes-crypto-custody-rules-114616436.html",
+          "originalTitle": "SEC proposes crypto custody rules for investment advisers, funds"
+        }
+      ]
+    },
+    {
+      "id": "bitget-theft-chainalysis-dprk",
+      "title": "Chainalysis称Bitget被盗案与朝鲜有关",
+      "brief": "Chainalysis 10月1日称Bitget 9月24日被盗案为朝鲜关联行为者所为；BlockSec称链上证据尚不足以确认身份。",
+      "summary": "事实：交易所Bitget在9月24日（UTC）被转走约3.875亿美元。Bitget称，第三方安全产品的漏洞让攻击者拿到内部高权限凭证，冷钱包和私钥未受影响。链上分析公司Chainalysis在10月1日发文，把这起案件归因于朝鲜（DPRK）关联行为者，并说2026年朝鲜关联盗币总额已超10亿美元；案发后3小时内，资金分23笔转出，落在以太坊（49.7%）、XRP（40.8%）、Zcash（7.6%）、波场（1.8%）四条链上，其中XRP经跨链流动性协议换成比特币。⚠️ 各方说法不一：BlockSec估计到9月29日攻击者仍控制约3.42亿美元，只有约84万美元被冻结，并称链上证据尚不足以确定攻击者身份。意义：存在交易所里的币，用户承担的是对平台的信用风险；链上账本公开，所以资金去向能追踪，但追回很难。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "本期最大的数字货币安全事件进展，只写归因与处置，不写攻击方法。"
+      },
+      "sources": [
+        {
+          "name": "Chainalysis",
+          "url": "https://www.chainalysis.com/blog/387m-bitget-theft-2026/",
+          "originalTitle": "How Chainalysis Used AI to Trace the $387M Bitget Theft",
+          "publishedAt": "2026-10-01T22:36:41Z"
+        },
+        {
+          "name": "crypto.news（BlockSec分析）",
+          "url": "https://crypto.news/bitget-hack-where-did-the-stolen-387m-go",
+          "originalTitle": "Bitget hack: Where did the stolen $387M go?",
+          "publishedAt": "2026-10-02T08:46:18Z"
+        }
+      ]
+    },
+    {
+      "id": "us-jobs-sep-payrolls-miss",
+      "title": "美国9月非农仅增2.9万人，10月再加息概率降温",
+      "brief": "9月非农新增2.9万，预期约8.4万；失业率4.2%，时薪同比增3%。美债收益率仍在高位，10月维持利率不变概率约77%。",
+      "summary": "本刊仅供学习，不构成投资建议；投资有风险。本期主线：美国9月新增就业仅2.9万人，远低于预期，10月再加息的可能性下降，但长期国债收益率仍在2002年以来的高位附近。美东时间10月2日，美国劳工统计局公布：非农就业新增2.9万人，经济学家预期约8.4万人；失业率升到4.2%，前值4.1%；7月、8月合计下修6万人；平均时薪月增0.1%，同比增3%，为2021年5月以来最低。当天10年期美债收益率约5.28%，30年期约5.63%，先跌后回升；CME FedWatch显示，10月27至28日议息会议维持利率不变的概率约77%，12月再加息仍被看高。美联储9月16日已加息25个基点，目标区间升至3.75%至4%。意义：就业走弱说明加息在起作用，但油价和通胀仍在，利率可能高位停留更久。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "本期市场主线：非农大幅不及预期，直接改变美联储加息预期，并带动当日美股与美债行情。"
+      },
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+          "originalTitle": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+          "publishedAt": "2026-10-02T12:31:42Z"
+        },
+        {
+          "name": "雅虎财经",
+          "url": "https://finance.yahoo.com/economy/articles/september-2026-jobs-report-payrolls-123334753.html",
+          "originalTitle": "U.S. September 2026 jobs report: payrolls miss forecasts badly",
+          "publishedAt": "2026-10-02T12:33:34Z"
+        },
+        {
+          "name": "CNBC（美债）",
+          "url": "https://www.cnbc.com/amp/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html",
+          "originalTitle": "U.S. Treasury yields rise despite September jobs report",
+          "publishedAt": "2026-10-02T07:47:49Z"
+        }
+      ]
+    },
+    {
+      "id": "china-financial-marketing-rules",
+      "title": "金融产品网络营销新规9月30日起施行",
+      "brief": "央行等8部门办法：资管产品不得明示或暗示保本、承诺收益，不得用「高收益」「低风险」等诱导用语。",
+      "summary": "事实：中国人民银行、证监会等8部门2026年4月21日发布《金融产品网络营销管理办法》，9月30日起实施；21世纪经济报道10月2日报道，相关话术正式被叫停。办法原文禁止：明示或暗示资产管理产品、投资顾问或咨询服务保本、承诺收益、限定损失金额或比例；使用「低风险」「低门槛」「秒到账」「高收益」「低利率」「无成本」等诱导性用语。第六条还把虚拟货币发行交易列为非法金融活动，不得为其提供网络营销服务。21世纪经济报道另归纳：非金融机构从业人员不得通过直播、短视频、公众号营销金融产品，尤其不得以荐股形式开展非法证券投资咨询。注：办法4月已发布，本期因9月30日起正式生效而收录。对初学者：见到「保本」「稳赚」「高收益」，先按违规营销处理，再去核对对方是否持牌。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "新规与普通投资者直接相关，教育意义大，9月30日起生效。"
+      },
+      "sources": [
+        {
+          "name": "中国政府网",
+          "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7066927.htm",
+          "originalTitle": "金融产品网络营销管理办法"
+        },
+        {
+          "name": "21世纪经济报道",
+          "url": "https://www.21jingji.com/article/20261002/herald/754945e1ffa3fdab679b8637c92acd42.html",
+          "originalTitle": "“秒到账”“高收益”“低风险”……正式被叫停！",
+          "publishedAt": "2026-10-02T11:59:48+08:00"
+        }
+      ]
+    },
+    {
+      "id": "lesson-blockchain-bitcoin",
+      "title": "一词一课：区块链与比特币",
+      "brief": "区块链是多方共同保管、难以篡改的公开账本，比特币是记在账本上的数字资产；价格波动大，内地禁止相关交易业务。",
+      "summary": "是什么：区块链（blockchain）是由很多台电脑共同保存、不能随意改写的公开账本；比特币（Bitcoin）是记在这种账本上的一种数字资产，没有中央机构或银行发行，也不由政府背书（美国证监会投资者教育页的说法）。生活类比：像全村人各抄一份的流水账，想改一笔，得让多数人的账本一起改，所以难以篡改。为什么重要：本期Bitget被盗后资金能被链上追踪，美国证监会的托管提案，都建立在记录公开的基础上。常见误区：①账本难改不等于不会亏，价格波动很大；②账本公开不等于资金安全，存在交易所的币要承担平台风险；③在内地，虚拟货币不具有法定货币地位，兑换、交易等相关业务属非法金融活动。小练习：有人说「区块链上的收益有保证」，你该怎么办？A.先投一点试试　B.让对方写保证书　C.按「保证收益」警示直接拒绝并核对其是否持牌。答案C：美国证监会把「保证的高收益」列为欺诈信号。",
+      "category": "一词一课",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "一词一课按轮换讲第8课（接上期第7课「汇率与跨境资产」），并联系本期Bitget被盗与SEC托管提案。"
+      },
+      "sources": [
+        {
+          "name": "Investor.gov（美国证监会投资者教育）",
+          "url": "https://investor.gov/additional-resources/news-alerts/alerts-bulletins/investor-alert-bitcoin-other-virtual-currency",
+          "originalTitle": "Investor Alert: Bitcoin and Other Virtual Currency-Related Investments"
+        },
+        {
+          "name": "中国证监会（八部门通知）",
+          "url": "https://www.csrc.gov.cn/csrc/c100028/c7614318/content.shtml",
+          "originalTitle": "关于进一步防范和处置虚拟货币等相关风险的通知"
+        }
+      ]
+    },
+    {
+      "id": "reading-news-btc-etf-flows-two-numbers",
+      "title": "新闻怎么读：比特币ETF周流入，两家数据差近三倍",
+      "brief": "上周美国现货比特币ETF净流入：Farside暂计8,290万美元，SoSoValue为2.41亿美元。该追问：口径一致吗？是最终数吗？",
+      "summary": "新闻：美东时间9月28日至10月2日，美国现货比特币ETF的净流入有两个数。Farside Investors的临时数据是8,290万美元（crypto.news 10月3日），其中周五贝莱德IBIT一栏还是空白，前一周约23.9亿美元；SoSoValue的数据是2.41亿美元（ChainCatcher 10月5日转述），为连续第三周净流入。哪些是事实：两家都是第三方统计，一家明说「临时」，一家是转述，数字还可能改。分析：差额最可能来自Farside周五IBIT暂缺，这是推断，没有证实。该追问：①这是临时数还是最终数？②两家统计的基金范围和时点一样吗？③资金净流入多，价格就会涨吗？结论：看到资金流向的数字，先问来源、口径和是不是最终数；它只记录申购赎回，不预测价格。",
+      "category": "新闻怎么读",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用同一周两个不同数字，示范初学者如何追问数据口径与时点；与上期的骗局案例不同。"
+      },
+      "sources": [
+        {
+          "name": "crypto.news",
+          "url": "https://crypto.news/crypto-etf-flows-split-bitcoin-gains-ethereum-bleeds/",
+          "originalTitle": "Crypto ETF flows split as Bitcoin gains $82.9m, Ethereum bleeds",
+          "publishedAt": "2026-10-03T06:57:07Z"
+        },
+        {
+          "name": "ChainCatcher（引述SoSoValue）",
+          "url": "https://www.chaincatcher.com/en/article/2294123",
+          "originalTitle": "Data: Bitcoin spot ETF had a net inflow of 241 million USD last week, marking three consecutive weeks of net inflow",
+          "publishedAt": "2026-10-05T02:35:51Z"
+        }
+      ]
+    },
+    {
+      "id": "calendar-ism-services-fomc-minutes",
+      "title": "财经日历：美国ISM服务业与美联储纪要",
+      "brief": "10月5日北京时间22:00美国9月ISM服务业PMI（预期55.1）；10月8日北京时间2:00美联储公布9月会议纪要。",
+      "summary": "10月5日（周一）美东10:00、北京时间22:00：美国供应管理协会（ISM）公布9月服务业PMI，市场预期55.1，前值55.4；高于50表示扩张，要看新订单、就业和价格分项。10月7日（周三）美东14:00、北京时间10月8日（周四）2:00：美联储公布9月15至16日会议纪要，可以看到委员们对再加息的分歧。10月14日的美国CPI和10月27至28日的议息会议不在本期窗口内。",
+      "category": "财经日历",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "下一期出刊前美国最重要的数据和央行事项。"
+      },
+      "sources": [
+        {
+          "name": "investingLive",
+          "url": "https://investinglive.com/news/week-ahead-ism-services-fed-minutes-and-canadian-jobs-lead-the-economic-calendar-be-aware/",
+          "originalTitle": "Week ahead: ISM services, Fed minutes and Canadian jobs lead the economic calendar. Be aware.",
+          "publishedAt": "2026-10-02T17:51:51Z"
+        },
+        {
+          "name": "Kiplinger",
+          "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+          "originalTitle": "What to Look Out for in Economic Data This Week (October 5-9)"
+        }
+      ]
+    },
+    {
+      "id": "calendar-a-share-reopen-oct-8",
+      "title": "财经日历：A股与港股通10月8日恢复",
+      "brief": "沪深交易所10月1日至7日休市，8日（周四）起照常开市；休市期间港股通同样暂停。",
+      "summary": "10月8日（周四）：沪深交易所国庆休市结束，A股恢复交易，港股通服务同日恢复。休市的10月1日至7日，港股通暂停，海外市场照常交易，节后A股开盘会集中反映这几天的外部变化。港股只在10月1日休市一天，2日起正常交易，但这期间没有内地资金参与。节后第一天先看成交量和指数方向，不用急着判断趋势。",
+      "category": "财经日历",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "A股节后开市日，是本期窗口里国内市场最重要的日程。"
+      },
+      "sources": [
+        {
+          "name": "中国证券报",
+          "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/111956.html",
+          "originalTitle": "A股2026年休市安排公布"
+        }
+      ]
+    }
+  ]
+}
