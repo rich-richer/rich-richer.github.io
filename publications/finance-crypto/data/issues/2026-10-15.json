@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T12:45:00+08:00",
+  "coverage": {
+    "start": "2026-10-05T10:50:00+08:00",
+    "end": "2026-10-15T12:45:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "us-etf-oct-14-cpi-chip-selloff",
+      "title": "美股ETF周三下跌，QQQ跌1.97%，较10月2日累计跌2.75%",
+      "brief": "10月14日收盘SPY −1.08%、QQQ −1.97%、VTI −1.16%；较10月2日累计−0.01%、−2.75%、−0.29%。",
+      "summary": "数据（stockanalysis.com；最近收盘日为美东时间10月14日，周三，已收盘）：SPY收769.60美元，当日−1.08%；QQQ收728.95美元，−1.97%；VTI收376.88美元，−1.16%。较上期所用的10月2日收盘（SPY 769.64、QQQ 749.58、VTI 377.99）累计：SPY −0.01%、QQQ −2.75%、VTI −0.29%。原因：CNBC报道，9月消费者价格指数（CPI）同比高于预期，人工智能（AI）相关股票同时下挫，标普500（S&P 500）收7,718.94点，跌1.11%；纳斯达克综合指数（Nasdaq Composite）跌1.88%；道琼斯指数仅跌0.09%；CoreWeave跌超15%。为什么该在意：大盘ETF（SPY）与成长股ETF（QQQ）当日跌幅相差近一倍，因为科技权重不同。以上是已发生的行情，不预测下一个交易日。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "市场速览第1条：美股与ETF，最近收盘日为美东10月14日，已收盘。"
+      },
+      "sources": [
+        {
+          "name": "stockanalysis.com（SPY历史行情）",
+          "url": "https://stockanalysis.com/etf/spy/history/"
+        },
+        {
+          "name": "stockanalysis.com（QQQ历史行情）",
+          "url": "https://stockanalysis.com/etf/qqq/history/"
+        },
+        {
+          "name": "stockanalysis.com（VTI历史行情）",
+          "url": "https://stockanalysis.com/etf/vti/history/"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/13/stock-market-today-live-updates-.html",
+          "originalTitle": "Stock market news for Oct. 14, 2026",
+          "publishedAt": "2026-10-13T22:03:12Z"
+        },
+        {
+          "name": "本站·金融与加密简报（10月2日ETF收盘基准）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-10-05#us-etf-oct-2-jobs-rally"
+        }
+      ]
+    },
+    {
+      "id": "cn-hk-oct-14-chinext-drop",
+      "title": "创业板指单日跌3.1%，恒指跌0.13%，A股较节前累计走弱",
+      "brief": "10月14日收盘：上证−0.88%、深成指−1.97%、创业板指−3.10%（2866.76点），恒指−0.13%（24314.17点）。",
+      "summary": "数据（A股最近收盘日10月14日，已收盘）：上证指数收3,767.23点，−0.88%；深证成指收12,110.59点，−1.97%；创业板指收2,866.76点，−3.10%；两市成交约1.43万亿元，较前一日缩量约2,625亿元，超4,400只个股下跌（金融界）。较上期记录的9月30日收盘（上证3,842.19、深成指12,887.62、创业板指3,135.28）累计：上证−1.95%、深成指−6.03%、创业板指−8.56%（期间10月1—7日休市）。港股：恒生指数收24,314.17点，−0.13%，较10月2日收盘23,972.29点累计+1.43%；恒生科技指数涨0.91%（新华社）。原因：金融界收评称AI硬件板块（光通信、存储芯片、光刻机）大跌拖累指数，油气、煤炭逆势走强；港股美团涨超6%、小米涨超5%（新浪财经）。以上是媒体解读，不是官方结论，也不预测走势。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "市场速览第2条：A股与港股，最近收盘日10月14日；起点为上期记录的收盘日。"
+      },
+      "sources": [
+        {
+          "name": "金融界（A股收评）",
+          "url": "https://finance.jrj.com.cn/2026/10/14153958715906.shtml",
+          "originalTitle": "A股收评：创业板指跌3.1%！风电设备、芯片股下挫，油气股强势",
+          "publishedAt": "2026-10-14T15:39:25+08:00"
+        },
+        {
+          "name": "新华社（经新华网）",
+          "url": "http://www.xinhuanet.com/20261014/88174535e25247e5a69b2549c05b7734/c.html",
+          "originalTitle": "港股14日跌0.13% 收报24314.17点",
+          "publishedAt": "2026-10-14T18:28:26+08:00"
+        },
+        {
+          "name": "新浪财经（港股收评）",
+          "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-14/doc-iniveqvq4522802.shtml",
+          "originalTitle": "港股收评：恒指跌0.13% 科指涨0.91% 科网股活跃 光通信板块下挫",
+          "publishedAt": "2026-10-14T16:10:04+08:00"
+        },
+        {
+          "name": "本站·金融与加密简报（节前基准）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-10-05#hk-oct-2-drop-a-share-closed"
+        }
+      ]
+    },
+    {
+      "id": "btc-eth-oct-15",
+      "title": "比特币约8.1万美元，较10月5日回落约6.4%",
+      "brief": "北京时间10月15日12:20，比特币约81,048美元、以太坊约2,369美元，较10月5日10:46分别约−6.4%、−13.4%。",
+      "summary": "数据（CoinGecko，北京时间10月15日12:20）：比特币约81,048美元，以太坊约2,368.76美元。对比上期记录的北京时间10月5日10:46（比特币约86,636美元，以太坊约2,735美元），比特币约−6.4%，以太坊约−13.4%。这十天里比特币大致在8.07万至8.66万美元之间波动（CoinGecko小时数据），区间低点出现在10月9日凌晨，区间高点就是10月5日上午的起点。为什么该在意：同期SPY累计基本持平（−0.01%），QQQ −2.75%，以太坊跌幅明显大于比特币；数字货币全天候交易、没有涨跌停，价格变化可能更快。价格只作背景，不构成买卖建议。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "市场速览第3条：主要数字货币，注明北京时间与区间涨跌。"
+      },
+      "sources": [
+        {
+          "name": "CoinGecko（比特币）",
+          "url": "https://www.coingecko.com/en/coins/bitcoin"
+        },
+        {
+          "name": "CoinGecko（以太坊）",
+          "url": "https://www.coingecko.com/en/coins/ethereum"
+        }
+      ]
+    },
+    {
+      "id": "cftc-crypto-anprm",
+      "title": "美国商品期货交易委员会就零售加密交易框架征求意见",
+      "brief": "CFTC 10月5日发布预先拟议规则通知（ANPRM），拟为零售加密交易建联邦框架；意见期为联邦公报刊发后60天。",
+      "summary": "事实：美国商品期货交易委员会（CFTC）10月5日发布预先拟议规则通知（Advance Notice of Proposed Rulemaking，ANPRM），就零售加密资产交易（CTX）征求意见，拟设两部分规则：Regulation CTX（划定哪些交易归CFTC管）和Regulation CAM（新增专做加密现货的「加密资产市场」注册类别）。主席塞利格（Michael Selig）称目的是「预防」FTX式欺诈。Lowenstein Sandler介绍，「实际交付」初步解读大致指持有资产所在钱包的私钥；零售杠杆只能经期货佣金商（FCM）等安排提供。⚠️ 各方说法不一：意见期CFTC新闻稿只写联邦公报刊发后60天，Sidley称截止日为12月14日，以联邦公报为准。分析：这只是征求意见的第一步，没有规则文本，也未生效；国会市场结构法案缺位时，监管机构在用现有权力补空白。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "监管动向：美国CFTC提出零售加密交易的联邦监管框架，涉及托管与杠杆。"
+      },
+      "sources": [
+        {
+          "name": "美国商品期货交易委员会",
+          "url": "https://cftc.gov/PressRoom/PressReleases/9307-26",
+          "originalTitle": "CFTC Seeks Public Comment on Advanced Notice of Proposed Rulemaking Relating to Regulation Crypto Asset Transactions and Regulation Crypto Asset Markets"
+        },
+        {
+          "name": "Lowenstein Sandler",
+          "url": "https://www.lowenstein.com/news-insights/newsletters/fintech-five-october-6-2026",
+          "originalTitle": "FinTech Five - October 6, 2026"
+        },
+        {
+          "name": "Sidley Austin",
+          "url": "https://sidley.com/en/insights/newsupdates/2026/10/cftc-seeks-comment-on-proposed-federal-framework-for-retail-crypto-transactions",
+          "originalTitle": "CFTC Seeks Comment on Proposed Federal Framework for Retail Crypto Transactions",
+          "publishedAt": "2026-10-13T15:37:22Z"
+        }
+      ]
+    },
+    {
+      "id": "crypto-etf-outflows-oct-5-9",
+      "title": "美国现货比特币、以太坊ETF上周合计净流出约12亿美元",
+      "brief": "10月5—9日美国现货比特币ETF净流出约6.81亿美元，以太坊ETF约5.42亿美元；前者为6月以来最大周流出。",
+      "summary": "事实：SoSoValue数据显示，10月5—9日美国现货比特币ETF净流出约6.81亿美元，结束连续三周净流入，为6月以来最大单周流出；富达FBTC约流出3.8亿美元、Ark与21Shares的ARKB约2.07亿美元；10月7日单日约流出4.85亿至4.87亿美元（Farside与SoSoValue口径略有差异）。Farside Investors数据显示，同期现货以太坊ETF五个交易日全部净流出，合计5.422亿美元，其中贝莱德ETHA约4.771亿美元。两类产品合计约12.2亿美元（CoinReporter引述SoSoValue）。背景：比特币同期在约8.3万美元附近回落，媒体把流出与美债收益率高企、通胀担忧联系起来，但资金流只记录申购赎回，不说明投资者动机，也不预测价格。分析：ETF资金流是观察机构情绪的一个窗口，口径（哪家统计、是否最终数）会影响数字，读时要核对。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "现货ETF与机构资金：上周由流入转为明显流出，是本期数字货币市场的关键数据。"
+      },
+      "sources": [
+        {
+          "name": "CoinReporter（引述SoSoValue）",
+          "url": "https://www.coinreporter.io/2026/10/u-s-spot-bitcoin-and-ethereum-etfs-see-significant-weekly-outflows/",
+          "originalTitle": "U.S. Spot Bitcoin and Ethereum ETFs See Significant Weekly Outflows",
+          "publishedAt": "2026-10-14T07:15:53Z"
+        },
+        {
+          "name": "The Token Press（引述Farside）",
+          "url": "https://www.thetokenpress.com/article/ether-and-solana-etfs-end-the-week-with-broad-outflows-99355229",
+          "originalTitle": "Ether and Solana ETFs End the Week With Broad Outflows",
+          "publishedAt": "2026-10-11T12:20:03Z"
+        },
+        {
+          "name": "Cointelegraph（经cryptonews.net，引述Farside）",
+          "url": "https://cryptonews.net/news/finance/33565563/",
+          "originalTitle": "Bitcoin, Ether ETFs' October outflows swell toward $1B",
+          "publishedAt": "2026-10-09T11:58:00Z"
+        }
+      ]
+    },
+    {
+      "id": "china-cpi-ppi-sep",
+      "title": "中国9月CPI同比涨0.9%，PPI同比涨5.0%",
+      "brief": "国家统计局：9月CPI同比+0.9%，核心CPI +1.0%；PPI同比+5.0%、环比+1.2%。猪肉同比降10.0%，汽油同比涨16.6%。",
+      "summary": "事实（国家统计局，10月14日发布）：9月全国居民消费价格（CPI）同比上涨0.9%，涨幅比8月扩大0.1个百分点，环比上涨0.2%；扣除食品和能源的核心CPI同比上涨1.0%，与上月相同。食品价格同比下降1.7%（猪肉降10.0%、鲜菜降8.1%），汽油价格同比涨16.6%，影响CPI上涨约0.47个百分点。工业生产者出厂价格（PPI）同比上涨5.0%，涨幅扩大1.2个百分点，环比上涨1.2%；统计局解读称，国际原油、有色金属价格上行带动国内相关行业涨价。分析：CPI衡量居民买东西的价格，PPI衡量工厂出厂价，两者差距大，说明价格上涨主要来自上游能源和原材料，还没有传到居民消费端；这是推断，不是官方结论。对初学者：看通胀要分清「同比」（与去年同月比）和「环比」（与上月比）。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "国内重要经济数据：物价指标影响利率预期，也是理解本期美国CPI的对照。"
+      },
+      "sources": [
+        {
+          "name": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261014_1965477.html",
+          "originalTitle": "2026年9月份居民消费价格同比上涨0.9%"
+        },
+        {
+          "name": "国家统计局（统计师解读）",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261014_1965475.html",
+          "originalTitle": "国家统计局城市司首席统计师董莉娟解读2026年9月份CPI和PPI数据"
+        }
+      ]
+    },
+    {
+      "id": "us-cpi-sep-hot-fed-hike-odds",
+      "title": "美国9月CPI高于预期，美联储10月加息概率上升",
+      "brief": "美国9月CPI同比3.7%、核心CPI环比0.3%均高于预期；CME显示10月加息概率升至32.7%。",
+      "summary": "本刊仅供学习，不构成投资建议；投资有风险。本期主线：美国9月通胀超预期，叠加AI与芯片股抛售，美股走弱；利率可能高位停留更久。美东时间10月14日，美国劳工统计局公布：9月CPI同比涨3.7%（预期3.6%），环比涨0.6%；扣除食品和能源的核心CPI同比涨2.6%（预期2.5%），环比涨0.3%（预期0.2%）；汽油和能源价格上涨是主要推手。CME FedWatch显示，美联储10月27至28日会议再加息的概率升到32.7%（前一日22.1%）。当日标普500跌1.11%、纳斯达克综合指数跌1.88%、费城半导体指数跌4.30%。意义：通胀回落慢，会推迟降息预期，对成长股估值和高息贷款都是压力。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "本期市场主线：美国9月CPI超预期，直接改变美联储加息预期并带动当日美股下跌。"
+      },
+      "sources": [
+        {
+          "name": "雅虎财经",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-hot-inflation-report-drops-tech-drives-sp-500-nasdaq-down-152206632.html",
+          "originalTitle": "Stock market today: Hot inflation report drops tech, drives S&P 500, Dow and Nasdaq down",
+          "publishedAt": "2026-10-14T20:43:14Z"
+        },
+        {
+          "name": "首尔经济日报",
+          "url": "https://en.sedaily.com/international/2026/10/15/us-stocks-fall-on-cpi-shock-as-chip-index-tumbles-43-percent",
+          "originalTitle": "U.S. Stocks Fall on CPI Shock as Chip Index Tumbles 4.3%",
+          "publishedAt": "2026-10-14T21:09:37Z"
+        }
+      ]
+    },
+    {
+      "id": "lesson-wallet-private-key-custody",
+      "title": "一词一课：钱包、私钥与托管安全",
+      "brief": "钱包不存币，只存控制币的私钥；谁掌握私钥，谁才真正控制资产。自己保管要自担风险，托管要看平台是否可靠。",
+      "summary": "是什么：钱包（wallet）里并没有「币」，它保存的是私钥（private key）——能授权转账的密码；公钥（public key）像收款地址，只能收、不能花。私钥丢了，资产永久打不开。生活类比：私钥像保险箱钥匙；交给银行保管叫托管（custody），自己揣着叫自我保管（self-custody）。为什么重要：本期CFTC征求意见稿把「实际交付」大致理解为持有私钥；存在平台里的资产要承担平台风险。常见误区：①App里显示的余额未必是自己的币，可能只是平台记账；②热钱包（联网）方便但易受攻击，冷钱包（离线）更安全但设备会丢；③把助记词（seed phrase）截图或发给「客服」。在内地，虚拟货币相关交易业务属非法金融活动，本课只讲知识。小练习：自称客服的人要你提供助记词「帮你找回资产」，怎么办？A.提供　B.只给前几个词　C.任何情况都不给。答案C：助记词等同私钥，不要与任何人分享。",
+      "category": "一词一课",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "一词一课按轮换接着上期第8课，本期讲第9课，并联系本期CFTC「实际交付＝持有私钥」的表述。"
+      },
+      "sources": [
+        {
+          "name": "Investor.gov（美国证监会投资者教育）",
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/crypto-asset-custody-basics-retail-investors-investor-bulletin-0",
+          "originalTitle": "Crypto Asset Custody Basics for Retail Investors – Investor Bulletin"
+        },
+        {
+          "name": "中国证监会（八部门通知）",
+          "url": "https://www.csrc.gov.cn/csrc/c100028/c7614318/content.shtml",
+          "originalTitle": "关于进一步防范和处置虚拟货币等相关风险的通知"
+        }
+      ]
+    },
+    {
+      "id": "reading-news-fed-hike-odds-two-numbers",
+      "title": "新闻怎么读：同一次CPI，两个加息概率",
+      "brief": "CPI公布后，Bloomberg称10月加息概率约46%，CME FedWatch收盘后为32.7%。该追问：谁算的？什么时点？",
+      "summary": "新闻：美国9月CPI公布后，加息概率出现两个数。嘉信理财（Charles Schwab）开盘时引述彭博（Bloomberg）：10月加息概率从约20%升到46%；首尔经济日报引述CME FedWatch：收盘后为32.7%（前一日22.1%）。哪些是事实：CPI同比3.7%、核心CPI环比0.3%是官方数据；「概率」是由市场定价推算的，不是美联储的决定，也不是预测。分析：两个数相差，可能因为时点不同（开盘与收盘）、算法不同，这是推断，两篇都没有说明原因。该追问：①这个概率是谁算的、用的什么价格？②是哪一个时点？③美联储自己说了什么（NY Fed主席Williams称今年再加一次合适，但这不是10月的决定）？结论：看到「概率」二字，先问来源和时点；它是市场押注，不是结果。",
+      "category": "新闻怎么读",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用同一次CPI后的两个不同加息概率，示范追问数据来源与时点；与上期ETF资金流案例不同。"
+      },
+      "sources": [
+        {
+          "name": "嘉信理财（Schwab）",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+          "originalTitle": "'Hot' CPI Data Sends Yields, Rate Hike Odds Higher",
+          "publishedAt": "2026-10-14T13:11:00Z"
+        }
+      ]
+    },
+    {
+      "id": "calendar-us-retail-sales-ppi-oct-15",
+      "title": "财经日历：美国9月零售销售与PPI",
+      "brief": "10月15日（周四）北京时间20:30：美国9月零售销售、生产者价格指数（PPI）及首次申领失业金人数；PPI市场预期环比+0.5%。",
+      "summary": "10月15日（周四）美东8:30、北京时间20:30：美国公布9月零售销售（市场预期环比约+0.3%）、生产者价格指数（PPI，Schwab引述的共识预期环比+0.5%）、首次申领失业金人数以及10月纽约联储制造业指数和费城联储制造业指数（Investrade日历）。零售销售反映消费者还在不在花钱，PPI反映上游成本，都与CPI后的加息预期有关。预期值只是调查中位数，不是结果。",
+      "category": "财经日历",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "下一期出刊前美国最重要的消费与物价数据。"
+      },
+      "sources": [
+        {
+          "name": "Investrade",
+          "url": "https://investrade.com/weekly-event-calendar-10-12-2026-10-16-2026/",
+          "originalTitle": "Weekly Event Calendar: 10/12/2026 - 10/16/2026",
+          "publishedAt": "2026-10-09T11:36:08Z"
+        }
+      ]
+    },
+    {
+      "id": "calendar-lpr-oct-20",
+      "title": "财经日历：10月20日公布LPR",
+      "brief": "10月20日（周二）：全国银行间同业拆借中心公布10月贷款市场报价利率（LPR）；9月1年期3.0%、5年期以上3.5%，已连续16个月不变。",
+      "summary": "10月20日（周二）：经中国人民银行授权，全国银行间同业拆借中心公布10月贷款市场报价利率（LPR，Loan Prime Rate）。上一期（9月20日）1年期LPR为3.0%，5年期以上为3.5%，均较上月不变，已连续16个月维持不动（每日经济新闻）。5年期以上LPR是个人住房贷款利率的参考基准。公布日以每月20日为准，遇节假日顺延；结果以当日公告为准，本刊不预测。",
+      "category": "财经日历",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "国内利率最重要的例行公布，与房贷利率相关。"
+      },
+      "sources": [
+        {
+          "name": "同花顺（引述每日经济新闻）",
+          "url": "https://news.10jqka.com.cn/20260920/c680091504.shtml",
+          "originalTitle": "9月最新LPR出炉，连续16个月“按兵不动”！"
+        }
+      ]
+    }
+  ]
+}

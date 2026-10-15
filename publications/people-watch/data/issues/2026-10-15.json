@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T12:45:00+08:00",
+  "coverage": {
+    "start": "2026-10-08T12:45:00+08:00",
+    "end": "2026-10-15T12:45:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "jensen-huang-europe-tour-no-incidents",
+      "title": "黄仁勋：欧洲巡访投资四家法国初创，称AI网络安全事故不可接受",
+      "brief": "黄仁勋10月13日在巴黎宣布投资四家法国初创，称还将追加20亿美元；在伦敦说AI网络安全事故一个都不该接受。意义：安全与主权AI都是卖点。",
+      "summary": "10月13日（周二），英伟达CEO黄仁勋在巴黎宣布投资Doctolib、Pigment、Genesis AI和Entalpic四家法国初创。他对《财富》说，英伟达将在一周内宣布20亿美元的新欧洲投资，此前已承诺80亿美元。意义：欧洲主权AI的订单最终落在英伟达的芯片上。随后在伦敦，英伟达宣布5年共2.5亿美元的算力捐赠，支持英国智能体安全研究。黄仁勋对《财富》说“我愿意接受的网络安全事故是零”，称已发生的事故本可靠隔离和监控避免；若有人认为AI会终结人类文明，“就真该停止研究”。这与阿尔特曼“要接受一些坏事”的说法相反。 EN: In Paris Huang named four French startup investments; in London he told Fortune the industry should accept no AI cyber incidents.",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "本周名单内人物里公开动作最密：投资、捐赠和安全表态都由本人当面说明，并与阿尔特曼的立场形成直接对照；近14天其他刊物未报道。"
+      },
+      "sources": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/10/14/nvidia-ceo-huang-says-society-shouldnt-tolerate-ai-cyber-incidents-says-ai-doomers-ought-to-stop-working-on-the-technology/",
+          "originalTitle": "Nvidia CEO Huang says society shouldn’t tolerate AI cyber incidents, says AI doomers ‘ought to stop working on’ the technology",
+          "publishedAt": "2026-10-14T18:03:36Z"
+        },
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+          "originalTitle": "NVIDIA Lands in Europe for GTC Berlin",
+          "publishedAt": "2026-10-13T05:00:12Z"
+        },
+        {
+          "name": "French Tech Journal",
+          "url": "https://www.frenchtechjournal.com/nvidia-jensen-huang-four-french-startups-europe-ai/",
+          "originalTitle": "Nvidia Bets on Four French Startups and Pitches Europe AI",
+          "publishedAt": "2026-10-14T14:30:17Z"
+        }
+      ]
+    },
+    {
+      "id": "elon-musk-nyc-council-x-subscription",
+      "title": "马斯克：SpaceX同意就AI安全到纽约市议会作证",
+      "brief": "SpaceX被传唤后同意10月16日到纽约市议会作证；旗下SpaceXSI同期推出合并Grok、Cursor和X的订阅。意义：马斯克的AI业务面临地方审查。",
+      "summary": "纽约市议会9月28日向马斯克和SpaceX的AI部门发出传票，要求出席10月5日的AI安全听证会。SpaceX缺席，Anthropic、OpenAI、谷歌和Meta都派人作证。议会称SpaceX于10月7日同意作证，听证会定于10月16日上午10点（美东时间）。意义：马斯克在联邦层面与白宫走得近，在市一级却要回答数据隐私和举报人保护问题。另据Teslarati，SpaceXSI（10月4日由SpaceXAI改名）10月12日推出“X订阅”，把Grok、Cursor和X Premium合为一档，月费8至200美元。 EN: SpaceX agreed to testify to the NYC Council on AI safety after a subpoena to Musk; its AI unit also launched a bundled X Subscription.",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "马斯克旗下公司首次就AI安全接受地方议会问询，属本人组织的监管动向；同周产品整合附带一句。"
+      },
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/13/spacex-agrees-to-testify-to-nyc-council-about-ai-safety-.html",
+          "originalTitle": "SpaceX agrees to testify to NYC Council about AI safety",
+          "publishedAt": "2026-10-13T09:00:01Z"
+        },
+        {
+          "name": "Teslarati",
+          "url": "https://www.teslarati.com/spacex-just-combined-grok-cursor-and-x-into-one-mega-plan/",
+          "originalTitle": "SpaceX just combined Grok, Cursor, and X into one mega plan",
+          "publishedAt": "2026-10-13T19:44:27Z"
+        }
+      ]
+    },
+    {
+      "id": "sam-altman-openai-fired-researchers-revenue",
+      "title": "阿尔特曼：OpenAI解雇三名安全研究员引发争议",
+      "brief": "被解雇的三名研究员10月8日发公开信，OpenAI次日回应称他们违规；公司同周向投资人披露年化收入约500亿美元。意义：安全与上市叙事同时承压。",
+      "summary": "OpenAI解雇安全研究员Jasmine Wang、Tomek Korbak和Mikita Balesni。三人10月8日发公开信，否认泄密，称解雇令同事不敢发声；OpenAI次日在X上回应，称调查发现他们违反了处理敏感信息的政策，并称与提出安全担忧无关（CBS、TechCrunch）。报道中未见阿尔特曼本人表态。同周，OpenAI向投资人披露9月底年化收入约500亿美元，低于此前流传的680亿美元，据称后者含合作伙伴总收入，AI概念股当天下跌（CNBC）。意义：安全治理和收入口径都在被投资人审视。 EN: OpenAI and three fired safety researchers traded public statements; OpenAI also told investors it hit about $50 billion in annualized revenue.",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "阿尔特曼所领导公司本周的两件公开事项：员工安全争议与对投资人的收入披露。未收入其个人访谈（均在10月5日，窗口外）。"
+      },
+      "sources": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/openai-defends-firing-safety-researchers/",
+          "originalTitle": "OpenAI defends firing AI safety researchers over alleged \"breach of trust\"",
+          "publishedAt": "2026-10-09T16:21:00Z"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+          "originalTitle": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+          "publishedAt": "2026-10-08T20:04:26Z"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+          "originalTitle": "Nvidia, Oracle, other AI stocks sink on OpenAI revenue report",
+          "publishedAt": "2026-10-08T18:14:54Z"
+        }
+      ]
+    },
+    {
+      "id": "justin-sun-token2049-post-quantum",
+      "title": "孙宇晨：TOKEN2049称加密业只有两年时间证明价值",
+      "brief": "孙宇晨10月7至8日在新加坡发言，称加密行业要拿出实际价值；10月10日说波场抗量子签名已在测试网上线，主网未给日期。不构成投资建议。",
+      "summary": "波场（TRON）创始人孙宇晨10月7日、8日先后在新加坡Blockworks DAS Asia和TOKEN2049上发言，谈稳定币和AI支付。据CaptainAltcoin转述其访谈，他认为加密行业约有两年时间证明自己。10月10日他在X上说，波场的后量子加密（post-quantum cryptography）已在测试网上线，“随时可以把抗量子能力带到主网”，但没给主网日期（The Crypto Times）。不构成投资建议。 EN: Justin Sun said at TOKEN2049 that crypto has about two years to prove its value, and that TRON's post-quantum signatures are live on testnet with no mainnet date.",
+      "category": "金融与加密",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "孙宇晨本人的公开发言与技术路线表态，只陈述原话和已公开的测试网状态，不评价代币。"
+      },
+      "sources": [
+        {
+          "name": "The Crypto Times",
+          "url": "https://www.cryptotimes.io/2026/10/12/justin-sun-says-tron-is-ready-for-post-quantum-security-on-mainnet/",
+          "originalTitle": "Justin Sun Says TRON is Ready for Post-Quantum Security on Mainnet",
+          "publishedAt": "2026-10-12T07:56:25Z"
+        },
+        {
+          "name": "CaptainAltcoin（媒体转述）",
+          "url": "https://captainaltcoin.com/tron-founder-justin-sun-warns-crypto-has-two-years-to-prove-itself/",
+          "originalTitle": "Tron Founder Justin Sun Warns Crypto Has Two Years to Prove Itself",
+          "publishedAt": "2026-10-13T07:21:29Z"
+        }
+      ]
+    },
+    {
+      "id": "changpeng-zhao-wallet-quarantine",
+      "title": "赵长鹏：Ledger经销商被攻破，建议新钱包先放两周",
+      "brief": "Ledger 10月9日暂停经销商CryptoBilis的销售，链上研究者追踪到约8690万美元流出；赵长鹏建议新硬件钱包先放置约两周再存大额。媒体转述。",
+      "summary": "Ledger 10月9日宣布暂停通过经销商CryptoBilis的销售。据链上研究者追踪，马来西亚、印尼和菲律宾的数百个钱包约8690万美元被转走；攻击者在经销商仓库拆包，把说明书换成预先生成的助记词。Ledger称自己的工厂生产、固件和Ledger Live应用未受影响。币安联合创始人赵长鹏建议，买到新设备或下载新软件后，不要立即向新地址转入大额资产，最好先放置至少两周，其间留意是否有被攻击的报道。以上建议据U.Today经TradingView转述，本刊未核对其X原帖；损失数字来自链上追踪，非官方确认。不构成投资建议。 EN: CZ advised letting a new hardware wallet sit for about two weeks before moving large sums, after a Ledger reseller was compromised.",
+      "category": "金融与加密",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "赵长鹏本人对一起硬件钱包供应链攻击的公开建议；事件技术细节归AI安全以外的加密安全报道，本条只写其表态与已公开事实，未涉及币安诉讼。"
+      },
+      "sources": [
+        {
+          "name": "U.Today（经 TradingView 转载，媒体转述）",
+          "url": "https://www.tradingview.com/news/u_today:1379ec49d094b:0-binance-founder-cz-urges-wallet-quarantine-after-86-million-ledger-reseller-hack/",
+          "originalTitle": "Binance Founder CZ Urges Wallet 'Quarantine' After $86 Million Ledger Reseller Hack",
+          "publishedAt": "2026-10-09T17:26:15Z"
+        }
+      ]
+    }
+  ]
+}
