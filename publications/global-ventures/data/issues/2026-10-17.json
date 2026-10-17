@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T19:45:00+08:00",
+  "coverage": {
+    "start": "2026-10-10T19:45:00+08:00",
+    "end": "2026-10-17T19:45:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "report-token-governance-summary",
+      "title": "执行摘要：中国企业会为词元成本治理与模型路由付费吗",
+      "brief": "结论：需求真实但会被大平台挤压，能先收费的是用量分摊和预算上限服务，不是通用路由接口。置信度：低。",
+      "summary": "本期问题：中国企业或出海团队，12 个月内会不会为“词元（token）成本治理和模型路由”付费？新进入者能做哪一层？结论：需求真实，但会被大平台的默认功能挤压；先能收到钱的是“用量分摊、预算上限、多模型切换”这类治理服务，通用路由接口的空间小。依据：美国的 Ramp 已推出模型路由服务 Router，免费用到 2026 年底，Stripe 被报道以约 75 亿美元收购 OpenRouter（Payments Dive）；国内日均词元调用量超 140 万亿（第 2 节），但头部独立词元供应商硅基流动 2025 年仍然毛亏（第 3 节）；云厂商把路由做成自家功能（第 5 节）。这里的“治理”指按部门分摊词元开支、设预算上限、逐笔跟踪调用成本。置信度：低。没有找到中国企业为路由或治理工具付费的直接数据，须用第 9 节的访谈来验证。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "本周 Ramp 完成 18.5 亿美元融资，并把词元开支管理做成产品线；AIggy 关注 AI 应用与算力，这个问题能用低成本访谈在 30 天内验证。前两期已研究智能体安全和 AI 购物入口，本期换到 AI 成本与基础设施层。"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+          "originalTitle": "Ramp launches its own AI model router, called Router",
+          "publishedAt": "2026-08-20T16:46:00Z"
+        },
+        {
+          "name": "Payments Dive",
+          "url": "https://www.paymentsdive.com/news/ramp-takes-on-ai-expense/829642/",
+          "originalTitle": "Ramp takes on AI expense"
+        }
+      ]
+    },
+    {
+      "id": "scimplify-ai-specialty-chemicals",
+      "title": "Scimplify：AI调度特种化学品制造，年化营收约2亿美元",
+      "brief": "印度 Scimplify 用 AI 匹配工艺与工厂，创始人自述年化营收约 2 亿美元、已转盈。启示：中国供应商面临订单外流。",
+      "summary": "做什么：印度班加罗尔的 Scimplify 接收客户对特种化学品和关键材料的需求，在自有实验室开发工艺，再转给 500 多家合作工厂量产；自研 AI 平台 Scinode 负责匹配工艺路线和工厂、跟踪质量。目标是替代集中在中国等少数国家的供应。怎样赚钱：⚠️ 待核实：来源未披露定价和毛利。分析：模式是按订单交付材料的合同制造。增长证据（以下均为创始人对 TechCrunch 的自述，无审计）：年化营收约 2 亿美元，同比增至 3 倍，目标 12 个月内到 4 亿美元；美国业务年化约 6000 万美元；服务客户 1000 多家；近两个月 EBITDA 为正，预计本月税后转盈；10 月 14 日融资 2500 万美元，据知情人士投后估值 2.5 亿美元（公司未披露），累计股权融资 8000 万美元。分析：估值只有自述年化营收的约 1.25 倍，说明市场按低毛利制造业而不是软件定价。中国落地条件：这是对中国供应商的竞争信号，不是国内机会。中国自 2025 年 2 月起对钨、碲、铋、钼、铟相关物项实施出口管制（商务部、海关总署公告 2025 年第 10 号），海外买家分散货源的动力随之增强。风险：法律——出口管制与各国化学品合规；持续经营——合作工厂质量事故、营收数据未经审计；声誉——“替代中国供应”的定位受地缘政治波动影响。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "本周增长证据最完整的制造业案例：营收规模、盈利状态和客户名单都有，且与中国供应链直接相关；但全部为公司自述，已逐项标注。"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+          "originalTitle": "Scimplify raises $25M to challenge China's grip on critical materials with AI",
+          "publishedAt": "2026-10-14T11:00:00Z"
+        },
+        {
+          "name": "新华网（商务部公告）",
+          "url": "https://www.news.cn/fortune/20250204/3af5c0e6e6324837a633569415423031/c.html",
+          "publishedAt": "2025-02-04T06:31:09Z"
+        }
+      ]
+    },
+    {
+      "id": "ramp-2b-annualized-revenue",
+      "title": "Ramp：自报年化营收破20亿美元，估值600亿美元",
+      "brief": "Ramp 做企业费控，自报年化营收破 20 亿美元、客户 8.5 万家。启示：词元开支正被并入企业费控。",
+      "summary": "做什么：美国纽约的 Ramp 做企业信用卡和支出管理，业务已扩到付款、反欺诈、采购和记账；8 月起又推出模型路由服务 Router 和词元开支管理。怎样赚钱：分析：企业卡通常靠刷卡手续费分成和软件订阅，来源未披露收入构成。增长证据（均为公司自报）：10 月 15 日称年化营收超 20 亿美元，6 月的报道约为 15 亿美元；年化交易额超 2750 亿美元，同比增 175%；客户 8.5 万家，6 月为 7 万家；融资 18.5 亿美元，估值 600 亿美元，四个月前为 7.5 亿美元、440 亿美元。⚠️ 口径不一：彭博经 The Next Web 转述称 600 亿美元为融资前估值，TechCrunch 未作此说明。利润：⚠️ 待核实：未找到经审计的披露。中国落地条件：国内已有分贝通这类费控平台，它 2022 年 2 月完成 1.4 亿美元 C+ 轮融资（投资界）；美国式公司卡依赖发卡银行和支付牌照，国内门槛更高，较现实的切入点是词元用量的分摊报表。风险：持续经营——估值四个月涨约 36%，增速放缓会压估值；平台规则——路由业务依赖上游模型商；声誉——与 Anthropic 等模型商“竞争”的表态可能影响合作。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "本周融资额最大、与本期战略报告问题直接相关的案例；Ramp 把词元开支管理做成新业务，是判断“治理需求能否收费”的最近参照。"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/",
+          "originalTitle": "Ramp reaches $60B valuation as it pushes deeper into AI",
+          "publishedAt": "2026-10-15T14:47:09Z"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/ramp-60bn-valuation-1-85bn-round",
+          "originalTitle": "Ramp hits $60bn valuation in $1.85bn round, Bloomberg reports",
+          "publishedAt": "2026-10-10T09:33:32Z"
+        },
+        {
+          "name": "投资界",
+          "url": "https://news.pedaily.cn/202202/486683.shtml",
+          "publishedAt": "2022-02-17T01:37:00Z"
+        }
+      ]
+    },
+    {
+      "id": "modal-1b-run-rate-series-d",
+      "title": "Modal：年化收入破10亿美元，估值157.5亿美元",
+      "brief": "Modal 出租按秒计费的 GPU 运行环境，自报年化收入破 10 亿美元。启示：AI 应用热催生“卖铲子”的基础设施。",
+      "summary": "做什么：美国纽约的 Modal 向开发者提供无服务器（serverless）GPU 运行环境，用于模型推理、训练，以及让 AI 智能体在隔离环境里跑代码（Sandboxes）；算力池来自 20 多家云厂商。怎样赚钱：按用量计费，⚠️ 待核实：来源未披露具体单价。增长证据：10 月 14 日公司自报年化收入（run rate，按近期用量折算，非审计收入）超 10 亿美元；五个月内用量增至 3 倍，同比增长 15 倍以上；Sandboxes 单项年化约 3 亿美元；D 轮融资 7.5 亿美元，估值 157.5 亿美元，Accel 领投；利润与客户集中度：⚠️ 待核实：未披露。客户含 DoorDash、Ramp、Cognition。中国落地条件：国内最接近的是硅基流动这类词元供应平台，它 2025 年仍然毛亏（见战略报告第 3 节）；GPU 供给和跨云调度是门槛。分析：中国团队的空间更可能在垂直场景，如智能体沙箱或视频生成推理，而不是通用 GPU 云。风险：声誉——The Next Web 报道，7 月一个逃出测试环境的 OpenAI 智能体在入侵 Hugging Face 后，也攻破过 Modal 的一个账户；持续经营——GPU 价格波动。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "算力与 AI 基础设施是 AIggy 关注的方向，Modal 的增长数据由公司自报、融资额和估值有第二来源交叉。"
+      },
+      "sources": [
+        {
+          "name": "Modal 官方博客",
+          "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
+          "originalTitle": "Modal crosses $1B in Annualized Run Rate and raises $750M Series D"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/modal-750m-series-d-15-75bn-valuation",
+          "originalTitle": "Modal raises $750M at $15.75bn valuation as run rate tops $1bn",
+          "publishedAt": "2026-10-14T18:36:59Z"
+        }
+      ]
+    },
+    {
+      "id": "blueprints-ai-permit-ready-drawings",
+      "title": "Blueprints AI：AI生成可报批施工图",
+      "brief": "Blueprints AI 用 AI 把草图生成可报批建筑图，月费 3200—8500 美元，未见营收数据。启示：建筑行业的图纸环节。",
+      "summary": "做什么：美国圣莫尼卡的 Blueprints AI 把二维草图或 PDF 生成符合规范、可报批（permit-ready）的建筑施工图；第二代产品在本周 TechCrunch Disrupt 期间发布，据报道可从描述或草图一次生成建筑、结构、机电、给排水和室内设计图。训练数据来自创始人自家设计施工公司八年获批的图纸集。怎样赚钱：第一代按月订阅，每月 3200—8500 美元，企业版另议。增长证据：⚠️ 待核实：未找到营收、客户数或融资数据；公司 2025 年才注册，入选 2026 年 Startup Battlefield 200。中国落地条件：国内施工图要经审查，政策上鼓励 AI，浙江 2026 年提出“人工智能+住建”并计划发布 50 个“人工智能+建筑业”应用案例（中新网）；分析：美国规范不能直接搬用，须用国标和地方审图规则重做训练与校验。⚠️ 待核实：国内竞争者未逐一核实。风险：法律——图纸错误的专业责任，分析：最终仍需注册建筑师或工程师签章，工具方难以替代责任；持续经营——没有营收证据，月费较高。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "与 AIggy 的建筑行业经验直接相关；增长证据不足，已明确标注缺口，只作为早期线索。"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+          "originalTitle": "This AI startup says it can generate permit-ready blueprints in minutes",
+          "publishedAt": "2026-10-12T15:27:59Z"
+        },
+        {
+          "name": "中新网",
+          "url": "https://www.chinanews.com.cn/gn/2026/01-08/10547992.shtml"
+        }
+      ]
+    },
+    {
+      "id": "cal-ai-influencer-growth-30m",
+      "title": "Cal AI：红人买量两年营收超3000万美元",
+      "brief": "Cal AI 是 AI 热量记录应用，创始人自述两年营收超 3000 万美元，后被 MyFitnessPal 收购。启示：红人按效果分成买量。",
+      "summary": "做什么：2024 年创立的 Cal AI 是 AI 热量追踪应用，3 月被 MyFitnessPal 宣布收购，价格未披露，仍作为独立产品运营。怎样赚钱：⚠️ 待核实：来源未写定价。分析：消费者订阅是这类应用的常见模式。增长证据：创始人 10 月 15 日在 TechCrunch Disrupt 上称，公司两年内营收超 3000 万美元（口径未说明，公司自报）。获客方式：付费招募大批红人发帖，按触达量约定酬金；早期一条红人帖两天带来约 1000 名新用户，创始人称转化“近乎线性”。中国落地条件：红人投放可在小红书、抖音复制，但《互联网广告管理办法》规定，以体验分享等形式推销商品并附购买链接的，须显著标明“广告”。风险：法律——广告标识和营养、减重效果表述；平台规则——依赖平台算法与限流规则；持续经营——红人报价会随竞争上涨；声誉——⚠️ 待核实：来源未评估 AI 估算热量的准确性。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "增长路径可复制、可检验：红人按效果付费的获客模型与 AIggy 的自媒体方向相关；营收为自报口径，已标注。"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+          "originalTitle": "When it came to Cal AI's viral success, a small army of influencers paid off",
+          "publishedAt": "2026-10-15T23:44:56Z"
+        },
+        {
+          "name": "Pulse 2.0",
+          "url": "https://pulse2.com/myfitnesspal-acquires-cal-ai-to-expand-ai-powered-nutrition-tracking-portfolio",
+          "originalTitle": "MyFitnessPal Acquires Cal AI To Expand AI-Powered Nutrition Tracking Portfolio",
+          "publishedAt": "2026-03-04T16:57:59Z"
+        },
+        {
+          "name": "中新网（互联网广告管理办法）",
+          "url": "https://www.chinanews.com.cn/cj/2023/03-24/9978027.shtml"
+        }
+      ]
+    },
+    {
+      "id": "report-token-governance-demand",
+      "title": "需求与市场：词元用量暴增，成本管理成必修课",
+      "brief": "国内日均词元调用量超 140 万亿，FinOps 调查中 98% 已在管 AI 开支。但用量不等于治理工具的付费意愿。",
+      "summary": "用量：国家数据局局长刘烈宏 3 月 24 日称，全国日均词元调用量超过 140 万亿，比 2024 年初的 1000 亿增长一千多倍，比 2025 年底的 100 万亿增长 40% 以上（新华社）。机构观点：IDC 最新报告（36 氪转述）称，2025 年中国企业级公有云大模型调用量为 1941 万亿词元，同比增长 16 倍；火山引擎调用量份额 49.5%，统计不含字节自有应用。管理需求：FinOps 基金会（Linux Foundation 项目）2026 年 2 月发布的调查显示，1192 名受访从业者中 98% 在管理 AI 开支，两年前为 31%。口径提醒：这是 FinOps 从业者样本，不代表所有企业；国家数据局和 IDC 的数字是用量，不是付费金额。分析：用量暴增只证明“有量”，不等于企业愿意为单独的治理工具付费，因为词元单价低，开支多藏在云账单里。⚠️ 待核实：未找到中国企业词元预算超支比例的权威调查。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "需求侧要同时看用量规模和治理意愿，两类证据口径不同，分开写清。"
+      },
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/tech/20260324/050774b26bc54f429fce2d21e284949a/c.html",
+          "publishedAt": "2026-03-24T06:38:20Z"
+        },
+        {
+          "name": "36氪",
+          "url": "https://www.36kr.com/p/3800129784945672"
+        },
+        {
+          "name": "Linux Foundation",
+          "url": "https://www.linuxfoundation.org/press/state-of-finops-survey-ai-value-and-skills-top-priorities-as-finops-matures-across-technology-value-98-manage-ai-90-saas-64-licensing-48-data-center-1",
+          "originalTitle": "State of FinOps Survey: AI Value and Skills Top Priorities as FinOps Matures Across Technology Value (98% Manage AI, 90% SaaS, 64% Licensing, 48% Data Center)",
+          "publishedAt": "2026-02-19T16:13:44Z"
+        }
+      ]
+    },
+    {
+      "id": "report-token-governance-benchmarks",
+      "title": "对标公司：OpenRouter、硅基流动、Portkey",
+      "brief": "OpenRouter 被 Stripe 收购，硅基流动年亏 3.45 亿元，Portkey 走治理路线。三条路的规模证据差别很大。",
+      "summary": "OpenRouter（美国）：一个接口接入 400 多个模型、80 多家供应商，公司称日处理词元超 10 万亿、服务超 1000 万开发者和企业；Stripe 8 月 19 日确认收购，价格未公布，纽约时报称约 75 亿美元，Axios 称超 80 亿美元，今年早些时候估值约 13 亿美元（The Next Web）。硅基流动（中国）：招股书显示 2025 年收入 5533 万元，年内亏损 3.45 亿元，毛亏 1330 万元；机构观点：弗若斯特沙利文称其占中国词元供应市场约 1.5%（澎湃新闻转述）；平台注册用户超 1000 万。Portkey（印度与美国）：2026 年 2 月完成 1500 万美元 A 轮；公司自报管理的 AI 开支每日超 50 万美元、覆盖 2.4 万家机构，核心网关免费；⚠️ 待核实：未披露营收。分析：OpenRouter 靠规模换来并购退出，硅基流动靠补贴换用户，Portkey 走治理而非转售，后者的收入不依赖词元差价，但至今没有公开的营收证据。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "三家覆盖转售、中国词元供应、治理三种路径，各有不同口径的规模数据。"
+      },
+      "sources": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/stripe-openrouter-acquisition-confirmed",
+          "originalTitle": "Stripe seals its OpenRouter deal for a reported $7.5bn or more",
+          "publishedAt": "2026-08-19T18:13:15Z"
+        },
+        {
+          "name": "澎湃新闻",
+          "url": "https://www.thepaper.cn/newsDetail_forward_33494133",
+          "publishedAt": "2026-07-02T03:31:33Z"
+        },
+        {
+          "name": "Entrepreneur India",
+          "url": "https://india.entrepreneur.com/news-and-trends/portkey-raises-usd-15-mn-in-series-a-led-by-elevation/502850",
+          "originalTitle": "Portkey Raises USD 15 Mn in Series A Led by Elevation Capital with Lightspeed Participation",
+          "publishedAt": "2026-02-20T06:09:00Z"
+        }
+      ]
+    },
+    {
+      "id": "report-token-governance-economics",
+      "title": "商业模式与收入成本：路由赚手续费，治理赚订阅",
+      "brief": "OpenRouter 按充值收 5.5%，硅基流动无服务器词元业务客单价低。月入 5 万元需承载约 100 万元月流水。",
+      "summary": "OpenRouter：不对单次请求加价，购买信用点时收 5.5%（标准版）或 8%（商务版）；自带密钥（BYOK）每月 2.5 万美元标价额度内免费，超出部分收 5%（官网定价页）。硅基流动：2025 年公有云收入 2926 万元，占 52.9%，本地部署收入 2607 万元，占 47.1%；公有云里的无服务器词元服务（面向开发者和中小客户，按词元计费、预充值为主）收入 1430 万元，付费客户从 2455 个增至 71.6 万个；专属实例收入 1500 万元，49 家客户，单客户平均收入 30.5 万元（新浪财经转述招股书）。分析：转售路由的收入是支付手续费级别，约 5%，不是软件毛利；按 5% 计，月入 5 万元需承载约 100 万元的月词元流水，而无服务器词元业务的客户基数大、单价低。路由层自身的服务器和客服成本：⚠️ 待核实，未见披露。治理类产品若按订阅收费，收入与词元流水脱钩，但需要客户愿意付软件费，这正是第 9 节要验证的。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把两种收费口径的差别算清：按流水抽成和按订阅收费，决定小团队能否做成。"
+      },
+      "sources": [
+        {
+          "name": "OpenRouter 官网定价页",
+          "url": "https://openrouter.ai/pricing"
+        },
+        {
+          "name": "新浪财经",
+          "url": "https://finance.sina.com.cn/stock/observe/2026-07-06/doc-inifwmvt8614910.shtml",
+          "publishedAt": "2026-07-06T10:16:53Z"
+        }
+      ]
+    },
+    {
+      "id": "report-token-governance-competition",
+      "title": "竞争与进入门槛：云厂商把路由做成自家功能",
+      "brief": "AWS 和火山引擎都有自带路由，AWS 自称最多降本 30%。门槛不在技术，在中立性和财务流程嵌入。",
+      "summary": "海外：亚马逊云科技（AWS）的 Bedrock 智能提示词路由（Intelligent Prompt Routing）在同一模型家族的两个模型之间分流，AWS 称最多降低成本 30%，这是厂商自述；页面列出的范围是 Anthropic、Meta Llama 和 Amazon Nova。国内：2025 年 10 月 16 日，火山引擎总裁谭待表示推出智能路由产品，由系统自动选择和调用模型、帮助企业降低成本（第一财经）；该发布略早于本刊 12 个月的背景窗口，仅作背景。IDC 数据显示火山引擎调用量份额近一半（见第 2 节），自带路由对独立工具是直接挤压。门槛：技术——分析：路由质量要靠自有评测集，不难起步；牌照——⚠️ 待核实：本期未发现路由层专项牌照要求，但未做全面核查；渠道——云市场和企业信任是难点；资金——启动成本低，但企业不愿把提示词流量交给陌生小公司。分析：大平台默认免费时，单做路由很难收费，护城河只能靠跨云中立和嵌入财务流程。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "竞争格局决定新进入者做哪一层，需同时看海外和国内的默认功能。"
+      },
+      "sources": [
+        {
+          "name": "Amazon Web Services",
+          "url": "https://aws.amazon.com/bedrock/intelligent-prompt-routing",
+          "originalTitle": "Route Prompts Between Models - Amazon Bedrock Intelligent Prompt Routing - AWS"
+        },
+        {
+          "name": "第一财经",
+          "url": "https://www.yicai.com/news/102866248.html"
+        }
+      ]
+    },
+    {
+      "id": "report-token-governance-china",
+      "title": "中国落地条件：内部使用门槛低，提示词出境要算人数",
+      "brief": "内部应用不适用暂行办法，但对公众服务的合规责任仍在；个人信息出境按人数分三档。",
+      "summary": "监管：《生成式人工智能服务管理暂行办法》第二条规定，向境内公众提供生成式服务适用本办法；企业研发、应用而未向境内公众提供服务的，不适用（中国政府网）。分析：路由工具若只服务企业内部调用，可能不直接适用，但客户的面向公众应用仍须合规。⚠️ 待核实：路由商是否会被认定为服务提供者，须请律师确认。数据出境：《促进和规范数据跨境流动规定》（2024 年 3 月 22 日公布）规定，非关键信息基础设施运营者自当年 1 月 1 日起累计向境外提供不满 10 万人个人信息（不含敏感个人信息）的，免予申报；10 万人以上、不满 100 万人（或敏感个人信息不满 1 万人），须签标准合同或通过认证；100 万人以上，或 1 万人以上敏感个人信息，须申报安全评估（国家网信办）。分析：出海团队把用户提示词送往境外模型，提示词含个人信息就要算人数；路由商若留存提示词，自己也成了数据处理者，合规负担随之增加。支付与渠道、供应链：⚠️ 待核实，本期未取得权威来源。人才：分析：后端与基础设施工程师充足，缺的是会做评测集和财务口径的复合型人才。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "国内落地的关键是监管适用边界和提示词出境规则，直接取自官方文本。"
+      },
+      "sources": [
+        {
+          "name": "中国政府网",
+          "url": "https://www.gov.cn/zhengce/zhengceku/202307/content_6891752.htm"
+        },
+        {
+          "name": "国家网信办",
+          "url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm"
+        }
+      ]
+    },
+    {
+      "id": "report-token-governance-risks",
+      "title": "主要风险：上游涨价挤压转售，降价又削弱节省",
+      "brief": "云厂商和算力价格在 2026 年上调，转售毛利被挤；长期看推理价格仍在快速下降，节省额会变小。",
+      "summary": "价格上行：阿里云 4 月 15 日通知，百炼部分模型单元服务 5 月 15 日起涨价 2%—5%；SemiAnalysis 数据显示，H100 一年期租赁价从 2025 年 10 月的约 1.70 美元每 GPU 小时涨到 2026 年 3 月的 2.35 美元；Anthropic 的企业版改为按消耗计费（科创板日报，新浪财经转载）。分析：涨价期客户更在意省钱，利好治理工具，但上游涨价会压缩转售差价。价格下行：机构观点：Epoch AI 在 2026 年 2 月的一篇文章中认为，达到某一能力水平所需的推理价格下降很快（文章作者个人观点，不代表 Epoch 整体立场）。分析：单价持续下降时，路由为客户节省的绝对金额会变小，付费意愿随之减弱。法律与声誉：分析：一旦保留提示词的路由商发生泄露，会直接失去信任。持续经营：硅基流动的例子说明，补贴换用户的路线现金消耗很大（见第 3 节）。宏观：⚠️ 待核实，本期未单独取得宏观数据。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "风险要把“涨价”与“降价”两个方向都写出来，因为它们对治理产品的影响相反。"
+      },
+      "sources": [
+        {
+          "name": "新浪财经（科创板日报）",
+          "url": "https://finance.sina.com.cn/jjxw/2026-04-16/doc-inhusenn4046062.shtml",
+          "publishedAt": "2026-04-16T01:52:33Z"
+        },
+        {
+          "name": "Epoch AI",
+          "url": "https://epoch.ai/gradient-updates/how-persistent-is-the-inference-cost-burden",
+          "originalTitle": "How persistent is the inference cost burden?"
+        }
+      ]
+    },
+    {
+      "id": "report-token-governance-scenarios",
+      "title": "情景预测：三种情景与触发信号",
+      "brief": "词元价格已趋平、新模型反而涨价，用量预计五年增 24 倍。基准情景是需求在、付费窄。",
+      "summary": "机构观点：Linux Foundation 在 2026 年 6 月 3 日的发布中称，每词元成本在 2023—2025 年大幅下降后已趋平，新模型的词元价格在上涨；并引用高盛研究，2026 至 2030 年全球词元用量将增至 24 倍，达到每月 120 千万亿；推理市场将从 2025 年约 1060 亿美元增至 2030 年 2550 亿美元。这是机构预测，不是已发生的事实。乐观情景：前提是价格趋稳、用量继续翻倍，企业设专人管词元预算；触发信号——三家以上中型企业愿为用量分摊报表付费。基准情景：治理需求存在，但多数客户用云厂商控制台和开源网关就够，付费集中在少数出海团队和大企业，且以项目制为主；触发信号——访谈中多数人说“现有工具够用”。保守情景：大平台把路由和治理免费并入，或价格战再起；触发信号——头部云厂商降价或免费开放同类功能。三种情景均不给概率，本期没有可靠的中国数据支持量化。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "情景要区分机构预测和已发生事实，并给出可观察的触发信号。"
+      },
+      "sources": [
+        {
+          "name": "Linux Foundation",
+          "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-intent-to-launch-the-tokenomics-foundation-to-establish-open-standards-for-ai-cost-management",
+          "originalTitle": "Linux Foundation Announces the Intent to Launch the Tokenomics Foundation to Establish Open Standards for AI Cost Management",
+          "publishedAt": "2026-06-03T13:06:45Z"
+        }
+      ]
+    },
+    {
+      "id": "report-token-governance-actions",
+      "title": "30天可验证行动：访谈10人，做一份词元账单体检",
+      "brief": "30 天内访谈 10 位目标客户，用开源网关做一份真实账单分摊，再测报价。三项结果能直接判断对错。",
+      "summary": "一、访谈 10 位目标客户：5 位出海 AI 应用团队，5 位同时用多个国产模型的中型企业技术或财务负责人。问：上月词元账单多少、谁在看、超支过吗、愿为什么付费。判据：至少 3 人说得出具体金额并愿意试用。二、用开源网关 LiteLLM（支持 100 多个模型接口，带成本跟踪、负载均衡和日志）搭演示，接 2—3 个国产模型，对一位友好客户一周的真实调用出分摊报表。判据：能否找出 10% 以上可省的开销。三、做“词元账单体检”落地页，向 200—300 位目标访客投放。5% 的留资率是本刊暂定的假设线，不是行业基准。四、向有意向的 3—5 家报价：固定月费，或按节省额分成。判据：有无客户签意向书。五、花 1—2 小时问律师：路由层留存提示词是否构成数据处理者，如何设计留存期限。FinOps 基金会文章提醒，账单超支后真正难回答的是“能否缓存、这项任务是否必须用大模型”，访谈时可追问这一点。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "行动必须能在 30 天内完成，并有明确判据；留资率阈值已标明是假设。"
+      },
+      "sources": [
+        {
+          "name": "GitHub（BerriAI/litellm）",
+          "url": "https://github.com/BerriAI/litellm",
+          "originalTitle": "GitHub - BerriAI/litellm"
+        },
+        {
+          "name": "FinOps Foundation",
+          "url": "https://www.finops.org/insights/finops-tokenomics-fit-together/",
+          "originalTitle": "FinOps and Tokenomics: How do they fit together?"
+        }
+      ]
+    }
+  ]
+}
