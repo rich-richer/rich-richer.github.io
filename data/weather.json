@@ -1,32 +1,32 @@
 {
   "city": "沈阳",
-  "updatedAt": "2026-10-17T19:30:00+08:00",
+  "updatedAt": "2026-10-26T22:55:00+08:00",
   "source": {
-    "name": "中国天气网",
-    "url": "http://www.weather.com.cn/weather/101070101.shtml"
+    "name": "中央气象台",
+    "url": "https://nmc.cn/publish/forecast/ALN/shenyang.html"
   },
   "days": [
     {
-      "date": "2026-10-18",
-      "weather": "多云转晴",
-      "high": 17,
-      "low": 2,
-      "wind": "5–6 级转 3 级以下"
+      "date": "2026-10-27",
+      "weather": "晴",
+      "high": 9,
+      "low": -4,
+      "wind": "西北风 4–5 级转南风微风"
     },
     {
-      "date": "2026-10-19",
+      "date": "2026-10-28",
       "weather": "晴转多云",
-      "high": 18,
-      "low": 8,
-      "wind": "3–4 级转 3 级以下"
+      "high": 16,
+      "low": 6,
+      "wind": "南风 4–5 级转西南风 4–5 级"
     },
     {
-      "date": "2026-10-20",
-      "weather": "雷阵雨转多云",
-      "high": 12,
-      "low": -2,
-      "wind": "4–5 级转 3 级以下"
+      "date": "2026-10-29",
+      "weather": "晴",
+      "high": 19,
+      "low": 3,
+      "wind": "西南风 4–5 级转 3–4 级"
     }
   ],
-  "note": "10 月 20 日有雷阵雨并明显降温至 −2°C，18 日早晨风力 5–6 级；注意添衣防风。"
+  "note": "27 日最低 −4°C，早晚很冷；28、29 日回暖但风力 4–5 级，注意防风添衣。"
 }
