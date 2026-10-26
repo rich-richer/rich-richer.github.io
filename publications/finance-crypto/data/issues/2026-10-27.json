@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T06:22:00+08:00",
+  "coverage": {
+    "start": "2026-10-15T12:45:00+08:00",
+    "end": "2026-10-27T06:22:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "us-etf-oct-26-anthropic-rebound",
+      "title": "美股ETF周一反弹，QQQ涨1.11%，较10月14日仍累计跌2.30%",
+      "brief": "10月26日收盘SPY +0.71%、QQQ +1.11%、VTI +0.70%；较10月14日累计分别−0.55%、−2.30%、−0.33%。",
+      "summary": "数据（stockanalysis.com；最近收盘日为美东时间10月26日，周一，已收盘）：SPY收765.37美元，当日+0.71%；QQQ收712.20美元，+1.11%；VTI收375.62美元，+0.70%。较上期基准10月14日收盘（SPY 769.60、QQQ 728.95、VTI 376.88）累计：SPY −0.55%、QQQ −2.30%、VTI −0.33%。TheStreet：标普500（S&P 500）收7,676.80点，+0.70%；纳斯达克综合指数收26,169.38点，+0.82%。媒体把涨幅归于Anthropic递交上市申请带动AI股，另有油价因美伊紧张缓和回落，市场也在等本周财报和美联储会议。期间QQQ在10月16日、22日分别跌2.50%、2.86%。以上是已发生的行情，不预测走势。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "市场速览第1条：美股与ETF，最近收盘日为美东10月26日，已收盘；基准为上期的10月14日收盘。"
+      },
+      "sources": [
+        {
+          "name": "stockanalysis.com（SPY历史行情）",
+          "url": "https://stockanalysis.com/etf/spy/history/"
+        },
+        {
+          "name": "stockanalysis.com（QQQ历史行情）",
+          "url": "https://stockanalysis.com/etf/qqq/history/"
+        },
+        {
+          "name": "stockanalysis.com（VTI历史行情）",
+          "url": "https://stockanalysis.com/etf/vti/history/"
+        },
+        {
+          "name": "TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-26-2026",
+          "originalTitle": "Stock Market Today (Oct. 26, 2026): Nasdaq, S&P 500 jump after Anthropic IPO announcement; Fed and earnings anticipation"
+        },
+        {
+          "name": "本站·金融与加密简报（10月14日ETF收盘基准）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-10-15#us-etf-oct-14-cpi-chip-selloff"
+        }
+      ]
+    },
+    {
+      "id": "cn-hk-oct-26-chinext-weak",
+      "title": "创业板指跌1.71%，恒指涨0.51%",
+      "brief": "10月26日收盘：上证+0.19%（3,697.52点）、深成指−1.19%、创业板指−1.71%，恒指+0.51%（23,211.81点）。",
+      "summary": "数据（A股、港股最近收盘日10月26日，周一，已收盘）：上证指数收3,697.52点，+0.19%；深证成指收11,534.38点，−1.19%；创业板指收2,638.23点，−1.71%；两市成交约1.61万亿元（上海证券报·中国证券网）。恒生指数收23,211.81点，+0.51%；恒生科技指数−0.36%（每日经济新闻）。较10月14日收盘累计：上证−1.85%、深成指−4.76%、创业板指−7.97%、恒指−4.53%。媒体解读：石油、银行走强，算力硬件（PCB、光通信）走弱；港股中国石油涨超5%，长飞光纤跌超8%。以上不是官方结论，也不预测走势。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "市场速览第2条：A股与港股，最近收盘日10月26日；基准为上期记录的10月14日收盘。"
+      },
+      "sources": [
+        {
+          "name": "新浪财经（A股小时报，引述上海证券报·中国证券网）",
+          "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908sijq.html"
+        },
+        {
+          "name": "A股大师（A股收盘复盘）",
+          "url": "https://agudashi.com/4477.html",
+          "originalTitle": "2026年10月26日A股收盘复盘：沪指涨0.19%，3156只下跌，成长与宽度未同步修复"
+        },
+        {
+          "name": "新浪财经（港股收评）",
+          "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-26/doc-iniwpwiv2216681.shtml",
+          "originalTitle": "港股收评：恒指涨0.51% 科指跌0.36% 石油股活跃 光通信板块走弱",
+          "publishedAt": "2026-10-26T16:08:00+08:00"
+        },
+        {
+          "name": "FX168（恒生指数收盘）",
+          "url": "https://www.fx168news.com/express/fastnews/1455198"
+        },
+        {
+          "name": "本站·金融与加密简报（10月14日收盘基准）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-10-15#cn-hk-oct-14-chinext-drop"
+        }
+      ]
+    },
+    {
+      "id": "btc-eth-oct-26",
+      "title": "比特币约8万美元，较10月15日回落约0.8%",
+      "brief": "北京时间10月26日约17:40，比特币约80,440美元、以太坊约2,331美元，较10月15日12:20约−0.8%、−1.6%。",
+      "summary": "数据（CoinGecko行情，经Unchained引述；采集于北京时间10月26日约17:40，距出刊约12小时，⚠️不是出刊时点价格）：比特币约80,440美元，以太坊约2,331美元（该文未标以太坊报价时点）。对比上期记录的北京时间10月15日12:20（比特币约81,048美元，以太坊约2,368.76美元），比特币约−0.8%，以太坊约−1.6%。Analytics Insight当日报价为80,096美元和2,320.52美元（时区未注明）。当天亚洲时段比特币一度跌破8万美元，Unchained记低点约79,785美元（UTC 8:07）。同期QQQ累计−2.30%，数字货币全天候交易，没有涨跌停。价格只作背景，不构成买卖建议。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "市场速览第3条：主要数字货币，注明采集时点与区间涨跌；最新可核实报价为10月26日下午。"
+      },
+      "sources": [
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/bitcoin-briefly-dips-below-80000-as-ai-worries-weigh-on-asian-stocks-before-the-fed-decides/",
+          "originalTitle": "Bitcoin Briefly Dips Below $80,000 as AI Worries Weigh on Asian Stocks Before the Fed Decides",
+          "publishedAt": "2026-10-26T09:46:00Z"
+        },
+        {
+          "name": "Analytics Insight",
+          "url": "https://www.analyticsinsight.net/amp/story/price-analysis/crypto-prices-today-bitcoin-trades-near-usd-80100-as-fed-meeting-approaches",
+          "originalTitle": "Crypto Prices Today: Bitcoin Trades Near USD 80,100 as Fed Meeting Approaches"
+        },
+        {
+          "name": "本站·金融与加密简报（10月15日币价基准）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-10-15#btc-eth-oct-15"
+        }
+      ]
+    },
+    {
+      "id": "occ-genius-act-final-rule",
+      "title": "美国OCC敲定稳定币规则，2027年1月18日生效",
+      "brief": "10月21日OCC发布GENIUS法案最终规则，涵盖备付资产、持有人赎回、风险控制与审计；反洗钱规则另行制定。",
+      "summary": "事实：美国货币监理署（OCC）10月21日发布最终规则，落实《GENIUS法案》，规范其监管范围内的支付型稳定币（payment stablecoin）发行人，涵盖许可活动、备付资产、持有人赎回、风险控制、审计报告、托管和外国发行人，2027年1月18日生效。反洗钱与制裁要求不在其中，将与财政部另行制定；OCC另行公告何时受理申请。贝森特（Bessent）称这是美国金融的「分水岭」。分析：规则划出了发行人的门槛，但要到2027年才生效，对普通持有人的具体影响还要看后续细则。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "受监管稳定币：美国联邦银行监管机构敲定发行规则，与本期一词一课相呼应。"
+      },
+      "sources": [
+        {
+          "name": "美国货币监理署（OCC）",
+          "url": "https://occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html",
+          "originalTitle": "GENIUS Act Regulations: Final Rule"
+        },
+        {
+          "name": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/occ-finalizes-genius-act-stablecoin-rules-as-bessent-compares-law-to-lincoln-s-national-currency-act/cZxM3eGRBv1",
+          "originalTitle": "OCC Finalizes GENIUS Act Stablecoin Rules As Bessent Compares Law To Lincoln's National Currency Act",
+          "publishedAt": "2026-10-21T15:09:00Z"
+        }
+      ]
+    },
+    {
+      "id": "btc-etf-outflows-oct-22-23",
+      "title": "美国现货比特币ETF两日净流出约7.7亿美元",
+      "brief": "Farside数据：10月22日净流出约6.36亿美元，23日约1.38亿美元，结束三日净流入；一周合计各来源说法不一。",
+      "summary": "事实：Farside Investors数据显示，美国现货比特币ETF 10月22日（周四）净流出约6.356亿美元，23日（周五）约1.379亿美元，两日合计约7.73亿美元，结束连续三日净流入；贝莱德IBIT与富达FBTC占22日流出的约4.716亿美元（crypto.news）。FXStreet称22日为6月以来最大单日流出。⚠️ 一周合计各方说法不一：crypto.news称五日仍净流入约3.012亿美元，FXStreet称上周净流入1.046亿美元，统计口径可能不同。分析：资金流只记录申购赎回，说明不了投资者的动机，也预测不了价格。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "现货ETF与机构资金：周四、周五的明显流出，是窗口末期数字货币市场的关键数据。"
+      },
+      "sources": [
+        {
+          "name": "crypto.news（引述Farside）",
+          "url": "https://crypto.news/why-is-bitcoin-price-down-today-fed-etf-outflows/",
+          "originalTitle": "Why is Bitcoin price down today? BTC slips below $80K ahead of Fed decision",
+          "publishedAt": "2026-10-26T05:06:00Z"
+        },
+        {
+          "name": "CoinDesk（引述Farside）",
+          "url": "https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms",
+          "originalTitle": "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms",
+          "publishedAt": "2026-10-26T11:24:33Z"
+        },
+        {
+          "name": "FXStreet",
+          "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-tests-80k-support-ahead-of-fed-decision-and-big-tech-earnings-202610261332",
+          "originalTitle": "Bitcoin tests $80K support ahead of Fed decision and big tech earnings",
+          "publishedAt": "2026-10-26T13:32:35Z"
+        }
+      ]
+    },
+    {
+      "id": "fed-oct-28-hike-odds-fall",
+      "title": "美联储周三议息，10月加息概率从约55%降到约一成",
+      "brief": "10月14日CPI后加息概率一度约55%，沃什表态后降到约15%，现约一成；市场更关心措辞和12月。",
+      "summary": "本刊仅供学习，不构成投资建议；投资有风险。本期主线：Anthropic递表带动AI股周一反弹，但美股较10月14日仍低，市场在等美联储北京时间10月29日凌晨的决定。意义：加息概率只剩约一成，多数人押「按兵不动」，悬念在措辞和12月。事实：美联储9月加息，为2023年7月以来首次，目标区间3.75%–4%。10月14日CPI后，期货定价的10月加息概率一度约55%；主席沃什（Warsh）称数据没有改变他对经济的看法，概率10月16日降到约15%（FT）。CME FedWatch现为9.4%（Yahoo）。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "本期主线：美联储10月会议是下一期出刊前最大的不确定性，加息预期在窗口内大幅回落。"
+      },
+      "sources": [
+        {
+          "name": "El Cronista（转载金融时报）",
+          "url": "https://www.cronista.com/financial-times/se-desploma-la-apuesta-a-una-nueva-suba-de-tasas-de-la-fed-en-octubre/",
+          "originalTitle": "Se desploma la apuesta a una nueva suba de tasas de la Fed en octubre"
+        },
+        {
+          "name": "Yahoo Finance（引述CME FedWatch）",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-slips-ahead-fed-week-102109185.html",
+          "originalTitle": "Bitcoin Slips Ahead Of Fed Week, Big Tech Earnings: Analysts Divided On Where BTC Is Headed Next",
+          "publishedAt": "2026-10-26T10:21:00Z"
+        },
+        {
+          "name": "本站·金融与加密简报（10月14日CPI与加息概率）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-10-15#us-cpi-sep-hot-fed-hike-odds"
+        }
+      ]
+    },
+    {
+      "id": "lpr-oct-20-unchanged",
+      "title": "10月LPR连续17个月不变",
+      "brief": "10月20日公布：1年期LPR 3.0%、5年期以上3.5%，均与上月相同；7天逆回购利率同样17个月未动。",
+      "summary": "事实：10月20日，经中国人民银行授权，全国银行间同业拆借中心公布新一期贷款市场报价利率（LPR，Loan Prime Rate）：1年期3.0%，5年期以上3.5%，均与上月持平，已连续17个月不变。作为主要政策利率的7天期逆回购利率，自2025年5月下调后同样17个月没动（华尔街见闻）。5年期以上LPR是个人住房贷款利率的参考基准。分析：LPR跟着政策利率走，政策利率不动，LPR很难自己动；这是推断，不是官方结论。下次公布日以每月20日为准，遇节假日顺延，本刊不预测结果。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "上期财经日历预告的国内利率例行公布，结果已出，与房贷利率相关。"
+      },
+      "sources": [
+        {
+          "name": "中国金融信息网",
+          "url": "https://www.cnfin.com/hb-lb/detail/20261021/4484017_1.html"
+        },
+        {
+          "name": "华尔街见闻",
+          "url": "https://wallstreetcn.com/articles/3783979"
+        },
+        {
+          "name": "本站·金融与加密简报（财经日历预告）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-10-15#calendar-lpr-oct-20"
+        }
+      ]
+    },
+    {
+      "id": "lesson-stablecoin-digital-yuan",
+      "title": "一词一课：稳定币与数字人民币",
+      "brief": "稳定币靠发行方的储备承诺维持币值，数字人民币是央行发行的法定货币。两者都像「数字钱」，性质完全不同。",
+      "summary": "是什么：稳定币（stablecoin）想让价格贴着美元等资产，靠储备资产支撑；数字人民币（e-CNY）是央行发行的法定货币。类比：稳定币像商场储值卡，能否按面值兑回，要看发卡方有没有足够现金；数字人民币像钞票的电子版。为什么重要：美国OCC 10月21日敲定稳定币规则，重点就是备付资产和赎回；内地2026年2月6日的通知（银发〔2026〕42号）规定，未经同意不得在境外发行挂钩人民币的稳定币。常见误区：①「稳定」不保证不跌，FINRA提醒公众很难核实储备；②稳定币与数字人民币不能混为一谈。小练习：平台宣传「稳定币理财，保本高息」，先问什么？A.收益多高　B.谁发行、储备是什么、能否按面值赎回、是否合法持牌　C.别人买没买。答案B。本课只讲知识。",
+      "category": "一词一课",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "一词一课按轮换接着上期第9课，本期讲第10课，并联系本期OCC稳定币规则。"
+      },
+      "sources": [
+        {
+          "name": "FINRA（美国金融业监管局，投资者教育）",
+          "url": "https://syndication.finra.org/node/516",
+          "originalTitle": "3 Things to Know About Stablecoins"
+        },
+        {
+          "name": "新华网（人民银行数字人民币行动方案）",
+          "url": "https://www.news.cn/fortune/20251229/b4769a74c4874897935a9bbd7ee2359f/c.html",
+          "originalTitle": "数字人民币迎来重大调整"
+        },
+        {
+          "name": "中国证监会（八部门通知，银发〔2026〕42号）",
+          "url": "https://www.csrc.gov.cn/csrc/c100028/c7614318/content.shtml",
+          "originalTitle": "关于进一步防范和处置虚拟货币等相关风险的通知"
+        }
+      ]
+    },
+    {
+      "id": "reading-news-anthropic-rally-because",
+      "title": "新闻怎么读：股市涨，真是因为这条消息？",
+      "brief": "路透称Anthropic递表带动AI股，费城半导体指数涨超3%。该追问：这是一天的涨幅，还是整个月的走势？",
+      "summary": "新闻：路透（经MarketScreener）称，Anthropic公开递交上市申请，带动AI相关股票反弹，费城半导体指数涨超3%，但本月仍跌近12%。事实：指数涨跌、招股书披露的数字。解读：把涨幅归于某一条消息，是媒体的归因；同一天还有油价回落和财报、美联储会议的预期（见本期美股ETF一条）。文中标普500涨0.67%是盘中数据，收盘为+0.70%。该追问：①这是一天还是一个月的数字？②「因为」有证据，还是事后解释？③谁在说，对谁有利？结论：看到「因为X所以涨」，先看时间跨度，再看有没有别的原因。",
+      "category": "新闻怎么读",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用一条常见的「因为X所以涨」的行情归因，示范追问时间跨度与因果；与上期的概率口径案例不同。"
+      },
+      "sources": [
+        {
+          "name": "路透（经MarketScreener）",
+          "url": "https://marketscreener.com/news/wall-st-eyes-best-day-in-a-month-as-anthropic-s-ipo-filing-propels-ai-stocks-ce785cdcdc8ff722",
+          "originalTitle": "Wall St eyes best day in a month as Anthropic's IPO filing propels AI stocks"
+        },
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-10-26#anthropic-s1-nasdaq-ant"
+        }
+      ]
+    },
+    {
+      "id": "calendar-fomc-oct-29-beijing",
+      "title": "财经日历：美联储议息，29日凌晨2点",
+      "brief": "美联储10月27–28日开会：美东10月28日14:00公布决议（北京时间10月29日02:00），14:30记者会。",
+      "summary": "美联储联邦公开市场委员会（FOMC）10月27–28日开会，美东时间10月28日14:00公布决议，14:30举行记者会；美国此时仍用夏令时，换算成北京时间是10月29日02:00和02:30。目前目标区间3.75%–4%，市场多押「不动」，决议措辞是否偏鹰是看点。结果会在下一期出刊（10月30日）前公布。预期只是市场定价，不是结果。",
+      "category": "财经日历",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "下一期出刊前最重要的央行决策。"
+      },
+      "sources": [
+        {
+          "name": "美联储（Federal Reserve）10月日程",
+          "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+          "originalTitle": "October 2026"
+        }
+      ]
+    },
+    {
+      "id": "calendar-us-gdp-pce-oct-29",
+      "title": "财经日历：美国三季度GDP与9月PCE",
+      "brief": "10月29日（周四）北京时间20:30：美国三季度GDP初值与9月个人收入与支出（含PCE物价指数）同时公布。",
+      "summary": "美国经济分析局（BEA）日程：10月29日美东时间8:30（北京时间20:30）发布2026年三季度GDP初值（Advance Estimate）和9月个人收入与支出（Personal Income and Outlays，含个人消费支出价格指数PCE）。GDP看经济增速，PCE看物价，两项都在美联储决议之后公布，可能影响市场对12月的判断（分析，不是结论）。公布值以BEA当日发布为准，本刊不预测。",
+      "category": "财经日历",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "下一期出刊前美国最重要的增长与通胀数据。"
+      },
+      "sources": [
+        {
+          "name": "美国经济分析局（BEA）发布日程",
+          "url": "https://www.bea.gov/index.php/news/schedule/full",
+          "originalTitle": "Release Schedule"
+        }
+      ]
+    }
+  ]
+}

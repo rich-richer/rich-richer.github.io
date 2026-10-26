@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T06:22:00+08:00",
+  "coverage": {
+    "start": "2026-10-15T12:45:00+08:00",
+    "end": "2026-10-27T06:22:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "iphone-duo-preorder-scalper-topic",
+      "title": "iPhone Duo预售秒罄，黄牛加价一周内明显回落",
+      "brief": "国行15999元起，10月16日预购后发货排到明年1月，二手加价随后回落。切入：把一周价格走势做成“该不该加价买”。",
+      "summary": "发生了什么：iPhone Duo国行256GB售15999元，10月16日20点预购，澎湃称邮寄发货当晚就排到明年1月。切入：别只喊“抢不到”，把二手价走势做成“该不该加价买”。10月23日首发，有报道称苹果让门店劝退无预约顾客（媒体转述）。为什么火：未能核实各平台公开指标；热度依据是界面新闻称京东预约超200万（截至10月15日）。观察者网10月19日称，得物星光白256GB从15日峰值22873元降到约19048元，最低报价18047元，比官价高2048元；一位经销商预计首发日加价3000至4000元（匿名，媒体转述）。其他角度：②小红书图文：官方预约、到店、二手三种买法对照；③B站长视频：稀缺如何抬高预期。资料查阅于北京时间10月27日06:00至06:30。",
+      "category": "国内",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "AIggy 做跨境电商，对渠道定价敏感；官方价、渠道价、二手价同时可查。价格为媒体转述，截止 10 月 19 日，首发日后的没查到，口播写明截止日期。"
+      },
+      "sources": [
+        {
+          "name": "澎湃新闻（经华尔街见闻）",
+          "url": "https://wallstreetcn.com/articles/3783803",
+          "publishedAt": "2026-10-16T21:07:00+08:00"
+        },
+        {
+          "name": "观察者网（经新浪财经）",
+          "url": "https://t.cj.sina.com.cn/articles/view/1887344341/707e96d502001wuso",
+          "publishedAt": "2026-10-19T20:37:00+08:00"
+        },
+        {
+          "name": "界面新闻（经华尔街见闻）",
+          "url": "https://wallstreetcn.com/articles/3783757",
+          "publishedAt": "2026-10-16T11:00:00+08:00"
+        },
+        {
+          "name": "凤凰网（转IT之家，引MacRumors）",
+          "url": "https://tech.ifeng.com/c/8xJhjDTGffk",
+          "publishedAt": "2026-10-18T08:34:55+08:00"
+        },
+        {
+          "name": "Daring Fireball",
+          "url": "https://daringfireball.net/linked/2026/10/16/duo-preorders-sellout",
+          "originalTitle": "iPhone Duo Pre-Orders Launched, and Three Hours Later It’s Sold Out Through the End of January",
+          "publishedAt": "2026-10-16T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "double11-ai-guide-topic",
+      "title": "双11不喊“全网最低价”，AI导购成了主角",
+      "brief": "天猫10月15日开预售、京东10月12日开现货，各家都把AI导购推到台前。切入：同一需求问三家AI，实测谁帮人少花钱。",
+      "summary": "发生了什么：天猫10月15日20点开预售，10月20日20点正式开卖；京东10月12日起现货开售，抖音商城10月15日启动。京东主推购物智能体“东东”，抖音有豆包AI导购，天猫首次把AI服务纳入双11，智谱、MiniMax、千问等推出“囤Token（词元）”优惠。阿里巴巴集团副总裁家洛被问到能否回到全平台打5折时答：“不可能。”10月10日商务部等7部门的“五优”行动通知提出，要整治“自动跟价”“全网最低价”等无序竞争。为什么火：未能核实各平台公开指标，依据是证券时报、21世纪经济报道、新华财经连续报道。切入：①抖音：同一需求问三家AI；②B站：对照通知读规则；③公众号：“囤词元”到底买什么。资料查阅于北京时间10月27日06:00至06:30。",
+      "category": "国内",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "AIggy 做跨境电商又在学 AI，导购、规则和“囤词元”都对口。10 月 20 日已开卖，实测现在发最有用，做可复现的同题对比，口播别写“最低价”。"
+      },
+      "sources": [
+        {
+          "name": "21世纪经济报道（经新浪财经）",
+          "url": "https://cj.sina.com.cn/articles/view/1651428902/626ece2602001kr1a",
+          "publishedAt": "2026-10-16T20:26:00+08:00"
+        },
+        {
+          "name": "证券时报（经凤凰网）",
+          "url": "https://finance.ifeng.com/c/8xHxRygeIrJ",
+          "publishedAt": "2026-10-17T07:42:05+08:00"
+        },
+        {
+          "name": "中国新闻网（商务部通知）",
+          "url": "https://www.chinanews.com.cn/cj/2026/10-10/10710065.shtml",
+          "publishedAt": "2026-10-10T10:42:49+08:00"
+        },
+        {
+          "name": "新华财经",
+          "url": "https://www.cnfin.com/hg-lb/detail/20261020/4483957_1.html",
+          "publishedAt": "2026-10-20T21:50:37+08:00"
+        }
+      ]
+    },
+    {
+      "id": "proactive-agents-trio-topic",
+      "title": "主动型AI三家同台：权限和数据谁更放心",
+      "brief": "Claude Duet 10月21日排队开放，Meta的Muse、OpenAI的Dots此前已上线。切入：做一张权限与数据保留对照表。",
+      "summary": "发生了什么：Anthropic 10月21日推出Claude Duet研究预览版（完整报道见本站），先向美国Pro、Max用户排队开放。同类产品有Meta的Muse（9月8日上线）和OpenAI的Dots（9月29日发布）。媒体转述：Muse有免费档，付费档每月20、100美元，限美国和加拿大；Dots含在ChatGPT Pro（每月100美元起）等套餐，Pro版在欧洲经济区、瑞士和英国暂不可用；Duet占用现有订阅额度，证券交易、账户间转账即使用户批准也不做（Anthropic官方）。为什么火：未能核实平台指标；IBTimes称Muse上线10天内登顶美国苹果免费榜。切入：①公众号图文：权限与数据对照表；②B站：“会先找你”的AI要多少权限；③短视频：IBTimes称两家都是断开应用后不自动清除已存数据。资料查阅于北京时间10月27日06:00至06:30。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "AIggy 做 AI 内容；三家同期押注主动型智能体，横向对照比单家新闻信息量大。国内拿不到产品，做对照不做实测。价格为发布时转述，口播注明以官方为准。"
+      },
+      "sources": [
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-10-26#claude-duet-research-preview"
+        },
+        {
+          "name": "Claude 官方博客",
+          "url": "https://claude.com/blog/claude-duet",
+          "publishedAt": "2026-10-21T00:00:00.000Z"
+        },
+        {
+          "name": "IBTimes UK",
+          "url": "https://www.ibtimes.co.uk/meta-muse-openai-dots-ai-agent-security-1822750",
+          "originalTitle": "Meta's Muse Is Flying up the App Charts, Now OpenAI Is Coming for It With 'Dots'",
+          "publishedAt": "2026-09-29T22:22:00+01:00"
+        },
+        {
+          "name": "Tom's Guide",
+          "url": "https://www.tomsguide.com/ai/meta-muse-vs-chatgpt-dots-i-compared-the-new-ai-agents-and-theyre-not-as-similar-as-they-look",
+          "originalTitle": "Meta Muse vs ChatGPT Dots — I compared the new AI agents, and they’re not as similar as they look",
+          "publishedAt": "2026-09-30T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-s1-loss-split-topic",
+      "title": "Anthropic亏807亿美元，724亿是会计项目",
+      "brief": "S-1显示上半年净亏807亿美元，约724亿来自融资工具估值变动。切入：把账面亏损和算力账单分开讲。",
+      "summary": "发生了什么：Anthropic美东10月26日公开递交S-1（完整报道见本站）。上半年营收163亿美元，净亏损807亿美元，其中约724亿美元来自可转债等融资工具的估值变动，不是现金支出；经营亏损约6.93亿美元，经营现金流为正39.3亿美元，公司称部分因收付款时点（VentureBeat）。分析：压力在合同。已披露一份设备租赁五年租金约1252亿美元；华尔街日报引述的草稿称云合同约4500亿美元、多不可撤销（VKTR转述）。为什么火：未能核实平台指标，依据是VentureBeat、VKTR跟进报道。切入：①抖音：807、724、6.93三个数字；②B站：账面亏损与现金流；③公众号：风险因素速读。资料查阅于北京时间10月27日06:00至06:30。",
+      "category": "海外",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AIggy 在学 AI、做 AI 内容。多数内容停在“亏了807亿”，把会计亏损和现金账单拆开讲有差异化。事件已由双语每日新闻完整报道，这里只取讲法。4500亿云合同来自草稿报道，公开 S-1 是否同口径没核实，口播写“据报道”。"
+      },
+      "sources": [
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-10-26#anthropic-s1-nasdaq-ant"
+        },
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/technology/anthropic-files-to-go-public-on-nasdaq-as-ant-with-16-3b-in-revenue-for-first-six-months-of-2026",
+          "publishedAt": "2026-10-26T06:29:00-07:00"
+        },
+        {
+          "name": "VKTR",
+          "url": "https://www.vktr.com/ai-market/anthropics-s1-shows-163b-in-revenue-and-compute-squeeze/",
+          "publishedAt": "2026-10-21T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "kimi-k31-pro-benchmark-topic",
+      "title": "Kimi K3.1 Pro上线，分数贴近Opus 5.5",
+      "brief": "月之暗面约10月23日上线K3.1 Pro，厂商自报Terminal-Bench 4.0为65.7%，Opus 5.5为66.4%。切入：别只看一个分数。",
+      "summary": "发生了什么：月之暗面约10月23日上线Kimi K3.1 Pro，总参数2.8万亿、激活1040亿，上下文100万词元（MarkTechPost）。厂商自报：Terminal-Bench 4.0为65.7%，Claude Opus 5.5为66.4%；但ProgramBench只有31.5%，Opus 5.5为65.0%（DataCamp整理，媒体转述）。API每百万词元输入2美元、输出10美元；完整权重承诺11月4日前开放。为什么火：未能核实X、HN等平台指标，只在搜索结果里见到X趋势页标题，没读到帖子数；热度依据是多家技术媒体同期报道。切入：①B站：读基准表，看哪些领先、哪些落后；②短视频：同价位怎么选模型；③公众号：分析：权重开放后谁能自己部署。资料查阅于北京时间10月27日06:00至06:30。",
+      "category": "海外",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AIggy 学 AI，也在看国产模型和海外模型的差距。这条的价值在读表而不是报分：同一模型在不同基准上差距很大。所有分数都是厂商自报，口播写“厂商称”；权重尚未公开，不要写“已开源”。"
+      },
+      "sources": [
+        {
+          "name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
+          "originalTitle": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
+          "publishedAt": "2026-10-23T00:00:00.000Z"
+        },
+        {
+          "name": "DataCamp",
+          "url": "https://www.datacamp.com/blog/kimi-k3-1-pro",
+          "originalTitle": "Kimi K3.1 Pro: Benchmarks, Pricing, and How to Access It",
+          "publishedAt": "2026-10-26T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "weibo-v-video-incentive-topic",
+      "title": "微博视频激励升级：四个计划怎么选",
+      "brief": "微博10月17日在V影响力大会公布视频激励，并称将减少同质化营销号流量。切入：做四个计划对照表。",
+      "summary": "发生了什么：10月17日，2026微博V影响力大会公布视频激励四项：迎新计划、续航计划、精选大赏、剧有引力计划。新京报报道：迎新计划设5000万专属流量池（原文未写单位），续航计划专项预算3000万，视频场景现金分成的70%向精选创作者倾斜；全年现金加流量奖励约3亿，该数字归属不明。微博推荐算法高级总监黄帆称将减少同质化营销号的流量。为什么火：这是平台政策而非热搜词条，未能核实平台指标，依据为新京报10月17日、京报网10月19日报道。切入：①公众号图文：四计划对照表；②抖音：被压流量的“同质化”长什么样；③B站：分析：平台为何此时补视频。资料查阅于北京时间10月27日06:00至06:30。",
+      "category": "国内",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AIggy 自己做内容 IP，平台扶持和算法偏好直接影响分发。微博明确说压低同质化营销号、扶持真人创作者，是可执行的信息。报道没写申请门槛和细则，口播不要替平台补规则；3亿的口径要写“报道称”。"
+      },
+      "sources": [
+        {
+          "name": "新京报（经新浪）",
+          "url": "https://news.sina.cn/2026-10-17/detail-inivpwvz7067355.d.html?vt=4",
+          "publishedAt": "2026-10-17T20:11:51+08:00"
+        },
+        {
+          "name": "京报网",
+          "url": "https://news.bjd.com.cn/2026/10/19/12001034.shtml",
+          "publishedAt": "2026-10-19T19:13:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "ticket-rumor-police-topic",
+      "title": "“前排票25万”传言：发帖者被拘留7日",
+      "brief": "公安部网安局10月21日通报：33岁王某某为给代抢票引流编造票价，被拘7日、罚1000元。切入：拆传言怎么引流。",
+      "summary": "发生了什么：上期写过艺人演唱会“前排票25万”的传言，现有官方结局。10月21日，公安部网安局经新华社通报，33岁的王某某10月13日在朋友圈称艺人肖某演唱会前排票高达25万元，目的是给自己的代抢票服务引流；依据《治安管理处罚法》第二十九条第一项，处行政拘留7日、罚款1000元。为什么火：通报称该传言多次登上热搜热榜，未写具体平台，未能核实各平台公开指标；依据光明网10月21日14:22转载、中安在线同日报道。切入：①抖音：“天价票”传言三步引流；②小红书：抢票防骗清单；③B站：分析：传言为何容易扩散。资料查阅于北京时间10月27日06:00至06:30。",
+      "category": "国内",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "上一期已有该话题，这次是官方通报的新进展，可以做成“结局篇”，也适合做防骗内容。通报是一手信息，事实清楚。通报正文只写“肖某”，没写艺人本人参与，口播只拆传言，不评论艺人，也不要把传言和艺人本人关联。"
+      },
+      "sources": [
+        {
+          "name": "新华社（经光明网）",
+          "url": "https://m.gmw.cn/2026-10/21/content_1304577736.htm",
+          "publishedAt": "2026-10-21T14:22:00+08:00"
+        },
+        {
+          "name": "中安在线（经网易视频）",
+          "url": "https://www.163.com/v/video/VJ8R8S784.html",
+          "publishedAt": "2026-10-21T13:15:23+08:00"
+        }
+      ]
+    },
+    {
+      "id": "q3-consumption-services-goods-topic",
+      "title": "前三季度服务零售涨5%，商品零售涨1%",
+      "brief": "统计局10月19日数据：前三季度服务零售额增5.0%，商品零售额增1.0%。切入：用一组数讲消费怎么变。",
+      "summary": "发生了什么：国家统计局10月19日公布三季度数据，GDP完整报道见本站。前三季度社会消费品和服务零售总额同比增2.6%，其中服务零售额增5.0%，商品零售额增1.0%；社会消费品零售总额370001亿元，增1.1%（新华财经）。居民人均可支配收入34230元，名义增5.3%，扣除价格实际增4.4%。机构观点：江西财经大学王守坤称，餐饮、通讯信息、旅游咨询、文体休闲等消费亮点增多（新华网）。为什么火：这是官方数据而非热搜词条，未能核实平台指标，依据为新华财经、新华网同日报道。切入：①抖音：一条数据看服务比商品多涨4个百分点；②小红书：普通人一年的钱花在哪；③B站：分析：对做实物商品的卖家意味着什么。资料查阅于北京时间10月27日06:00至06:30。",
+      "category": "国内",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AIggy 做实物出口，对消费结构变化敏感。官方数据可逐项核实，不依赖热搜；时效是本周。差异化是不复述 GDP，只取消费结构一个点。商品零售额与社零总额口径不同，口播写清是哪一个；内需口径与出口没有直接对应，不要硬连。"
+      },
+      "sources": [
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-10-26#china-q3-gdp-4-5"
+        },
+        {
+          "name": "新华财经",
+          "url": "https://www.cnfin.com/hg-lb/detail/20261019/4482787_1.html",
+          "publishedAt": "2026-10-19T00:00:00.000Z"
+        },
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/fortune/20261019/b08c1a1058c7477688693790a6335379/c.html",
+          "publishedAt": "2026-10-19T22:02:53+08:00"
+        }
+      ]
+    }
+  ]
+}

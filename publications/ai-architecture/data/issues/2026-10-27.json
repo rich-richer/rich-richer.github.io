@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T06:25:00+08:00",
+  "coverage": {
+    "start": "2026-10-20T06:25:00+08:00",
+    "end": "2026-10-27T06:25:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "anthropic-claude-formal-verification-123-libraries",
+      "title": "Anthropic：Claude 为 123 个开源库写出机器可检查的崩溃安全证明",
+      "brief": "Anthropic 10 月 22 日披露：Claude 在 RISC-V 汇编层证明 123 个开源库的 239 个测试入口不会崩溃，证明由 Rocq 检查。",
+      "summary": "本周从训练到应用：DeepSeek 开源推理引擎，Kimi 与 Nanbeige 在开放权重一线推进，Anthropic 则展示智能体能把形式化验证做到工程规模。意义：证明的可信度来自检查器，不取决于模型是否可靠，AI 写代码的验证成本有了新路。10 月 22 日，Anthropic 与 Theorem 披露，Claude 为 123 个开源库的 239 个模糊测试入口写出证明，对任意不超过 64 MB 的输入都会正常退出，不触发内存错误或断言失败。约 10 亿行 Rocq 写出，约 1.8 亿行通过检查。局限：只覆盖 musl 静态、单线程的 RISC-V 二进制，约 20%–50% 的程序代码；「已验证」不等于没有漏洞。主文页云端未能直接打开，细节据 Anthropic 附录与媒体转述。",
+      "category": "智能体与应用",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "Anthropic 公开大规模形式化验证成果：证明由 Rocq 机器检查，并写明假设、覆盖范围与局限，是本周应用层最实质的技术进展。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic 研究附录（PDF）",
+          "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf",
+          "originalTitle": "Appendix: LLMs are making formal software verification feasible at a much larger scale"
+        },
+        {
+          "name": "Anthropic Research",
+          "url": "https://www.anthropic.com/research/formal-verification",
+          "originalTitle": "LLMs are making formal software verification feasible at a much larger scale"
+        },
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/anthropic-says-claude-proved-security-properties-across-123-libraries/",
+          "originalTitle": "Anthropic Says Claude Proved Security Properties Across 123 Libraries"
+        }
+      ]
+    },
+    {
+      "id": "deepseek-deepinfer-open-source-inference-engine",
+      "title": "DeepSeek 开源推理引擎 DeepInfer，兼跑英伟达与昇腾",
+      "brief": "DeepSeek 开源推理引擎 DeepInfer，支持英伟达与昇腾。意义：生产级内核公开，但缺 KV 缓存与负载均衡，不能直接上线服务。",
+      "summary": "10 月 20 日，DeepSeek 开源推理引擎 DeepInfer，代码采用 Apache 2.0 许可。它目前只支持 DeepSeek-V4.1-Flash（100 万词元上下文），只做离线推理，同一份代码可在英伟达 SM100 与华为昇腾 950 上构建。技术上有三点：解码用 EP64 到 EP128 的专家并行；投机解码每步提出 5 个草稿词元，由置信度头挑出值得验证的前缀；滑动窗口注意力在缓存命中时只重算最后 128 个词元。DeepSeek 自报，131,072 上下文下解码每卡超过 25,000 词元/秒。局限：数字均为厂商自测；仓库不含 KV 缓存系统、预填充与解码分离、跨副本负载均衡；最小高效部署单元是 64 张预填充卡加 64 张解码卡。（媒体转述，GitHub 仓库云端未能直接打开。）",
+      "category": "推理与部署",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "头部实验室开源自家生产推理栈，并写明硬件与缺失组件，对推理系统工程有直接参考价值。"
+      },
+      "sources": [
+        {
+          "name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/",
+          "originalTitle": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash"
+        },
+        {
+          "name": "GitHub · deepseek-ai/DeepInfer",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        },
+        {
+          "name": "Forkast",
+          "url": "https://forkast.news/deepseek-open-sourced-the-engine-that-runs-its-models-on-nvidia-and-huawei-silicon-alike/",
+          "publishedAt": "2026-10-20T09:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "moonshot-kimi-k3-1-pro-weights-pending",
+      "title": "Kimi K3.1 Pro 上线，权重承诺 11 月 4 日前开放",
+      "brief": "Moonshot 10 月 23 日上线 K3.1 Pro，训练前删去网络攻击资料，自测漏洞利用通过率 90.5% 降至 81%。意义：权重尚未放出。",
+      "summary": "Moonshot AI 10 月 23 日在 Kimi 应用和 API 上线 Kimi K3.1 Pro，由近 3 万亿参数的 K3 继续训练而来（官方未给精确参数量）。完整权重承诺 11 月 4 日前放出，截至 10 月 26 日 Hugging Face 上尚无，许可证也未公布。Moonshot 称开放前从训练数据中删去了网络攻击相关资料：自测的真实软件漏洞利用任务，未删减版本通过率 90.5%，发布版 81%，K3 为 33.3%，仍落后最强闭源模型。自测 Terminal-Bench 4.0 得分 65.7%，Claude Opus 5.5 为 66.4%，GPT-6 Astra 为 58.2%。局限：全部为 Moonshot 自报；官方两处对幻觉率的数字不一致，本刊不引用。权重放出前，它还不是已开放的模型。",
+      "category": "开放权重模型",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "3 万亿参数级开放权重路线的最新型号，披露了发布前删减网络攻击训练数据及其效果；权重尚未兑现，正文已写明。"
+      },
+      "sources": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+          "originalTitle": "Moonshot releases Kimi K3.1 Pro and says it cut its hacking skills"
+        },
+        {
+          "name": "Simon Willison's Weblog",
+          "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+          "originalTitle": "Introducing Kimi K3.1 Pro"
+        },
+        {
+          "name": "Digital Applied",
+          "url": "https://www.digitalapplied.com/blog/kimi-k3-1-pro-release-pricing-weights",
+          "originalTitle": "Kimi K3.1 Pro: Prices, Capabilities and Weight Release"
+        },
+        {
+          "name": "Moonshot AI 官方博客",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        }
+      ]
+    },
+    {
+      "id": "nanbeige-4-3-33b-open-agent-model",
+      "title": "Nanbeige4.3-33B 开放权重，面向智能体",
+      "brief": "Nanbeige LLM Lab 开放 33B 模型及基座，Apache 2.0，上下文 524,288 词元；成绩均为自报，未见技术报告。",
+      "summary": "Nanbeige LLM Lab 于 10 月 25 日前后在 Hugging Face 开放 Nanbeige4.3-33B 及其基座模型，Apache 2.0 许可，上下文 524,288 词元，默认开启推理，并提供 preserve_thinking 开关，在多轮工具调用中保留思考。官方把它定位为后续小模型的教师模型，3B 后继型号只是计划。自报成绩：Terminal-Bench 2.1 为 80.9（Qwen3.8-27B 为 73.0），DeepSWE 65.5（42.5），SWE-Bench Pro 60.3，低于 Qwen3.8-27B 的 61.7；基座在 MMLU-Pro 上 66.9，高于 Gemma4-31B-Base 的 59.3。局限：成绩均未经独立复现；模型卡没有写训练数据与方法，也无技术报告；上传日期模型卡未标，时间据媒体报道推定。",
+      "category": "开放权重模型",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "Apache 2.0 的 33B 智能体向开放权重模型，长上下文，且公开了基座；成绩自报，已注明。"
+      },
+      "sources": [
+        {
+          "name": "Hugging Face · Nanbeige/Nanbeige4.3-33B",
+          "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/nanbeige-opens-33b-model-under-apache-20-with-512k-context",
+          "originalTitle": "Nanbeige Opens 33B Model Under Apache 2.0 With 512K Context"
+        }
+      ]
+    },
+    {
+      "id": "cola2-hierarchical-lm-semantic-compression",
+      "title": "Cola2：连续语义压缩加扩散解码的分层语言模型",
+      "brief": "香港大学、字节跳动 Seed 等提出 Cola2；346B 词元训练的未收敛检查点八项均分 60.10，仍低于 Llama-3-8B。",
+      "summary": "论文《Cola2：连续语义压缩与均衡离散生成的协同自适应分层语言建模》（Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation），作者 Hongcan Guo 等 7 人（港大、字节跳动 Seed 等），2026 年 10 月 22 日（UTC）提交 arXiv。预印本。贡献：把文本切成语义片段、压成连续隐变量，再由扩散解码器还原；潜在扩散模块约 4B 参数。346.03B 词元训练的未收敛检查点，八项均分 60.10，低于 Llama-3-8B 的 66.25，仅 HellaSwag、StoryCloze 略高，训练词元不到后者的 1/43，算力不可比。局限：远未收敛；理论省下的算力未必变成生成速度。",
+      "category": "预训练与架构",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "Seed 参与的非自回归分层语言模型路线，给出了与同规模基线的真实差距，适合作为 Transformer 之外的架构跟踪。"
+      },
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2610.31305",
+          "originalTitle": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
+          "publishedAt": "2026-10-22T14:04:07Z"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-agent4sci-frontier-agents-scientific-ml",
+      "title": "Agent4Sci：智能体能否在科学 ML 上刷新纪录",
+      "brief": "Anthropic 作者参与：智能体在 20 项科学 ML 基准上全部超过已发表最佳，但增益多来自工程技巧而非研究洞见。",
+      "summary": "论文《科学机器学习的自动化：前沿智能体能在现实中攀登科学山头吗？》（Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?），作者 Ming Zhong、Stacy Li、Nicholas Carlini、Matthew Jagielski（HF 页标注 Anthropic），2026 年 10 月 20 日（UTC）提交 arXiv，投 NeurIPS 2026，预印本。贡献：Agent4Sci 含 11 领域、20 个基准，衡量智能体能把已发表最佳模型再提高多少。结果：全部超过已发表最佳，Claude Opus 平均相对提升 10.4%；加装研究构思等插件技能后升至 20.1%，Codex 由 4.4% 升至 8.1%。局限：增益几乎全来自工程技巧，对新颖性判断失准。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "含 Anthropic 研究者的智能体评测论文：既给出刷新纪录的结果，也直接指出收益来自工程技巧，并量化了技能插件的作用。"
+      },
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2610.28763",
+          "originalTitle": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+          "publishedAt": "2026-10-20T18:03:48Z"
+        },
+        {
+          "name": "NeurIPS 2026",
+          "url": "https://neurips.cc/virtual/2026/poster/139352",
+          "originalTitle": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-uw-scaling-laws-safety-probes",
+      "title": "安全探针也有规模定律：误差随模型规模幂律下降",
+      "brief": "Anthropic 与华盛顿大学作者：探针误差随模型规模按幂律下降，可预测加标注还是换大模型更划算。",
+      "summary": "论文《安全探针的规模定律》（Scaling Laws for Safety Probes），作者 Yuchen Wu（华盛顿大学）、Jerry Wei（Anthropic），2026 年 10 月 22 日（UTC）提交 arXiv，预印本，未经同行评审。贡献：在 5 个模型家族的 20 个基座模型上训练两种探针，标注量从 32 到 100 万，自建 6 套安全数据集（真实性、谄媚、违反政策、一般有害、越狱、提示注入）。得到两条规律：最低误差（1−AUROC）随模型规模按幂律下降，Qwen2.5 上模型每翻一倍，误差约乘 0.86；误差随标注量逼近该下限。用小模型拟合，72% 的情况下能把下一档模型的误差预测在 0.02 以内。局限：常数须按家族与任务重估；只有 3 个家族的尺寸够多，足以检验外推。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把安全监控探针的选型变成可预测的规模问题，数据集与结论覆盖多个模型家族，并写明局限。"
+      },
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2610.30678",
+          "originalTitle": "Scaling Laws for Safety Probes",
+          "publishedAt": "2026-10-22T03:43:33Z"
+        }
+      ]
+    },
+    {
+      "id": "google-ulm-opst-data-free-self-training",
+      "title": "OPST：只给话题描述，模型自己出题自我训练",
+      "brief": "Google 与乌尔姆大学的作者：Gemma 4 E2B 仅凭粗略话题自训练，MMLU 提高 10.2 分（媒体转述）。",
+      "summary": "论文《同策略自训练：大语言模型的无数据自我提升》（On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models），作者 Leon Sick、Federico Tombari 等 6 人；据 AI Weekly，来自 Google 与乌尔姆大学（arXiv 页未列机构）。2026 年 10 月 23 日（UTC）提交 arXiv，预印本。贡献：模型只拿到粗略的话题描述，自己生成问题、答案和带特权信息的推理轨迹，由指数滑动平均教师给出逐词元信号，全程无人工提示或答案。结果（据 AI Weekly 转述，未核对论文表格）：Gemma 4 E2B 的 MMLU 提高 10.2 分，VQAv2 提高 6.9 分，未训练领域保持稳定。局限：每轮算力、话题列表规模均未报告。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "Google 作者的无数据自训练方法，思路直接，但数字仅有媒体转述，正文已注明。"
+      },
+      "sources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2610.32770",
+          "originalTitle": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+          "publishedAt": "2026-10-23T15:12:03Z"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/google-opst-self-trains-gemma-4-from-topic-labels-102-mmlu",
+          "originalTitle": "Google OPST Self-Trains Gemma 4 From Topic Labels, +10.2 MMLU",
+          "publishedAt": "2026-10-26T16:57:00Z"
+        }
+      ]
+    },
+    {
+      "id": "classic-paper-rumelhart-backpropagation",
+      "title": "经典回顾：反向传播让多层网络学会表示",
+      "brief": "回顾 1986 年 Rumelhart、Hinton、Williams 的反向传播论文：让多层神经网络可以训练，是深度学习的基本算法。",
+      "summary": "经典论文回顾：《通过误差反向传播学习表示》（Learning Representations by Back-propagating Errors），作者 Rumelhart、Hinton、Williams（据论文署名，分属加州大学圣迭戈分校与卡内基梅隆大学），1986 年 10 月正式发表于《自然》（Nature）第 323 卷，533–536 页。贡献：给出训练多层网络的学习过程，反复调整连接权重，缩小实际输出与期望输出的差距，让既非输入也非输出的隐藏单元学会表示任务的重要特征。历史位置：解决了感知机学不到内部特征的老问题，今天的卷积网络、Transformer 都沿用梯度训练。它并非首创，此前已有类似算法的独立工作，该文让它在神经网络领域广为人知。局限：论文自己承认它不像大脑的学习方式；梯度下降也可能停在局部极小。",
+      "category": "经典论文回顾",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "按目录序号依次回顾：序号 19、1、2 已讲，本期讲序号 3（1986 年反向传播）。它让多层神经网络可以训练。"
+      },
+      "sources": [
+        {
+          "name": "Nature",
+          "url": "https://doi.org/10.1038/323533a0",
+          "originalTitle": "Learning representations by back-propagating errors"
+        },
+        {
+          "name": "本站·AI 论文目录（GitHub）",
+          "url": "https://github.com/rich-richer/rich-richer.github.io/blob/main/editorial/paper-catalog.md"
+        }
+      ]
+    }
+  ]
+}
