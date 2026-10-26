@@ -40,7 +40,7 @@ AI 研发前沿周报（原 AI 架构周报，2026-09-30 改名）的论文资�
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 1950 | Computing Machinery and Intelligence / 计算机器与智能 | A. M. Turing（曼彻斯特大学） | Mind, 1950 | 提出「模仿游戏」（图灵测试），把「机器能否思考」变成可检验的问题 | https://doi.org/10.1093/mind/LIX.236.433 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-01#classic-paper-turing-computing-machinery-intelligence |
 | 2 | 1958 | The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain / 感知机 | F. Rosenblatt（康奈尔航空实验室） | Psychological Review, 1958 | 第一个能从数据中学习的神经网络模型 | https://doi.org/10.1037/h0042519 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#classic-paper-rosenblatt-perceptron |
-| 3 | 1986 | Learning Representations by Back-propagating Errors / 通过误差反向传播学习表示 | Rumelhart、Hinton、Williams | Nature, 1986 | 让多层神经网络可以训练的反向传播算法 | https://doi.org/10.1038/323533a0 |  |
+| 3 | 1986 | Learning Representations by Back-propagating Errors / 通过误差反向传播学习表示 | Rumelhart、Hinton、Williams | Nature, 1986 | 让多层神经网络可以训练的反向传播算法 | https://doi.org/10.1038/323533a0 || https://rich-richer.github.io/p/ai-architecture/?date=2026-10-27#classic-paper-rumelhart-backpropagation |
 | 4 | 1997 | Long Short-Term Memory / 长短期记忆网络（LSTM） | Hochreiter、Schmidhuber | Neural Computation, 1997 | 解决循环网络记不住长序列的问题，此后二十年语音与翻译的主力 | https://doi.org/10.1162/neco.1997.9.8.1735 |  |
 | 5 | 1998 | Gradient-Based Learning Applied to Document Recognition / 基于梯度学习的文档识别（LeNet） | LeCun、Bottou、Bengio、Haffner（AT&T 实验室） | Proceedings of the IEEE, 1998 | 卷积神经网络走向实用（支票手写数字识别） | https://doi.org/10.1109/5.726791 |  |
 | 6 | 2003 | A Neural Probabilistic Language Model / 神经概率语言模型 | Bengio 等（蒙特利尔大学） | JMLR, 2003 | 用神经网络和词向量做语言模型，是今天大语言模型的源头 | https://www.jmlr.org/papers/v3/bengio03a.html |  |
@@ -86,7 +86,7 @@ AI 研发前沿周报（原 AI 架构周报，2026-09-30 改名）的论文资�
 | 46 | 2023 | Mamba: Linear-Time Sequence Modeling with Selective State Spaces / Mamba：选择性状态空间的线性时间序列建模 | Gu（卡内基梅隆大学）、Dao（普林斯顿大学） | 预印本 | 以线性复杂度处理长序列，Transformer 之外最受关注的架构 | https://arxiv.org/abs/2312.00752 |  |
 | 47 | 2025 | DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning / DeepSeek-R1：用强化学习激发大模型推理能力 | DeepSeek-AI | 预印本 | 公开以强化学习训练推理模型的方法并开放权重，推动推理模型普及 | https://arxiv.org/abs/2501.12948 |  |
 
-> 已讲：序号 19（2026-09-28）、序号 1（2026-10-01）、序号 2（2026-10-05），本刊条目见第三部分。
+> 已讲：序号 19（2026-09-28）、序号 1（2026-10-01）、序号 2（2026-10-05）、序号 3（2026-10-27），本刊条目见第三部分。
 
 ## 三、本刊收录目录
 
@@ -114,5 +114,10 @@ AI 研发前沿周报（原 AI 架构周报，2026-09-30 改名）的论文资�
 | 智能体 / 脚手架消融 | How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering? / 强智能体做自主机器学习工程，究竟还需要多少脚手架？ | 洛桑联邦理工学院（EPFL）、Apple，3 人 | 2026-09-30 | 预印本（arXiv:2609.40303） | https://arxiv.org/abs/2609.40303 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#apple-epfl-minimal-harness-mle-agent |
 | 架构 / 循环 Transformer | Improving Test-Time Scaling with Adaptive Looped Transformers / 用自适应循环 Transformer 改进测试时扩展（TaH2） | 清华大学、耶鲁大学，7 人 | 2026-09-28 | 预印本（arXiv:2609.35748） | https://arxiv.org/abs/2609.35748 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#tsinghua-tah2-adaptive-looped-transformer |
 | 经典论文 · 神经网络起点 | The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain / 感知机：大脑中信息存储与组织的概率模型 | F. Rosenblatt（康奈尔航空实验室） | 1958 | 正式发表（Psychological Review 第 65 卷第 6 期，386–408 页） | https://doi.org/10.1037/h0042519 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-05#classic-paper-rosenblatt-perceptron |
+| 预训练 / 分层语言模型 | Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation / Cola2：连续语义压缩与均衡离散生成的协同分层语言建模 | 香港大学、字节跳动 Seed、北京大学、中国人民大学，7 人 | 2026-10-22 | 预印本（arXiv:2610.31305） | https://arxiv.org/abs/2610.31305 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-27#cola2-hierarchical-lm-semantic-compression |
+| 智能体 / 科学机器学习 | Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild? / 科学领域的机器学习自动化：前沿智能体能否在真实任务中攀登科学高地 | Zhong、Li、Carlini、Jagielski（Hugging Face 论文页标注 Anthropic；arXiv 页未列机构） | 2026-10-20 | 预印本（arXiv:2610.28763），NeurIPS 2026 评测与数据集赛道投稿 | https://arxiv.org/abs/2610.28763 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-27#anthropic-agent4sci-frontier-agents-scientific-ml |
+| 后训练与对齐 / 安全探针规模定律 | Scaling Laws for Safety Probes / 安全探针的规模定律 | 华盛顿大学（Yuchen Wu）、Anthropic（Jerry Wei） | 2026-10-22 | 预印本（arXiv:2610.30678） | https://arxiv.org/abs/2610.30678 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-27#anthropic-uw-scaling-laws-safety-probes |
+| 后训练 / 无数据自我改进 | On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models / 同策略自训练：大语言模型的无数据自我改进（OPST） | Google、乌尔姆大学（据 AI Weekly；arXiv 页未列机构），6 人 | 2026-10-23 | 预印本（arXiv:2610.32770） | https://arxiv.org/abs/2610.32770 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-27#google-ulm-opst-data-free-self-training |
+| 经典论文 · 深度学习训练基础 | Learning Representations by Back-propagating Errors / 通过误差反向传播学习表示 | Rumelhart、Hinton、Williams（加州大学圣迭戈分校、卡内基梅隆大学） | 1986-10 | 正式发表（Nature 第 323 卷，533–536 页） | https://doi.org/10.1038/323533a0 | https://rich-richer.github.io/p/ai-architecture/?date=2026-10-27#classic-paper-rumelhart-backpropagation |
 
 > 首批条目从 2026-09-27 改版后的第一期 AI 研发前沿周报（原 AI 架构周报）（2026-09-28 出刊）开始收录（「本周重要论文」与「经典论文回顾」两个板块）。
