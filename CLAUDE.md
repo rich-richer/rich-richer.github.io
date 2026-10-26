@@ -24,7 +24,8 @@
 在云端会话（没有连接本机）里出刊时，上面的流程不变，只替换以下几处：
 
 - 仓库：用 `add_repo`（owner `rich-richer`，repo `rich-richer.github.io`，access `push`）挂载并浅克隆到 `/home/claude/rich-richer.github.io`。克隆后设置提交身份，与历史提交一致：`git config user.name rich-richer && git config user.email 273366435+rich-richer@users.noreply.github.com`。
-- 核实原文：云端 shell 不能直接访问新闻网站，`automation/fetch.py` 和 curl 会失败，改用 WebSearch / WebFetch；首页天气也用 WebFetch 打开中国天气网沈阳页。
+- 核实原文：云端 shell 不能直接访问新闻网站，`automation/fetch.py` 和 curl 会失败，改用 WebSearch / WebFetch。WebFetch 返回的是小模型整理过的结果、长引文会被截断，所以核实时逐条询问具体事实（发布日期、关键数字、人名、原话），不要让它概括全文；关键数字找第二来源交叉核对。重要来源打不开时，按 `editorial/README.md` 第 4 节在正文注明「（媒体转述）」，并写进出刊报告「需要你处理的事」。
+- 首页天气：中国天气网在云端打不开（不在允许列表），直接用中央气象台沈阳页 `https://nmc.cn/publish/forecast/ALN/shenyang.html` 作为来源（`source.name` 写「中央气象台」）。脚本要求每天都有整数的 high、low：晚间出刊时页面当天栏可能缺最高/最低气温，先用同页的当天逐时或实况数据取值，仍缺就另找一个能打开的权威来源核对；都拿不到时不编造数字，本次不更新天气（脚本只提醒），并写进出刊报告。
 - 推送前先 `git fetch origin main` 并在需要时 `git rebase origin/main`（浅克隆推送过时会被拒）。
 - 页面验证：用 `node scripts/serve.js &` 启动服务，再用预装的 Playwright（`require('playwright')`，无需安装）打开 `http://localhost:4173/p/<id>/` 读取正文确认渲染，最后再看线上网址。
 - 本机副本：云端推送后，下次在电脑上工作前先 `git pull`，避免两边分叉。
