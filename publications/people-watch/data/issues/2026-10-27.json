@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T09:45:00+08:00",
+  "coverage": {
+    "start": "2026-10-20T09:45:00+08:00",
+    "end": "2026-10-27T09:45:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "elon-musk-tesla-spacex-merger-committees",
+      "title": "马斯克：确认特斯拉与SpaceX已设特别委员会研究合并",
+      "brief": "马斯克10月20日在SpaceX财报会上说，两家董事会各设独立董事委员会，他本人回避；10月25日称SpaceX已敲定400亿美元GPU债务。",
+      "summary": "10月20日（周二），马斯克在SpaceX第三季度财报电话会上确认，特斯拉与SpaceX两家董事会已各设一个由独立董事组成的特别委员会，研究两家公司合并。意义：合并从传闻变成了有程序的议题，但委员会尚未就任何交易达成一致。马斯克称自己是“利益冲突方”，不参与讨论，也说有人把合并当成板上钉钉，那是夸大；特斯拉方面需全部股份的50%赞成，他称门槛相当高（TechCrunch，autoevolution）。10月25日，他在X上回复称SpaceX已敲定400亿美元GPU债务，款项主要用于明年一、二季度到货的GPU（媒体转述，Tesla North）。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "本周名单内人物里信息量最大的一条：本人在财报会上当面表态，涉及两家上市公司的合并程序，并附带融资动向；近14天本站未报道。"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+          "originalTitle": "SpaceX and Tesla boards form special committees to review merger",
+          "publishedAt": "2026-10-20T22:57:00Z"
+        },
+        {
+          "name": "autoevolution",
+          "url": "https://www.autoevolution.com/news/elon-musk-confirms-that-special-committees-from-tesla-and-spacex-are-already-working-on-merger-plans-277345.html",
+          "originalTitle": "Elon Musk Confirms That Special Committees From Tesla and SpaceX Are Already Working on Merger Plans",
+          "publishedAt": "2026-10-21T14:02:00Z"
+        },
+        {
+          "name": "Tesla North",
+          "url": "https://teslanorth.com/2026/10/25/spacex-40b-gpu-debt-elon-musk/",
+          "originalTitle": "Elon Musk Says SpaceX Locked In $40B of GPU Debt as Lenders Pull Back"
+        }
+      ]
+    },
+    {
+      "id": "jensen-huang-neocloud-financeable-asset",
+      "title": "黄仁勋：想让英伟达算力成“可融资资产”，称新云需求爆棚",
+      "brief": "黄仁勋10月22日在柏林对CNBC说，新云（neocloud）需求“off the charts”，英伟达要让算力成为可融资资产。意义：放贷人是他的新瓶颈。",
+      "summary": "10月22日（周四），黄仁勋在GTC柏林期间接受CNBC采访。他说英伟达想做的事之一，是让英伟达的算力成为一种“可融资资产”，并称新云（专门出租GPU的云服务商）的需求按基本面看“off the charts”。意义：订单不缺，缺的是愿意给新云放贷的钱，所以他要先说服放贷人把GPU当作可估值的抵押品。他还说“没有哪个市场会永远关闭，中国希望外国公司到中国投资”（Stocktwits转述CNBC采访；CNBC原文本次未能打开）。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "黄仁勋本人在柏林的公开表态，涉及英伟达下游融资和对华态度；与马斯克所说的债务市场收紧形成呼应。"
+      },
+      "sources": [
+        {
+          "name": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-jensen-huang-ai-chips-financeable-asset-neocloud-demand-is-off-the-charts/cZxw3N7RBwo",
+          "originalTitle": "Nvidia's Jensen Huang Wants AI Chips To Be A 'Financeable Asset,' Says Neocloud Demand Is 'Off The Charts'",
+          "publishedAt": "2026-10-22T10:57:00Z"
+        },
+        {
+          "name": "Newsquawk",
+          "url": "https://www.newsquawk.com/headlines/nvidia-nvda-ceo-says-neocloud-demand-is-off-the-charts-cnbc",
+          "originalTitle": "Nvidia (NVDA) CEO says neocloud demand is \"off the charts\", CNBC",
+          "publishedAt": "2026-10-22T10:53:00Z"
+        }
+      ]
+    },
+    {
+      "id": "dario-amodei-s1-key-person-control",
+      "title": "阿莫迪：招股书称他与妹妹是Anthropic“难以替代”的关键人物",
+      "brief": "Anthropic公开招股书把达里奥和丹妮拉·阿莫迪列为关键人物，并披露七位联合创始人持有50.1%表决权。意义：上市后控制权仍在创始人手里。",
+      "summary": "Anthropic 10月26日公开招股书（S-1）。文件称CEO达里奥·阿莫迪和总裁丹妮拉·阿莫迪对公司战略方向“至关重要”，其领导“难以替代”；其中任何一人的声誉受损，“无论是否属实”，都可能影响员工士气、创新速度和客户信心。意义：上市后创始人控制权不变，七位联合创始人持有的特殊类别股票占50.1%表决权，且由独立的长期利益信托选出多数董事。文件还提示五角大楼纠纷可能造成“重大声誉损害”（Fortune）。公司业绩等完整报道见本站双语每日新闻。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "只写招股书中关于创始人本人的部分（关键人物风险、表决权结构）；上市申请本身和财务数字已由双语每日新闻完整报道，此处链接过去。"
+      },
+      "sources": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/10/26/anthropic-s1-risk-factors-existential-risk-pentagon-dario-amodei/",
+          "originalTitle": "Anthropic's S-1 risk factors include human extinction, the Pentagon, and Dario Amodei's reputation",
+          "publishedAt": "2026-10-26T19:10:00Z"
+        },
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-10-26#anthropic-s1-nasdaq-ant"
+        }
+      ]
+    },
+    {
+      "id": "changpeng-zhao-crypto-ai-currency-bnb",
+      "title": "赵长鹏：加密货币将成AI的“原生货币”",
+      "brief": "赵长鹏10月26日在BNB Standard敲钟后的媒体会上说，加密货币是AI的原生货币；10月25日他还就BNB Chain新L1计划发帖。",
+      "summary": "10月26日（周一），赵长鹏在纳斯达克BNB Standard（原CEA Industries）敲钟仪式后的媒体会上说，加密货币将是AI的“原生货币”，AI可用比特币、现有稳定币或AI公司发行的代币，他希望BNB Chain成为主要网络，但“还有待实现”（The Block）。他还说想把与算力挂钩的代币带到BNB Chain，未给细节。此前一天，他对BNB Chain新L1计划发帖“Multiple chains, one coins”；该链目标200毫秒出块，公开测试网计划在2026年底，主网在2027年初，时间可能调整（crypto.news）。仅陈述公开表态，不构成投资建议。",
+      "category": "金融与加密",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "赵长鹏本人两天内的公开表态，来源为专业加密媒体的现场报道；只写他说了什么，不评价币价或公司。"
+      },
+      "sources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-26-cz-pitches-bnb-chains-role-ai-bnb-standard-rings-nasdaq-bell-431790",
+          "originalTitle": "CZ pitches BNB Chain's role in AI as BNB Standard rings Nasdaq bell",
+          "publishedAt": "2026-10-26T19:43:00Z"
+        },
+        {
+          "name": "crypto.news",
+          "url": "https://crypto.news/cz-bnb-chain-new-l1-no-separate-token/",
+          "originalTitle": "CZ reacts to BNB Chain's new L1 plan with no separate token",
+          "publishedAt": "2026-10-26T05:34:00Z"
+        }
+      ]
+    }
+  ]
+}

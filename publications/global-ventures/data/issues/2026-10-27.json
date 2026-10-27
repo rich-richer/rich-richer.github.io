@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T09:33:00+08:00",
+  "coverage": {
+    "start": "2026-10-20T09:33:00+08:00",
+    "end": "2026-10-27T09:33:00+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "report-plant-maintenance-summary",
+      "title": "执行摘要：老工业基地工厂会为设备预测性维护按年订阅付费吗",
+      "brief": "结论：12个月内会有少量试点付费，大规模年度订阅不太可能；先收到钱的是硬件加服务的整包。置信度：中低。",
+      "summary": "本期问题：沈阳、抚顺一带的中小制造企业，12个月内会不会为“传感器加AI”的设备预测性维护（predictive maintenance，提前发现设备故障、安排检修）按年订阅付费？结论：会有少量试点付费，大规模年度订阅不太可能；先收到钱的是传感器、安装和诊断服务打包的方案，纯软件订阅卖不动。依据：设备停机损失大，西门子报告估算全球500强企业每年损失近1.4万亿美元，约占营收11%；辽宁2026年上半年已为5535户规上工业企业做了免费数字化诊断，目标10月底全覆盖（新华社，第8节）；对标公司Tractian自报年化营收破1亿美元，国内容知日新2025年营收6.46亿元，净利润却降了21.64%（第3、4节）。置信度：中低。没有找到沈阳中小企业为此付费的直接数据，要靠第9节的访谈和试点验证。12个月后的检验标准见第8节。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "Tractian 10月22日融资并自报年化营收破1亿美元；辽宁正推智改数转，问题贴近沈阳，30天内可访谈验证。前三期研究智能体安全、AI购物入口、词元治理，本期换到实体工业。"
+      },
+      "sources": [
+        {
+          "name": "新华社",
+          "url": "https://www.news.cn/fortune/20260723/c187abc33abb44f9bf825f20f8364dfd/c.html",
+          "originalTitle": "发力智改数转 辽宁为5535户规上工业企业体检",
+          "publishedAt": "2026-07-23T19:01:00+08:00"
+        },
+        {
+          "name": "Siemens",
+          "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:1b43afb5-2d07-47f7-9eb7-893fe7d0bc59/TCOD-2024_original.pdf",
+          "originalTitle": "The True Cost of Downtime 2024"
+        }
+      ]
+    },
+    {
+      "id": "legora-8-8b-series-e",
+      "title": "Legora：法律AI估值88亿美元，自报ARR超2亿美元",
+      "brief": "瑞典法律AI公司Legora完成5.5亿美元E轮，估值88亿美元，自报ARR超2亿美元。启示：国内法律AI的钱在大企业法务，不在律所。",
+      "summary": "做什么：2023年在瑞典创立的法律AI平台，为律师和法务辅助、自动化日常工作流程；10月21日宣布5.5亿美元E轮，同日推出新产品Intake，Harvey几小时前也发了同名产品。怎样赚钱：定价方式报道均未披露。增长证据：融资5.5亿美元（报道未注明币种，按美元计），Atreides Management领投；估值88亿美元，D轮为56亿美元；ARR超2亿美元，4月自报1亿美元，均为公司自报；累计融资超14亿美元。Harvey 9月融资5.5亿美元，估值155亿美元。中国落地条件：虎嗅访谈（2026年9月27日）中，幂律智能称大企业项目占收入九成以上，客单价约80万至100万元，最大成本是交付实施，律所整体采购难（单一访谈，公司自述）；法大大2026年5月发布“睿契”。风险：律师保密义务与生成式AI服务管理办法要逐项对照；AI出错伤声誉；估值抬升快，美国已成两强，转成国内收入没有数据",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "本周最大的垂直AI融资之一，增长数据完整，且虎嗅同期有国内法律AI的访谈可以对照中国条件。"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/",
+          "originalTitle": "Legal AI startup Legora raises $550M Series E at $8.8B valuation",
+          "publishedAt": "2026-10-21T18:51:00Z"
+        },
+        {
+          "name": "Legal Cheek",
+          "url": "https://www.legalcheek.com/2026/10/ai-giant-legora-hits-8-8-billion-valuation-after-fresh-funding-round/amp/",
+          "publishedAt": "2026-10-22T00:00:00+01:00"
+        },
+        {
+          "name": "虎嗅",
+          "url": "https://www.huxiu.com/article/4893572.html",
+          "originalTitle": "Harvey估值155亿美元，法律AI的钱究竟好不好赚？",
+          "publishedAt": "2026-09-27T08:00:00+08:00"
+        },
+        {
+          "name": "投资界",
+          "url": "https://news.pedaily.cn/20260513/129701.shtml",
+          "originalTitle": "深耕法律实务，桌面级法律智能体正式发布",
+          "publishedAt": "2026-05-13T16:46:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "tractian-physical-ai-series-d",
+      "title": "Tractian：工业AI估值14亿美元，年化营收超1亿美元",
+      "brief": "Tractian完成1.3亿美元D轮，估值14亿美元，公司自报年化营收破1亿美元。启示：传感器加AI的设备维护已有规模化付费案例。",
+      "summary": "做什么：2019年起步，用自研振动、超声等传感器加AI诊断工业设备故障并给出维修建议；总部亚特兰大，在蒙特雷、圣保罗和波兰设办公室；公司称有2000多处客户设施，含礼来、惠而浦、康明斯。怎样赚钱：卖传感器与软件服务，收费方式两份来源都没写。增长证据：D轮1.3亿美元，Sapphire Ventures领投；估值14亿美元，比2024年11月C轮的7.2亿美元高94%；年化营收2026年9月破1亿美元，2024年为4000万美元，均为公司自报（Bloomberg Línea转述）；员工700多人，一半营收来自巴西以外。中国落地条件：需求见战略报告；国内有容知日新等厂商；无线传感器需取得国内型号核准，运维数据有备案要求。风险：数据出境与认证要提前做；误报会消耗客户信任；传感器是硬件，营收与利润口径要分开看，本期未找到利润数据",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "本期战略报告的对标主角，增长数据有两份来源，营收口径清楚（年化、公司自报）。"
+      },
+      "sources": [
+        {
+          "name": "Bloomberg Línea",
+          "url": "https://www.bloomberglinea.com.br/startups/tractian-capta-us-130-milhoes-e-se-torna-o-mais-novo-unicornio-de-ia-brasileiro/?outputType=amp",
+          "originalTitle": "Tractian capta US$ 130 milhões e se torna o mais novo unicórnio de IA brasileiro",
+          "publishedAt": "2026-10-23T00:00:00-03:00"
+        },
+        {
+          "name": "Tractian",
+          "url": "https://tractian.com/en/blog/tractian-raises-series-d-to-scale-physical-ai"
+        }
+      ]
+    },
+    {
+      "id": "daytona-agent-sandbox-series-b",
+      "title": "Daytona：智能体沙箱云估值10亿美元",
+      "brief": "Daytona完成6000万美元B轮，估值10亿美元，自报收入运行率9个月涨25倍。启示：智能体要有安全的运行环境，这一层有人付费。",
+      "summary": "做什么：为AI智能体提供隔离的云运行环境（沙箱），一个接口即可启动；CEO称沙箱60毫秒可启动。公司2023年成立，总部旧金山，创始人是克罗地亚人。怎样赚钱：定价方式报道未披露。增长证据：B轮6000万美元，FirstMark Growth领投，估值10亿美元，累计融资9100万美元；公司称收入运行率（run rate）1月到9月增长25倍，未给绝对数，均为公司自报。公司列出的客户有Anthropic、OpenAI、NVIDIA、Cursor等（媒体转述）。中国落地条件：阿里巴巴2026年2月底前后开源OpenSandbox，支持Docker和Kubernetes（媒体转述），基础层已有大厂免费方案。风险：客户集中在少数AI公司；增速没有基数；大厂开源会压低价格",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "智能体基础设施的新增长信号，口径要提醒读者：只有增速，没有绝对营收。"
+      },
+      "sources": [
+        {
+          "name": "Tech.eu",
+          "url": "https://tech.eu/2026/10/20/daytona-hits-1b-valuation-with-60m-series-b-for-ai-agent-cloud//",
+          "originalTitle": "Daytona hits $1B valuation with $60M Series B for AI agent cloud",
+          "publishedAt": "2026-10-20T14:08:00Z"
+        },
+        {
+          "name": "Tech Funding News",
+          "url": "https://techfundingnews.com/daytona-raises-60m-at-1b-valuation-to-build-a-cloud-for-ai-agents/"
+        },
+        {
+          "name": "AI Engineering（Medium）",
+          "url": "https://ai-engineering-trend.medium.com/alibaba-open-sources-opensandbox-production-ready-sandbox-for-ai-agents-fdefb8e7c61a",
+          "originalTitle": "Alibaba Open-Sources OpenSandbox: Production-Ready Sandbox for AI Agents",
+          "publishedAt": "2026-03-01T00:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "otter-ai-320m-customer-value-fund",
+      "title": "Otter.ai：3.2亿美元不换股权，押注企业销售",
+      "brief": "Otter.ai拿到General Catalyst客户价值基金3.2亿美元，不出让股权。启示：获客回报可预测时，可以找按效果分成的资金。",
+      "summary": "做什么：AI会议助手，转写并总结会议；公司称用户超4000万，转写会议超10亿场（公司自报）。怎样赚钱：免费版加订阅；第三方评测站eesel.ai列出按年付费的Pro版每用户每月8.33美元、Business版19.99美元，企业版另议。增长证据：10月20日宣布3.2亿美元，全部来自General Catalyst的客户价值基金（Customer Value Fund），不拿股权，回报与这笔钱带来的收入挂钩，具体条款和上限未披露；估值、当前营收均未披露。公司计划把企业业务至少翻一番，销售与营销预算增至3倍（路透社，SiliconANGLE转述）。中国落地条件：⚠️ 待核实：未找到中文支持情况，也未核对国内竞品付费数据。风险：录音转写涉及参会者同意与个人信息保护；获客效率下降会抬高资金成本。不构成投资建议",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "融资结构少见，对想做订阅业务的团队有启发；已标明公司自报与未披露项。"
+      },
+      "sources": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/otter-ai-320m-general-catalyst",
+          "originalTitle": "Otter.ai raises $320M from General Catalyst for enterprise growth",
+          "publishedAt": "2026-10-20T17:25:00Z"
+        },
+        {
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/10/20/otter-ai-raises-320m-in-funding-for-its-ai-meeting-assistant/"
+        },
+        {
+          "name": "eesel.ai",
+          "url": "https://www.eesel.ai/blog/otter-ai",
+          "originalTitle": "Otter AI in 2026: Features, pricing, and key limitations"
+        }
+      ]
+    },
+    {
+      "id": "report-plant-maintenance-demand",
+      "title": "需求与市场：停机损失大，政策在推设备更新",
+      "brief": "停机损失是需求的起点；政策推的是设备投资，维护订阅只是搭车。",
+      "summary": "事实：西门子《停机的真实成本2024》估算，全球500强企业每年因非计划停机损失近1.4万亿美元，约占营收11%；样本是181位大型工业企业的维修、工程与IT人员，报告未列出国家，不能确认含中国。机构观点：MarketsandMarkets 2026年8月的报告称，中国预测性维护市场2026年约11.27亿美元，2031年约20.23亿美元，年复合增速12.4%；同一页面的另一处摘要写着2632万美元，口径对不上，只当量级参考。事实：国务院2024年3月的设备更新行动方案提出，到2027年工业设备投资规模较2023年增长25%以上，方向是高端、智能、绿色、安全（国家发改委解读，2024年3月15日）；该解读没有提到设备运维。分析：政策拉动的是买新设备，新设备出厂就可能自带监测，后装传感器的订阅要靠停机痛点说服客户，而不是靠补贴。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告分节，按手册顺序。"
+      },
+      "sources": [
+        {
+          "name": "MarketsandMarkets",
+          "url": "https://www.marketsandmarkets.com/Market-Reports/geography/operational-predictive-maintenance-market/China"
+        },
+        {
+          "name": "国家发展改革委",
+          "url": "https://www.ndrc.gov.cn/xxgk/jd/jd/202403/t20240315_1364972.html",
+          "publishedAt": "2024-03-15T09:51:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "report-plant-maintenance-benchmarks",
+      "title": "对标公司：Tractian、容知日新、Augury",
+      "brief": "三家对标：美洲新贵、国内上市公司、以色列老牌，规模证据各有口径。",
+      "summary": "Tractian见本期机会新闻，公司自报年化营收破1亿美元。容知日新（688768，科创板，安徽）做设备智能运维，据证券日报2025年7月报道的公司公告，其监测平台远程跟踪超18万台关键设备，积累超3万个故障案例；2025年上半年业绩预告营收2.5亿至2.6亿元，增长较大的是风电和石化行业。Augury（美国，创始团队在以色列）2025年2月完成7500万美元F轮，估值超10亿美元但CEO未给具体数字；TechCrunch称营收自2021年起增长5倍，未注明出处；约八成部署在老厂，客户有百事、雀巢、杜邦。分析：三家都靠“传感器加行业故障数据”建壁垒，Augury八成在老厂，说明改造老设备是主战场，这与东北的设备结构相近。⚠️ 待核实：三家的利润数据，本期只拿到容知日新的（见第4节）。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告分节，按手册顺序。"
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2025/02/19/augury-raises-73m-on-a-1b-valuation-for-ai-to-detect-malfunctions-in-factory-machines",
+          "publishedAt": "2025-02-19T13:32:00Z"
+        },
+        {
+          "name": "同花顺（转载证券日报）",
+          "url": "https://stock.10jqka.com.cn/20250724/c669859368.shtml",
+          "publishedAt": "2025-07-24T06:25:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "report-plant-maintenance-economics",
+      "title": "商业模式与收入成本：毛利率高，研发吃掉利润",
+      "brief": "容知日新毛利率61.6%，但研发费用率21.2%，一季度已亏损。",
+      "summary": "收入来源：卖传感器和监测设备，加诊断服务与平台费。机构观点：中金公司2026年4月29日的点评称，容知日新2025年营收6.46亿元（增长10.60%），毛利率61.6%，归母净利润0.84亿元（下降21.64%），研发费用率21.20%；2026年一季度营收0.71亿元（下降15.2%），归母净亏损0.23亿元。点评把原因归于春节偏晚拖慢交付、销售和研发费用前置。效果口径：Tractian联合创始人2023年称，平均每台机器每年节省约6000美元（公司自述，VentureBeat 2023年8月7日）。分析：6000美元是美国和拉美客户的数字，中国中小厂的设备价值和人工成本更低，节省额未必同量级，要用访谈校准。成本项：传感器硬件、现场安装、算法模型维护、销售与交付人员。⚠️ 待核实：未找到Tractian或容知日新公开的传感器单价和订阅价。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告分节，按手册顺序。"
+      },
+      "sources": [
+        {
+          "name": "格隆汇（中金公司点评）",
+          "url": "https://m.gelonghui.com/news/5224762",
+          "originalTitle": "容知日新(688768):研发投入加速期 2025及1Q26业绩不及预期",
+          "publishedAt": "2026-04-29T00:03:00+08:00"
+        },
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/ai/tractian-gets-45m-to-expand-ai-monitoring-of-industrial-machinery",
+          "publishedAt": "2023-08-07T13:13:00Z"
+        }
+      ]
+    },
+    {
+      "id": "report-plant-maintenance-competition",
+      "title": "竞争与进入门槛：国际巨头并购，国内大厂自建",
+      "brief": "巨头在买本地能力，沈鼓、本钢这类大企业自建模型；中小厂是空白，单价也小。",
+      "summary": "国际一侧：SKF在2026年3月9日宣布收购台湾的状态监测仪器公司G-Tech Instruments（1998年成立，50名员工，2025年营收约1000万美元，价格未披露），意在补强亚洲的状态监测业务。国内一侧：新华社2026年9月10日报道，沈鼓集团、本钢集团等龙头与本土软件服务商联手开发装备故障预判等行业AI模型；报道还说很多工厂的生产数据“躺”在电脑里没有用起来。门槛：传感器与算法（含无线认证）、行业故障案例积累（容知日新称超3万个）、现场服务渠道，以及能撑到客户续费的资金。分析：大企业有自建能力，外部创业公司的机会在没有数据团队的中小厂，但这类客户预算小、决策快，一台设备的年费很难撑起销售成本，需要用整包方案和区域代理压低获客成本。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告分节，按手册顺序。"
+      },
+      "sources": [
+        {
+          "name": "SKF",
+          "url": "https://tools.prnewswire.com/en-us/live/20813/release/20260309EN05214",
+          "originalTitle": "SKF makes acquisition to strengthen its Condition Monitoring portfolio",
+          "publishedAt": "2026-03-09T00:00:00+01:00"
+        },
+        {
+          "name": "新华社",
+          "url": "https://www.news.cn/20260910/95596ef4425b4af1bfbfd086a83fc444/c.html",
+          "originalTitle": "中国老工业基地在“智改数转”中推动制造业焕新升级",
+          "publishedAt": "2026-09-10T11:28:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "report-plant-maintenance-china",
+      "title": "中国落地条件：无线认证、数据备案和本地服务",
+      "brief": "无线传感器要过国内型号核准，运维数据按工业数据管，海外云方案要先判断数据级别。",
+      "summary": "无线认证：认证服务机构ib-lenhardt（页面更新于2026年4月8日）说明，发射功率超过微功率限值或工作在管制频段的无线设备，需在国内指定实验室测试，取得工信部无线电发射设备型号核准（SRRC），境外测试报告不能替代；常规周期约6至10周，复杂情况最长12至14周。数据合规：《工业和信息化领域数据安全管理办法（试行）》（工信部网安〔2022〕166号，2023年1月1日起施行）把运行维护数据列为工业数据，要求重要数据、核心数据向主管部门备案目录，确需出境的做数据出境安全评估。分析：设备运行数据是否算重要数据，要看行业和规模，保守做法是数据留在境内；外国产品把振动数据回传境外云，需要先做这个判断。⚠️ 待核实：防爆、煤矿安标等特殊场景的准入要求，本期未核对。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告分节，按手册顺序。"
+      },
+      "sources": [
+        {
+          "name": "工业和信息化部（国家科技管理信息系统公共服务平台转载）",
+          "url": "https://www.ncsti.gov.cn/zcfg/zcwj/202212/t20221215_104717.html",
+          "originalTitle": "工业和信息化领域数据安全管理办法（试行）"
+        },
+        {
+          "name": "ib-lenhardt",
+          "url": "https://ib-lenhardt.com/kb/srrc-requirements",
+          "originalTitle": "SRRC Requirements – Overview"
+        }
+      ]
+    },
+    {
+      "id": "report-plant-maintenance-risks",
+      "title": "主要风险：误报耗信任，模型难复制",
+      "brief": "预测性维护的老问题：数据不够、误报多、每类设备都要建模，回报被摊薄。",
+      "summary": "机构观点：麦肯锡2021年7月22日的文章《Prediction at scale》（作者Cortes等）列出规模化的六类障碍：数据不足或质量差，传感器与IT基础设施不够，资产优先级难定，数据工程人才短缺，变革管理弱，以及不同设备、不同故障模式的建模成本高导致回报低；早期模型误报多，会消耗操作员的信任；一座工厂要拿到可观价值，往往需要上百个模型。分析：对应到本问题，法律风险在认证和数据备案；声誉风险在误报和漏报，一次漏报会让客户退订；持续经营风险在单台设备年费低、销售与交付成本高，容知日新一季度的亏损就是例子（第4节）。平台规则方面，没有发现特定平台限制。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告分节，按手册顺序。"
+      },
+      "sources": [
+        {
+          "name": "McKinsey & Company",
+          "url": "https://www.mckinsey.com/capabilities/operations/our-insights/prediction-at-scale-how-industry-can-get-more-value-out-of-maintenance",
+          "originalTitle": "Prediction at scale: How industry can get more value out of maintenance",
+          "publishedAt": "2021-07-22T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "report-plant-maintenance-scenarios",
+      "title": "情景预测：三种情景与触发信号",
+      "brief": "乐观、基准、保守三种情景，用试点付费数和政策细则来判断。",
+      "summary": "乐观：抚顺等地的正式文件保留“设备预测运维”场景并配套补贴或采购，本地团队12个月内拿到5家以上付费试点、2家以上转年度合同。触发信号：正式稿出台；访谈10家中有4家愿意谈付费试点。基准：少量试点付费，来自停机损失明显的流程型企业，多数中小厂把预算放在设备更新上，续费要等6至12个月才见分晓。触发信号：试点能给出可核对的停机减少数据，但客户要求先免费用一个季度。保守：政策资金只覆盖咨询诊断，不覆盖运维订阅，大企业自建加老牌厂商挤占市场，试点停在免费。触发信号：10家访谈中不足2家愿付费；无线认证或数据备案拖过3个月。依据：抚顺市三年行动方案（征求意见稿，未标发布日期）把“设备预测运维”列为要建设推广的场景，但没有给出补贴比例；辽宁计划到2028年实现规上工业企业智改数转全覆盖，专精特新中小企业“应改尽改”（新华社2026年9月7日）。以上不含概率判断。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告分节，按手册顺序。"
+      },
+      "sources": [
+        {
+          "name": "抚顺市工业和信息化局（征求意见稿）",
+          "url": "https://gxj.fushun.gov.cn/gxj/61e25cf5-d2a1-4a6b-a1da-f3f4bcfd8c55/9c1f8632-f54d-4ed3-b9e8-25f7e942df8a/附件：抚顺市推进制造业智能化改造数字化转型三年行动计划（2026-2028年）(征求意见稿).pdf",
+          "originalTitle": "抚顺市推进制造业智能化改造数字化转型三年行动方案（2026－2028年）（征求意见稿）"
+        },
+        {
+          "name": "新华社",
+          "url": "https://www.news.cn/fortune/20260907/f22b09ee273148eab110cc7bceab2f27/c.html",
+          "originalTitle": "从一个互感器，看辽宁制造业智能布局",
+          "publishedAt": "2026-09-07T10:52:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "report-plant-maintenance-actions",
+      "title": "30天可验证行动：访谈10家，做窄切口报价",
+      "brief": "30天内做五件事，用访谈和报价判断要不要继续投入。",
+      "summary": "1. 访谈10家辽宁中小制造企业的设备或生产负责人，问最近一次非计划停机的损失、现在怎么点检、预算归谁、愿意为提前预警付多少。判断：6家以上能说出具体损失，3家以上愿谈付费试点。2. 只选一类设备（如电机、风机或泵），参照ISO 17359（2018，状态监测程序通则）列出设备清单、故障模式和监测参数，每家限5台关键设备。3. 做一页报价单，把传感器一次性费用和年服务费分开，在访谈中两种报价各问一半人。判断：至少2家接受年费区间。4. 向2至3家无线传感器厂商询问是否已有SRRC型号核准证书、报价和交期，避免自己走6至14周的认证。5. 查清沈阳、抚顺所在区的智改数转诊断和补贴申报渠道。决策规则：10家中不足2家愿付费试点，就改成跟设备更新项目捆绑销售，或暂停。不构成投资建议。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "战略报告分节，按手册顺序。"
+      },
+      "sources": [
+        {
+          "name": "ISO",
+          "url": "https://www.iso.org/standard/71194.html",
+          "originalTitle": "Condition monitoring and diagnostics of machines — General guidelines",
+          "publishedAt": "2018-01-24T00:00:00Z"
+        }
+      ]
+    }
+  ]
+}
