@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T21:34:06+08:00",
+  "coverage": {
+    "start": "2026-10-26T22:55:00+08:00",
+    "end": "2026-11-01T21:34:06+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "gemini-4-carbon-defenders-first",
+      "title": "Google公布Gemini 4 Carbon，先向网络防御者开放",
+      "brief": "Google公布Gemini 4 Carbon，先给部分网络防御者使用。意义：能力升级不等于普通用户已能调用。",
+      "summary": "Google于10月28日公布Gemini 4 Carbon，重点是长期工程任务和网络防御。意义：企业评估新模型时，要把能力宣称与实际准入分开。官方称本周先向部分防御者开放，再经Fairwind计划逐步扩展可信伙伴；面向普通开发者、企业和消费者的产品接入仍待后续。如何使用：符合条件的机构按官方渠道申请，暂勿把推测的模型名写进生产配置。EN: Google is gating Carbon access for cyber defenders first; wider product availability is still pending.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "窗口内的重要模型公告；以官方准入范围为核心，不将厂商评测包装成独立验证，也不误称已全面开放。"
+      },
+      "sources": [
+        {
+          "name": "Google官方博客",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "originalTitle": "Gemini 4 Carbon: our next frontier model"
+        },
+        {
+          "name": "Google DeepMind·准入计划说明",
+          "url": "https://deepmind.google/fairwind-program/",
+          "originalTitle": "Fairwind Program"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-fy27-q1-cloud-growth",
+      "title": "微软季度营收923亿美元，云业务增长30%",
+      "brief": "微软最新季度营收923亿美元，云业务收入增长30%。意义：云增长较快，但集团利润需区分投资收益影响。",
+      "summary": "微软10月28日公布截至9月30日的2027财年第一季度业绩：营收923亿美元，同比增长19%；微软云收入639亿美元，增长30%，Azure收入增长48%。GAAP净利润366亿美元，增长32%，剔除OpenAI投资影响后的非GAAP净利润增长18%。分析：云需求支撑增长，但两种利润增速口径不同，不能直接混用；这些是公司财报数据，不是股价预测。EN: Microsoft reported $92.3bn revenue and 30% cloud growth; OpenAI investment effects complicate profit comparisons.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "公司正式季度业绩，保留财年、季度截止日、同比及GAAP口径；只报道经营表现，不提供交易建议。"
+      },
+      "sources": [
+        {
+          "name": "Microsoft投资者关系",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+          "originalTitle": "Microsoft Announces First Quarter Results"
+        }
+      ]
+    },
+    {
+      "id": "wiz-black-october-ai-platform-incidents",
+      "title": "Wiz汇总：至少9家AI开发平台披露安全事件",
+      "brief": "Wiz汇总10月至少9家AI开发平台披露的事件。意义：保护模型调用凭证、权限和用量，比只防聊天越狱更紧迫。",
+      "summary": "【已发现实际利用｜修复状态：部分涉事密钥已处置，多起平台事件仍在调查】Wiz于10月30日汇总：本月至少9家AI开发平台披露安全事件，多个案例涉及凭证被盗后滥用模型调用。Wiz称目前没有证据把所有事件归为同一漏洞或依赖，攻击者与转售方关系也未完全查清。防护上应清点凭证、限制权限、设置用量告警，并按平台公告核查处置状态；本文不复述攻击方法。EN: Wiz linked a wave of platform incidents to credential abuse, while warning that a single shared cause remains unproven.",
+      "category": "AI安全观察",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "窗口内安全研究机构的一手汇总，报道真实利用及不确定性；只写影响、处置和防护，不含攻击载荷或步骤。"
+      },
+      "sources": [
+        {
+          "name": "Wiz安全研究",
+          "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+          "originalTitle": "“Black October” for AI Developer Platforms",
+          "publishedAt": "2026-10-30T18:51:44-04:00",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/la0qb77ds4znf2r7ub14a3bqz"
+          }
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt-6-1-terra-availability",
+      "title": "GPT-6.1 Terra开放，标准API价减半",
+      "brief": "OpenAI的GPT-6.1 Terra面向视觉推理和电脑操作，标准API价格较上一代Terra低50%。",
+      "summary": "OpenAI的10月26日更新确认GPT-6.1 Terra发布，面向视觉推理、电脑操作和写作，提供ChatGPT Work、Codex及API入口。官方标准API价为每百万输入Token1美元、输出Token5美元，较GPT-5.6 Terra低50%。怎么用：先用小任务验证效果、时延与实际账单，再决定是否接入；电脑操作能力仍需受任务权限和结果复核约束，不因模型换代自动扩大权限。EN: Terra lowers standard API rates while targeting visual reasoning and desktop tasks; real workflow quality still needs testing.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "核对官方发布说明与API变更记录；不把API标价与订阅额度混为一谈，不收录未经证实的额度合并说法。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI官方发布",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "originalTitle": "Introducing GPT-6.1 Terra"
+        },
+        {
+          "name": "OpenAI API变更记录",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "originalTitle": "Changelog"
+        }
+      ]
+    },
+    {
+      "id": "google-genie-4-research-preview",
+      "title": "Genie 4把实时世界模拟与原生声音结合",
+      "brief": "Google DeepMind公布Genie 4，可在互动世界中生成声音与对话，目前仍为研究预览。",
+      "summary": "Google DeepMind于10月27日公布世界模型Genie 4，官方演示把实时可探索场景、环境声音和互动对话结合，也可用文字改变场景。团队称模型借助Gemini系列保持模拟连贯性。当前先向可信测试者提供研究预览，消费者和开发者接入仍按阶段推进。怎么用：有兴趣可查看官方候补入口；演示中的逼真效果不等于已经证明可替代物理仿真或现实测试。EN: Genie 4 adds native sound and dialogue to interactive worlds, with access limited to a staged research preview.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "窗口内官方产品研究预览，说明当前可用范围和演示局限，不把模拟真实性当成已验证的物理可靠性。"
+      },
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+          "originalTitle": "Genie 4: A new generation of world simulation"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-drug-development-partnerships",
+      "title": "Anthropic披露六家机构药物研发合作",
+      "brief": "Anthropic披露与六家机构合作探索Claude辅助药物开发，仍属早期进展，不能等同于新药疗效。",
+      "summary": "Anthropic于10月27日披露，过去数月与六家药物研发机构开展深度合作，包括BigHat Biosciences、百时美施贵宝和Enveda，公司也已启动自己的药物发现工作。所述用途覆盖早期研究、分子设计、制造优化及试验相关文书等环节。怎么用：把它看作研发流程案例，专业团队仍需对数据和实验结果复核；企业披露的早期进展并不证明候选药物安全有效或已获批。EN: Anthropic described six drug-development partnerships and internal discovery efforts; these are early workflow results, not clinical proof.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "公司一手披露合作范围，明确早期与自述性质；报道研发工具，不把研发进展转为患者医疗建议。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic研究",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development",
+          "originalTitle": "Early progress on accelerating drug development with Claude"
+        }
+      ]
+    },
+    {
+      "id": "amazon-q3-2026-aws-growth",
+      "title": "亚马逊三季度AWS收入增长39%",
+      "brief": "亚马逊三季度净销售额2019亿美元，AWS收入增长约39%；Prime Day移期影响集团同比比较。",
+      "summary": "亚马逊于10月29日公布截至9月30日的第三季度业绩：净销售额2019亿美元，同比增长12%；AWS销售额460亿美元，同比增长约39%，营业利润178亿美元。集团营业利润281亿美元，上年同期为174亿美元。公司提醒，多数大市场的Prime Day今年移到第二季度，去年则全部在第三季度。分析：云业务与零售增长应分别看，活动时间变化也影响集团同比，不能只比较一个总增速。EN: AWS sales rose about 39%, while Amazon said Prime Day timing distorted year-on-year comparisons for the wider group.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "公司正式财报，写清季度、业务与可比性限制；不把年化收入运行率当作全年已实现收入。"
+      },
+      "sources": [
+        {
+          "name": "Amazon投资者关系",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+          "originalTitle": "Amazon.com Announces Third Quarter Results"
+        }
+      ]
+    },
+    {
+      "id": "china-october-2026-pmi",
+      "title": "10月中国制造业PMI回落至49.3%",
+      "brief": "10月制造业PMI为49.3%，非制造业商务活动指数49.7%；调查景气回落不等于GDP同比负增长。",
+      "summary": "国家统计局与中国物流与采购联合会10月31日发布：10月制造业采购经理指数（PMI）为49.3%，较上月下降0.8个百分点；非制造业商务活动指数为49.7%，下降0.5个百分点。制造业新订单指数49.4%，大型企业PMI仍为50.2%。分析：不同规模企业景气有差异；PMI是调查扩散指数，低于50反映较上月收缩，不能据此直接推出GDP同比变化。EN: China’s factory PMI fell to 49.3; the survey signals monthly business conditions, not a direct GDP growth rate.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "官方当月调查发布，有准确发布时间；区分百分点、指数水平及GDP口径，避免用PMI直接推算经济增速。"
+      },
+      "sources": [
+        {
+          "name": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html",
+          "originalTitle": "2026年10月中国采购经理指数运行情况",
+          "publishedAt": "2026-10-31T09:30:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "figma-weave-repeatable-creative-workflows",
+      "title": "Figma梳理Weave可复用创作流程",
+      "brief": "Figma本周解读Weave：用节点串起图像与视频制作，再封装为团队可重复运行的工具。",
+      "summary": "Figma于10月31日发布Weave使用解读：把提示词、图片、生成和编辑步骤连成节点工作流，可从同一起点分支比较不同方案，也可封装为工具供团队复用。示例包括产品图处理和多格式营销素材。怎么用：先挑一个重复任务，固定输入与品牌要求，再比较模型输出并人工验收。这是本周官方对既有产品的解读，不是Weave首次发布；文章未给出可套用于所有用户的统一价格。EN: Figma’s new explainer shows reusable creative workflows in Weave; it is guidance for an existing product, not a first launch.",
+      "category": "创作者平台",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "窗口内官方教程性质的新文章，准确限定为产品解读；对应创作者重复制作需求，不误报发布日期与定价。"
+      },
+      "sources": [
+        {
+          "name": "Figma官方博客",
+          "url": "https://www.figma.com/blog/the-tldr-on-figma-weave/",
+          "originalTitle": "The TL;DR on Figma Weave: Make Your Creative Process Repeatable",
+          "publishedAt": "2026-10-31T00:58:00.000Z",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/akdeq33m7cpr8m7zsfgvfiz5c"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mars-teghaza-001-ancient-crust",
+      "title": "火星陨石保存逾41亿年前地壳线索",
+      "brief": "NASA资助研究认定Teghaza 001形成于逾41亿年前，为研究火星早期地壳提供稀有样本。",
+      "summary": "NASA于10月29日介绍发表于《科学》的研究：2022年在马里发现、约800克的Teghaza 001陨石来自火星，矿物定年显示其形成于逾41亿年前。多种火成矿物保留了早期地壳从岩浆冷却、后受地下水改造的线索。意义：它补充了遥感和其他陨石难以提供的古老地壳样本；水岩相互作用线索本身不是火星存在生命的证据，后续仍需更多分析。EN: Teghaza 001 preserves a rare record of ancient Martian crust; signs of water alteration are not evidence of life.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "NASA资助团队的正式研究解读，区分2022年发现与本周定年研究发表，不把水的线索写成生命发现。"
+      },
+      "sources": [
+        {
+          "name": "NASA/JPL",
+          "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+          "originalTitle": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found"
+        }
+      ]
+    },
+    {
+      "id": "landsat-urban-pulse-neighborhoods",
+      "title": "卫星研究揭示城市更新并非匀速推进",
+      "brief": "NASA介绍“城市脉搏”研究：深圳等六座城市的街区建设呈周期性、突发且不同步。",
+      "summary": "NASA于10月30日解读“城市脉搏”（Urban Pulse）研究：团队结合Landsat与Sentinel-2影像、深度学习和时间序列，研究深圳、迪拜等六座城市的街区变化。结果显示，建设活动常呈突发和周期性，同城不同街区也不同步。意义：全市平均数可能掩盖局部基础设施压力；卫星识别的是地表物理变化，具体成因与服务需求仍需地面资料核对，不能直接等同于经济增长或衰退。EN: Satellite records show uneven construction cycles across neighborhoods; local field evidence is still needed to explain the changes.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "窗口内NASA对论文的专题解读，明确报道日期而非猜测论文首发日期；保留遥感识别与经济解释之间的边界。"
+      },
+      "sources": [
+        {
+          "name": "NASA Landsat",
+          "url": "https://science.nasa.gov/mission/landsat/news/a-city-doesnt-grow-at-one-speed/",
+          "originalTitle": "A City Doesn’t Grow at One Speed"
+        }
+      ]
+    },
+    {
+      "id": "hubble-commercial-servicing-information",
+      "title": "NASA征询哈勃商业维护与抬轨方案",
+      "brief": "NASA征询哈勃抬轨、维修或退役处置能力，目前是信息征集，尚未决定执行商业维护任务。",
+      "summary": "NASA于10月30日披露，已在29日发出信息征集，了解企业能否为哈勃望远镜抬升轨道、维护升级，或在任务结束时安全处置。机构当前分析预计，若无干预，哈勃可能于2033—2034年再入大气，因此设想的任务需在2032年前开展。意义：商业在轨服务或可延长科研寿命，但征询不等于签约、拨款或任务已获批；期限与轨道预测也不是保证。EN: NASA is surveying commercial Hubble servicing options; the request is exploratory and does not authorize a mission.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "官方窗口内信息征集，写清探索与获批的区别；再入时间为预测，不当作确定的结束日期。"
+      },
+      "sources": [
+        {
+          "name": "NASA Hubble",
+          "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+          "originalTitle": "NASA Explores Potential Commercial Servicing for Hubble Telescope"
+        }
+      ]
+    }
+  ]
+}

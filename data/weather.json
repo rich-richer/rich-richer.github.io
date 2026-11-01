@@ -1,32 +1,32 @@
 {
   "city": "沈阳",
-  "updatedAt": "2026-10-27T09:37:15+08:00",
+  "updatedAt": "2026-11-01T21:34:06+08:00",
   "source": {
     "name": "中央气象台",
-    "url": "https://nmc.cn/publish/forecast/ALN/shenyang.html"
+    "url": "https://www.nmc.cn/publish/forecast/ALN/shenyang.html"
   },
   "days": [
     {
-      "date": "2026-10-27",
+      "date": "2026-11-02",
       "weather": "晴",
-      "high": 9,
-      "low": -4,
-      "wind": "西北风 4–5 级转南风微风"
+      "high": 10,
+      "low": 0,
+      "wind": "南风3—4级转西北风微风"
     },
     {
-      "date": "2026-10-28",
-      "weather": "晴转多云",
-      "high": 16,
+      "date": "2026-11-03",
+      "weather": "晴",
+      "high": 13,
+      "low": 2,
+      "wind": "东南风微风"
+    },
+    {
+      "date": "2026-11-04",
+      "weather": "晴转阵雨",
+      "high": 20,
       "low": 6,
-      "wind": "南风 4–5 级转西南风 4–5 级"
-    },
-    {
-      "date": "2026-10-29",
-      "weather": "晴",
-      "high": 19,
-      "low": 3,
-      "wind": "西南风 4–5 级转 3–4 级"
+      "wind": "西南风4—5级"
     }
   ],
-  "note": "27 日最低 −4°C，早晚很冷；28、29 日回暖但风力 4–5 级，注意防风添衣。"
+  "note": "依据11月1日20时预报；4日风力增强并有阵雨，留意后续预报。"
 }
