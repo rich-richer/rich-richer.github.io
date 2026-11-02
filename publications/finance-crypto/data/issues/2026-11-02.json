@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T20:17:09+08:00",
+  "coverage": {
+    "start": "2026-10-27T06:22:00+08:00",
+    "end": "2026-11-02T20:17:09+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "fed-oct-28-hold-375-400",
+      "title": "美联储维持利率，10票赞成、2票主张加息",
+      "brief": "10月28日美联储维持3.75%—4%；意义：利率不变不等于风险下降，两名委员仍主张加息。",
+      "summary": "本刊仅供学习，不构成投资建议；投资有风险。本期主线：利率按兵不动，风险资产仍分化。意义：政策利率不变，不代表市场风险已经下降。美联储10月28日14时美东夏令时（北京时间29日凌晨2时）公布决定，联邦基金利率目标区间维持3.75%—4%，表决为10票赞成、2票反对。库克与哈马克主张提高0.25个百分点。声明称经济活动强劲、通胀仍高，需要更多信息判断合适的政策立场，目标仍是让通胀回到2%。这是本次会议已作出的决定，既不是降息，也没有承诺12月采取何种行动。分析：理解政策要同时看当前利率、委员分歧和后续数据，不能把一次维持不变直接解释成未来宽松。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "上期预告的美联储会议已公布正式结果，区分决定与下一次会议预测。"
+      },
+      "sources": [
+        {
+          "name": "美国联邦储备委员会",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "originalTitle": "Federal Reserve issues FOMC statement",
+          "publishedAt": "2026-10-28T14:00:00-04:00"
+        }
+      ]
+    },
+    {
+      "id": "us-etf-oct-30-ai-risk",
+      "title": "美股周五回落，QQQ较上期跌3.05%",
+      "brief": "10月30日收盘SPY−1.77%、QQQ−3.47%、VTI−1.76%；意义：科技股波动大于广泛市场，单日与区间要分开看。",
+      "summary": "最近完整交易日为美东10月30日；11月2日美股尚未开盘。Stock Analysis历史行情：SPY收755.72美元，当日−1.77%；QQQ收690.49美元，−3.47%；VTI收371.57美元，−1.76%。按本次核实的10月26日收盘765.37、712.20、375.59美元计算，区间累计分别−1.26%、−3.05%、−1.07%，均为价格变化，不含分红再投资。Kiplinger收盘报道将科技股下跌与AI资本支出回报担忧及英特尔业绩指引联系起来，这是媒体归因，不能证明单一因果。⚠️VTI的10月26日基准，当前历史页为375.59美元，与旧刊375.62略异；本期采用同一行情页重算，旧期原文保留，差异待进一步核查。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "固定市场速览：核实最近已收盘交易日与上期收盘基准，披露基准数据差异。"
+      },
+      "sources": [
+        {
+          "name": "Stock Analysis·SPY历史行情",
+          "url": "https://stockanalysis.com/etf/spy/history/",
+          "originalTitle": "SPY Historical Stock Price Data"
+        },
+        {
+          "name": "Stock Analysis·QQQ历史行情",
+          "url": "https://stockanalysis.com/etf/qqq/history/",
+          "originalTitle": "QQQ Historical Stock Price Data"
+        },
+        {
+          "name": "Stock Analysis·VTI历史行情",
+          "url": "https://stockanalysis.com/etf/vti/history/",
+          "originalTitle": "VTI Historical Stock Price Data"
+        },
+        {
+          "name": "Kiplinger·美股收盘报道",
+          "url": "https://www.kiplinger.com/investing/stocks/nasdaq-falls-another-747-points-as-intel-is-way-outside-stock-market-today",
+          "originalTitle": "Nasdaq Falls Another 747 Points as Intel Is Way Outside: Stock Market Today"
+        },
+        {
+          "name": "本站·金融与加密简报（上期ETF基准）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-10-27#us-etf-oct-26-anthropic-rebound"
+        }
+      ]
+    },
+    {
+      "id": "cn-hk-nov-2-rebound",
+      "title": "A股与港股反弹，区间表现仍分化",
+      "brief": "11月2日收盘上证+1.08%、深成指+1.63%、恒指+0.42%；意义：单日反弹不代表已经收复上期以来跌幅。",
+      "summary": "11月2日A股与港股均已收盘。中新经纬经新浪财经刊载：上证3638.03点，+1.08%；深证成指11010.68点，+1.63%；创业板2458.70点，+1.87%。信报与财华网记录恒指23393.32点，+0.42%。对比上期采用的10月26日收盘，上证累计−1.61%、深成指−4.54%、恒指+0.78%，起止均为收盘点位。中新经纬称数字媒体等板块领涨，财华网认为港股科技及券商上涨与政策预期有关；后者属于媒体分析。意义：只看今天的红盘，会掩盖不同市场过去几个交易日的差距；板块归因也不能代替公司盈利证据。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "固定市场速览：当日收盘与自上期以来变化分别陈述，不把盘中数当收盘数。"
+      },
+      "sources": [
+        {
+          "name": "中新经纬（经新浪财经）",
+          "url": "https://finance.sina.com.cn/roll/2026-11-02/doc-inixipxc9413037.shtml",
+          "originalTitle": "A股三大指数涨超1%，超百股涨停"
+        },
+        {
+          "name": "信报·港股360行情",
+          "url": "https://stock360.hkej.com/stock"
+        },
+        {
+          "name": "财华网·港股收评",
+          "url": "https://www.finet.hk/newscenter/news_content/6ae84f2923082974d9361401"
+        },
+        {
+          "name": "本站·金融与加密简报（上期A港股基准）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-10-27#cn-hk-oct-26-chinext-weak"
+        }
+      ]
+    },
+    {
+      "id": "btc-eth-nov-2-snapshot",
+      "title": "比特币约7.78万美元，以太坊约2284美元",
+      "brief": "11月2日20:06采集页面：BTC约77818美元、ETH约2284美元；较上期参考报价约−3.26%、−2.02%，非同步精确收益。",
+      "summary": "北京时间11月2日20:06采集CoinGecko美元行情页：比特币（BTC）77818.26美元，以太坊（ETH）2284.00美元。这里的20:06是采集时刻，页面未给出对应报价的精确更新时间，不冒充成交时刻。与上期引述Unchained的10月26日报价80440美元、2331美元相比，约−3.26%、−2.02%；其中BTC基期明确为北京时间17:40，ETH原文未标独立报价时点，因此区间只作近似参考，不能当成严格同步收益率。数字资产全天候交易，与美股10月30日收盘不在同一时点。意义：先看报价来源、币种、计价货币与时间，再比较涨跌；价格变化本身不能证明平台安全或偿付能力。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "固定市场速览：披露采集时刻、基期与时点缺口，仅做价格背景。"
+      },
+      "sources": [
+        {
+          "name": "CoinGecko·比特币行情",
+          "url": "https://www.coingecko.com/en/coins/bitcoin",
+          "originalTitle": "Bitcoin Price: BTC/USD Live Price Chart, Market Cap & News Today"
+        },
+        {
+          "name": "CoinGecko·以太坊行情",
+          "url": "https://www.coingecko.com/en/coins/ethereum",
+          "originalTitle": "Ethereum Price: ETH/USD Live Price Chart, Market Cap & News Today"
+        },
+        {
+          "name": "Unchained·上期参考报价原文",
+          "url": "https://unchainedcrypto.com/bitcoin-briefly-dips-below-80000-as-ai-worries-weigh-on-asian-stocks-before-the-fed-decides/",
+          "originalTitle": "Bitcoin Briefly Dips Below $80,000 as AI Worries Weigh on Asian Stocks Before the Fed Decides"
+        },
+        {
+          "name": "本站·金融与加密简报（上期币价基准）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-10-27#btc-eth-oct-26"
+        }
+      ]
+    },
+    {
+      "id": "binance-recovery-withdrawals-nov-1",
+      "title": "币安公告恢复提现安排，称补足95%资产",
+      "brief": "涉逾60亿美元失窃后，币安11月1日公告分阶段恢复提现并称补足95%；意义：公司承诺、资产补足和全面恢复是不同状态。",
+      "summary": "币安11月1日官方恢复公告安排于当日06:00—09:00 UTC（北京时间14:00—17:00）启动首阶段提现，覆盖15个网络，并称已用公司资源补足约95%的受影响资产，剩余部分流动性较低。公告承诺由公司承担失窃资金的财务影响，不向用户转嫁。FBI10月31日通报称逾60亿美元虚拟资产被盗，并将责任归于朝鲜相关组织；这是执法机构的归因。11月2日Yahoo Finance刊载报道确认已分阶段恢复。意义：补足比例是公司披露，不能当作独立审计结论；恢复部分网络也不等于所有服务全面恢复，完整事件复盘仍待发布。后续仍需分别核对资产补足、服务恢复与独立核查结果。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "重大托管安全事件，报道财务影响、厂商处置和未完成事项，区分公司自述与执法归因。"
+      },
+      "sources": [
+        {
+          "name": "币安·官方恢复公告",
+          "url": "https://www.binance.com/en-GB/support/announcement/security-incident-recovery-update-4-withdrawals-resume-in-phases-2026-11-01-73911fb819b240f88b88256bdd318eda",
+          "originalTitle": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)"
+        },
+        {
+          "name": "美国联邦调查局（FBI）",
+          "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+          "originalTitle": "North Korea Responsible for $6 Billion+ Binance Attack"
+        },
+        {
+          "name": "Yahoo Finance·恢复提现报道",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/binance-resumes-withdrawals-billions-stolen-061000758.html",
+          "originalTitle": "Binance resumes withdrawals after billions stolen in hack"
+        }
+      ]
+    },
+    {
+      "id": "circle-oct-28-sec-stablecoin-comments",
+      "title": "Circle披露稳定币监管意见，尚非新规",
+      "brief": "Circle10月28日发文披露20日提交的意见，建议合规稳定币享现金待遇；意义：企业诉求与监管决定须分开。",
+      "summary": "Circle10月28日发文，披露其10月20日向美国证券交易委员会（SEC）提交的意见书。公司建议拟议的《加密资产条例》（Regulation Crypto Assets）与GENIUS法案协调，并明确合规支付型稳定币在特定发行及结算场景中的现金待遇；在客观保障条件下，建议相关券商资本计算折扣从2%降为零。机构观点：这些是发行企业Circle对征求意见稿的主张，SEC网站收录意见书不等于批准。意义：稳定币用于支付结算与其承担的法律义务是两回事；阅读政策新闻，要确认文件是征求意见、企业意见还是正式生效规则。本条不是把10月20日提交行为写成28日新发生。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "窗口内新公开的政策说明，原始提交时间单列，明确是企业意见而非正式规则。"
+      },
+      "sources": [
+        {
+          "name": "Circle·官方政策文章",
+          "url": "https://www.circle.com/blog/circle-submits-comment-letter-on-secs-proposed-regulation-crypto-assets",
+          "originalTitle": "Circle Submits Comment Letter on SEC’s Proposed Regulation Crypto Assets"
+        },
+        {
+          "name": "SEC·公开收录的Circle意见书",
+          "url": "https://www.sec.gov/comments/S7-2026-27/s7202627-1110319-3937607.pdf",
+          "originalTitle": "Circle Internet Group, Inc. — Comment Letter on Regulation Crypto Assets"
+        }
+      ]
+    },
+    {
+      "id": "pboc-sfisf-nov-3-announcement",
+      "title": "央行公告11月3日开展互换便利操作",
+      "brief": "央行11月2日公告：31家机构申请额度超1000亿元，互换期限1年；意义：申请需求不等于实际投放，更不等于股市收益。",
+      "summary": "人民银行11月2日发布证券、基金、保险公司互换便利（SFISF）招标公告〔2026〕第1号，计划11月3日开展操作，互换期限1年，可视情展期；目前31家证券、基金公司申报需求，申请额度超过1000亿元。公告说明目的是支持资本市场健康稳定发展，没有在该公告中给出最终中标金额。意义：1000多亿元是申请需求，不是已完成的操作额，也不能直接换算成随后买入股票的金额。对初学者而言，政策工具提供流动性的事实，与机构如何使用资金、资产价格最终怎样变化，是三个需要分别核实的问题。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "窗口内央行正式公告，紧邻本期之后的操作安排，区分申报与结果。"
+      },
+      "sources": [
+        {
+          "name": "中国人民银行·公开市场业务操作室",
+          "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/5481510/2026110211564253961/index.html",
+          "originalTitle": "证券、基金、保险公司互换便利（SFISF）招标公告 [2026]第1号"
+        }
+      ]
+    },
+    {
+      "id": "lesson-emergency-fund-cash-flow",
+      "title": "一词一课：应急金与现金流",
+      "brief": "应急金应对意外支出，现金流看收支到账顺序；意义：账面有资产，不等于急用时能拿出现金。",
+      "summary": "是什么：应急金是专门应对非计划支出或收入中断的现金储备；现金流既看收支金额，也看钱何时进出。类比：家里有一缸水，也要确认当天水龙头能否出水。为什么重要：本期平台暂停提现的案例提醒，账面资产与随时可用的钱不能画等号；美国消费者金融保护局强调，应急储备要安全、方便取用，所需规模因人而异。常见误区：把高波动资产、信用额度或取用受限的产品全当应急金，只看月度结余而忽略月底缴费早于工资到账。小练习：临时发生必要维修费，哪项最能体现应急金？A.已经花掉的消费额度 B.为意外支出留存且可及时取用的储备 C.承诺未来上涨的资产。答案B；重点是用途与可取用性，不是押价格上涨。",
+      "category": "一词一课",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "按上一期第10课之后轮换回第1课，联系本期真实托管事件，提供概念辨析与情景练习。"
+      },
+      "sources": [
+        {
+          "name": "美国消费者金融保护局（CFPB）·金融教育",
+          "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/",
+          "originalTitle": "An essential guide to building an emergency fund"
+        }
+      ]
+    },
+    {
+      "id": "reading-sfisf-application-versus-allotment",
+      "title": "新闻怎么读：申请千亿，就是投放千亿？",
+      "brief": "央行披露互换便利申请超1000亿元；追问：这是申请额、中标额，还是已经用于股票交易的金额？",
+      "summary": "新闻：人民银行公告31家机构申报互换便利需求，申请额度超过1000亿元，计划11月3日操作。事实是已公布的申请需求、期限与计划日期；“资金会推动行情上涨”属于推断，不是公告承诺。新华网转载的公告将其定位为支持资本市场健康稳定发展的操作，尚未公布本轮最终结果。该追问：①申请额与实际中标额是否相同？②换入资产与最终融资、买股之间还经过哪些环节？③后续结果公告是否已出？本期截稿时11月3日尚未到来，不能先写成投放完成。结论：看到“大额支持”，先辨认数字处于申请、操作还是使用阶段，再讨论可能影响。",
+      "category": "新闻怎么读",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用本期真实央行公告示范辨别数字所处阶段，防止把需求金额等同实际投放。"
+      },
+      "sources": [
+        {
+          "name": "本站·金融与加密简报（本期央行公告）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-02#pboc-sfisf-nov-3-announcement"
+        },
+        {
+          "name": "新华网（转载中国人民银行公告）",
+          "url": "https://www.xinhuanet.com/fortune/20261102/8f786bad324747f3be7726525dd20290/c.html",
+          "originalTitle": "央行将开展证券、基金、保险公司互换便利操作",
+          "publishedAt": "2026-11-02T17:08:54+08:00"
+        }
+      ]
+    },
+    {
+      "id": "calendar-jolts-nov-3-us-time",
+      "title": "财经日历：11月3日夜间公布职位空缺",
+      "brief": "美国9月JOLTS定于北京时间11月3日23时公布；意义：职位空缺与非农就业是不同指标，不能混读。",
+      "summary": "按美国劳工统计局（BLS）当前日历，9月职位空缺和劳动力流动调查（JOLTS）定于11月3日美东时间10时发布，即北京时间11月3日23时，处于本期之后、下一次周四早间出刊之前。该数据观察职位空缺、雇用与离职，不等同于每月非农就业新增人数。意义：读结果时要先确认指标、参考月份和修订值，再判断与此前数据是否可比；不提前填入尚未公布的结果。BLS说明日历可能更新，本刊以本次核查的官方安排为准。",
+      "category": "财经日历",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "下一期之前的官方数据日历；按美东标准时间与北京时间相差13小时换算。"
+      },
+      "sources": [
+        {
+          "name": "美国劳工统计局（BLS）·11月发布日历",
+          "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+          "originalTitle": "Schedule of Selected Releases for November 2026"
+        }
+      ]
+    }
+  ]
+}

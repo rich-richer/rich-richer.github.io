@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T20:17:09+08:00",
+  "coverage": {
+    "start": "2026-10-26T20:17:09+08:00",
+    "end": "2026-11-02T20:17:09+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "google-embeddinggemma-2-multimodal-retrieval",
+      "title": "EmbeddingGemma 2统一多模态检索",
+      "brief": "Google发布7.44亿参数多模态嵌入模型。意义：图文音视频可共用检索空间，效果仍须按业务验证。",
+      "summary": "本周主线：专用后训练、多模态检索与人的判断边界成为研发重点。意义：模型价值需要同时看任务效果、部署成本与协作方式。Google的Henrique Schechter Vera等10月27日提交《EmbeddingGemma 2：统一且高效的多模态表示》（EmbeddingGemma 2: Unified and Efficient Multimodal Representations），为未经同行评审的arXiv预印本。模型将文字、图像、音频、视频及混合输入映射到统一向量空间，总参数7.44亿；仅加载文本部分时为2.71亿。训练按模态与目标分阶段推进，并支持按需加载编码器、缩短向量和量化。作者报告多项检索基准上以较小规模匹配或超过较大模型。局限：这是作者实验，基准表现不能直接等同于企业私有资料的召回率，视觉细节、资源预算与领域迁移仍需实测。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "本周发布的Google一手论文，将模型架构、训练配方与资源受限检索连接起来。"
+      },
+      "sources": [
+        {
+          "name": "arXiv·Google团队",
+          "url": "https://arxiv.org/abs/2610.37364",
+          "originalTitle": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+          "publishedAt": "2026-10-27T15:00:42Z"
+        },
+        {
+          "name": "Google DeepMind研究目录",
+          "url": "https://deepmind.google/research/publications/279443/",
+          "originalTitle": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations"
+        }
+      ]
+    },
+    {
+      "id": "figma-domain-editing-sft-rl",
+      "title": "Figma披露专用编辑模型的训练路径",
+      "brief": "Figma先用25万余条样本微调，再转向强化学习。意义：垂直模型的优势依赖领域数据和评测。",
+      "summary": "Figma工程负责人Josh Clemm于10月29日披露编辑模型研发方法，并非宣布Weave或设计智能体首次上线。团队把原始设计、合成修改请求和正确编辑结果组成监督微调（SFT）样本，用原生文件格式表达设计，再由确定性校验器和视觉评判模型检查输出。早期Llama 3.3 70B模型使用超过25万条样本训练；后续转向更强底座，并把强化学习（RL）、奖励设计和专家标准加入配方。结构合法、满足请求、视觉质量、速度及成本分别评估。意义：专业任务的竞争力不只来自底座规模，也来自可执行的编辑表示和领域评测。局限：文中比较主要是公司内部评测；整体产品提速还包括工具与运行框架改进，不能全部归因于自研模型，也不能推广成所有设计任务都优于通用前沿模型。",
+      "category": "后训练与对齐",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "一手工程披露，提供从SFT到RL的垂直领域后训练实例，并明确内部评测边界。"
+      },
+      "sources": [
+        {
+          "name": "Figma工程博客",
+          "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+          "originalTitle": "How we’re training a Figma-fluent editing model",
+          "publishedAt": "2026-10-29T21:00:00.000Z",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/z9kqlhsgiz11fvlk3aodm6seg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anthropic-agents-expert-judgment-trial",
+      "title": "实验：专家也会跟随智能体的分析偏好",
+      "brief": "50名分析师在四类判断中86%跟随智能体偏好。意义：人工签字未必代表独立判断，结果仅限本实验。",
+      "summary": "Anthropic及其Fellows项目研究者Amaç Herdağdelen、Hailey Joren、Alex Tamkin于10月27日公开《谁对齐谁？AI智能体如何塑造专家的研究判断》（Who’s Aligned to Whom? How AI Agents Shape Experts’ Research Judgment Calls），为研究报告，未见同行评审记录。50名使用Claude Code的专业分析师分析虚构农业项目；研究者随机设置智能体在四个合理分析选项上的偏好。分析师86%的选择与该偏好一致，随机基准为50%；事后77%使用过智能体论据，15%注明其来源。意义：工作流程除核对答案，还应让关键假设和取舍可见。局限：单一任务、单一模型，而且研究人为强化了偏好；不能据此断言现实中的所有专家有相同服从率，也不能把描述性的效率差异解释成严格因果结论。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "随机实验直接检验智能体协作中的人类判断边界，适合与模型效果并列阅读。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic·研究报告",
+          "url": "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf",
+          "originalTitle": "Who’s Aligned to Whom? How AI Agents Shape Experts’ Research Judgment Calls"
+        },
+        {
+          "name": "Anthropic研究博客",
+          "url": "https://www.anthropic.com/research/agents-judgment-calls",
+          "originalTitle": "How AI agents shape experts’ judgment calls"
+        }
+      ]
+    },
+    {
+      "id": "mistral-large-4-improved-open-weights",
+      "title": "Mistral Large 4开放改进权重",
+      "brief": "Mistral开放万亿参数模型改进权重。意义：自主部署空间扩大，但服务业务许可与硬件门槛仍须核对。",
+      "summary": "Mistral于10月29日发布Large 4改进版权重；这承接当月早些时候的公开预览，不能写成模型首次亮相。官方模型卡列出约1万亿总参数、每token激活490亿参数，计入嵌入与输出层约520亿，属于混合专家（MoE）架构。模型支持文字和图像输入、文字输出，以及100万token上下文；权重提供FP8与面向Blackwell的NVFP4版本。意义：可下载权重让组织有更多自主部署和定制选择，但总权重存储、运行显存和长上下文成本仍然重要，激活参数少不代表普通电脑即可运行。局限：采用Mistral Ecosystem Open-Weight License；经营模型即服务业务需另获商业许可，不能简单称为无限制MIT开源。文中各项能力排名属于特定测试口径，仍需独立复测。",
+      "category": "开放权重模型",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "窗口内的正式权重开放，保留参数口径、部署条件和许可限制。"
+      },
+      "sources": [
+        {
+          "name": "Mistral官方",
+          "url": "https://mistral.ai/news/mistral-large-4-oss/",
+          "originalTitle": "Mistral Large 4 (Le Chonk) is now open weight",
+          "publishedAt": "2026-10-29T12:00:07.000Z"
+        },
+        {
+          "name": "Mistral官方模型卡",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+          "originalTitle": "Mistral Large 4 - Le Chonk"
+        },
+        {
+          "name": "Hugging Face团队博客",
+          "url": "https://huggingface.co/blog/mistral-large4",
+          "originalTitle": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/upsd8u37hkkquohy3w3sjvszi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "classic-paper-hochreiter-schmidhuber-lstm",
+      "title": "经典回顾：LSTM怎样保留长期信息",
+      "brief": "LSTM用记忆单元和门控缓解长序列训练困难。意义：它把“记住什么”变成可学习的结构。",
+      "summary": "《长短期记忆》（Long Short-Term Memory）由Sepp Hochreiter（慕尼黑工业大学）、Jürgen Schmidhuber（IDSIA）撰写，1997年正式发表于Neural Computation第9卷第8期，1735—1780页。普通循环网络沿时间反传时，误差信号容易衰减或放大，较早输入就难以影响后来的学习。论文把保持稳定误差流的记忆单元与控制读写的输入门、输出门结合，在人工长延迟任务上展示跨越1000个时间步的学习能力。它在AI史上的位置，是把长期依赖从难训练的现象变成可设计的网络机制，为后续序列建模提供基础。局限：原始实验以人工任务为主，结果不保证任意真实序列都能记住；逐步递归也限制并行处理。这里回顾的是1997年原始版本，不把后来加入的遗忘门当作原文已有设计。",
+      "category": "经典论文回顾",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "论文目录序号4，前三篇已经回顾，按既定顺序继续。"
+      },
+      "sources": [
+        {
+          "name": "Neural Computation·论文原文",
+          "url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+          "originalTitle": "Long Short-Term Memory"
+        },
+        {
+          "name": "本站·AI论文目录",
+          "url": "https://github.com/rich-richer/rich-richer.github.io/blob/main/editorial/paper-catalog.md"
+        },
+        {
+          "name": "论文原文·Stanford课程镜像",
+          "url": "https://web.stanford.edu/class/psych209/Readings/HochreiterSchmidthuber97LSTM.pdf",
+          "originalTitle": "Long Short-Term Memory"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T20:17:09+08:00",
+  "coverage": {
+    "start": "2026-10-27T06:22:00+08:00",
+    "end": "2026-11-02T20:17:09+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "karpathy-hackertube-community-curation",
+      "title": "Karpathy做视频精选站：两小时背后是什么",
+      "brief": "Karpathy用Claude整理社区推荐视频。切入：用同一需求对比算法推荐与人工口碑。",
+      "summary": "Karpathy在10月31日博客、11月1日X原帖介绍HackerTube：据其自述，Claude从20年约4300万条HN评论中筛出6454个视频，项目约耗时两小时。意义：适合把“AI能做什么”讲成可检查的成品，而非只展示聊天截图。\n公开趋势：北京时间11月2日20:08采集，X原帖显示3592279次浏览、41939个赞、5120次转发；各项独立计数，浏览不等于独立用户。\n切入①B站/YouTube长视频：同一主题对比两种推荐结果，公开抽样标准，避免把个人喜好当质量定论。②抖音短视频：拆解“提出需求—筛选数据—成品”的三步，用作者说明区分AI工作与人工准备。③图文：解释为何好评聚合仍会继承社区偏好；两小时是作者个案，不代表所有人复现所需时间。",
+      "category": "海外",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "原作者博客与原帖均已核实，公开互动量可追溯；成品可演示，适合做推荐机制与AI制作过程的对照选题。"
+      },
+      "sources": [
+        {
+          "name": "Karpathy个人博客",
+          "url": "https://karpathy.bearblog.dev/hacker-tube/",
+          "originalTitle": "HackerTube"
+        },
+        {
+          "name": "X · Andrej Karpathy（原帖与公开指标）",
+          "url": "https://x.com/karpathy/status/2116957135661945283",
+          "originalTitle": "Weekend hack: HackerTube."
+        }
+      ]
+    },
+    {
+      "id": "deepseek-superagent-prototype-not-product",
+      "title": "DeepSeek智能体原型：先分清演示与产品",
+      "brief": "DeepSeek团队公开常驻编程智能体原型。切入：开源研究代码离日常可用还有多远。",
+      "summary": "DeepSeek团队公开dsh-superagent研究原型，面向一个GitHub仓库接收任务，也可连接飞书。官方README明确：它不是DeepSeek正式产品，公开代码与内部版本、文章设想不完全相同，部分设计尚未实现。\n公开趋势：北京时间11月2日20:07采集，GitHub公开接口返回11221个star、1140个fork；这是开发者关注与派生仓库计数，不是活跃用户或付费人数。AIHOT榜只用于发现线索，不代替平台指标。\n切入①B站长视频：用静态流程图解释“收到事件—分派工作—人工确认”，区分已实现与未来设想。②抖音短视频：拿README的原型声明对照“AI员工已全面上岗”标题，做事实核查。③图文：列出复现时应核对的授权、持续运行和异常恢复问题，不把仓库热度当成可靠性证明。",
+      "category": "国内",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "国内团队的工程实践具备差异化选题价值，官方原型声明与GitHub公开计数可直接核实，适合纠正把研究原型当成熟产品的误读。"
+      },
+      "sources": [
+        {
+          "name": "DeepSeek官方GitHub仓库",
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+          "originalTitle": "dsh-superagent",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/oig5qkyz9fzkdpchgk7l2cmm3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "suleyman-conscious-ai-evidence-debate",
+      "title": "AI会痛苦吗？先分清证据与主张",
+      "brief": "Suleyman主张不开发有意识AI。切入：把能力、意识和伦理立场拆开讲。",
+      "summary": "11月1日，微软AI负责人Mustafa Suleyman在X发文，称未见当前AI具有意识或应获福利的证据，并主张避免开发有意识的AI；他也表示新证据出现时会更新判断。这是个人公开立场，不是证明机器永远不可能有意识的实验结论。\n公开趋势：北京时间11月2日20:07采集，X原文显示1126661次浏览、718个赞、247次转发、208条回复；各项分别记录，不能据此推断赞成比例。\n切入①B站/YouTube长视频：对照Anthropic既有宪法中“道德地位高度不确定”的表述，分清事实判断与伦理取舍。②抖音短视频：用“能解题”和“有主观体验”两个问题说明概念差别。③图文：整理什么证据可能改变各方判断，避免用聊天中的情绪词证明意识。Anthropic文档仅作背景，不能当成本周新发布。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "公开争议具备讨论价值，原帖正文与平台计数已实际读取；适合从证据标准切入，避免煽动AI已觉醒的未经证实结论。"
+      },
+      "sources": [
+        {
+          "name": "X · Mustafa Suleyman（原文与公开指标）",
+          "url": "https://x.com/mustafasuleyman/status/2116913722878820528",
+          "originalTitle": "Don't build conscious superintelligence",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/ivv9w3bhrzbnnakdcrhhzc34h"
+          }
+        },
+        {
+          "name": "Anthropic（背景文档）",
+          "url": "https://www.anthropic.com/constitution",
+          "originalTitle": "Claude’s Constitution"
+        }
+      ]
+    }
+  ]
+}
