@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T12:13:28+08:00",
+  "coverage": {
+    "start": "2026-11-01T21:34:06+08:00",
+    "end": "2026-11-05T12:13:28+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "openai-images-2-6-gifs",
+      "title": "OpenAI推出Images 2.6：提速并支持GIF",
+      "brief": "Images 2.6支持GIF和更精细编辑。意义：创作者可缩短出图迭代，但仍需核对细节和素材权利。",
+      "summary": "OpenAI于11月4日推出Images 2.6，覆盖ChatGPT、Codex与API。意义：图像创作正从单次生成扩展到更快的多轮编辑与动画表达。公司称生成速度比此前快50%，新增GIF生成；API分为Flare与Sunburst，前者在低质量设置下最快约6秒出图，后者侧重中高质量细节和编辑一致性。系统卡还列出API的SVG输出。怎么用：先明确参考图、保留元素和修改位置，再逐轮检查；速度与效果依设置而变，不能把最快演示当作每次保证。\nEN: OpenAI launched Images 2.6 with GIF generation, faster creation and two API variants, extending visual workflows beyond still images.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "窗口内主流AI工具重大更新，直接关联创作与编辑使用场景；保留公司性能口径。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI官方",
+          "url": "https://openai.com/index/introducing-images-2-6/",
+          "originalTitle": "Introducing Images 2.6",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3"
+          }
+        },
+        {
+          "name": "OpenAI系统卡",
+          "url": "https://deploymentsafety.openai.com/chatgpt-images-2-6",
+          "originalTitle": "ChatGPT Images 2.6 System Card"
+        }
+      ]
+    },
+    {
+      "id": "tencent-hy4-vision-computer-use",
+      "title": "腾讯发布Hy4，加入视觉与电脑操作",
+      "brief": "Hy4正式版加入视觉和电脑操作。意义：跨应用任务能力扩大，正式版权重仍待开放。",
+      "summary": "腾讯混元11月4日发布Hy4正式版，相比preview扩展预训练与后训练规模，首次加入视觉理解和电脑操作（Computer Use），可结合命令行与图形界面处理任务。腾讯称已在腾讯云、OpenRouter及CodeBuddy、WorkBuddy等产品提供体验；模型权重与系统卡计划后续公开，不能写成已开放正式版权重。公司披露的游戏开发等提升来自自身评测。要注意：接入办公资料和执行电脑任务前，仍需逐项核对授权、数据范围与输出，不能把演示视为无人监督可靠性保证。\nEN: Tencent released Hy4 with vision and computer-use capabilities; access is available through products, while formal weights remain planned.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "国内主流模型正式版一手发布，明确产品可用与权重开放计划的区别。"
+      },
+      "sources": [
+        {
+          "name": "腾讯混元官方公众号",
+          "url": "https://mp.weixin.qq.com/s/JrQeiqx3PXBDSGish2IzwA",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3"
+          }
+        },
+        {
+          "name": "人民网",
+          "url": "https://finance.people.com.cn/n1/2026/1104/c1004-40827754.html"
+        }
+      ]
+    },
+    {
+      "id": "amd-q3-2026-data-center-growth",
+      "title": "AMD季度营收增45%，数据中心增97%",
+      "brief": "AMD三季度营收133.77亿美元。意义：数据中心需求强，但不同业务走势分化，增长指引仍是预测。",
+      "summary": "AMD于11月3日披露2026年第三季度业绩：营收133.77亿美元，同比增长45%；按美国通用会计准则（GAAP）计，净利润24.28亿美元。数据中心收入约85亿美元，同比增长97%，公司归因于EPYC处理器和Instinct GPU需求；客户端与游戏合计收入约37亿美元，同比下降8%。意义：AI基础设施需求带动收入结构变化，但不能把单个业务的高增长等同于所有终端市场同步复苏，也不能把管理层前瞻指引当成已实现收入。\nEN: AMD reported $13.377 billion in quarterly revenue, up 45%, with data-center sales rising 97% while client and gaming sales declined.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "公司正式财报呈现产业需求与业务分化，区分GAAP利润、分部收入与预测。"
+      },
+      "sources": [
+        {
+          "name": "AMD投资者关系",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+          "originalTitle": "AMD Reports Third Quarter 2026 Financial Results"
+        },
+        {
+          "name": "AMD·SEC财报附件",
+          "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000188/q32026991.htm",
+          "originalTitle": "AMD Reports Third Quarter 2026 Financial Results"
+        }
+      ]
+    },
+    {
+      "id": "claude-message-threads-beta",
+      "title": "Claude消息线程公测，长对话少重复上传",
+      "brief": "Claude消息线程只上传新增消息；长会话可更快开始响应，但模型仍读取完整历史，计费口径不变。",
+      "summary": "Anthropic于11月2日推出Claude Platform消息线程（message threads）公测：首次发送完整对话，后续只传新增消息和上一响应标识，减少重复上传。公司称在Claude Code的50万至100万token请求中，首token时间中位数约降35%。线程加密保存在内存中，最后请求后5分钟失效；模型每轮仍读取完整对话，所以token用量不因上传减少而下降。怎么用：按官方API文档启用，并处理线程过期后重传；这不是永久记忆或自动压缩上下文。\nEN: Claude message threads reduce repeated uploads and long-session latency, while models still read the full history and token usage is unchanged.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "主流工具真实可用更新，特别澄清传输优化不等于计费token减少。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic官方",
+          "url": "https://claude.com/resources/articles/message-threads",
+          "originalTitle": "Make long-running agents faster with message threads",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/sg5u3u91kw42j1grtyp3ny65n"
+          }
+        },
+        {
+          "name": "Claude Platform文档",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/message-threads",
+          "originalTitle": "Message threads"
+        }
+      ]
+    },
+    {
+      "id": "cognition-swe-2-flash-release",
+      "title": "Cognition推出SWE-2 Flash编码模型",
+      "brief": "SWE-2 Flash进入Devin桌面版与CLI；厂商强调成本和速度，模型权重尚未向公众开放。",
+      "summary": "Cognition于11月4日发布SWE-2 Flash，基于Thinking Machines的Inkling-Small继续训练，参数口径为2760亿总参数、每token激活120亿。公司报告Terminal-Bench 4.0成绩由底座的0.9%提高至20.0%，并称相较SWE-2以约五分之一价格提供三倍速度；这些是厂商测试和产品口径。模型已进入Devin桌面版与命令行（CLI）。要注意：权重暂未公开，可信合作方共享计划仍在筹备；实际收益应结合自己的代码库和验收任务验证。\nEN: Cognition launched SWE-2 Flash in Devin Desktop and CLI, reporting lower costs and faster coding; public weights are not yet available.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "编码工具更新有官方能力、产品入口与访问边界，不扩大为普遍性能结论。"
+      },
+      "sources": [
+        {
+          "name": "Cognition官方",
+          "url": "https://cognition.com/blog/swe-2-flash",
+          "originalTitle": "Introducing SWE-2 Flash",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/ten7xip5406iqarfs8tj8pa22"
+          }
+        }
+      ]
+    },
+    {
+      "id": "openai-linux-kernel-research-patches",
+      "title": "OpenAI报告Linux研究获948项提权验证",
+      "brief": "受控研究验证Linux提权问题并生成候选补丁；修复仍需维护者审查，不能理解为948项全部已修复。",
+      "summary": "OpenAI于11月4日披露一项受控Linux内核研究：10月中旬的一次运行复现1724项漏洞，并对其中948项生成本地提权验证及候选补丁。证据等级：厂商受控研究中的漏洞验证，不是已发现现实攻击。公司称人工复核后已提交数百份关键问题报告与补丁，并与维护者逐步处理其余结果；“生成补丁”不等于已合入所有发行版。研究期间61项已在上游修复、43项有暂存补丁，这些也包含社区并行工作。用户应按实际发行版的安全更新确认修复状态。\nEN: OpenAI reported controlled Linux vulnerability research and candidate patches for 948 local privilege-escalation cases; fixes require review.",
+      "category": "AI安全观察",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "重大防御研究短讯，明确证据等级、维护者审查和修复边界，不含攻击技术或操作细节。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI安全研究",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+          "originalTitle": "A thousand fewer paths to root",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/ewubpx7n7eojfvgdx6bbrd7vl"
+          }
+        }
+      ]
+    },
+    {
+      "id": "openai-pierre-acquisition-pending",
+      "title": "OpenAI拟收购Pierre，交易尚待批准",
+      "brief": "OpenAI拟收购Code Storage背后的Pierre；交割待监管批准，开源项目计划继续开放。",
+      "summary": "OpenAI于11月4日宣布拟收购Pierre Computer Company，即Code Storage及多款开源开发工具背后的公司。Pierre的Trees与Diffs库已用于Codex应用的文件浏览和变更审阅。双方称，交割后开源项目将继续开源，Code Storage客户可继续使用，相关能力将逐步融入Codex。交易尚须满足惯常交割条件，包括监管批准；交割前双方仍独立运营。意义：编程智能体的竞争延伸到代码存储、版本管理和审阅，但公告并未给出全部整合功能的上线日期。\nEN: OpenAI plans to acquire Pierre, whose tools support code storage and review; the deal remains subject to regulatory and other closing conditions.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "正式收购公告，明确拟议交易、独立运营和开源延续，不误写交割完成。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI公司公告",
+          "url": "https://openai.com/index/openai-to-acquire-pierre/",
+          "originalTitle": "OpenAI to acquire Pierre Computer Company, Inc.",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/c39s97tylya5njp0nro6dwvbx"
+          }
+        }
+      ]
+    },
+    {
+      "id": "apple-fy2026-q4-results",
+      "title": "苹果季营收1145亿美元，同比增长12%",
+      "brief": "苹果第四财季营收增长12%；毛利率和每股收益含关税退款贡献，解读时须区分经营增长与一次性影响。",
+      "summary": "苹果11月2日公布截至9月26日的2026财年第四季度业绩：营收1145亿美元，同比增长12%；摊薄每股收益2.10美元，同比增长14%。公司毛利率47.9%，其中关税退款带来约1个百分点正面影响，每股收益也含0.05美元退款贡献；全年营收4790亿美元。公司称iPhone收入创9月季度纪录、服务收入创历史新高。意义：业绩体现产品与服务需求，但比较利润质量时应识别退款等特殊因素，不能把财季名称当作自然年第四季度。\nEN: Apple reported $114.5 billion in fiscal fourth-quarter revenue, up 12%; tariff refunds also lifted gross margin and earnings per share.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "公司官方财报与特殊项目可核对，避免把GAAP业绩提升全部归于经营。"
+      },
+      "sources": [
+        {
+          "name": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+          "originalTitle": "Apple reports fourth quarter results"
+        }
+      ]
+    },
+    {
+      "id": "hubble-dwarf-galaxies-missing-oxygen",
+      "title": "哈勃调查37个矮星系：大量氧去向待解",
+      "brief": "哈勃档案数据研究显示矮星系留存的氧少于模型预期，可能需重新评估恒星反馈与星系风。",
+      "summary": "NASA于11月2日介绍发表于《天体物理学杂志》的GLOW研究：团队结合哈勃、斯皮策及射电数据，重建37个邻近矮星系的恒星形成与氧元素分布，发现它们留住的氧仅占恒星制造量的一小部分。研究认为超新星驱动的星系风可能比现有模型预期更有效地带走氧。未知之处在于：多数“缺失”的氧究竟停留在星系周围的弥散气体，还是已进入更远的星系际空间；不能把这项结果写成找到了全部去向。\nEN: A Hubble-based study of 37 nearby dwarf galaxies found less retained oxygen than expected, leaving open where much of the material went.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "正式期刊研究的一手任务团队说明，保留模型比较和氧去向未知。"
+      },
+      "sources": [
+        {
+          "name": "NASA·哈勃团队",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
+          "originalTitle": "NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies"
+        }
+      ]
+    },
+    {
+      "id": "antarctic-ozone-hole-2026-monitoring",
+      "title": "2026南极臭氧洞偏大，长期恢复仍在推进",
+      "brief": "NASA与NOAA称2026臭氧洞面积偏大，但强极涡导致的年度波动不等于长期恢复趋势逆转。",
+      "summary": "NASA与NOAA于11月4日报告：2026年南极臭氧洞面积在48年监测中居第七大，9月7日至10月13日平均约2500万平方公里，9月18日单日最大约2710万平方公里。研究者认为异常强的极涡延长了适宜臭氧耗损的条件；今年耗损深度并非历史最严重。机构同时指出，《蒙特利尔议定书》对耗臭氧物质的控制仍推动平流层臭氧长期恢复。意义：面积、最低浓度和多年趋势是不同指标，不能以一个年份的面积大小代替政策成效判断。\nEN: The 2026 Antarctic ozone hole was unusually large, but NASA and NOAA say weather-driven annual variation does not negate long-term recovery.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "NASA/NOAA联合监测结果，区分年度气象条件与长期化学恢复。"
+      },
+      "sources": [
+        {
+          "name": "NASA与NOAA",
+          "url": "https://science.nasa.gov/earth/2026-ozone-hole/",
+          "originalTitle": "NASA, NOAA Track 2026 Antarctic Ozone Hole"
+        }
+      ]
+    },
+    {
+      "id": "solar-flare-alert-sounding-rockets",
+      "title": "耀斑预警帮助探空火箭抓住观测窗口",
+      "brief": "新论文介绍耀斑预警系统，帮助只有约5分钟观测时间的火箭赶上短暂太阳事件。",
+      "summary": "NASA于11月4日介绍同日在《天体物理学杂志》发表的太阳耀斑预警研究：系统综合X射线、紫外及地面观测，快速估计耀斑位置和持续时间，帮助团队决定何时发射探空火箭。研究涉及2024年4月的协同发射及2026年5月的增强版系统，后者在一次飞行中观测到3次小耀斑。新闻进展是论文发表，并非这些火箭刚刚升空。意义：对只有约5分钟观测窗口的任务，预警时机可提高捕捉短暂事件的机会，但不是对所有太阳爆发的准确预报保证。\nEN: A newly published flare-alert study explains how rapid observations helped sounding rockets catch short-lived solar events in earlier campaigns.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "新发表研究有官方说明，清楚区分论文发表日与2024/2026实验时间。"
+      },
+      "sources": [
+        {
+          "name": "NASA科学新闻",
+          "url": "https://science.nasa.gov/blogs/science-news/2026/11/04/solar-flare-alert-system-helps-nasa-rocket-team-decide-when-to-launch/",
+          "originalTitle": "Solar Flare Alert System Helps NASA Rocket Team Decide When to Launch"
+        }
+      ]
+    },
+    {
+      "id": "vault-particle-structure-claude",
+      "title": "研究解析噬菌体来源穹窿蛋白壳",
+      "brief": "Anthropic实验室报告借助Claude解析穹窿蛋白壳结构；功能仍未知，成果尚为预印本。",
+      "summary": "Anthropic生物研究实验室11月4日报告，团队借助Claude检索资料、分析数据并辅助研究，解析出由噬菌体蛋白形成的穹窿颗粒（vault particle）三维结构：96份L05蛋白组成中空外壳，长约54纳米。团队称这是原核细胞体系中首个此类结构，已提交预印本，未经同行评审；颗粒的生物功能仍未确定。意义：结果为探索大型蛋白复合体提供较易研究的体系，但不能把结构解析写成已解释其功能、已获临床用途，或AI独自完成全部实验。\nEN: Anthropic reported a phage-derived vault structure studied with Claude; the work is a preprint, and the particle’s biological function is unknown.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "重要AI辅助科学结果的一手实验室说明，保留预印本状态、人类研究与功能未知。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic研究实验室",
+          "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+          "originalTitle": "Investigating vault particles with Claude",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/x9ea12d0zek7ntuejt9oxfdjn"
+          }
+        }
+      ]
+    }
+  ]
+}

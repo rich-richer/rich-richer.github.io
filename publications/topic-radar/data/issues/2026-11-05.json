@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T12:13:28+08:00",
+  "coverage": {
+    "start": "2026-11-02T20:17:09+08:00",
+    "end": "2026-11-05T12:13:28+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "agent-autoloop-event-driven-workflows",
+      "title": "Agent自动化开源：怎样少盯终端",
+      "brief": "卡兹克公开Agent Autoloop。切入：从一次性对话到事件触发，哪些环节仍需人拍板。",
+      "summary": "卡兹克本周公开Agent Autoloop，把定时任务、代码仓库等事件派给命令行智能体；作者文与仓库说明均可读取。意义：适合用一件具体任务展示触发、执行、等待人工决定与继续处理的完整过程。\n公开关注依据：北京时间11月5日12:05—12:06采集，GitHub接口显示2721个star、530个fork；是累计收藏与派生仓库数，不是本日增量、用户数或效果评测。\n切入①B站长视频：画出一次任务如何从事件走到交付，区分定时唤醒和真正完成。②抖音短视频：用无敏感资料的模拟任务演示“等人回复时退出、收到答复再继续”，说明这是作者设计。③图文：对照项目README里已实测与仅列接入示例的工具，解释支持清单的证据层次。作者性能数字属于自测，本刊未复现。",
+      "category": "国内",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "作者原文和代码仓库可核实，公开关注计数有采集时段，能围绕具体工作流做可复核演示。"
+      },
+      "sources": [
+        {
+          "name": "Agent Autoloop公开仓库",
+          "url": "https://github.com/KKKKhazix/agent-autoloop",
+          "originalTitle": "Agent Autoloop"
+        },
+        {
+          "name": "数字生命卡兹克（作者原文）",
+          "url": "https://mp.weixin.qq.com/s/T9_acg247gxzUNL4j5zrCw",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/y0cgwl79wbih8c50svgmit93j"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cat-wu-openai-core-products-role",
+      "title": "Cat Wu加入OpenAI，职位怎样读准",
+      "brief": "Cat Wu宣布加入OpenAI，负责核心产品的产品管理。切入：公司、业务线与正式职务分三层核对。",
+      "summary": "Cat Wu本人在X宣布将加入OpenAI，负责核心产品（Core Products）的产品管理，Tibo随后发帖欢迎。声明给出的是职责方向，未披露完整团队结构与产品路线。\n公开趋势：北京时间11月5日12:02—12:03采集，本人原帖显示1188438次浏览、9698个赞、1339次转发、1193条回复；分别记录，浏览量不是独立读者人数。\n切入①B站/YouTube长视频：按本人声明、公司回应、媒体解读三层梳理职务信息，解释哪些已确认、哪些仍未知。②抖音短视频：用一张“公司—业务线—职位”卡片，示范如何避免把人才流动直接写成产品能力变化。③图文：列出后续应观察的实际产品发布和组织信息；对下一款产品、额度或发布时间的猜测不作为事实。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "当事人公开声明与同事回应均实际读取，适合示范人事新闻的来源核对，不推断未公布产品计划。"
+      },
+      "sources": [
+        {
+          "name": "X · Cat Wu（本人声明与公开指标）",
+          "url": "https://x.com/_catwu/status/2118137612577968402",
+          "originalTitle": "Some news: I’m joining OpenAI to lead product management for Core Products!"
+        },
+        {
+          "name": "X · Tibo（公开回应）",
+          "url": "https://x.com/thsottiaux/status/2118138648214585591",
+          "originalTitle": "Welcome Cat. Stoked to be building together soon."
+        }
+      ]
+    },
+    {
+      "id": "humanlayer-factory-transition-workflows",
+      "title": "HumanLayer加入Factory，用户迁移怎么讲",
+      "brief": "Factory宣布HumanLayer团队加入并说明过渡安排。切入：读懂继续运营、迁移与自托管的区别。",
+      "summary": "Factory于11月4日宣布收购HumanLayer，并称过渡期平台继续运行，支持导出资料、迁移到Factory或自托管，未来数周将整合部分协作功能。以上是公司安排和计划，未公布交易金额。\n公开关注依据：北京时间11月5日12:07采集，HumanLayer既有GitHub仓库显示12807个star、1063个fork；这是历史累计关注，不代表本次收购的传播增量，也不能证明整个平台已经完成开源。\n切入①B站长视频：沿用户视角比较继续使用、迁移和自托管的成本与依赖，只用公开样例。②抖音短视频：用公告时间线区分“宣布”“过渡期”“未来数周计划”，避免把计划写成现成功能。③图文：整理服务变化时应核对的数据导出、可运行代码和维护承诺；不把仓库已有许可证推及尚未发布的全部平台代码。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "并购公告直接涉及开发者工作流连续性，结合原仓库可核实指标，适合做产品迁移与公告辨读选题。"
+      },
+      "sources": [
+        {
+          "name": "Factory官方公告",
+          "url": "https://factory.com/news/humanlayer",
+          "originalTitle": "HumanLayer is joining Factory",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/cc4sa2q738kbc1y9hj6agvta7"
+          }
+        },
+        {
+          "name": "HumanLayer公开仓库（累计指标）",
+          "url": "https://github.com/humanlayer/humanlayer",
+          "originalTitle": "HumanLayer"
+        }
+      ]
+    }
+  ]
+}

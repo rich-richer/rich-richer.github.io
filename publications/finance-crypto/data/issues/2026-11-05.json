@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T12:13:28+08:00",
+  "coverage": {
+    "start": "2026-11-02T20:17:09+08:00",
+    "end": "2026-11-05T12:13:28+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "us-etf-nov-4-rebound",
+      "title": "美股11月4日反弹，三只ETF区间回报有别",
+      "brief": "11月4日SPY+1.65%、QQQ+0.97%、VTI+1.54%；意义：单日反弹与上期以来的累计回报要分开看。",
+      "summary": "本刊仅供学习，不构成投资建议；投资有风险。本期主线：市场反弹，政策工具继续调整。意义：单日涨幅与区间回报要分开看。美东11月4日已收盘，SPY收766.81美元，当日+1.65%；QQQ收691.95美元，+0.97%；VTI收376.92美元，+1.54%。以本次核实、也为上期采用的10月30日收盘755.72、690.49、371.57美元为基准，累计分别+1.47%、+0.21%、+1.44%，是价格变化，不含分红再投资。机构观点：嘉信Joe Mazzola在11月4日上午评论中，把反弹与中期选举不确定性消退联系起来，并指出行业表现分化；这属于当时的市场解释，不是对全天收盘涨幅的单一因果证明。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "固定市场速览：最近完整美股交易日与上期基准均联网重核，机构解释与行情事实分开。"
+      },
+      "sources": [
+        {
+          "name": "Stock Analysis·SPY历史行情",
+          "url": "https://stockanalysis.com/etf/spy/history/",
+          "originalTitle": "SPY Historical Stock Price Data"
+        },
+        {
+          "name": "Stock Analysis·QQQ历史行情",
+          "url": "https://stockanalysis.com/etf/qqq/history/",
+          "originalTitle": "QQQ Historical Stock Price Data"
+        },
+        {
+          "name": "Stock Analysis·VTI历史行情",
+          "url": "https://stockanalysis.com/etf/vti/history/",
+          "originalTitle": "VTI Historical Stock Price Data"
+        },
+        {
+          "name": "嘉信理财（Charles Schwab）·市场评论",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-close",
+          "originalTitle": "Stocks Surge: Big Democratic Win Eases Uncertainty",
+          "publishedAt": "2026-11-04T09:12:00-05:00"
+        },
+        {
+          "name": "本站·金融与加密简报（上期收盘基准）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-02#us-etf-oct-30-ai-risk"
+        }
+      ]
+    },
+    {
+      "id": "cn-hk-nov-4-close",
+      "title": "11月4日A港股收涨，创业板涨6.4%",
+      "brief": "11月4日沪指+2.16%、深成指+4.22%、恒指+1.67%；意义：成长股波动较大，单日上涨不能外推。",
+      "summary": "本期截稿时11月5日A股、港股尚未完成全天交易，采用11月4日完整收盘。新华财经记录：上证3686.17点，+2.16%；深证成指11335.69点，+4.22%；创业板2544.73点，+6.40%。华盛资讯记录恒指约23919点，+1.67%，点位按其报道取整。对比上期11月2日收盘，上证累计+1.32%、深成指+2.95%、创业板+3.50%，恒指按取整点位估算约+2.25%。新华财经称半导体、贵金属等板块领涨，白酒及乳业走弱；这是当日板块表现，不能据此认定所有科技公司盈利同步改善。意义：比较市场时要统一收盘日期，也要看到指数内部的差异。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "固定市场速览：只采用最近完整交易日收盘，披露恒指取整与区间估算口径。"
+      },
+      "sources": [
+        {
+          "name": "新华财经·中国金融信息网",
+          "url": "https://www.cnfin.com/gs-lb/detail/20261104/4490898_1.html",
+          "originalTitle": "收评：创业板指大涨逾6% 半导体、贵金属板块走强"
+        },
+        {
+          "name": "华盛资讯·港股收市",
+          "url": "https://www.hstong.com/news/detail/26110416112617781",
+          "originalTitle": "港股收市：恒指升1.67%，科指升1.77%，黄金股集体大涨，赤峰黄金涨超18%，灵宝黄金涨超17%",
+          "publishedAt": "2026-11-04T16:16:00+08:00"
+        },
+        {
+          "name": "本站·金融与加密简报（上期A港股基准）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-02#cn-hk-nov-2-rebound"
+        }
+      ]
+    },
+    {
+      "id": "btc-eth-nov-5-snapshot",
+      "title": "币价页面样本：BTC约8.05万美元",
+      "brief": "11月5日12:01采集BTC约80517美元、ETH约2426美元；较上期页面样本约+3.47%、+6.24%，并非同期收盘收益。",
+      "summary": "北京时间11月5日12:01采集CoinGecko美元行情页，比特币（BTC）显示80517.32美元，以太坊（ETH）显示2426.45美元。对比上期11月2日20:06同站页面样本77818.26、2284.00美元，分别约+3.47%、+6.24%。两个页面未列逐笔报价的精确更新时间，因此12:01指采集时刻，区间是页面样本之间的近似变化，不冒充严格同步的成交收益。数字资产全天候交易，与11月4日美股、A股及港股收盘并不同步。意义：看价格变化时先核对计价货币和时点，不能从币价回升直接推断托管风险已经消失；平台恢复情况另见本期币安更新。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "固定市场速览：采集时刻与报价时刻分开，同站样本计算区间变化，披露非同步限制。"
+      },
+      "sources": [
+        {
+          "name": "CoinGecko·比特币行情",
+          "url": "https://www.coingecko.com/en/coins/bitcoin",
+          "originalTitle": "Bitcoin Price: BTC/USD Live Price Chart, Market Cap & News Today"
+        },
+        {
+          "name": "CoinGecko·以太坊行情",
+          "url": "https://www.coingecko.com/en/coins/ethereum",
+          "originalTitle": "Ethereum Price: ETH/USD Live Price Chart, Market Cap & News Today"
+        },
+        {
+          "name": "本站·金融与加密简报（上期页面样本）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-02#btc-eth-nov-2-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "binance-recovery-98-percent-nov-4",
+      "title": "币安称补足98%，新储备快照覆盖44币种",
+      "brief": "币安11月4日称补足约98%，新快照覆盖44币种，证明仍待生成；意义：公司披露、技术验证和全面恢复是不同进度。",
+      "summary": "接续上期恢复进展，币安11月4日第7次更新称，已补足约98%的受影响资产，余下2%因流动性较低仍在采购。公司称已预留超过全部损失所需的自有资金，并在11月4日00:00 UTC（北京时间8时）制作新储备证明（PoR）快照，覆盖币种由10种增至44种；完整零知识证明预计需50—60小时生成。11月3日第6次公告另安排自04:00 UTC（北京时间12时）起，分批为更多网络与资产组合重开提现。意义：上述比例、资金和时程都是公司披露，不能当作独立财务审计结论；快照已制作也不代表证明已完成，更不等于所有网络都已恢复。本文跟进新公告，失窃事件背景见上期。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "重大托管事件的窗口内新进展，仅写资产补足披露与恢复安排，不复述技术攻击细节。"
+      },
+      "sources": [
+        {
+          "name": "币安·官方恢复更新第7次",
+          "url": "https://www.binance.com/en-GB/support/announcement/security-incident-recovery-update-7-98-of-stolen-assets-replenished-and-new-por-snapshot-with-expanded-coverage-2026-11-04-c6ba9aa726974fc6b9332a2c8f63b405",
+          "originalTitle": "Security Incident | Recovery Update #7: 98% of Stolen Assets Replenished and New PoR Snapshot With Expanded Coverage (2026-11-04)"
+        },
+        {
+          "name": "币安·官方恢复更新第6次",
+          "url": "https://www.binance.com/en-GB/support/announcement/security-incident-recovery-update-6-withdrawals-reopen-for-more-assets-2026-11-03-2d83c325ab6e49c6bd6c5de8803b11a6",
+          "originalTitle": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)"
+        },
+        {
+          "name": "本站·金融与加密简报（事件背景）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-02#binance-recovery-withdrawals-nov-1"
+        }
+      ]
+    },
+    {
+      "id": "pboc-capital-market-tools-nov-3-4",
+      "title": "央行两项稳股工具推进，再贷款利率降至1%",
+      "brief": "互换便利实际操作1000亿元；回购增持再贷款利率降至1%。意义：央行给银行的资金成本，不等于企业最终贷款利率。",
+      "summary": "央行支持资本市场的两项工具出现新进展。11月3日证券、基金、保险公司互换便利（SFISF）实际操作1000亿元，31家证券、基金公司投标，中标费率10个基点（bp，相当于0.10%），这是上期“申请超1000亿元”之后的结果。另一公告明确，自11月4日起，股票回购增持再贷款利率下调0.25个百分点至1%；支持21家全国性银行及5家系统重要性城商行，支持比例100%、期限1年，可展期。公告称银行报送的再贷款额度申请超过2000亿元。意义：互换便利与再贷款是不同工具，1000亿元操作额与超2000亿元申请额不能相加当成新增买股资金；银行可适当加点，1%并非上市公司最终贷款利率。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "同一组资本市场支持工具的结果与利率更新，区分实际操作、申请需求和最终客户利率。"
+      },
+      "sources": [
+        {
+          "name": "中国人民银行·互换便利操作结果",
+          "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110313380716818/index.html",
+          "originalTitle": "证券、基金、保险公司互换便利（SFISF）操作结果公告 〔2026〕第1号"
+        },
+        {
+          "name": "中国人民银行·股票回购增持再贷款政策",
+          "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110408502315269/index.html",
+          "originalTitle": "中国人民银行加力实施股票回购增持再贷款政策"
+        },
+        {
+          "name": "本站·金融与加密简报（上期互换便利预告）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-02#pboc-sfisf-nov-3-announcement"
+        }
+      ]
+    },
+    {
+      "id": "pboc-fx-reserve-ratio-nov-15",
+      "title": "外汇存准率拟由4%升至6%，15日起生效",
+      "brief": "央行11月3日宣布外汇存款准备金率由4%调至6%，11月15日生效；意义：针对外汇流动性，不能直接等同人民币全面加息。",
+      "summary": "人民银行11月3日宣布，为加强金融机构外汇流动性管理，自11月15日起，上调金融机构外汇存款准备金率2个百分点，由4%提高到6%。这里调整的是金融机构按外汇存款缴存的准备金比例，并非普通存款人的利息，也不是贷款市场报价利率（LPR）。新华社当日发布的短讯核对了同一生效日期与幅度。意义：该措施针对外汇流动性，不能简单翻译成“人民币全面加息”，更不能据此承诺人民币汇率接下来单向升贬。对读者而言，先确认政策作用的币种、机构和生效日，比把不同工具都叫作“收紧”更有助于理解实际影响。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "窗口内央行外汇政策正式变化，区分工具性质、宣布日期和未来生效日期。"
+      },
+      "sources": [
+        {
+          "name": "中国人民银行·正式公告",
+          "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110308254969050/index.html",
+          "originalTitle": "中国人民银行决定上调金融机构外汇存款准备金率"
+        },
+        {
+          "name": "新华社·吴雨",
+          "url": "https://www2.xinhuanet.com/fortune/20261103/87be95ca6d1c44dc83f193b9a6a126c8/c.html",
+          "originalTitle": "中国人民银行上调金融机构外汇存款准备金率至6%",
+          "publishedAt": "2026-11-03T09:32:09+08:00"
+        }
+      ]
+    },
+    {
+      "id": "lesson-inflation-purchasing-power",
+      "title": "一词一课：通胀与购买力",
+      "brief": "收入数字变大，不代表能买更多。意义：判断生活水平变化，要把收入增长与同一时期的物价变化一起看。",
+      "summary": "是什么：通胀（inflation）指总体物价水平上涨；购买力（purchasing power）是一单位货币能买到多少商品与服务。类比：同样100元，以前能买一篮子东西，如今同一篮子要102元，钱没少，能买到的东西却少了。本期利率、准备金政策都有变化，但这些工具本身不是消费者物价数据。生活中的实际收入，要把名义收入除以对应物价指数，不能只看工资数字。常见误区：通胀率下降就等于价格下降；只要物价仍在上涨，购买力仍会受影响，只是速度可能变慢。小练习：假设收入不变、同一消费篮子一年涨2%，购买力怎样？A.增加2% B.约减少1.96% C.不变。答案B，因为1÷1.02−1约为−1.96%；这是示例，不是当期通胀预测。",
+      "category": "一词一课",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "按上一期应急金与现金流之后轮换第2课，讲清名义收入与实际购买力，并提供可计算的练习。"
+      },
+      "sources": [
+        {
+          "name": "美国SEC·Investor.gov金融教育",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/purchasing-power",
+          "originalTitle": "Purchasing Power"
+        },
+        {
+          "name": "美国劳工统计局（BLS）·概念说明",
+          "url": "https://www.bls.gov/cpi/factsheets/income.htm",
+          "originalTitle": "Income and the Consumer Price Index (CPI)"
+        }
+      ]
+    },
+    {
+      "id": "reading-fx-reserve-percentage-points",
+      "title": "新闻怎么读：提高2个百分点，是涨2%吗？",
+      "brief": "外汇存准率4%升至6%；追问：变化是2个百分点，还是相对原值增加50%？两个数字含义不同。",
+      "summary": "本期真实新闻是外汇存款准备金率从4%调至6%，11月15日生效。事实：两个比率相差2个百分点；按原值计算，相对增幅为（6−4）÷4=50%。二者都能算对，却不能互换，更不能写成“提高2%”后让读者猜口径。第一财经经央视网的报道还解释，准备金是金融机构按其吸收外汇存款的一定比例缴存央行的资金。该追问：①数字是百分比还是百分点？②调整对象是外汇存款、人民币存款，还是某种贷款利率？③生效日期到了吗？结论：先看分母与政策对象，再讨论影响；汇率将如何变化仍需其他证据，不能从这两个比率直接推出。",
+      "category": "新闻怎么读",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "选择本期已报道政策示范百分比与百分点，不额外塞入第三条宏观新闻。"
+      },
+      "sources": [
+        {
+          "name": "本站·金融与加密简报（本期正式公告）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-05#pboc-fx-reserve-ratio-nov-15"
+        },
+        {
+          "name": "央视网（第一财经）",
+          "url": "https://finance.cctv.cn/2026/11/03/ARTI0K0Js3R1p13H0yRSl6Fx261103.shtml",
+          "originalTitle": "近5年来首次！央行上调外汇存准率2个百分点，缓解人民币升值压力",
+          "publishedAt": "2026-11-03T10:07:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "calendar-us-productivity-payrolls-nov-5-6",
+      "title": "财经日历：今晚生产率，明晚非农",
+      "brief": "北京时间11月5日21:30公布三季度生产率初值，6日21:30公布10月就业报告；意义：两项数据衡量不同问题。",
+      "summary": "美国劳工统计局当前官方日历列明：美东11月5日08:30发布三季度生产率与成本初值，北京时间为今天21:30；11月6日08:30发布10月就业形势报告，北京时间为明天21:30。两项都在下一次周一早间出刊前，截稿时尚未发布。生产率关注单位投入的产出，就业报告包含新增非农就业、失业率等，不能把两者混成一项指标。意义：读结果先核对参考月份或季度、初值与修订值，再判断与以前数据是否可比；本刊不提前填结果。日历已在本次核查时重新打开，仍应留意BLS后续调整。",
+      "category": "财经日历",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "下一期之前的两项官方数据发布安排，按美东标准时间UTC−5与北京时间相差13小时换算。"
+      },
+      "sources": [
+        {
+          "name": "美国劳工统计局（BLS）·11月发布日历",
+          "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+          "originalTitle": "Schedule of Selected Releases for November 2026"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T12:13:28+08:00",
+  "coverage": {
+    "start": "2026-10-29T12:13:28+08:00",
+    "end": "2026-11-05T12:13:28+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "sam-altman-driscoll-national-security-counselor",
+      "title": "奥尔特曼：欢迎前陆军部长加入OpenAI",
+      "brief": "OpenAI增设国家安全现代化高级顾问岗位。意义：观察政企合作如何落实到具体职责与问责。",
+      "summary": "OpenAI在11月2日公告中表示，前美国陆军部长丹·德里斯科尔将担任新设的国家安全现代化高级顾问。意义：这项人事安排让公司与政府及盟友机构的对接职责更具体。奥尔特曼在公告所附声明中欢迎其加入，并将任命与美国领导力、同其他国家合作推广公司所称的“民主AI”联系起来。按公告，德里斯科尔将为高层和外部伙伴提供国家及网络安全建议，帮助内部团队理解相关机构的业务需求。他此前担任第26任陆军部长；公告所述是拟履行的顾问职责，未披露新增采购合同或部署成果。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "名单内人物有可核实的具名新声明，且组织新增高层岗位；以公司公告为主，媒体公开导语交叉确认任命。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI（任命公告及Sam Altman声明）",
+          "url": "https://openai.com/index/dan-driscoll-joins-openai/",
+          "originalTitle": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization"
+        },
+        {
+          "name": "Washington Examiner（公开导语）",
+          "url": "https://www.washingtonexaminer.com/policy/national-security/4788952/openai-hires-ex-army-secretary-dan-driscoll/",
+          "originalTitle": "OpenAI hires ex-Army Secretary Dan Driscoll two months after Pentagon exit"
+        }
+      ]
+    },
+    {
+      "id": "dario-amodei-anthropic-flashprove-research",
+      "title": "阿莫迪：Anthropic公开模型来源验证原型",
+      "brief": "其领导的组织发布FlashProve研究。意义：模型身份有望被检验，证明成本与适用范围仍需评估。",
+      "summary": "11月2日，阿莫迪领导的Anthropic发布FlashProve研究原型，尝试让服务商在不公开模型权重的情况下，证明回答确由事先承诺的模型生成。这是组织研究发布，署名作者包括Roy Rinberg、Alex Allain等，并非阿莫迪本人本周的新发言。团队同时公开代码、协议说明和Lean形式化证明，采用Apache 2.0许可。机构观点：这类验证可帮助客户、独立评估者和监管者核查模型来源。研究仍属阶段性成果，生成证明需要显著额外计算；它验证的是特定模型执行的归属，不能据此认定回答真实、无害或已满足全部监管要求。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "只写所领导组织的可信验证方向及开源行动，明确作者归属；避免把研究归为本人新表态或宣称成熟部署。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic（研究原文）",
+          "url": "https://www.anthropic.com/research/provable-inference",
+          "originalTitle": "Progress on provable inference for large language models"
+        },
+        {
+          "name": "Anthropic官方GitHub（研究原型）",
+          "url": "https://github.com/anthropics/FlashProve",
+          "originalTitle": "FlashProve"
+        }
+      ]
+    },
+    {
+      "id": "changpeng-zhao-talking-tokens-security-interview",
+      "title": "赵长鹏：受访谈安全投入与AI防御",
+      "brief": "11月3日采访谈行业安全投入。意义：把创始人意见与可独立验证的修复结果分开看。",
+      "summary": "赵长鹏在11月3日发布的Talking Tokens采访中，谈到币安事件后的行业安全问题。按节目页面列出的本人观点，他认为企业容易随时间放松警惕，币安及整个行业在安全方面投入不足，并主张更多利用AI进行防御。这些是受访者的判断，不是独立事故调查结论；节目还讨论了行业安全联盟。页面披露币安是该节目的赞助方，同时说明本次采访并非由币安委托。事件恢复进度与储备披露见本站金融与加密简报，本条仅记录本人新表态，不复述技术细节，也不据此判断资金风险已经消除。",
+      "category": "金融与加密",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "有本周本人采访原始节目页面，观点及赞助关系可核实；事故进展归金融刊，本刊只记新表态并链接。"
+      },
+      "sources": [
+        {
+          "name": "Talking Tokens／Solana Media（采访及节目说明）",
+          "url": "https://solana.com/nl/podcasts/talking-tokens/episodes/czs-first-interview-after-the-6-3b-binance-hack-where-we-go-from-here-e3rlkbv",
+          "originalTitle": "CZ's First Interview After The $6.3B Binance Hack & Where We Go From Here"
+        },
+        {
+          "name": "本站·金融与加密简报（完整报道）",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-05#binance-recovery-98-percent-nov-4"
+        }
+      ]
+    },
+    {
+      "id": "karpathy-hackertube-personal-workflow-brief",
+      "title": "卡帕西：HackerTube制作札记",
+      "brief": "10月31日披露视频精选站制作过程。意义：观察作者保留的人工准备环节，完整选题见本站前刊。",
+      "summary": "卡帕西10月31日在个人博客介绍HackerTube，并补充自己使用Claude Code制作网站的过程。他自述，主要以对话委托AI完成工作，同时亲自准备视频元数据访问条件、服务器和域名。本条只记录创作者对自身工作方式的说明；其耗时是个人案例，不能直接当成普通使用者的复现成本。项目的数据筛选、推荐机制与内容选题角度，已在11月2日本站自媒体选题简报完整报道。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "同一事件已有topic-radar完整报道，改为人物工作方式短摘，首来源链接原刊，不重复数据与制作细节。"
+      },
+      "sources": [
+        {
+          "name": "本站·自媒体选题简报（完整报道）",
+          "url": "https://rich-richer.github.io/p/topic-radar/?date=2026-11-02#karpathy-hackertube-community-curation"
+        },
+        {
+          "name": "Karpathy个人博客",
+          "url": "https://karpathy.bearblog.dev/hacker-tube/",
+          "originalTitle": "HackerTube"
+        }
+      ]
+    },
+    {
+      "id": "justin-sun-fintech-tv-agentic-payments",
+      "title": "孙宇晨：受访谈未来五年AI支付方向",
+      "brief": "11月3日受访称路线图聚焦AI代理支付。意义：将个人展望与已验证的商业采用分开。",
+      "summary": "FINTECH.TV在11月3日发布孙宇晨接受Johny Fernandez采访的视频及文字稿。孙宇晨表示，Tron未来五年的路线图将聚焦AI代理支付（agentic payments），并希望下一年看到更多代理之间、代理与个人及商家之间的支付。他将区块链描述为AI结算的适合载体，这是创始人的业务判断和发展展望。节目也讨论了传统金融产品与数学奖励项目；本条只记录当次采访的新表态，不把采访中提及的产品当作当天新上线。原文没有为上述支付愿景提供独立验证的采用率，不能据此推断业务规模或代币回报。",
+      "category": "金融与加密",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "核实到本周本人采访全文，选取AI代理支付方向；排除未经独立验证的量子期限、规模与市场排名宣传。"
+      },
+      "sources": [
+        {
+          "name": "FINTECH.TV（采访及文字稿）",
+          "url": "https://cms.fintech.tv/tron-brings-crypto-deeper-into-wall-street-with-a-new-etf/",
+          "originalTitle": "Tron Brings Crypto Deeper Into Wall Street With a New ETF"
+        }
+      ]
+    },
+    {
+      "id": "warren-buffett-berkshire-q3-release-calendar",
+      "title": "巴菲特：伯克希尔预告三季报日程",
+      "brief": "公司11月4日预告，三季报拟于11月7日公布。意义：届时以正式报表核对经营情况。",
+      "summary": "伯克希尔哈撒韦11月4日发布公告，预告第三季度业绩及季度报告Form 10-Q将于11月7日星期六、美国中部时间上午约7时在公司官网公布。这是名单内人物相关组织的公开披露日程，不是巴菲特本人本周的新发言。截至本期核查，公告只确认未来的计划发布时间；本刊不提前填入利润、现金或持仓变化。意义：关注该公司的读者可在正式报告发布后核对经营数据，并区分季度报告与另行披露的证券持仓文件。",
+      "category": "金融与加密",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "本周公司原始公告可核实，作为披露提醒；明确组织动态及未来计划，不把尚未公布的财报结果当新闻。"
+      },
+      "sources": [
+        {
+          "name": "Berkshire Hathaway（官方公告）",
+          "url": "https://www.berkshirehathaway.com/news/nov0426.pdf",
+          "originalTitle": "Information Regarding Third Quarter Earnings Release"
+        }
+      ]
+    }
+  ]
+}
