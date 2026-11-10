@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-10T18:14:24+08:00",
+  "coverage": {
+    "start": "2026-11-05T12:13:28+08:00",
+    "end": "2026-11-09T12:35:53+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "us-october-payrolls-2026",
+      "title": "美国10月非农新增16.5万，失业率4.1%",
+      "brief": "美国10月非农就业增加16.5万，失业率为4.1%，前两个月新增岗位合计上修8.4万。",
+      "summary": "本刊仅供学习，不构成投资建议；投资有风险。本期主线：美国就业数据好转的迹象与科技股波动并存，中国消费端和出厂端物价分化。美国劳工统计局（BLS）11月6日公布，10月非农就业初值增加16.5万，8月和9月合计上修8.4万。住户调查的失业率从表列的4.2%降至4.1%，BLS判断变化不大；私营非农雇员平均时薪环比涨0.4%，同比涨3.1%。这些数字覆盖的群体和调查不同。就业和工资会影响市场对货币政策的判断，美联储还要结合物价等信息决定利率。11月10日的美国CPI可提供另一组数据。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "本期头条连接美国新就业数据、市场区间表现和中国物价读数，事实口径以劳工统计局原表为准。"
+      },
+      "sources": [
+        {
+          "name": "美国劳工统计局（就业形势报告）",
+          "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+          "originalTitle": "The Employment Situation — October 2026",
+          "publishedAt": "2026-11-06T08:30:00-05:00"
+        }
+      ]
+    },
+    {
+      "id": "us-etf-nov-6-rebound",
+      "title": "美股11月6日反弹，三只ETF仍低于上期",
+      "brief": "SPY、QQQ、VTI周五分别涨0.31%、1.40%、0.39%，以11月4日收盘为基期均下跌。",
+      "summary": "以美东11月6日16:00（北京时间11月7日05:00）的正常收盘为准。跟踪标普500的SPY收735.29美元，当日+0.31%；跟踪纳斯达克100的QQQ收656.10美元，+1.40%；覆盖美国股市的VTI收361.93美元，+0.39%。与上期采用的11月4日收盘比，三只交易型开放式指数基金（ETF）累计−4.11%、−5.18%、−3.98%，按未复权收盘价计算，不含分红再投资。美联社收盘报道指出，人工智能相关股票周五收复部分失地，纳斯达克综合指数涨约1.1%。周五反弹只收回部分周四跌幅，综合指数和QQQ所跟踪的纳斯达克100也各有口径。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "说明11月6日单日回升与11月4日以来累计下跌同时成立，并拆开指数与ETF口径。"
+      },
+      "sources": [
+        {
+          "name": "Stock Analysis（SPY，标普全球市场财智）",
+          "url": "https://stockanalysis.com/etf/spy/history/",
+          "originalTitle": "SPY Historical Stock Price Data"
+        },
+        {
+          "name": "Stock Analysis（QQQ，标普全球市场财智）",
+          "url": "https://stockanalysis.com/etf/qqq/history/",
+          "originalTitle": "QQQ Historical Stock Price Data"
+        },
+        {
+          "name": "Stock Analysis（VTI，标普全球市场财智）",
+          "url": "https://stockanalysis.com/etf/vti/history/",
+          "originalTitle": "VTI Historical Stock Price Data"
+        },
+        {
+          "name": "美联社（收盘报道）",
+          "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad",
+          "originalTitle": "How major US stock indexes fared Friday 11/6/2026"
+        },
+        {
+          "name": "本站·金融与加密简报11月5日基期",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-05#us-etf-nov-4-rebound"
+        }
+      ]
+    },
+    {
+      "id": "cn-hk-nov-6-close",
+      "title": "A股港股周五收低，恒指区间仍涨",
+      "brief": "11月6日上证跌1.10%，创业板跌3.96%，恒指跌1.27%；相对11月4日，恒指仍涨2.35%。",
+      "summary": "截稿时11月9日A股和港股仍未完成全天交易，采用11月6日收盘。上证综指3649.18点，日跌1.10%；深证成指11175.78点，跌2.57%；创业板指2465.23点，跌3.96%；恒生指数24481.86点，跌1.27%。以11月4日收盘为基期，四项累计依次−1.00%、−1.41%、−3.12%、+2.35%。恒指沿用同一基期日，此次查到的基期点位为23919.50，上期正文按报道写作约23919点。同花顺记录印制电路板等板块跌幅居前，《香港商报》记录多只大型互联网股下跌。恒指11月5日收涨3.67%，所以周五回落后仍高于周三。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "最近完整交易日四指数，注明恒指上期近似点位和本期精确基期的不同展示口径。"
+      },
+      "sources": [
+        {
+          "name": "同花顺财经（11月6日A股收盘）",
+          "url": "https://yuanchuang.10jqka.com.cn/20261106/c681546775.shtml"
+        },
+        {
+          "name": "香港商报（11月6日港股收盘）",
+          "url": "https://www.hkcd.com/hkcdweb/content/2026/11/06/content_8783959.html"
+        },
+        {
+          "name": "Investing.com（恒生指数历史行情）",
+          "url": "https://hk.investing.com/indices/hang-sen-40-historical-data"
+        },
+        {
+          "name": "本站·金融与加密简报11月5日基期",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-05#cn-hk-nov-4-close"
+        }
+      ]
+    },
+    {
+      "id": "btc-eth-nov-9-snapshot",
+      "title": "币价样本：比特币约7.50万美元",
+      "brief": "北京时间11月9日12:31采集，比特币、以太坊较上期同站报价样本约跌6.91%、11.71%。",
+      "summary": "北京时间11月9日12:31采集CoinGecko美元行情页，比特币（BTC）显示74,953.39美元，以太币（ETH）显示2,142.32美元。对比11月5日12:01在同站记录的80,517.32美元、2,426.45美元，分别约跌6.91%和11.71%。12:31是查看网页的采集时刻，页面未提供这两笔汇总报价各自的精确更新时间，区间变化按两次页面显示价格计算。币市全天交易，股票与ETF有各自收盘时点。把各市场跌幅放在一起时，先看起止时点和计价货币是否一致，再判断差异。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "按同一网站和计价货币复用前一期样本，保留网页采集与报价更新时间的区别。"
+      },
+      "sources": [
+        {
+          "name": "CoinGecko（比特币美元行情）",
+          "url": "https://www.coingecko.com/en/coins/bitcoin",
+          "originalTitle": "Bitcoin Price: BTC/USD Live Price Chart, Market Cap & News Today",
+          "discoveredAt": "2026-11-09T12:31:00+08:00"
+        },
+        {
+          "name": "CoinGecko（以太币美元行情）",
+          "url": "https://www.coingecko.com/en/coins/ethereum",
+          "originalTitle": "Ethereum Price: ETH/USD Live Price Chart, Market Cap & News Today",
+          "discoveredAt": "2026-11-09T12:31:00+08:00"
+        },
+        {
+          "name": "本站·金融与加密简报11月5日基期",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-05#btc-eth-nov-5-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "us-spot-crypto-etf-flows-nov-5-6",
+      "title": "美国比特币、以太币现货ETF连续两日净流出",
+      "brief": "Farside汇总显示，11月5日至6日，比特币和以太币现货ETF分别净流出约8.42亿、1.93亿美元。",
+      "summary": "据Farside Investors按美股交易日汇总，11月5日美国比特币现货ETF净流出4.302亿美元，11月6日净流出4.119亿美元，两日合计8.421亿美元。以太币现货ETF同期分别净流出9990万美元和9330万美元，两日合计1.932亿美元。⚠️ CoinNess转述SoSoValue的11月6日以太币数据为9319万美元，与Farside有小幅差异，本文累计统一使用Farside。这里的净流量是相关基金份额申购与赎回对应资金的差额；它和币价下跌造成的资产净值减少是两种指标，也只覆盖这些美国上市产品。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "使用同一数据源的两个交易日明细核算资金净流量，披露不同汇总的微小差异。"
+      },
+      "sources": [
+        {
+          "name": "Farside Investors（比特币ETF资金流量）",
+          "url": "https://farside.co.uk/btc/",
+          "originalTitle": "Bitcoin ETF Flow (US$m)"
+        },
+        {
+          "name": "Farside Investors（以太币ETF资金流量）",
+          "url": "https://farside.co.uk/eth/",
+          "originalTitle": "Ethereum ETF Flow (US$m)"
+        },
+        {
+          "name": "CoinNess（转述SoSoValue以太币ETF数据）",
+          "url": "https://coinness.com/en/news/1138807",
+          "originalTitle": "U.S. spot Ethereum ETFs log $93.19M in net outflows"
+        }
+      ]
+    },
+    {
+      "id": "hkma-digital-bond-infrastructure-nov-6",
+      "title": "香港金管局重申数字债平台年内目标",
+      "brief": "金管局在11月6日立法会简报中更新结算设施进度，重申年内推出支持数字债发行、结算的平台。",
+      "summary": "香港金融管理局（HKMA）11月6日向立法会财经事务委员会提交简报。简报称，债务工具中央结算系统（CMU）正推进数字资产平台，目标在2026年底前建立，先支持数字债券的发行与结算，再逐步扩展到其他数字资产和平台连接。这个时间表此前已公开，11月6日材料提供的是更新后的工作状态。9月定价的第四批政府数字绿色债券使用CMU作结算系统和汇丰Orion作数字资产平台，属于另一项已实施的发行。理解两件事的区别，可以把债券的定价发行和交割入账分开看。平台具体上线日期及接入条件仍以金管局公告为准。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用11月6日正式简报交代既有项目进度，并与9月已定价债券使用的设施区分。"
+      },
+      "sources": [
+        {
+          "name": "香港金管局（11月6日立法会简报）",
+          "url": "https://www.hkma.gov.hk/media/eng/doc/about-the-hkma/legislative-council-issues/20261106e1.pdf",
+          "originalTitle": "Briefing to the Legislative Council Panel on Financial Affairs"
+        },
+        {
+          "name": "香港金管局（11月6日简报投影片）",
+          "url": "https://www.hkma.gov.hk/media/eng/doc/about-the-hkma/legislative-council-issues/20261106e2.pdf",
+          "originalTitle": "Briefing to the Legislative Council Panel on Financial Affairs"
+        },
+        {
+          "name": "香港金管局（9月第四批数字绿色债券发行）",
+          "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260929-6",
+          "originalTitle": "HKSAR Government’s Fourth Digital Green Bonds Offering"
+        }
+      ]
+    },
+    {
+      "id": "china-october-cpi-ppi-2026",
+      "title": "中国10月CPI涨0.7%，PPI涨5.7%",
+      "brief": "中国10月居民消费价格同比涨0.7%，工业出厂价同比涨5.7%；前者涨幅收窄，后者扩大。",
+      "summary": "国家统计局11月9日09:30公布，10月居民消费价格指数（CPI）同比上涨0.7%，比9月少0.2个百分点，环比持平；扣除食品和能源的核心CPI同比涨0.8%。工业生产者出厂价格指数（PPI）同比上涨5.7%，涨幅比9月扩大0.7个百分点，环比上涨0.7%。统计局解读指出，食品价格同比下降2.9%，而汽油同比上涨22.4%；生产端的能源相关行业对PPI环比涨幅贡献较大。CPI衡量消费者买到的商品和服务，PPI观察工业产品首次出售的价格，两者的商品构成、权重和价格环节不同。上游成本往终端价格传多少，还要看需求、竞争和企业能吸收多少。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "用11月9日上午发布的官方数据区分消费与生产价格、同比与环比。"
+      },
+      "sources": [
+        {
+          "name": "国家统计局（10月居民消费价格）",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965795.html",
+          "publishedAt": "2026-11-09T09:30:00+08:00"
+        },
+        {
+          "name": "国家统计局（10月工业生产者出厂价格）",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+          "publishedAt": "2026-11-09T09:30:00+08:00"
+        },
+        {
+          "name": "国家统计局首席统计师解读",
+          "url": "https://www.stats.gov.cn/sj/sjjd/202611/t20261109_1965796.html",
+          "publishedAt": "2026-11-09T09:30:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "lesson-rates-bonds-central-banks",
+      "title": "一词一课：利率、债券与央行",
+      "brief": "央行政策利率会影响市场融资成本。债券票息固定时，同类债券的市场收益率上升，旧债价格通常下跌。",
+      "summary": "利率可以理解为借钱的价格。债券（bond）像一张可转让的借条，固定票息的债券按约定付息。假设两张借条的期限、信用等条件相同，旧借条每年付3元，新借条每年付4元，买家通常只愿用较低的价格接手旧借条。央行政策利率影响短期融资成本，市场债券收益率还会随通胀预期、期限和信用风险变化。本期美国就业报告是利率判断的一项输入。常见误区是把票息和到期收益率当成同一个数；票息按面值约定，买入价格变化会改变收益率。小练习：同期限、同信用的新债市场收益率上升，旧的固定票息债价格通常怎样？A.涨 B.跌 C.不变。答案B，旧债需要降低成交价才有竞争力。",
+      "category": "一词一课",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "按轮换讲利率与债券，用同条件借条解释价格变化并关联本期就业数据。"
+      },
+      "sources": [
+        {
+          "name": "美国证监会投资者教育（利率与债券）",
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-86",
+          "originalTitle": "Investor Bulletin: Fixed Income Investments — When Interest Rates Go Up, Prices of Fixed-Rate Bonds Fall"
+        },
+        {
+          "name": "美联储（货币政策概览）",
+          "url": "https://www.federalreserve.gov/monetarypolicy.htm",
+          "originalTitle": "Monetary Policy"
+        }
+      ]
+    },
+    {
+      "id": "read-payroll-household-establishment",
+      "title": "新闻怎么读：非农看岗位，失业率看人",
+      "brief": "美国10月非农新增16.5万，失业率4.1%。这两个数字分别是向谁调查、用什么作分母的？",
+      "summary": "本期美国就业报告同时公布两项估计：非农就业增加16.5万，失业率4.1%。事实：机构调查（CES）向企业及政府机构采样，统计非农受薪岗位，一个人在两个符合口径的单位领薪可能计为两份岗位；住户调查（CPS）按人分类，失业率的分母是劳动力人口。推断：将这两项读数直接翻译成下次议息会议的结果，需要额外证据。读稿时可追问三点：数字说的是岗位还是人？失业者占全体人口还是劳动力？新增数据是首次估计还是修订值？结论：两个指标可以彼此补充，但应分别比较各自的历史序列。",
+      "category": "新闻怎么读",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用同一期就业报告示范辨识调查对象和分母，配套BLS独立口径说明。"
+      },
+      "sources": [
+        {
+          "name": "本站·本期美国10月就业原报道",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-09#us-october-payrolls-2026"
+        },
+        {
+          "name": "美国劳工统计局（两套调查口径比较）",
+          "url": "https://www.bls.gov/web/empsit/ces_cps_trends.htm",
+          "originalTitle": "Comparing employment from the BLS household and payroll surveys"
+        }
+      ]
+    },
+    {
+      "id": "calendar-us-october-cpi-nov-10",
+      "title": "财经日历：11月10日晚公布美国CPI",
+      "brief": "美国10月CPI定于北京时间11月10日21:30公布。读结果时分别看同比、环比和核心指标。",
+      "summary": "美国劳工统计局官方日历列明，美东11月10日08:30（北京时间同日21:30）发布10月居民消费价格指数（CPI）。本期截稿时尚未发布。看报告可先分三步：同比问一篮子消费项目比去年同月贵多少；环比比较相邻月份，留意表格是否季节调整；核心CPI把食品和能源剔除，方便看其余价格变化。就业和通胀是不同数据，市场怎样定价还取决于结果和预期的差别。发布时间按当前官方日历，遇变更以美国劳工统计局通知为准。",
+      "category": "财经日历",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "列出下一期前已确认的官方发布时间及北京时间，给新手三个可核对口径。"
+      },
+      "sources": [
+        {
+          "name": "美国劳工统计局（2026年11月发布日历）",
+          "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+          "originalTitle": "Schedule of Selected Releases for November 2026"
+        }
+      ]
+    }
+  ]
+}

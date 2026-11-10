@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-10T18:14:24+08:00",
+  "coverage": {
+    "start": "2026-11-05T12:13:28+08:00",
+    "end": "2026-11-09T12:35:53+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "google-gemini-omni-12-flash-15-second-video",
+      "title": "Gemini Omni 1.2 Flash支持15秒视频，720p降价",
+      "brief": "Google开放新版视频模型，15秒片段可多轮编辑，创作者可以用较低成本迭代同一镜头。",
+      "summary": "Google于11月5日推出Gemini Omni 1.2 Flash，单段支持3至15秒视频。创作者可在同一片段上逐轮修改细节，减少从头生成的次数。Gemini API和企业渠道正式开放，720p报价较1.1版降30%，至每秒0.07美元。试用可从Google AI Studio开始，先用较低分辨率起稿，再检查动作与物体一致性。Gemini应用端正向AI Ultra订户推送。\nEN: Google rolled out Gemini Omni 1.2 Flash with 15-second clips, multi-turn editing and 720p generation at $0.07 per second.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "主流视频工具正式更新，时长、编辑、报价和可用入口均有官方说明。"
+      },
+      "sources": [
+        {
+          "name": "Google·官方发布",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "originalTitle": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105"
+          }
+        },
+        {
+          "name": "Google DeepMind·模型卡",
+          "url": "https://deepmind.google/models/model-cards/gemini-omni-1-2-flash/",
+          "originalTitle": "Gemini Omni 1.2 Flash"
+        }
+      ]
+    },
+    {
+      "id": "berkshire-q3-2026-operating-earnings",
+      "title": "伯克希尔三季度营业收益降5.8%，回购约96亿美元",
+      "brief": "伯克希尔三季度营业收益127.05亿美元。保险收益承压，铁路和能源业务收益上升。",
+      "summary": "伯克希尔于11月7日披露，三季度营业收益为127.05亿美元，上年同期为134.85亿美元。保险承保和投资收入的分部收益下降，铁路、能源以及制造服务零售分部收益增加。公司本季回购约96亿美元股票，前三季度累计约144亿美元。公司净利润包含未实现的股票投资损益，评估经营变化时可单独对照营业收益。\nEN: Berkshire's quarterly operating earnings fell 5.8% to $12.705 billion, while the company repurchased about $9.6 billion of stock.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "11月7日公布的正式经营数据，区分分部、市场损益与回购。"
+      },
+      "sources": [
+        {
+          "name": "伯克希尔·业绩公告",
+          "url": "https://berkshirehathaway.com/news/nov0726.pdf",
+          "originalTitle": "Berkshire Hathaway Third Quarter 2026 Earnings Release"
+        }
+      ]
+    },
+    {
+      "id": "nature-smartwatch-hypertension-screening",
+      "title": "《Nature》研究测试用智能手表筛查高血压",
+      "brief": "196人研究验证手表传感数据用于识别高血压迹象，提供一种提示风险、引导进一步检查的思路。",
+      "summary": "《Nature》于11月5日在线刊出同行评审后的早期版本。团队用196人的手表光学脉搏信号与运动数据做7天筛查，以24小时动态血压监测作参照，灵敏度为65.8%、特异度为90.0%。这项研究评估筛查算法。手表结果提示风险后，确诊仍依靠临床评估与袖带测量。\nEN: In a 196-person study, smartwatch-based screening flagged signs of hypertension with 65.8% sensitivity and 90% specificity.",
+      "category": "科学",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "同行评审的前瞻性多中心研究，报告样本、参照和筛查范围。"
+      },
+      "sources": [
+        {
+          "name": "Google Research·研究团队",
+          "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+          "originalTitle": "Detecting signs of hypertension using wearable sensors",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/zbjrxt1ss4h009oc75x5swd6y"
+          }
+        },
+        {
+          "name": "Nature·论文",
+          "url": "https://www.nature.com/articles/s41586-026-11336-3",
+          "originalTitle": "Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch"
+        },
+        {
+          "name": "Nature Portfolio·官方解读",
+          "url": "https://www.natureasia.com/en/info/press-releases/detail/9475",
+          "originalTitle": "Technology: Smartwatches that can clock high blood pressure"
+        }
+      ]
+    },
+    {
+      "id": "cursor-voice-chat-live-apps",
+      "title": "Cursor上线语音对话与在线应用部署",
+      "brief": "Cursor支持边聊边跟进智能体，并提供把团队应用部署为可分享链接的功能。",
+      "summary": "Cursor于11月5日推出在线应用构建（Build Live Apps），面向启用云智能体的付费计划，可配置数据库和登录，再由用户确认发布。11月6日上线双向实时语音，支持编辑器、网页及iOS。更新后可用聊天框的波形按钮开始通话，发布应用前检查访问范围。\nEN: Cursor added real-time voice calls with agents and a cloud-agent workflow for deploying and sharing live apps.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "同一产品相邻两次更新合并，注明不同功能的使用条件。"
+      },
+      "sources": [
+        {
+          "name": "Cursor·语音更新",
+          "url": "https://cursor.com/changelog/voice-chat",
+          "originalTitle": "Voice Chat with Agents",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/nzxzrjiqbmjkybz85mcylo2xo"
+          }
+        },
+        {
+          "name": "Cursor·应用发布更新",
+          "url": "https://cursor.com/changelog/build-live-apps",
+          "originalTitle": "Build Live Apps in Cursor",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/m5s02uukcl0id6rn7t08f6ya3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "world-labs-frameboy-atlas-preview",
+      "title": "World Labs开放Atlas实时探索预览",
+      "brief": "Frameboy把Atlas生成的画面实时传到浏览器，官方给出每秒15帧上限。",
+      "summary": "World Labs于11月5日开放Frameboy研究预览。用户操控镜头，云端把优化版Atlas生成的画面传到浏览器，最高每秒15帧。Viewfinder也接入这一预览。可以先在官方示例中移动镜头，观察生成视角的细节是否随移动保持一致。\nEN: World Labs released a research preview of Frameboy, which streams Atlas-generated views to browsers at up to 15 frames per second.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "本周新增可体验的研究预览，保留帧率上限与开放状态。"
+      },
+      "sources": [
+        {
+          "name": "World Labs·官方发布",
+          "url": "https://www.worldlabs.ai/blog/atlas-realtime",
+          "originalTitle": "Frameboy: Atlas in Real-time"
+        }
+      ]
+    },
+    {
+      "id": "meta-specialized-muse-meta-ai",
+      "title": "Meta为Muse和Meta AI推送专用模型",
+      "brief": "Meta将以Muse Wonder训练的专用模型推送到两款应用，更新了记忆和任务恢复能力。",
+      "summary": "Meta于11月6日开始向Muse和Meta AI推送用Muse Wonder训练的专用模型。官方说，主动记忆（Active Memory）会找回与当前任务相关的早期信息，主动专注（Active Focus）帮助模型遇到阻碍时继续工作。处理长任务时，可用实际账户核对功能是否到达，并检查助手引用的旧信息。\nEN: Meta began rolling out models trained with Muse Wonder to Muse and Meta AI, with updates to memory and recovery during tasks.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把现有研究能力下放到主流应用，发布状态有一手来源。"
+      },
+      "sources": [
+        {
+          "name": "Meta AI Research·官方发布",
+          "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai",
+          "originalTitle": "Bringing Specialized Models to Muse and Meta AI",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/fjuidf0zii7na78sxru5il7pr"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ant-ling-32-flash-multimodal-launch",
+      "title": "蚂蚁百灵上线Ling-3.2-flash",
+      "brief": "Ling-3.2-flash支持图像、文本和视频输入，可通过网页对话和API使用。",
+      "summary": "蚂蚁百灵官方更新日志将Ling-3.2-flash的上线日期列为11月5日。模型有5600亿总参数、单步激活250亿参数，上下文上限为100万词元，支持图像、文本与视频输入。可先用网页对话试用，再按文档测试兼容OpenAI与Anthropic协议的API。\nEN: Ant Ling launched Ling-3.2-flash with a one-million-token context and support for image, text and video inputs via web chat and API.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "国内多模态产品实质更新，厂商日志和模型文档均列出规格与入口。"
+      },
+      "sources": [
+        {
+          "name": "蚂蚁百灵·官方更新日志",
+          "url": "https://developer.ant-ling.com/zh-CN/docs/getting-started/changelog/"
+        },
+        {
+          "name": "蚂蚁百灵·模型文档",
+          "url": "https://developer.ant-ling.com/zh-CN/docs/models/ling/"
+        }
+      ]
+    },
+    {
+      "id": "check-point-chatgpt-lockdown-disclosure",
+      "title": "ChatGPT锁定模式绕过漏洞已修复",
+      "brief": "Check Point公开经验证的绕过漏洞，称OpenAI已部署修复，研究方复测确认。",
+      "summary": "Check Point于11月5日公开一项已确认漏洞，研究演示表明ChatGPT锁定模式（Lockdown Mode）曾可被绕过，可能泄露对话内容。OpenAI于9月18日告知已部署修复，研究方复测确认。公开披露未报告真实用户遭利用。\nEN: Check Point disclosed a confirmed ChatGPT Lockdown Mode bypass on November 5 and said its retest verified OpenAI's fix.",
+      "category": "AI安全观察",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "只作已确认漏洞及修复短讯，技术分析由同日安全刊完整报道。"
+      },
+      "sources": [
+        {
+          "name": "本站·AI安全公开动态（完整报道）",
+          "url": "https://rich-richer.github.io/p/ai-safety/?date=2026-11-09#chatgpt-lockdown-preview-sandbox-fix"
+        },
+        {
+          "name": "Check Point Research·公开披露",
+          "url": "https://blog.checkpoint.com/security/chatgpt-lockdown-mode-bypass-reveals-a-wider-challenge-in-ai-security/",
+          "originalTitle": "ChatGPT Lockdown Mode Bypass Reveals a Wider Challenge in AI Security"
+        }
+      ]
+    },
+    {
+      "id": "nintendo-switch-2-first-half-fy2027",
+      "title": "任天堂上半财年Switch 2硬件销量降37.4%",
+      "brief": "Switch 2上半财年卖出649万台，软件销量同比增18.8%，任天堂维持全年财务预测。",
+      "summary": "任天堂11月6日在说明会披露，2027财年上半年（截至2026年9月30日），Switch 2硬件销量为649万台，同比下降37.4%，该平台软件销量为2449万份，同比增长18.8%。公司维持截至2027年3月财年的合并业绩预测。\nEN: Nintendo said first-half Switch 2 hardware sales fell 37.4% to 6.49 million units, while software sales rose 18.8%.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "同一平台硬件与软件销量分化，使用任天堂说明会表格。"
+      },
+      "sources": [
+        {
+          "name": "任天堂·业绩及经营方针说明会",
+          "url": "https://www.nintendo.co.jp/ir/pdf/2026/261106e.pdf",
+          "originalTitle": "Second Quarter Financial Results and Corporate Management Policy Briefing for Fiscal Year Ending March 2027"
+        },
+        {
+          "name": "任天堂·投资者关系",
+          "url": "https://www.nintendo.co.jp/kessan/english.html",
+          "originalTitle": "Nintendo Investor Relations Information"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-q3-2026-revenue",
+      "title": "Cloudflare季度营收增39%，营业亏损扩大",
+      "brief": "Cloudflare三季度营收7.825亿美元，按美国通用会计准则计的营业亏损增至6790万美元。",
+      "summary": "Cloudflare于11月5日披露，三季度营收为7.825亿美元，同比增长39%。按美国通用会计准则（GAAP）计，营业亏损从上年同期3750万美元扩大到6790万美元。按调整后口径，营业利润为1.371亿美元。\nEN: Cloudflare's third-quarter revenue rose 39% to $782.5 million, while its GAAP operating loss widened to $67.9 million.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "云网络公司正式财报，分别呈现营收增长、会计亏损与调整后业绩。"
+      },
+      "sources": [
+        {
+          "name": "Cloudflare·业绩公告",
+          "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/",
+          "originalTitle": "Cloudflare Announces Third Quarter 2026 Financial Results"
+        }
+      ]
+    },
+    {
+      "id": "youtube-hype-jewels-nine-markets",
+      "title": "YouTube付费助推新增九个市场",
+      "brief": "美国、英国、加拿大等九个新增市场的合格创作者可通过Hype付费助推获得收入。",
+      "summary": "YouTube自11月6日起为付费助推（Hype with Jewels）新增美国、英国、加拿大等九个市场，此前已在巴西等四个市场推出。观众可用虚拟宝石（Jewels）为发布未满7天的合格视频增加当地榜单积分。扩展面向订阅数从500到50万的合格YouTube合作伙伴，创作者须接受虚拟物品条款、完成身份核验并开启助推。\nEN: YouTube expanded Hype with Jewels to nine more markets, allowing eligible creators to earn from paid boosts on new videos.",
+      "category": "创作者平台",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "官方公布的新地区和创作者变现规则，保留资格与视频时限。"
+      },
+      "sources": [
+        {
+          "name": "YouTube Help·地区及资格",
+          "url": "https://support.google.com/youtube/answer/15333704?co=GENIE.Platform%3DDesktop&hl=en-C",
+          "originalTitle": "Virtual items policy for viewers"
+        },
+        {
+          "name": "TeamYouTube·扩展公告",
+          "url": "https://support.google.com/youtube/blog/476738871/expanding-the-ability-to-hype-with-jewels-to-more-markets?hl=en-JE",
+          "originalTitle": "Expanding the ability to hype with Jewels to more markets!"
+        },
+        {
+          "name": "YouTube Help·创作者规则",
+          "url": "https://support.google.com/youtube/answer/15427201?hl=en",
+          "originalTitle": "Virtual Items Program Policies for Creators"
+        }
+      ]
+    },
+    {
+      "id": "openai-biobasicsbench-wet-lab-analysis",
+      "title": "OpenAI发布百项湿实验数据分析基准",
+      "brief": "BioBasicsBench用真实实验数据考查智能体解读图像、检测结果和对照的能力。",
+      "summary": "OpenAI于11月6日发布BioBasicsBench，包含100项常见湿实验（wet lab）数据分析任务。在同为xhigh的推理设置下，GPT-6 Astra平均拿到66.7%的评分分值，GPT-5.6 Sol为43.8%。题目按评分项给部分分，结果衡量对现有材料的解读能力。研究者仍观察到模型错读图像或忽略对照。\nEN: OpenAI's 100-task BioBasicsBench tests analysis of real wet-lab data, with GPT-6 Astra earning 66.7% of available credit at xhigh effort.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "基准使用真实实验数据，并明确评分分值和实验判断的边界。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI·研究报告",
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "originalTitle": "Measuring how AI agents handle everyday wet-lab science"
+        }
+      ]
+    },
+    {
+      "id": "nasa-iss-final-rollout-solar-array",
+      "title": "国际空间站完成最后一组可卷展太阳翼安装",
+      "brief": "宇航员安装第八组太阳翼，NASA称空间站发电能力由160千瓦提升到约215千瓦。",
+      "summary": "NASA通报，美国和加拿大宇航员于美东时间11月5日完成近7小时舱外活动，安装并展开国际空间站最后一组可卷展太阳翼（IROSA）。这是多年供电升级的收尾，NASA称八组太阳翼合计将空间站发电能力由160千瓦提升到约215千瓦。\nEN: NASA said astronauts installed the ISS's eighth and final roll-out solar array, completing an upgrade to about 215 kW of power capacity.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "航天工程有官方完工记录，发电增量限定为整个升级工程。"
+      },
+      "sources": [
+        {
+          "name": "NASA·完工报告",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalkers-install-final-roll-out-solar-array/",
+          "originalTitle": "Spacewalkers Install Final Roll-Out Solar Array"
+        },
+        {
+          "name": "NASA·次日运行更新",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/11/06/spacewalk-cleanup-biomedical-science-and-maintenance-wrap-up-week/",
+          "originalTitle": "Spacewalk Cleanup, Biomedical Science, and Maintenance Wrap Up Week"
+        }
+      ]
+    }
+  ]
+}

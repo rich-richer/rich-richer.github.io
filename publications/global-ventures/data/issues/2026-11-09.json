@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-10T18:14:24+08:00",
+  "coverage": {
+    "start": "2026-11-02T12:35:53+08:00",
+    "end": "2026-11-09T12:35:53+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "report-drawing-revision-quote-summary",
+      "title": "执行摘要：中国外贸小工厂愿为询价图纸改版核对付费吗",
+      "brief": "先测改版核对能否节省人工复查，再看小型机加工厂是否愿付试用费。置信度中，付费需求待测。",
+      "summary": "本期问题：中国外贸小工厂愿为询价图纸改版核对付费吗？结论：先验证频繁处理改版询价的机加工厂。依据：2026年5月20日，CADDi公布三菱综合材料美国团队把图纸与历史报价连起来的案例；Xometry于11月2日更新报价配置，把材料、公差、数量等信息纳入同一界面。置信度：中，对流程问题有依据，对国内单项工具的付费意愿证据低。\n分析：先做收图到发报价之间的复核工具。输入两版PDF，给出差异位置、原文和待确认事项，最终由报价员确认；价值用每次核对时间、关键漏项和真实试用付款验证。暂以普通机加工零件为边界，排除受控和保密图纸。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "把海外已上线的图纸和报价流程拆成小工厂可用合成数据实测的单项服务。"
+      },
+      "sources": [
+        {
+          "name": "CADDi（与客户共同发布的案例）",
+          "url": "https://caddi.com/en-us/news/announcements/mitsubishi-materials-usa-caddi-jan-2026/",
+          "originalTitle": "Mitsubishi Materials USA Accelerates Custom Engineering and Quoting with CADDi Drawing Intelligence"
+        },
+        {
+          "name": "Xometry（产品更新）",
+          "url": "https://www.xometry.com/release-notes/",
+          "originalTitle": "Xometry Release Notes | Instant Quoting"
+        }
+      ]
+    },
+    {
+      "id": "fact-base-series-d-drawing-management",
+      "title": "Fact Base：日本图纸软件D轮公布45亿日元",
+      "brief": "日本图纸软件公司公布45亿日元D轮、含老股转让，自报收入同比2.3倍。启示：从图纸找到报价入口。",
+      "summary": "日本东京的Fact Base在11月5日宣布D轮总额45亿日元，由Insight Partners领投，包含定向增发和老股转让，未分拆两项金额。其云软件ZUMEN把图纸与相关资料集中管理，客户主要是中小制造企业和工厂。\n怎样赚钱：公司将自己定位为软件即服务（SaaS）厂商，收入来自企业使用其软件的服务。公开资料不足以核实按席位还是按工厂计价。增长证据：公司自报营收为上年同期2.3倍、部署企业数为2.2倍，覆盖日本在内14国。⚠️ 待核实：未找到经审计或权威披露的营收绝对金额，利润与估值也未披露。\n分析：中国小厂已有本地图纸和产品数据管理工具，先比较报价前的查图与改版核对耗时。风险集中在客户图纸授权、CAD格式适配、漏标尺寸的责任，以及每家工厂单独接入造成的实施成本。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "同时核实交易结构和公司自报经营指标，将融资总额与新入账资金分开。"
+      },
+      "sources": [
+        {
+          "name": "Fact Base（公司在PR TIMES发布）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000025.000118783.html",
+          "originalTitle": "Fact Base、シリーズDラウンドにて総額45億円の資金調達を実施",
+          "publishedAt": "2026-11-05T05:00:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "kalepa-series-b-insurance-underwriting",
+      "title": "Kalepa：商险核保软件获7500万美元B轮",
+      "brief": "纽约商险核保软件获7500万美元B轮，自报一年营收和客户均增至3倍。启示：先从核保资料复核切入。",
+      "summary": "美国纽约Kalepa在11月5日公布7500万美元B轮，估值4.7亿美元，领投方Updata同日确认投资。公司为财产及责任保险公司和管理型总代理（MGA）提供核保软件，将投保资料、风险筛选、定价规则和人工审批放在同一流程。\n怎样赚钱：分析上属于面向机构的软件合同，未核实其计价单位或单客合同额。增长证据：公司称过去一年营收及客户数均增至原来的3倍，并称已连续两年多保持现金流为正。⚠️ 待核实：未找到经审计或权威披露的营收绝对金额，现金流数据不足以判断净利润。\n分析：中国可从保险机构内部的资料检查试点，先验证本地险种规则、保单系统接口、授权与人工复核。风险包括误读材料引发错误核保、承保责任边界和接入保险系统的成本，实际业务范围由机构合规人员确认。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "公司与领投方均确认融资，且本案适合比较核保软件的垂直工作流与人工判断。"
+      },
+      "sources": [
+        {
+          "name": "Kalepa（公司公告）",
+          "url": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b",
+          "originalTitle": "Kalepa Raises $75 Million Series B at a $470 Million Valuation to Expand Professional Grade AI Across Insurance"
+        },
+        {
+          "name": "Updata Partners（领投方公告）",
+          "url": "https://updata.com/updata-partners-viii-invests-in-kalepa/",
+          "originalTitle": "Updata Partners VIII Invests in Kalepa"
+        }
+      ]
+    },
+    {
+      "id": "guava-voice-agent-api-seed",
+      "title": "Guava：语音智能体接口获1250万美元种子轮",
+      "brief": "语音智能体开发接口获1250万美元种子轮，公司称已有十余家企业使用。启示：从人工可接管的来电试起。",
+      "summary": "美国洛杉矶Guava在11月3日宣布获1250万美元种子融资，Acrew Capital领投。它向企业和业务流程外包商（BPO）提供语音智能体开发接口，将语音识别、语言模型与合成语音放在一套产品中。\n怎样赚钱：11月9日官网标价显示Build档每月149美元、超额每分钟0.14美元。增长证据：公司称9月发布的首个公开模型Daytona已服务十余家企业，每天支撑数万通电话，未公布续费率。⚠️ 待核实：未找到经审计或权威披露的营收数据，融资额不能用于推算营收、估值或利润。\n分析：中国试点可比较现有云联络中心和人工外包的来电成本，优先测预约确认或工单查询等范围清晰的流程。风险包括录音授权和留存、电话平台政策、误答后的投诉与转人工成本，以及口音和噪声带来的返工。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "融资由公司稿核实，价格由官网核实，企业数和通话量均标作公司自报。"
+      },
+      "sources": [
+        {
+          "name": "Guava（Business Wire公司稿，由TMCnet转载）",
+          "url": "https://www.tmcnet.com/usubmit/-guava-lands-125-million-tackle-voice-ais-real-/2026/11/03/10474477.htm",
+          "originalTitle": "Guava Lands $12.5 Million to Tackle Voice AI's Real-world Growing Pains"
+        },
+        {
+          "name": "Guava（官方价格）",
+          "url": "https://goguava.ai/pricing",
+          "originalTitle": "Pricing"
+        }
+      ]
+    },
+    {
+      "id": "report-drawing-revision-quote-demand",
+      "title": "需求与市场：先数改版询价和复核分钟",
+      "brief": "工程机械有数字化服务政策线索；单项工具的市场从改版询价频次和付费人开始测。",
+      "summary": "2026年8月5日，泉州市工信局、财政局公开中小企业数字化转型专项资金项目申报通知，工程机械与纺织专用设备属于所列细分行业，文件征集能服务这些企业的轻量产品。该范围说明地方在组织供需对接，实际采购和图纸复核付费仍需单独调查。\n分析：从按图加工、常用PDF和邮件收件、同一零件多次改版的企业招募。访谈时把询价、改版询价、出现关键差异三者分开计数，再记每次用时、谁返工、谁批预算。优先记录按月可复现的问题，例如单号不变而材料或公差变动。当前缺少能说明这类服务规模的中国企业样本，暂用自下而上的频次、可节省工时与合同额核算。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把地方政策当线索，使用可以在单厂计数的指标而不套全国市场规模。"
+      },
+      "sources": [
+        {
+          "name": "泉州市工信局、财政局（试点申报通知）",
+          "url": "https://gxj.quanzhou.gov.cn/zwgk/zfxxgk/fdzdgknr/gzdt/202608/t20260805_3316596.htm"
+        }
+      ]
+    },
+    {
+      "id": "report-drawing-revision-quote-benchmarks",
+      "title": "对标公司：CADDi与数码大方",
+      "brief": "CADDi做制造数据平台，数码大方做研发协同。两者显示图纸管理已有供给，单项需求仍待测。",
+      "summary": "日本起家的CADDi把工程、采购、生产和质量数据连在同一平台。2026年9月16日公司称已签署1.14亿美元D轮最终协议，对应12亿美元估值，这是融资与估值口径。中国数码大方提供CAXA产品生命周期管理（PLM）。其在8月27日发布的江苏道金选型案例覆盖图文档、变更、外协发图与企业资源计划（ERP）集成，披露的是一家选型客户及计划范围，未披露合同金额、席位或验收效果。\n分析：海外平台擅长跨团队找历史图纸，国内集成商有本地工作流和实施渠道。单项服务只有在兼容既有工具、上线比整套系统简单且复核结果能交回原流程时，才可能保住位置。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用融资和有名有姓的客户选型分别作规模证据，避免把选型写成交付效果。"
+      },
+      "sources": [
+        {
+          "name": "CADDi（公司融资与产品说明）",
+          "url": "https://caddi.com/en-us/news/announcements/caddi-seriesd-unicorn-status/",
+          "originalTitle": "CADDi Raises $114 Million in Series D at $1.2 Billion Valuation"
+        },
+        {
+          "name": "数码大方（在软服之家发布的选型案例）",
+          "url": "https://www.ruanfujia.com/post/11702872/"
+        }
+      ]
+    },
+    {
+      "id": "report-drawing-revision-quote-economics",
+      "title": "商业模式与收入成本：先核算按次复核",
+      "brief": "按批报价，并把首次部署、每次人工复核和支持时间都计入成本；实际付款才验证价格。",
+      "summary": "11月9日查阅Onshape官网，Professional商业版标价每用户每年2500美元，包含正式发布管理。这个价格对应完整设计与数据协同套件，单项复核的价格要重新验证。\n分析：先测按批收取人工核对服务费，复购稳定后再试每工厂订阅。单位经济（unit economics）按单客户算：实收减图纸解析、存储、复核人时与售后，再扣除首批格式适配和部署成本。客户侧收益按少花的报价工时和可确认的返工费用记账，未实际发生的返工只作风险估算。假设每月20单、每单节省10分钟，共约3.3小时；若只省这些时间且客户支付低于交付成本，就不能靠增加模型用量解决，需降低人工交付成本或选择更高频客户。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "公开价格只作供给参照；客户频次和节省时间明确为计算假设。"
+      },
+      "sources": [
+        {
+          "name": "Onshape（官方商业价格）",
+          "url": "https://www.onshape.com/en/pricing",
+          "originalTitle": "Onshape Plans and Pricing"
+        }
+      ]
+    },
+    {
+      "id": "report-drawing-revision-quote-competition",
+      "title": "竞争与进入门槛：接入既有图纸流程",
+      "brief": "现有产品已覆盖版本和审批。单项工具要证明它能在邮件与共享目录中更快交付可复核的差异。",
+      "summary": "11月9日查阅Onshape的发布管理说明，其产品已支持按零件号设置版本、追踪图纸发布状态、配置审批和通知。这说明版本功能可以被现有设计平台打包。已统一使用此类系统的客户，新增工具要经过接口、安全和采购评估，迁移整套设计软件的成本尤其高。\n分析：从仍用邮件和共享盘收两版PDF的工厂试起，导出页码、原文、差异及审核记录，不要求改换主系统。技术门槛是处理单位、公差、扫描倾斜、缺页和错配零件号；渠道门槛是能找到负责报价且有签单权限的客户。把文件名规则加人工比对设为对照，模型方案要测出增益才进入下一轮。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "版本审批已是现有产品能力，竞争测试必须包含低成本替代方案。"
+      },
+      "sources": [
+        {
+          "name": "Onshape（官方产品说明）",
+          "url": "https://www.onshape.com/en/features/release-management",
+          "originalTitle": "Release Management for CAD | Version & Revision Control"
+        }
+      ]
+    },
+    {
+      "id": "report-drawing-revision-quote-china",
+      "title": "中国落地条件：授权、部署与交付",
+      "brief": "首轮仅用自制样图，真图试用须由权利方授权，事先明确本地部署、访问和删除条件。",
+      "summary": "市场监管总局2026年2月24日公布《商业秘密保护规定》，6月1日起施行。该规定列举标记、分类、隔离、加密和限制接触等保密措施。中国试点应区分普通文件和受保密或行业规则约束的图纸，按权利方授权和客户合同决定谁能看、可否转交处理和保存多久。涉及跨境处理、特殊行业或不清楚的权属，先让客户合规人员和专业人士确认，首轮只用自制样图。\n分析：可以由本地机加工服务商介绍企业客户，以人民币按批报价，并由一位懂机械制图的复核员验收。交付先支持常见PDF、版本标记和导出清单；客户要求本地处理时，报价须覆盖部署、支持和删除核验。收费对象与采购人应在试用前明确。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用生效规章支撑图纸授权和保护边界，部署及采购方式作为试点设计。"
+      },
+      "sources": [
+        {
+          "name": "国家市场监督管理总局（规章原文）",
+          "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_a89ca909478b460595670fabe02b21d3.html"
+        }
+      ]
+    },
+    {
+      "id": "report-drawing-revision-quote-risks",
+      "title": "主要风险：漏标公差和图纸外泄",
+      "brief": "关键变更漏报与客户文件外泄会破坏信任；先测拒识和回看证据，再决定能否交付。",
+      "summary": "最高人民法院网站于2026年3月20日发布无锡机械设备秘密图纸案件报道，介绍审理中如何核实图纸里的63个秘密点。这是对既往个案的公开报道。图纸保护要从可接触文件的人和系统着手，软件、日志和转包同样应在授权范围内。\n分析：公差、材料或单位变化漏报会损害信誉，低清或难辨页要明确提示人工复核；错版被用于发报价还可能造成返工。平台风险在于邮箱或文档系统权限变动，第一轮支持手工导入导出即可。若客户都要单独私有部署，支持工时可能吞掉毛利；外贸订单减少也会使低频工厂暂停采购。将回看原图、保留审核记录和规定样本删除时间纳入验收。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "以法院公开案例交代图纸保密的现实后果，其他风险标为流程推断。"
+      },
+      "sources": [
+        {
+          "name": "最高人民法院（案件报道）",
+          "url": "https://www.court.gov.cn/zixun/xiangqing/495311.html"
+        }
+      ]
+    },
+    {
+      "id": "report-drawing-revision-quote-scenarios",
+      "title": "情景预测：按付款与漏项决定",
+      "brief": "根据关键漏项、节省时间、授权和试用实收判断三种情景，门槛是试验判据。",
+      "summary": "南京市工信局2026年5月26日公布的试点指引，核查数字化改造时要求查验合同、发票、对公付款凭证和实施情况。小试点也用书面验收和实收区分口头兴趣；以下数值是试验判据。\n乐观：至少两家付费试用，留出测试关键改动零漏报，中位耗时比人工少30%或以上。触发后继续观察四周复购与交付成本。\n基准：至少一家付费且留出测试无关键漏报，但试用方或节时未达乐观门槛。保留人工辅助的按批服务，记录售后工时后再决定做软件。\n保守：无人愿付、资料授权不明或留出集出现关键漏报。暂停自动交付，回查是格式覆盖、频次低还是责任边界导致；在复测和新授权前保留原人工流程。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "以有据可查的付款和验收结果替代无根据的情景概率。"
+      },
+      "sources": [
+        {
+          "name": "南京市工业和信息化局（试点项目验收指引）",
+          "url": "https://gxj.nanjing.gov.cn/njsjjhxxhwyh/202605/t20260526_5846065.html"
+        }
+      ]
+    },
+    {
+      "id": "report-drawing-revision-quote-test-plan",
+      "title": "30天可验证行动：八访谈、盲测、试用",
+      "brief": "用自制图纸盲测时间与漏项，再邀请符合条件的工厂试用，记录实收与交付工时。",
+      "summary": "Xometry在2026年7月20日更新的报价分享说明中，把可下载PDF、时间戳及报价审批作为跨角色传递依据。试验设计借用这种可核对的交付物。\n① 第1周访谈8家目标机加工厂，只记改版次数、耗时和预算归属，访谈不收客户图纸。② 第2周自制24对图纸，覆盖文本、扫描和多页PDF，植入单位、公差、材料、版本号或页次变化；留18对盲测，分别记录纯人工与工具加人工的核对耗时、关键漏项和误报。③ 第3周给至少3家合格工厂看自制样例，递交同范围的固定按批试用报价，记录接受与拒绝原因。④ 第4周核对是否实际付款以及每单复核、支持工时；未满足授权、零关键漏报或实收门槛时，先不增加投入。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "四项动作给出可衡量终点，测试可用自制图纸，不采集客户原始文件。"
+      },
+      "sources": [
+        {
+          "name": "Xometry（报价分享工作流）",
+          "url": "https://www.xometry.com/resources/blog/share-online-manufacturing-quotes/",
+          "originalTitle": "Edit, Manage, and Share Xometry Online Manufacturing Quotes"
+        }
+      ]
+    }
+  ]
+}

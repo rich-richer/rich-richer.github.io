@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-10T18:14:24+08:00",
+  "coverage": {
+    "start": "2026-11-02T12:35:53+08:00",
+    "end": "2026-11-09T12:35:53+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "kimi-k31-pro-weight-release",
+      "title": "Kimi K3.1 Pro开放权重，模型仓库约1.56 TB",
+      "brief": "月之暗面公开下载文件。研究者可直接检验模型，存储、推理资源和许可仍是部署条件。",
+      "summary": "本周多家团队公开大模型的权重和训练细节，另有研究尝试缩短视觉规划的生成时间。权重公开让研究者能够独立复测，下载体积、运行成本和许可共同决定可用范围。11月5日公开报道时，月之暗面已在官方仓库提供Kimi K3.1 Pro权重，承接10月的模型和API发布。官方模型卡列出2.8万亿总参数、每个词元激活约1040亿参数，上下文约105万词元，采用门控稀疏注意力。下载仓库约1.56 TB，包含96个模型分片。该数字是文件体积。专用许可对达到门槛的模型即服务业务和标识有额外条款。",
+      "category": "开放权重模型",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "权重开放是本周新增进展，模型卡、文件和许可均可核对。"
+      },
+      "sources": [
+        {
+          "name": "月之暗面·官方模型卡",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+          "originalTitle": "Kimi-K3.1-Pro"
+        },
+        {
+          "name": "月之暗面·官方文件清单",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro/tree/main",
+          "originalTitle": "Kimi-K3.1-Pro files"
+        },
+        {
+          "name": "月之暗面·权重许可",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro/blob/main/LICENSE"
+        },
+        {
+          "name": "月之暗面·10月发布公告",
+          "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "IT之家·11月5日报道",
+          "url": "https://www.ithome.com/1/022/490.htm",
+          "publishedAt": "2026-11-05T08:00:15+08:00",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/hkcafk9es55rbok8pinu90x5o"
+          }
+        }
+      ]
+    },
+    {
+      "id": "inkling-2-small-unified-rl",
+      "title": "Inkling 2 Small把多类任务合进一次强化学习",
+      "brief": "Thinking Machines用一次统一训练覆盖多种任务，尝试同时提高代码、推理和工具使用能力。",
+      "summary": "Thinking Machines于11月5日推出多模态混合专家模型Inkling 2 Small。官方列出5940亿总参数、每个词元激活170亿参数。后训练使用一次大规模强化学习（RL），让模型在不同执行框架和上下文压缩条件下做多类任务。对于长程编程，团队构造合成任务，部分评分交给能调用工具的评估智能体，结合任务过程和输出给反馈。发布时Tinker已提供该模型，Apache 2.0权重是后续计划。官方基准使用特定的提示和执行框架，复杂任务中的事实可靠性及迁移效果仍需独立评估。",
+      "category": "后训练与对齐",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "官方披露了多任务强化学习和长程代码训练的具体设计。"
+      },
+      "sources": [
+        {
+          "name": "Thinking Machines·官方发布",
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+          "originalTitle": "Inkling 2 Small",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl"
+          }
+        },
+        {
+          "name": "Thinking Machines·模型卡",
+          "url": "https://thinkingmachines.ai/model-card/inkling-2-small/",
+          "originalTitle": "Inkling 2 Small Model Card"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-vflash-visual-planning",
+      "title": "VFlash一次解码一组坐标，加快机器人视觉规划",
+      "brief": "轻量模型一次提出完整图元，再检查结构。作者在四项模拟任务上报告更高的平均完成率。",
+      "summary": "Yu-Cheng Chou、Shihao Wang、Jin Huang等来自英伟达、约翰斯·霍普金斯大学、香港理工大学、普渡大学和香港大学，11月5日（UTC）提交《VFlash：通过快速图元解码实现视觉规划》（VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding），为arXiv预印本。轻量模型一次提出完整图元，例如一组二维或三维坐标，再由主模型验证其结构。作者报告，下游动作模型在四项MolmoSpaces模拟任务上的平均成功率从62.6%升至70.2%。批量生成几何单元可减少规划解码开销，测得的提速取决于任务和硬件，整机响应还受传感、执行等环节影响。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "同时报告解码开销与下游机器人任务结果，原文和官方项目均可核对。"
+      },
+      "sources": [
+        {
+          "name": "arXiv·论文原文",
+          "url": "https://arxiv.org/abs/2611.08449",
+          "originalTitle": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+          "publishedAt": "2026-11-05T18:44:43Z"
+        },
+        {
+          "name": "英伟达研究·项目页",
+          "url": "https://research.nvidia.com/labs/lpr/vflash/",
+          "originalTitle": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding"
+        }
+      ]
+    },
+    {
+      "id": "harness-s-sibling-rescue-training",
+      "title": "Harness-S用专用执行框架补充智能体训练",
+      "brief": "通用框架遇到难题时，从专用框架补采成功轨迹，训练同一策略回到通用框架完成任务。",
+      "summary": "Kangning Zhang等来自上海交通大学、小红书、中关村人工智能研究院、东南大学和卡内基梅隆大学，11月3日提交《Harness-S：用同源执行框架训练可泛化智能体》（Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training），为arXiv预印本。通用执行框架多次尝试仍失败后，系统让同一策略借助专用框架补采训练轨迹，再回到通用框架执行。这样能为困难任务补充强化学习信号。作者在AppWorld、SWE-Gym和DBBench报告收益，效果依赖预先设计的专用框架、任务路由和验证器，跨业务迁移尚待检验。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "以训练时的额外工具和流程改进通用框架中的部署表现，覆盖三种任务。"
+      },
+      "sources": [
+        {
+          "name": "arXiv·论文原文",
+          "url": "https://arxiv.org/abs/2611.04277",
+          "originalTitle": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+          "publishedAt": "2026-11-03T04:03:44Z"
+        },
+        {
+          "name": "论文作者·开源实现",
+          "url": "https://github.com/DeepExperience/Harness-S",
+          "originalTitle": "Harness-S"
+        }
+      ]
+    },
+    {
+      "id": "ernie-55-flash-base-weights",
+      "title": "百度开放ERNIE 5.5 Flash预训练底座",
+      "brief": "百度发布纯文本混合专家底座，区分128K训练长度与后续微调、推理可用的长上下文。",
+      "summary": "百度11月5日发布ERNIE 5.5 Flash Base权重。官方模型卡列出2800亿总参数、每个词元激活140亿参数，预训练使用33.5万亿词元。模型混用压缩注意力和稀疏注意力，最长训练上下文为128K，模型卡另外列出最高约100万词元的微调和推理支持。团队提供BF16和FP8权重。这一版本停在纯文本预训练阶段，可作为后训练起点，面向终端用户的指令遵循和交互质量仍需适配与评测。专用许可限定适用地区和商业条件。",
+      "category": "预训练与架构",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "公开了可研究的预训练底座，能区分上下文口径、权重精度与后训练阶段。"
+      },
+      "sources": [
+        {
+          "name": "百度·官方模型卡",
+          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+          "originalTitle": "ERNIE-5.5-Flash-Base"
+        },
+        {
+          "name": "百度·权重许可",
+          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-agent-memory-notes-dreaming",
+      "title": "Anthropic让智能体在会话之间复盘记忆",
+      "brief": "助手留下笔记，后台回看并核对原始记录，再把可复用知识写入可检索的知识库。",
+      "summary": "Anthropic于11月6日介绍智能体记忆的组成。系统从会话记录提取笔记，让后台流程回看原始材料、纠正笔记并更新知识库。智能体处理下一项任务时，只取回相关资料。团队把这种异步复盘称为dreaming。在25道内部知识题上，搜索与知识库结合得分61%，仅搜索得分53%。测试规模较小，收益取决于资料质量和检索效果。笔记的错误也可能进入后续会话，保留来源与复盘校验会影响记忆能否长期复用。",
+      "category": "智能体与应用",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "解释跨会话记忆的实际结构，并给出带对照的小规模内部实验。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic·研究报告",
+          "url": "https://www.anthropic.com/research/components-of-agent-memory",
+          "originalTitle": "Components of agent memory",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449"
+          }
+        }
+      ]
+    },
+    {
+      "id": "microsoft-pdd-kit-formal-verification",
+      "title": "微软用形式化验证检查智能体写的代码",
+      "brief": "PDD Kit把部分需求写成机器可核对的规范。可证明的性质交给验证器，其余部分用测试检查。",
+      "summary": "微软研究院的Alex Lavaee和Matthai Philipose于11月5日介绍PDD Kit。他们在GitHub Next的Chopin项目中，让智能体把已经确认的需求写成Verus形式化规范，再用验证器检查Rust实现，无法覆盖的部分用测试补充。公开示例是宠物商店的登录流程。证明的价值在于能自动检查特定代码性质，范围取决于规范是否准确以及验证器能覆盖哪些代码。界面和外部依赖等部分仍需要测试及人工核对。",
+      "category": "智能体与应用",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用公开原型说明智能体编程如何接入形式化验证及其范围。"
+      },
+      "sources": [
+        {
+          "name": "微软研究院·工程博客",
+          "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+          "originalTitle": "Formally verifying agent-written full-stack web apps with PDD Kit"
+        }
+      ]
+    },
+    {
+      "id": "classic-paper-lecun-lenet-document-recognition",
+      "title": "经典回顾：LeNet如何读出支票上的数字",
+      "brief": "LeNet用卷积从像素学习笔画特征，论文还展示了把分割和识别放在同一目标下训练。",
+      "summary": "Yann LeCun、Léon Bottou、Yoshua Bengio和Patrick Haffner在1998年11月的《Proceedings of the IEEE》正式发表《基于梯度学习的文档识别》（Gradient-Based Learning Applied to Document Recognition）。四位作者署名AT&T实验室，Bengio另署蒙特利尔大学。LeNet-5用局部感受野、共享权重和下采样从图像学习笔画，在MNIST手写数字上与其他方法比较。作者还用图变换网络联合训练切分、识别等模块，展示商用银行支票识别系统。论文把卷积网络从单字符分类推进到完整识别流程，实验主要针对手写数字和特定文档，跨版式和跨文字识别仍要重新验证。",
+      "category": "经典论文回顾",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "论文目录序号5，接续上一期的LSTM，展示卷积神经网络如何进入实际文档识别。"
+      },
+      "sources": [
+        {
+          "name": "Proceedings of the IEEE·论文原文",
+          "url": "https://doi.org/10.1109/5.726791",
+          "originalTitle": "Gradient-Based Learning Applied to Document Recognition"
+        },
+        {
+          "name": "本站·AI论文目录",
+          "url": "https://github.com/rich-richer/rich-richer.github.io/blob/main/editorial/paper-catalog.md"
+        },
+        {
+          "name": "Léon Bottou·作者公开全文",
+          "url": "https://leon.bottou.org/publications/pdf/ieee-1998.pdf",
+          "originalTitle": "Gradient-Based Learning Applied to Document Recognition"
+        }
+      ]
+    }
+  ]
+}

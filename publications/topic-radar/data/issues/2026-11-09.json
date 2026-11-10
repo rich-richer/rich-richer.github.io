@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-10T18:14:24+08:00",
+  "coverage": {
+    "start": "2026-11-05T12:13:28+08:00",
+    "end": "2026-11-09T12:35:53+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "kimi-k31-llama-cpp-text-support",
+      "title": "Kimi权重能下了，llama.cpp接入到哪一步",
+      "brief": "llama.cpp已合入Kimi K3.1 Pro纯文本支持。切入：从权重可下载到本机可运行，还要过哪几关。",
+      "summary": "北京时间11月7日，llama.cpp合入Kimi K3.1 Pro的纯文本支持，完整模型规格见本期研发周报。11月9日12:25采集，Hugging Face官方模型页1733个赞，GitHub合并请求有1条讨论评论和8条审查评论，各自计数。关注点是开放权重之后的运行门槛，合并记录并未确认所有硬件或图像输入均可用。切入①B站长视频，沿着权重、运行时、硬件列验收表。②短视频，读懂合并记录里的纯文本边界。③图文，把自部署开销与托管接口放进同一张对照表。",
+      "category": "国内",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "国产模型有明确的后续适配事件及模型页关注数据，适合拆开讲权重、兼容性和部署。"
+      },
+      "sources": [
+        {
+          "name": "llama.cpp·合并请求",
+          "url": "https://github.com/ggml-org/llama.cpp/pull/31779",
+          "originalTitle": "model: add Kimi-K3.1-Pro text model"
+        },
+        {
+          "name": "Hugging Face·月之暗面模型页",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+          "originalTitle": "moonshotai/Kimi-K3.1-Pro"
+        },
+        {
+          "name": "本站·AI 研发前沿周报（完整报道）",
+          "url": "https://rich-richer.github.io/p/ai-architecture/?date=2026-11-09#kimi-k31-pro-weight-release"
+        }
+      ]
+    },
+    {
+      "id": "openclaw-model-discovery-refresh",
+      "title": "OpenClaw怎样接到新模型",
+      "brief": "OpenClaw公开模型发现改造。切入：有些新模型能直接刷新，哪些情况仍要更新本机工具？",
+      "summary": "OpenClaw于11月6日发文解释模型列表改造，现由托管目录、服务商账户和符合条件的本机Codex共同提供。11月9日12:24采集，GitHub主仓库累计394211个星标、82842个分叉，指标反映整个项目关注度。用户关心的问题是目录里能看到的模型，账户和运行环境是否也能调用。切入①B站长视频，画出三条来源及各自的失败点。②短视频，用模型列表和可运行状态对照讲清差别。③图文，梳理目录更新、本机版本和账号权限三类排查。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "用官方更新和可查的项目关注量解释一个真实的模型可用性问题。"
+      },
+      "sources": [
+        {
+          "name": "OpenClaw·工程博客",
+          "url": "https://openclaw.ai/blog/use-new-models-in-openclaw-without-an-update",
+          "originalTitle": "Use new models in OpenClaw without an update"
+        },
+        {
+          "name": "GitHub·OpenClaw项目",
+          "url": "https://github.com/openclaw/openclaw",
+          "originalTitle": "OpenClaw"
+        }
+      ]
+    },
+    {
+      "id": "hyperflow-h3-flash-creator-benchmark",
+      "title": "压缩版H3音画同生成，怎样公平测速度",
+      "brief": "Video Rebirth公开压缩版H3代码与权重。切入：同片长、同显卡对比耗时、画面和音轨。",
+      "summary": "Video Rebirth的HyperFlow H3 Flash代码仓库建于11月6日，公开权重页同日有更新。项目将MiniMax H3压缩为少步生成，视频与立体声音轨同时输出。11月9日12:24—12:25采集，GitHub有146个星标和7个分叉，Hugging Face模型页105个赞，属于早期社区关注。切入①B站长视频，固定同一硬件与片长比较不同步数。②短视频，对照口型、动作与音轨。③图文，将模型文件体积、完整运行开销与权重许可分栏写清。项目方的速度样例先标为自测。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "新公开项目已有可核验的小规模互动，选题可围绕内容制作中的时间、质量与许可。"
+      },
+      "sources": [
+        {
+          "name": "GitHub·Video Rebirth项目",
+          "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+          "originalTitle": "HyperFlow H3 Flash"
+        },
+        {
+          "name": "Hugging Face·Video Rebirth权重页",
+          "url": "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash",
+          "originalTitle": "VideoRebirthAI/hyperflow-h3-flash"
+        }
+      ]
+    }
+  ]
+}
