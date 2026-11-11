@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T16:15:05+08:00",
+  "coverage": {
+    "start": "2026-11-04T16:15:05+08:00",
+    "end": "2026-11-11T16:15:05+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "dario-amodei-anthropic-ipo-roadshow",
+      "title": "阿莫迪：Anthropic启动上市路演",
+      "brief": "Anthropic拟以每股70至78美元发行A类股。路演公开了拟发行规模和报价区间。",
+      "summary": "11月10日，达里奥·阿莫迪（Dario Amodei）领导的Anthropic启动首次公开募股（IPO）路演。读者可以据此区分拟发行条件与最终定价。公司公告列出每股70至78美元的拟议价格区间，拟发行8.25亿股A类普通股，其中约8.01亿股由公司发行，其余由部分现有股东出售。公司已申请在纳斯达克以ANT为代码挂牌。按公告披露，注册声明当时尚未生效。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "AI模型公司公开拟发行规模与价格区间，可据此跟踪招股条件和后续定价。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic·公司公告",
+          "url": "https://www.anthropic.com/news/roadshow-launch",
+          "originalTitle": "Anthropic launches roadshow for proposed initial public offering"
+        },
+        {
+          "name": "美联社·路演报道",
+          "url": "https://apnews.com/article/anthropic-ipo-claude-ai-spacex-openai-amodei-8cf2319c870322019712ab658f71ec55",
+          "originalTitle": "Anthropic seeks valuation of about $1.3 trillion when it becomes a publicly traded company"
+        }
+      ]
+    },
+    {
+      "id": "jensen-huang-nvlink-fusion-rebellions-skt",
+      "title": "黄仁勋：英伟达与韩国两企合作开发推理机架",
+      "brief": "英伟达、Rebellions和SK电讯公布合作，将测试由两类芯片分担模型推理的方案。",
+      "summary": "11月8日，英伟达、韩国芯片公司Rebellions与SK电讯宣布合作。按公告，Rebellions计划用NVLink Fusion把R200神经网络处理器（NPU）接入英伟达平台，SK电讯计划部署相关系统。黄仁勋在公司公告中把本地芯片接入英伟达平台列为合作重点。三方拟让英伟达GPU先处理输入，再由R200逐步生成输出，合作公告公布的是开发和部署计划。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "有助于跟踪英伟达如何让其他厂商芯片接入其机架，以及跨芯片分工在推理中的落地进度。"
+      },
+      "sources": [
+        {
+          "name": "英伟达·三方公告",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+          "originalTitle": "NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion"
+        }
+      ]
+    },
+    {
+      "id": "sam-altman-openai-chatgpt-enterprise-aws-marketplace",
+      "title": "奥尔特曼：OpenAI企业版进入AWS采购渠道",
+      "brief": "企业可通过AWS Marketplace采购ChatGPT企业版，符合条件的支出可计入原有AWS承诺。",
+      "summary": "11月9日，萨姆·奥尔特曼（Sam Altman）领导的OpenAI宣布，ChatGPT企业版已进入AWS Marketplace。企业可沿用现有的AWS采购和账单流程，符合条件的支出可计入既有AWS消费承诺。OpenAI称该渠道与直接采购可获得同样的模型和功能，新功能也同步上线。对已有AWS采购体系的团队，变化主要在采购和结算环节。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "既有云采购和结算机制成为ChatGPT企业版的新增销售渠道。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI·产品公告",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+          "originalTitle": "ChatGPT Enterprise now available in AWS Marketplace"
+        },
+        {
+          "name": "AWS Marketplace·官方产品页",
+          "url": "https://aws.amazon.com/marketplace/pp/prodview-sscra4m7iracg",
+          "originalTitle": "ChatGPT Enterprise"
+        }
+      ]
+    },
+    {
+      "id": "fei-fei-li-corl-atlas-keynote-lisa-su",
+      "title": "李飞飞：CoRL安排Atlas演讲及对谈",
+      "brief": "机器人学习大会（CoRL）议程安排李飞飞介绍Atlas，并与AMD首席执行官苏姿丰对谈。",
+      "summary": "在11月9日至11日于奥斯汀举行的机器人学习大会（CoRL）主会上，官方议程安排World Labs首席执行官李飞飞（Fei-Fei Li）介绍Atlas。演讲摘要将图像生成和三维场景重建列为重点，同场下半段安排她与AMD首席执行官苏姿丰（Lisa Su）对谈。World Labs的Atlas实时浏览演示已由本站日报另文介绍。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把焦点放在李飞飞面向机器人研究者的演讲与公开对谈，产品演示链接到已有报道。"
+      },
+      "sources": [
+        {
+          "name": "CoRL·官方主题演讲议程",
+          "url": "https://www.corl.org/program/keynotes",
+          "originalTitle": "CoRL 2026 - Keynotes"
+        },
+        {
+          "name": "CoRL·官方大会安排",
+          "url": "https://www.corl.org/program",
+          "originalTitle": "CoRL 2026 - Program"
+        },
+        {
+          "name": "本站·双语每日新闻（Atlas 演示）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-11-09#world-labs-frameboy-atlas-preview"
+        }
+      ]
+    },
+    {
+      "id": "andrew-ng-linkedin-ai-jobs-letter",
+      "title": "吴恩达：公开信讨论AI岗位增长",
+      "brief": "吴恩达引用领英数据谈AI岗位增长，并点名营销、人力资源和财务团队内的自动化工作。",
+      "summary": "11月6日，吴恩达（Andrew Ng）在《The Batch》公开信中讨论AI带来的岗位变化。他引用领英（LinkedIn）10月27日公布的平台数据，其中AI工程师在2026年第三季度进入七个主要经济体增长最快的十类岗位。吴恩达特别关注嵌入营销、人力资源或财务团队、负责流程自动化的工程岗位。领英统计反映其平台观察，衡量整体就业净变化需要更广的劳动力数据。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "记录吴恩达本周的公开观点，并把平台岗位数据与整体就业变化区分开。"
+      },
+      "sources": [
+        {
+          "name": "DeepLearning.AI·吴恩达公开信",
+          "url": "https://charonhub.deeplearning.ai/ai-job-anxieties-meet-ai-job-opporunities/",
+          "originalTitle": "AI Job Anxieties Meet AI Job Opporunities: A LinkedIn Pulse Study Shows AI Job Creation, Growth, Careers"
+        },
+        {
+          "name": "LinkedIn·数据说明",
+          "url": "https://news.linkedin.com/2026/linkedin-data-shows-where-opportunity-is-emerging-as-work-changes",
+          "originalTitle": "LinkedIn data shows where opportunity is emerging as work changes"
+        }
+      ]
+    },
+    {
+      "id": "warren-buffett-berkshire-q3-earnings-filing",
+      "title": "巴菲特：伯克希尔提交三季报公告备案",
+      "brief": "伯克希尔三季度业绩已公开披露，随后的8-K备案附上了公司业绩公告。",
+      "summary": "伯克希尔·哈撒韦在11月7日公开2026年第三季度业绩，随后提交的8-K文件附有原业绩公告，签署日期为11月9日。这是上期所追踪财报日程的后续。伯克希尔9月的董事会公告显示，沃伦·巴菲特（Warren Buffett）担任名誉董事长并留任董事。业绩与回购数字见本站双语每日新闻的完整报道。",
+      "category": "金融与加密",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "跟进上期预告的披露事项，并以官方备案和已有报道提供查阅入口。"
+      },
+      "sources": [
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-11-09#berkshire-q3-2026-operating-earnings"
+        },
+        {
+          "name": "SEC·伯克希尔8-K文件",
+          "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452530/brka-20261107.htm",
+          "originalTitle": "Berkshire Hathaway Inc. Form 8-K"
+        },
+        {
+          "name": "伯克希尔·公告目录",
+          "url": "https://www.berkshirehathaway.com/news/2026news.html",
+          "originalTitle": "2026 News Releases"
+        }
+      ]
+    }
+  ]
+}

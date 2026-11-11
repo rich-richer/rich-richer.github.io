@@ -1,6 +1,6 @@
 {
   "city": "沈阳",
-  "updatedAt": "2026-11-10T18:00:00+08:00",
+  "updatedAt": "2026-11-11T16:15:05+08:00",
   "source": {
     "name": "中国天气网",
     "url": "https://www.weather.com.cn/weather/101070101.shtml"
@@ -10,7 +10,7 @@
       "date": "2026-11-11",
       "weather": "晴",
       "high": 17,
-      "low": 2,
+      "low": 3,
       "wind": "4—5级转3—4级"
     },
     {
