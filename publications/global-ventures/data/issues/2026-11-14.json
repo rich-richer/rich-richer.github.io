@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-15T09:24:41+08:00",
+  "coverage": {
+    "start": "2026-11-07T23:59:59+08:00",
+    "end": "2026-11-14T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "report-china-service-agent-evals-summary",
+      "title": "执行摘要：中国电商客服团队会为上线评测付费吗",
+      "brief": "先验证高频改版团队是否愿为离线回归评测付费，置信度中。",
+      "summary": "本期问题：中国电商客服团队会为智能体上线前的离线回归评测付费吗？结论：值得向每月多次改版的团队测试一笔按次付费。依据：2026年5月发布的智能体实施意见提出发展第三方评测，8月公布的客服国标解读又给出人工与智能客服切换、工单和安全要求，业务方已有可以写进验收单的任务。置信度：中。分析：先用虚构订单在测试环境回放，帮主管回答这次换了模型或退款规则后，转人工是否漏掉、客服是否作出越权承诺。付费意愿要用实际验收和续单确认。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "以一项可观察的购买决定检验中国客服回归评测的需求。"
+      },
+      "sources": [
+        {
+          "name": "中国网信网·智能体实施意见",
+          "url": "https://www.cac.gov.cn/2026-05/08/c_1779979789523320.htm"
+        },
+        {
+          "name": "市场监管总局·客服国标解读",
+          "url": "https://www.samr.gov.cn/bzjss/bzjd/art/2026/art_b49e990177a348df81606e0eec14b099.html"
+        }
+      ]
+    },
+    {
+      "id": "langchain-series-c-agent-engineering",
+      "title": "LangChain：智能体工程平台融资3亿美元",
+      "brief": "LangSmith提供智能体调试和评测，C轮融资3亿美元。启示：先找持续改版的付费客户。",
+      "summary": "美国LangChain为开发团队提供智能体运行、评测和治理平台LangSmith。公开价目表列出免费和按席位订阅，使用量也计入费用。11月13日，公司公布C轮融资3亿美元、估值30亿美元，由CapitalG领投。公司称超过7000家组织使用LangSmith，未披露其中付费机构数。⚠️ 待核实：未找到经审计或权威披露的营收数据。分析：中国团队可从能接本地模型的测试交付切入，报价前核算记录存储、评测调用与接入维护；日志如有个人信息，应由合规团队先审查数据流向。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "公司披露融资、使用口径和公开收费机制，便于区分资金与订单。"
+      },
+      "sources": [
+        {
+          "name": "LangChain·融资公告",
+          "url": "https://www.langchain.com/blog/series-c",
+          "originalTitle": "LangChain Raises $300M to Enable Every Company to Own Its Intelligence"
+        },
+        {
+          "name": "LangChain·LangSmith价目表",
+          "url": "https://www.langchain.com/pricing",
+          "originalTitle": "LangSmith Plans and Pricing"
+        }
+      ]
+    },
+    {
+      "id": "path-robotics-series-e-welding",
+      "title": "Path Robotics：焊接自动化融资3亿美元",
+      "brief": "Path Robotics公布3亿美元E轮。启示：小批量焊接先跑真实工件验收。",
+      "summary": "美国Path Robotics向制造企业供应自主焊接单元，产品资料列出按用量付费的焊接服务，单站报价未公开。11月10日，公司公布由Georgian领投的3亿美元E轮，估值24.5亿美元。公司称过去18个月年化经常性收入增至原来的17倍，未披露绝对额。⚠️ 待核实：未找到经审计或权威披露的营收数据。分析：中国民用钣金项目可先选多品种短批量工位，以换型工时、首检通过率和维护响应验收。机器人集成商已可提供替代方案，需把夹具、工位安全与现场服务计入总成本。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "用融资与年化经常性收入的不同口径观察设备服务模式。"
+      },
+      "sources": [
+        {
+          "name": "Path Robotics·融资公告",
+          "url": "https://www.path-robotics.com/news/path-robotics-announces-300-million-series-e-led-by-georgian",
+          "originalTitle": "Path Robotics Announces $300 Million Series E Financing at $2.45 Billion Valuation to Scale Physical AI for Manufacturing"
+        },
+        {
+          "name": "Georgian·领投方说明",
+          "url": "https://georgian.io/posts/why-georgian-invested-in-path-robotics",
+          "originalTitle": "Why Georgian Invested in Path Robotics"
+        },
+        {
+          "name": "Path Robotics·焊接产品资料",
+          "url": "https://info.path-robotics.com/hubfs/Sales%20Enablement/Path%20Overview.pdf?hsLang=en",
+          "originalTitle": "Truly Autonomous Welding"
+        }
+      ]
+    },
+    {
+      "id": "kinderpedia-bcr-school-saas-investment",
+      "title": "Kinderpedia获50万欧元投资",
+      "brief": "罗马尼亚校务软件获50万欧元投资。启示：按校区验证考勤和家校通知的付费。",
+      "summary": "Kinderpedia是罗马尼亚的校务软件公司，为学校和托育机构提供考勤、家校沟通和账单等功能，价目表按校区订阅。11月11日，BCR Seed Starter公布投资50万欧元，使Simpact Ventures领投的该轮融资达到270万欧元。联合公告称平台进入逾40个国家，未披露该数字对应的付费校区数。⚠️ 待核实：未找到经审计或权威披露的营收数据。分析：中国先试单校区行政流程，核算存量系统迁移和教师培训工时。涉及未成年人个人信息时，先由专业人员审查采集权限和保存规则。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "公开融资金额和校区订阅口径便于核查，适合检验小而具体的校务场景。"
+      },
+      "sources": [
+        {
+          "name": "Kinderpedia·投资公告",
+          "url": "https://www.kinderpedia.co/en/company/press-releases/bcr-seed-starter-invests-kinderpedia-2026",
+          "originalTitle": "BCR Seed Starter invests 500,000 euro in Kinderpedia, a Romanian edtech company developing a global school management and communication platform already present in over 40 countries"
+        },
+        {
+          "name": "Kinderpedia·官方价目表",
+          "url": "https://www.kinderpedia.co/en/pricing",
+          "originalTitle": "Pricing"
+        }
+      ]
+    },
+    {
+      "id": "report-china-service-agent-evals-demand",
+      "title": "需求与市场：先找频繁改版的客服团队",
+      "brief": "按每月改版次数、人工复测工时和近三月返工记录筛首批买家。",
+      "summary": "阿里云百炼在11月11日更新的模型评测文档支持多轮样本、自定义评分和调优后验证，说明已有平台能接住一部分测试需求。分析：应先找每月至少改一次知识库、退款规则或模型的电商团队，问最近三次上线各花了多少人时、谁签字、是否出现漏转人工而返工。把筛出的团队数、实际付费比例和单次成交价相乘，可形成一个自下而上的试点规模估算。当前没有这一细分需求的可靠支出统计。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "给出可观察的需求筛选条件与规模计算口径。"
+      },
+      "sources": [
+        {
+          "name": "阿里云百炼·模型评测",
+          "url": "https://www.alibabacloud.com/help/zh/model-studio/model-evaluation-intl"
+        }
+      ]
+    },
+    {
+      "id": "report-china-service-agent-evals-benchmarks",
+      "title": "对标公司：Langfuse与阿里云",
+      "brief": "通用平台能跑测试和存记录，行业服务要补的是退款、转人工等验收规则。",
+      "summary": "ClickHouse于2026年1月16日宣布收购Langfuse。后者提供开源的模型运行追踪、评测和提示管理，可自托管，公告未给出付费客户数。阿里云百炼提供中国团队熟悉的模型、工作流和智能体入口。阿里巴巴8月发布的六月季度财报可查云业务规模，披露口径覆盖云智能集团，无法单独量出客服评测业务。分析：试点的对标对象还包括客户已有的发布清单和自写脚本。两种产品都可用来承载用例，是否购买外部服务取决于规则整理和变更复测能节约多少工时。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "比较通用追踪与本地模型平台的覆盖范围，保留产品线规模缺口。"
+      },
+      "sources": [
+        {
+          "name": "ClickHouse·收购公告",
+          "url": "https://clickhouse.com/blog/clickhouse-acquires-langfuse-open-source-llm-observability",
+          "originalTitle": "ClickHouse welcomes Langfuse: The future of open-source LLM observability"
+        },
+        {
+          "name": "阿里云百炼·应用类型",
+          "url": "https://www.alibabacloud.com/help/zh/model-studio/application-introduction"
+        },
+        {
+          "name": "阿里巴巴·六月季度财报",
+          "url": "https://www.alibabagroup.com/en-US/document-2026456290057781248",
+          "originalTitle": "Alibaba Group Announces June Quarter 2026 Results"
+        }
+      ]
+    },
+    {
+      "id": "report-china-service-agent-evals-economics",
+      "title": "商业模式与收入成本：按发布批次报价",
+      "brief": "试报价按一次版本验收收费，同时记样本整理、模型调用和人工复核三项成本。",
+      "summary": "OpenAI于2026年9月14日发布的客服优化示例，用合成工单对比同一批样本的质量、延迟、工具调用和费用，并使用模拟订单工具。分析：先按一次发版收整理用例、跑旧版与新版和提交差异报告的固定费用。直接成本逐项记录样本整理、评测模型调用、人工争议复核和工具接入。同一批用例能跨两次以上发版复用时，再测月度订阅；每个客户都要重新整理规则时，按交付工时核算毛利。示例数据来自合成工单，真实团队的价格和毛利需要试单验证。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把客服预发布评测的主要成本拆成可记录项目。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI·客服智能体优化示例",
+          "url": "https://developers.openai.com/cookbook/examples/agent_optimization/optimizing_agents_for_cost_and_quality",
+          "originalTitle": "Optimizing Customer Support Agents for Cost and Quality"
+        }
+      ]
+    },
+    {
+      "id": "report-china-service-agent-evals-competition",
+      "title": "竞争与进入门槛：复现具体业务差错",
+      "brief": "用规则版本与失败样本复盘来对比现成开源工具和客户自写脚本。",
+      "summary": "Arize Phoenix文档支持固定输入的实验、运行记录和人工或程序评分。公开产品也可以重跑同一批用例，单卖通用看板很容易被替换。分析：客户可先提供已授权的规则版本和虚构工单，把退款上限、转人工时点、是否完成承诺分开验收。进入门槛在于还原每次失败的业务上下文、适配客户已有售后系统，以及让运营主管能读懂差异。若第三方只能交一张总分表，买方通常已有工具可以生成类似数字。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把差异化落在实际失败的复现与业务验收，避免与通用面板正面重叠。"
+      },
+      "sources": [
+        {
+          "name": "Arize·Phoenix产品文档",
+          "url": "https://arize.com/docs/phoenix",
+          "originalTitle": "What is Arize Phoenix?"
+        }
+      ]
+    },
+    {
+      "id": "report-china-service-agent-evals-local",
+      "title": "中国落地条件：先用虚构工单",
+      "brief": "首轮试点留在测试环境；接真实记录前，请合规人员核对使用范围和委托处理。",
+      "summary": "个人信息保护法规定处理应与目的直接相关，委托处理须约定目的、期限、方式、种类与保护措施等。分析：第一轮用虚构订单，只接只读的测试接口，在买方批准的环境执行，交付失败编号和规则版本。真实工单涉及联系方式、账号或订单信息时，请法务或隐私专业人员确认处理依据、委托责任、访问期限、删除方式及是否涉及数据出境；任何具体备案或许可义务由实际业务和主管规则决定。第一批客户可从已有合作关系的国内电商软件服务商切入。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "给出最低数据暴露的试点路径与真实数据接入前应核查的事项。"
+      },
+      "sources": [
+        {
+          "name": "工业和信息化部地方通信管理局·个人信息保护法",
+          "url": "https://jlca.miit.gov.cn/zwgk/zcwj/wjfb/art/2022/art_860db476117d45b398436d279fc70a8c.html"
+        }
+      ]
+    },
+    {
+      "id": "report-china-service-agent-evals-risks",
+      "title": "主要风险：高分掩盖退款越权",
+      "brief": "将越权退款和漏转人工列为拦截项，另查样本泄露及维护成本。",
+      "summary": "全国网安标委2026年5月发布的人工智能应用伦理安全指引提出识别应用风险并落实防范措施。分析：上线评测的首要风险是平均分掩盖例外。把越权退款、隐私暴露和本应转人工的案例设为独立拦截项，机器与人工评分不一致时由负责人复核。平台规则或模型接口调整后须重跑，并保留规则版本与测试记录。客户采用新平台或缩减采购时，按团队收费的持续性会下降，服务方应在试单阶段测兼容性和复测量。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "明确法律、平台、声誉和持续经营风险在验收中的表现。"
+      },
+      "sources": [
+        {
+          "name": "中国网信网·人工智能应用伦理安全指引发布说明",
+          "url": "https://www.cac.gov.cn/2026-05/22/c_1781191242686496.htm"
+        }
+      ]
+    },
+    {
+      "id": "report-china-service-agent-evals-scenarios",
+      "title": "情景预测：用复购判断需求",
+      "brief": "两次发版后用人时、付款与测试复用率决定按次、订阅或暂停。",
+      "summary": "美国国家标准与技术研究院（NIST）2026年8月公布的TEVV-Athlon框架征求意见稿，将测试、评估、验证与确认放进同一工作。本刊为试点设三个触发条件。乐观：至少两家团队为第二次发版买单，且大部分旧用例能直接复用，再测订阅。基准：一家愿为单次交付付款、下一次发布尚无预算，保持按批次报价并补采复测记录。保守：试点均只接受免费试用，或样本无法在批准环境使用，暂停接入开发。以上是预先设定的试点阈值，实际结果待验证。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把预测与可观察的付款和复用事件绑定，避免给出臆测概率。"
+      },
+      "sources": [
+        {
+          "name": "NIST·评估框架公开草案",
+          "url": "https://www.nist.gov/artificial-intelligence/ai-research/tevv-athlon-framework-evaluating-ai-systems",
+          "originalTitle": "The TEVV-Athlon Framework for Evaluating AI Systems"
+        }
+      ]
+    },
+    {
+      "id": "report-china-service-agent-evals-actions",
+      "title": "30 天可验证行动：盲跑并收一次款",
+      "brief": "访谈、建立虚构样本、对比两个版本、收一次试单款，四步判断需不需要继续。",
+      "summary": "Phoenix的数据集文档建议从少量人工整理的典型和边界案例起步，并固定数据版本复跑实验。第1周访谈8位客服或发布负责人，拿到至少3份无敏感信息的流程样例。第2周做30张虚构工单并冻结预期动作，覆盖订单状态、重复扣费和必须转人工的情况。第3周盲跑两个测试版本，记录漏报、误报和人工复测耗时。第4周发出三份报价，验证客户是否愿签一次付费验收。把付款、上一轮耗时和下一次发版日期写进试点记录，作为继续投入的依据。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "给出四步可在30天执行的需求与交付验证动作。"
+      },
+      "sources": [
+        {
+          "name": "Arize·评测数据集文档",
+          "url": "https://arize.com/docs/phoenix/datasets-and-experiments/concepts-datasets",
+          "originalTitle": "Concepts: Datasets"
+        }
+      ]
+    }
+  ]
+}

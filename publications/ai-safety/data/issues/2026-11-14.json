@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-15T09:22:51+08:00",
+  "coverage": {
+    "start": "2026-11-07T23:59:59+08:00",
+    "end": "2026-11-14T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "aws-api-mcp-policy-bypass-cve-2026-125271",
+      "title": "AWS修复API MCP服务器的策略绕过漏洞",
+      "brief": "AWS API MCP服务器曾错误执行部分拒绝或确认规则，1.5.1版已修复。",
+      "summary": "本周监测结论：【已确认漏洞】有AWS策略绕过及厂商修复，也有提示词注入和图像越狱的受控演示。部署智能体时，云操作能否被策略拦下需要单独验证。AWS于11月11日北京时间发布CVE-2026-125271公告。客户自行运行的AWS API模型上下文协议（MCP）服务器在匹配操作名称时发生错误，可能放行原本被禁止或需确认的云操作。受影响的是0.2.13至1.5.0版。修复状态为已修复，官方建议升级至1.5.1或更新版本，并检查基于该服务器维护的分支是否已合入补丁。",
+      "category": "漏洞与提示词注入",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "官方公告确认拦截和审批策略失效，且给出了可核对的版本边界。"
+      },
+      "sources": [
+        {
+          "name": "AWS·安全公告",
+          "url": "https://aws.amazon.com/security/security-bulletins/2026-176-aws/",
+          "originalTitle": "CVE-2026-125271 - AWS API MCP Server Security Policy Bypass via Incorrect Operation Name Normalization",
+          "publishedAt": "2026-11-10T08:30:00-08:00"
+        },
+        {
+          "name": "PyPI·AWS Labs修复版本",
+          "url": "https://pypi.org/project/awslabs.aws-api-mcp-server/1.5.1/",
+          "originalTitle": "awslabs.aws-api-mcp-server 1.5.1"
+        }
+      ]
+    },
+    {
+      "id": "fireworks-customer-impact-security-update",
+      "title": "Fireworks扩大此前入侵的数据影响范围",
+      "brief": "Fireworks披露账户和账单资料曾被访问，少数客户的数据集等也受影响。",
+      "summary": "【已发现实际利用】模型推理平台Fireworks于11月9日更新10月入侵调查，确认受波及的数据包括账户和账单资料。少数客户的凭据、数据集以及未完成的模型权重也受影响。公司称，自10月25日起尚未发现对客户使用平台的进一步成功入侵，正逐一通知受影响客户。修复状态为修复中。Fireworks已撤销和更换相关凭据，隔离受影响系统，并暂停部分自助数据集上传与下载，调查仍在进行。",
+      "category": "厂商回应与修复",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "官方更新扩大了已知影响，能帮助区分账户、训练工件与受影响程度仍不明确的服务。"
+      },
+      "sources": [
+        {
+          "name": "Fireworks AI·事件更新",
+          "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+          "originalTitle": "Update on October 2026 security incident"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-adaptive-agent-swarms-prompt-injection",
+      "title": "技术解析：怎样评测会调整策略的提示词注入",
+      "brief": "DeepMind发现固定测试会漏掉部分风险，高影响工具调用应由系统独立把关。",
+      "summary": "【研究演示】自适应提示词注入指攻击方会根据模型反应改变尝试。Google DeepMind于11月9日发布预印本，指出智能体可能把工具输出里的文字误当成用户授权。研究使用合成任务，发现部分在公开基准上表现稳健的模型仍会误从工具输出接受指令，结果限于受控评测。开发者应隔离外部内容与工具控制指令，企业应以会变化的测试场景复测并审计外发和写入，用户应收紧连接器权限并复核敏感动作。微软已公布为外部文本标记信任边界的方案，效果随场景而变。修复状态不适用。",
+      "category": "技术解析",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "阐明静态样本测试与适应性评测的区别，给出开发、运维、终端用户三层防范措施。"
+      },
+      "sources": [
+        {
+          "name": "arXiv·Google DeepMind预印本",
+          "url": "https://arxiv.org/abs/2611.11861",
+          "originalTitle": "Scaling Adaptive Prompt Injection Attacks with Agent Swarms",
+          "publishedAt": "2026-11-09T04:34:14Z"
+        },
+        {
+          "name": "微软安全响应中心·公开防护说明",
+          "url": "https://www.microsoft.com/en-us/msrc/blog/2025/07/how-microsoft-defends-against-indirect-prompt-injection-attacks",
+          "originalTitle": "How Microsoft defends against indirect prompt injection attacks"
+        }
+      ]
+    },
+    {
+      "id": "anybreak-image-input-safety-evaluation",
+      "title": "AnyBreak研究检验图像输入的越狱风险",
+      "brief": "预印本表明，图像输入也可能影响生成安全，测试应同时覆盖图片和文字。",
+      "summary": "【研究演示】华中科技大学和伦敦大学学院团队11月9日提交AnyBreak预印本。作者在受控实验中用图像参与输入，发现受测图像生成系统即使收到表面正常的文字，也可能生成违反内容安全策略的结果。测试覆盖特定模型和生成设置，论文结果不能外推到所有产品。部署者可在同一套安全评估中纳入文字、图像及输出审核。修复状态不适用。",
+      "category": "越狱研究",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "生成式图像服务的安全评估需要覆盖输入的不同模态。"
+      },
+      "sources": [
+        {
+          "name": "arXiv·预印本",
+          "url": "https://arxiv.org/abs/2611.11980",
+          "originalTitle": "AnyBreak: Towards Jailbreaking Any T2I Model for Any Concept",
+          "publishedAt": "2026-11-09T07:06:19Z"
+        }
+      ]
+    },
+    {
+      "id": "term-inference-time-jailbreak-defense",
+      "title": "TERM测试生成阶段的越狱防御",
+      "brief": "研究团队比较了TERM和七种防御，评测同时考虑越狱防护与误拒绝。",
+      "summary": "【证据等级：不适用】南京大学与微软研究人员11月10日提交TERM预印本，提出在推理阶段根据模型内部信号调整生成过程。实验覆盖Llama、Qwen和Gemma系列的部分模型，比较七种防御方法，同时用两套基准检查对正常请求的误拒绝。作者报告受测模型的抗越狱表现改善，并维持较低的误拒绝；结论限于论文设置，接入新模型或真实流量前仍需复测。修复状态不适用。",
+      "category": "防御与缓解",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "同时展示防御有效性和正常用户可用性两项评测目标。"
+      },
+      "sources": [
+        {
+          "name": "arXiv·预印本",
+          "url": "https://arxiv.org/abs/2611.13577",
+          "originalTitle": "TERM: Target-Free Jailbreak Defense via Entropy-Guided Residual Modulation",
+          "publishedAt": "2026-11-10T04:52:10Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-control-room-research-workloads",
+      "title": "OpenAI公开研究任务中央停止机制",
+      "brief": "OpenAI称内部系统收到停止指令后，可在35秒内让指定研究任务停止生成。",
+      "summary": "【证据等级：不适用】OpenAI于11月9日公开Control Room，称它已覆盖内部研究基础设施的推理任务，包括训练或评估的智能体采样和数据处理。中央服务跟踪任务并决定是否继续提供推理，收到停止指令后，指定任务最迟在35秒内无法再获得模型输出。这一指标来自OpenAI对其内部系统的说明，适用范围为研究基础设施。修复状态不适用。",
+      "category": "防御与缓解",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "展示内部研究平台在监测告警之外如何限制指定任务继续生成。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI·技术说明",
+          "url": "https://openai.com/index/control-room/",
+          "originalTitle": "Control Room"
+        }
+      ]
+    },
+    {
+      "id": "apache-http2-anthropic-scanner-fix",
+      "title": "Apache修复AI扫描辅助发现的漏洞",
+      "brief": "Apache确认HTTP/2模块存在高危漏洞，2.4.71已发布修复。",
+      "summary": "【已确认漏洞】Apache HTTP Server项目于11月11日发布2.4.71，修复HTTP/2模块存在的远程代码执行风险CVE-2026-119618。项目列出的受影响版本为2.4.55至2.4.70。官方公告将发现者列为Anthropic的开源软件安全扫描器和Google Cloud的漏洞研究人员，并列出两方的不同报告日期。修复状态为已修复。公告确认的是服务器组件漏洞，此处记录AI辅助扫描进入常规协调披露流程的案例。",
+      "category": "厂商回应与修复",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "官方安全公告同时记录AI辅助发现、研究团队报告和维护者修复的角色。"
+      },
+      "sources": [
+        {
+          "name": "Apache HTTP Server·2.4安全公告",
+          "url": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2026-119618",
+          "originalTitle": "Apache HTTP Server 2.4 vulnerabilities"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-coding-agent-post-training-supply-chain",
+      "title": "微软研究揭示编码智能体的后训练风险",
+      "brief": "微软在受控环境演示后训练供应链风险，可核验模型来源并限制高影响工具。",
+      "summary": "【研究演示】微软于11月12日披露两项编码智能体实验，分别考察微调数据和模型权重在进入部署流程前被篡改的风险。受测试的模型可在常规任务中表现正常，但在特定条件下偏离用户意图，可能影响代码、数据及工具权限。结果来自作者的受控实验。微软建议记录模型和数据来源，在接入前审查，并在运行时拦截与用户任务无关的高影响操作。修复状态不适用。",
+      "category": "研究者与组织",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把模型来源核验与运行时工具限制连起来，有助于审查第三方模型接入流程。"
+      },
+      "sources": [
+        {
+          "name": "微软安全博客·研究原文",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+          "originalTitle": "Trained to betray: How post-training supply chain attacks hijack coding agents"
+        }
+      ]
+    }
+  ]
+}
