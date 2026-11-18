@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-18T22:43:09+08:00",
+  "coverage": {
+    "start": "2026-11-09T12:35:53+08:00",
+    "end": "2026-11-16T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "us-october-cpi-2026",
+      "title": "美国10月CPI环比涨0.4%，同比缺项",
+      "brief": "美国10月CPI环比涨0.4%。看通胀时，须先确认可比基期是否完整。",
+      "summary": "本刊仅供学习，不构成投资建议；投资有风险。本期主线：美国物价仍有环比上涨，中国消费数据与股市表现也出现分化。美国劳工统计局11月10日公布，10月消费者价格指数（CPI）季调后环比上涨0.4%，低于9月的0.6%；剔除食品和能源后涨0.3%。住房价格上涨贡献了总指数月度涨幅的三成以上。多数指标缺少2025年10月基期，原因是当时拨款中断，官方因此未发布相应同比值。环比仍能观察单月价格变化，缺失同比时应保留空项。本期以周一末为历史截稿点，行情与新闻均按这一时间范围选取。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "美国10月CPI环比涨0.4%。看通胀时，须先确认可比基期是否完整。"
+      },
+      "sources": [
+        {
+          "name": "美国劳工统计局·10月CPI原表",
+          "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+          "originalTitle": "Consumer Price Index News Release - October 2026"
+        },
+        {
+          "name": "美国劳工统计局·缺失数据处理说明",
+          "url": "https://www.bls.gov/cpi/factsheets/approximating-missing-data.htm",
+          "originalTitle": "Approximating missing data"
+        }
+      ]
+    },
+    {
+      "id": "us-etf-nov-13-close",
+      "title": "美股ETF周五回落，区间仍高于上期",
+      "brief": "SPY、QQQ、VTI在11月13日回落，但较上期采用的11月6日收盘累计上涨。",
+      "summary": "截至本期11月16日23:59北京时间，美东周一交易尚未收盘，因此采用11月13日16:00的正常收盘，即北京时间14日05:00。SPY收754.37美元，日跌0.36%；QQQ收679.89美元，跌1.20%；VTI收371.11美元，跌0.41%。与上期采用的11月6日收盘相比，三只交易型开放式指数基金（ETF）依次累计上涨2.59%、3.63%、2.54%，按未复权收盘价计算，不含分红再投资。美国CPI是本期影响利率预期的一项已公布信息，但单日价格反映多种因素。QQQ与另外两只基金的持仓结构不同，比较表现时也应核对所跟踪指数。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "SPY、QQQ、VTI在11月13日回落，但较上期采用的11月6日收盘累计上涨。"
+      },
+      "sources": [
+        {
+          "name": "Stock Analysis·SPY历史行情",
+          "url": "https://stockanalysis.com/etf/spy/history/",
+          "originalTitle": "SPY Historical Stock Price Data"
+        },
+        {
+          "name": "Stock Analysis·QQQ历史行情",
+          "url": "https://stockanalysis.com/etf/qqq/history/",
+          "originalTitle": "QQQ Historical Stock Price Data"
+        },
+        {
+          "name": "Stock Analysis·VTI历史行情",
+          "url": "https://stockanalysis.com/etf/vti/history/",
+          "originalTitle": "VTI Historical Stock Price Data"
+        },
+        {
+          "name": "本站·上期ETF基期",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-09#us-etf-nov-6-rebound"
+        }
+      ]
+    },
+    {
+      "id": "cnb-test-dlt-bonds",
+      "title": "捷克央行披露分布式账本债券测试",
+      "brief": "捷克央行测试债券买卖、付息和回购。区块链金融项目要看完成了哪一步。",
+      "summary": "捷克央行行长11月10日的演讲披露，该行首次发行测试性质的分布式账本技术（DLT）债券，国际清算银行11月12日刊载演讲。每张面值1万捷克克朗，交易在布拉格证券交易所中央证券存管机构的平台运行，对手方为Česká spořitelna。已测试的环节包括买卖、付息和以债券作抵押的回购交易。演讲将其列为CNB Lab实验，不能据此判断已面向所有客户商业化。分析：评价受监管代币化项目时，除技术演示外，还应核实结算资产、法律权利、接入资格以及能否持续运行。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "捷克央行测试债券买卖、付息和回购。区块链金融项目要看完成了哪一步。"
+      },
+      "sources": [
+        {
+          "name": "国际清算银行·捷克央行行长演讲",
+          "url": "https://www.bis.org/speeches/20261112-czech-national-banks-first-dlt-bond-and-new-physics-digital-koruna",
+          "originalTitle": "The Czech National Bank’s first DLT bond and the new physics of the digital koruna"
+        }
+      ]
+    },
+    {
+      "id": "cn-hk-nov-16-close",
+      "title": "A股周一回落，恒指微涨",
+      "brief": "上证跌0.87%、深成指跌2.53%，恒指涨0.49%。区间比较仍须使用同一基期。",
+      "summary": "11月16日A股与港股均已收盘。上证综指收3602.57点，日跌0.87%；深证成指10690.78点，跌2.53%；恒生指数23753.84点，涨0.49%。以上期使用的11月6日收盘为基期，三项分别累计下跌1.28%、4.34%、2.97%。澎湃收盘报道记录银行、家电等板块相对坚挺，AI硬件相关股票下跌；香港电台报道恒指与恒生科技指数当日走势不同。市场参与者对产业前景的解释属于观点，指数点位和涨跌属于行情事实。不同指数成分和权重有差异，一地上涨无法推出全部股票都上涨。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "上证跌0.87%、深成指跌2.53%，恒指涨0.49%。区间比较仍须使用同一基期。"
+      },
+      "sources": [
+        {
+          "name": "同花顺财经·11月16日A股收盘",
+          "url": "https://yuanchuang.10jqka.com.cn/20261116/c681853615.shtml"
+        },
+        {
+          "name": "香港电台·11月16日收盘",
+          "url": "https://news.rthk.hk/rthk/en/component/k2/1878003-20261116.htm",
+          "originalTitle": "HK stocks firm as tech worries ripple through region"
+        },
+        {
+          "name": "Investing.com·恒指历史行情",
+          "url": "https://hk.investing.com/indices/hang-sen-40-historical-data"
+        },
+        {
+          "name": "澎湃新闻·市场板块表现",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34489957"
+        },
+        {
+          "name": "本站·上期A股港股基期",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-09#cn-hk-nov-6-close"
+        }
+      ]
+    },
+    {
+      "id": "btc-eth-nov-16-history",
+      "title": "历史币价样本：比特币约6.53万美元",
+      "brief": "11月16日08:00北京时间历史样本中，BTC约6.53万美元、ETH约1834.53美元。",
+      "summary": "CoinGecko历史接口返回2026年11月16日00:00 UTC的美元样本，换算为北京时间16日08:00。比特币（BTC）为65,305.28美元，以太币（ETH）为1,834.53美元。对比上期记录的11月9日12:31北京时间页面样本74,953.39美元和2,142.32美元，两次样本间分别约跌12.87%和14.37%。两端都取CoinGecko美元汇总价，但采样钟点不同，且上期页面未给出报价逐笔更新时间。这里是历史样本比较，市场全天交易，任何交易所的实际报价和成交费用还会有差别。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "11月16日08:00北京时间历史样本中，BTC约6.53万美元、ETH约1834.53美元。"
+      },
+      "sources": [
+        {
+          "name": "CoinGecko·比特币历史接口",
+          "url": "https://api.coingecko.com/api/v3/coins/bitcoin/history?date=16-11-2026&localization=false",
+          "originalTitle": "Coin Historical Data by ID - Bitcoin"
+        },
+        {
+          "name": "CoinGecko·以太币历史接口",
+          "url": "https://api.coingecko.com/api/v3/coins/ethereum/history?date=16-11-2026&localization=false",
+          "originalTitle": "Coin Historical Data by ID - Ethereum"
+        },
+        {
+          "name": "CoinGecko·历史时点说明",
+          "url": "https://docs.coingecko.com/reference/coins-id-history",
+          "originalTitle": "Coin Historical Data by ID"
+        },
+        {
+          "name": "本站·上期币价样本",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-09#btc-eth-nov-9-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "china-october-retail-2026",
+      "title": "中国10月社零同比增长0.4%",
+      "brief": "10月社零同比增长0.4%，剔除汽车后增长2.5%。消费判断须看统计范围和价格因素。",
+      "summary": "国家统计局11月16日公布，10月社会消费品零售总额46463亿元，同比增长0.4%；剔除汽车后为43162亿元，增长2.5%。1至10月累计416464亿元，增长1.0%。表中限额以上汽车类零售额当月同比下降21.4%，不同分项的覆盖范围也各有定义。官方注明这些增速没有扣除价格因素，社零主要覆盖实物商品和餐饮，另行发布的服务零售数据还包含其他服务。判断需求变化时，先分清当月与累计、名义与实际以及商品与服务，避免用单一分项概括全部消费。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "10月社零同比增长0.4%，剔除汽车后增长2.5%。消费判断须看统计范围和价格因素。"
+      },
+      "sources": [
+        {
+          "name": "国家统计局·10月社零原表",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202611/t20261116_1965839.html"
+        }
+      ]
+    },
+    {
+      "id": "lesson-stocks-company-ownership",
+      "title": "一词一课：股票与公司所有权",
+      "brief": "股票代表公司的一部分所有权，价格会涨跌。先分清股东权利和公司借款。",
+      "summary": "股票（stock）代表公司的一部分所有权。可以把它想成一家店铺分成许多小份，股东按所持份额分享某些权利。普通股通常带有投票权，公司决定分红时也可获分配；公司经营改善并不保证股价立刻上涨。与本期ETF行情相连，基金持有多家公司的股票，基金价格也会随持仓和市场变化。常见误区是把股东当成公司债权人，企业清算时普通股股东通常排在债权人和优先股之后。小练习：公司发行普通股给投资者，投资者得到什么？A.部分所有权 B.固定利息保证 C.保本承诺。答案A，分红和市场价格都没有保证。",
+      "category": "一词一课",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "股票代表公司的一部分所有权，价格会涨跌。先分清股东权利和公司借款。"
+      },
+      "sources": [
+        {
+          "name": "美国证监会投资者教育·股票",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+          "originalTitle": "Stocks - FAQs"
+        }
+      ]
+    },
+    {
+      "id": "read-cpi-missing-base-period",
+      "title": "新闻怎么读：同比空项该怎么理解",
+      "brief": "美国10月CPI多数同比值缺失。先追问基期、季节调整和分项权重，再解释通胀。",
+      "summary": "本期美国CPI报道有环比数据，也有多数同比空项。已核实的事实是，BLS因2025年10月拨款中断未收集对应调查数据，难以形成完整同比基期。读者可以追问三点。第一，报道写的是季调后的月度变化，还是未季调的十二个月变化？第二，缺失的比较期是否与当前月份的调查范围一致？第三，住房、能源等项目占多大权重，哪些项目推动了总数？缺少数据时，预测机构可能提供估计，须与官方已发布值分别标明。阅读结论应限定在能核实的口径内，不能把空白值理解成涨幅为零。",
+      "category": "新闻怎么读",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "美国10月CPI多数同比值缺失。先追问基期、季节调整和分项权重，再解释通胀。"
+      },
+      "sources": [
+        {
+          "name": "本站·本期CPI完整报道",
+          "url": "https://rich-richer.github.io/p/finance-crypto/?date=2026-11-16#us-october-cpi-2026"
+        },
+        {
+          "name": "美国劳工统计局·CPI问答",
+          "url": "https://www.bls.gov/cpi/questions-and-answers.htm",
+          "originalTitle": "Consumer Price Index Frequently Asked Questions"
+        }
+      ]
+    }
+  ]
+}

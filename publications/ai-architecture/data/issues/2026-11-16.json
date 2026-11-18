@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-18T22:44:38+08:00",
+  "coverage": {
+    "start": "2026-11-09T23:59:59+08:00",
+    "end": "2026-11-16T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "google-teamwork-verifiable-research-workflows",
+      "title": "Google让多智能体协作接上独立验证",
+      "brief": "Google披露多智能体科研与工程流程，独立验证器和任务交接成为长任务的关键。",
+      "summary": "本周从多模态训练到渲染部署，研究都在尝试用更明确的结构减少计算或验证成本。11月13日，Google介绍Antigravity的多智能体协作流程，研究人员设定问题与约束，多个智能体分头探索，再用证明检查器、原有测试或实测硬件评估候选结果。系统按子任务限制上下文，另设审查者复核。Google公布了数学、软件迁移与系统优化案例，部分专用流程仍待开放。这些是公司对特定实验的报告，迁移到新项目时仍需重新定义验收条件。",
+      "category": "智能体与应用",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "长期任务需要可独立复查的结果，工程方法比单次模型成绩更接近实际交付。"
+      },
+      "sources": [
+        {
+          "name": "Google Research·官方研究介绍",
+          "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+          "originalTitle": "Advancing science & engineering with Antigravity’s /teamwork"
+        },
+        {
+          "name": "Google Antigravity·系统说明",
+          "url": "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner",
+          "originalTitle": "Teamwork: when AI becomes a research partner"
+        }
+      ]
+    },
+    {
+      "id": "meta-nyu-unbundling-multimodal-vision-encoding",
+      "title": "Meta与纽约大学拆开视觉编码的三项选择",
+      "brief": "同数据、同总计算量的对照研究，帮助辨别视觉预训练、专用容量与放置位置的作用。",
+      "summary": "Meta FAIR与纽约大学团队11月12日（UTC）提交《拆解多模态视觉编码》（Unbundling Multimodal Vision Encoding）预印本。论文把视觉编码器拆成预训练带来的先验、专用视觉容量，以及融合前后的放置位置，用共同数据和匹配的全生命周期计算量做对照。作者发现，在受测配置中，联合从头训练的编码器可达到预训练编码器相近表现。研究提示，比较两个成品模型时还需控制训练配方。结论来自特定规模与任务，向更大模型或不同数据迁移仍需实验。",
+      "category": "预训练与架构",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "对训练结构做控制变量研究，避免把数据与计算量差别误归因于架构。"
+      },
+      "sources": [
+        {
+          "name": "arXiv·论文原文",
+          "url": "https://arxiv.org/abs/2611.17334",
+          "originalTitle": "Unbundling Multimodal Vision Encoding",
+          "publishedAt": "2026-11-12T18:59:54Z"
+        },
+        {
+          "name": "Meta FAIR与纽约大学·项目页",
+          "url": "https://unbundling.github.io/",
+          "originalTitle": "Unbundling Multimodal Vision Encoding"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-ttb-test-time-baking-rendering",
+      "title": "TTB把场景信息写进小网络，加快渲染",
+      "brief": "NVIDIA与阳明交通大学测试把跨视角信息写入小网络，在论文设置下最高加速23倍。",
+      "summary": "NVIDIA与阳明交通大学团队11月12日（UTC）提交《测试时烘焙》（TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models）。方法先把多视角照片中的全局场景信息写入轻量多层感知机，再生成新视角，减少每帧重复访问长缓存的开销。作者在多套基准报告最高23倍渲染加速，并保持相近质量。它需要场景准备与测试时优化，最高倍数依赖对照设置。公开版本为预印本，作者标注获NeurIPS 2026 Spotlight接收。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "在场景准备与逐帧生成之间重新分配计算，直接影响交互式视角生成的成本。"
+      },
+      "sources": [
+        {
+          "name": "arXiv·论文原文",
+          "url": "https://arxiv.org/abs/2611.17331",
+          "originalTitle": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+          "publishedAt": "2026-11-12T18:59:52Z"
+        },
+        {
+          "name": "NVIDIA与阳明交通大学·项目页",
+          "url": "https://test-time-baking.github.io/",
+          "originalTitle": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-birddreams-driving-world-model",
+      "title": "BirdDreams让驾驶画面与俯视布局共同预测",
+      "brief": "NVIDIA等团队联合生成前向画面和俯视布局，检查周围车辆是否随自车动作合理变化。",
+      "summary": "NVIDIA与韩国科学技术院（KAIST）等作者11月10日（UTC）提交《BirdDreams：联合视角与鸟瞰视频生成的响应式驾驶世界模型》（BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model）预印本。两个视频流相互交换信息，让车辆位置与运动也成为模型要预测的内容。作者在PhysicalAI-AV和nuScenes上测试自车轨迹遵循与周车行为，报告优于仅生成透视画面的基线。它仍是受控数据上的世界模型，实验不能直接证明道路部署安全。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "鸟瞰布局为检查交通运动的一致性提供可观察的中间表示。"
+      },
+      "sources": [
+        {
+          "name": "arXiv·论文原文",
+          "url": "https://arxiv.org/abs/2611.14815",
+          "originalTitle": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+          "publishedAt": "2026-11-10T23:04:58Z"
+        },
+        {
+          "name": "NVIDIA·项目页",
+          "url": "https://research.nvidia.com/labs/sil/projects/birddreams/",
+          "originalTitle": "BirdDreams: A driving world model with precise ego control and traffic that can react"
+        }
+      ]
+    },
+    {
+      "id": "ggml-one-zero-backend-and-api-release",
+      "title": "ggml 1.0更新多后端运算与公共接口",
+      "brief": "ggml 1.0调整公共接口并优化多类硬件后端，迁移既有本地推理代码时需逐项复测。",
+      "summary": "ggml项目11月13日发布1.0.0版。官方发布说明列出公共接口清理、FP8支持，以及CUDA、Metal、Vulkan等后端的性能工作，还包括减少无用输入上传的调度改进。ggml为本地机器学习推理提供底层张量计算，不同应用仍要完成模型适配。分析，接口进入新版本后，使用方可先复测既有模型的输出与吞吐，再看特定硬件优化能否受益；发布说明罗列的改进无法代替目标设备上的端到端测量。",
+      "category": "推理与部署",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "底层运行库更新会影响本地模型适配与性能验证。"
+      },
+      "sources": [
+        {
+          "name": "ggml·官方发布说明",
+          "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+          "originalTitle": "v1.0.0"
+        }
+      ]
+    },
+    {
+      "id": "classic-paper-bengio-neural-probabilistic-language-model",
+      "title": "经典回顾：Bengio用词向量缓解稀疏性",
+      "brief": "2003年神经概率语言模型把词表示与下一个词预测一同学习，为后续语言模型提供起点。",
+      "summary": "蒙特利尔大学Yoshua Bengio、Réjean Ducharme、Pascal Vincent和Christian Jauvin的《神经概率语言模型》（A Neural Probabilistic Language Model）于2003年2月正式发表于JMLR第3卷。论文把词映射成连续向量，再联合学习词表示与词序列的概率，帮助模型把相似上下文的信息共享出去，缓解离散组合的稀疏问题。它在AI发展史上的位置，是把可学习词向量与神经网络语言预测接在一起。模型当时使用固定长度上下文，计算成本也限制了规模，后来的序列模型和Transformer继续扩展了上下文与训练能力。",
+      "category": "经典论文回顾",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "按经典目录序号6接续，说明连续词表示如何进入语言建模。"
+      },
+      "sources": [
+        {
+          "name": "JMLR·正式论文",
+          "url": "https://www.jmlr.org/papers/v3/bengio03a.html",
+          "originalTitle": "A Neural Probabilistic Language Model"
+        },
+        {
+          "name": "本站·AI论文目录",
+          "url": "https://github.com/rich-richer/rich-richer.github.io/blob/main/editorial/paper-catalog.md",
+          "originalTitle": "AI 论文目录"
+        }
+      ]
+    }
+  ]
+}

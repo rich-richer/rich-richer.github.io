@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-18T22:41:32+08:00",
+  "coverage": {
+    "start": "2026-11-13T23:59:59+08:00",
+    "end": "2026-11-16T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "todays-brief",
+      "category": "今日导读",
+      "title": "今日导读：算力交付要核验可靠容量",
+      "brief": "供电、内存与调节资源共同约束算力交付，容量价值要由真实运行和履约验证。",
+      "summary": "今日主线：可靠容量决定算力交付。\n导读：①美国续令保留1420兆瓦坎贝尔煤电站的冬季应急出力。②Marvell与Penguin规划CXL及光互联内存扩展，跨机架方案目标2027年下半年送样。③官方储能规划解读列出2030年3亿千瓦、平均约3小时的目标。④辽宁公布2027年370元/千瓦·年的可靠容量补偿标准，实际收入依核定与履约清算。\n今日一句话：机房的产业价值，要由逐时可用的电、持续可用的资源和真实客户共同兑现。",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "概括海外可靠性、系统资源与国内容量机制的新变化。"
+      },
+      "sources": [
+        {
+          "name": "本期·美国冬季应急令",
+          "url": "https://rich-richer.github.io/p/compute-intel/?date=2026-11-16#doe-campbell-winter-renewal-2026"
+        },
+        {
+          "name": "本期·储能规划解读",
+          "url": "https://rich-richer.github.io/p/compute-intel/?date=2026-11-16#storage-15th-plan-market-mechanisms"
+        },
+        {
+          "name": "本期·辽宁可靠容量补偿",
+          "url": "https://rich-richer.github.io/p/compute-intel/?date=2026-11-16#liaoning-reliable-capacity-compensation"
+        }
+      ]
+    },
+    {
+      "id": "doe-campbell-winter-renewal-2026",
+      "category": "海外",
+      "title": "美国续令保留坎贝尔煤电站冬季出力",
+      "brief": "美国续令保留1420兆瓦煤电站应急出力。意义：新增算力负荷要同时评估冬季可调度容量。",
+      "summary": "美国能源部11月14日公布第202-26-51号应急令，要求中大陆独立系统运营商（MISO）与Consumers Energy配合，使密歇根州J.H. Campbell煤电站维持可运行状态，以满足冬季应急需求。电站容量1420兆瓦，原拟于2025年5月31日提前退役。此次命令自2026年11月15日延续至2027年2月12日，要求在保障应急需要的同时按经济调度控制成本。能源部将冬季低温、大负荷增长与可调度机组退役列为可靠性考量，援引MISO资源充裕性材料支持其判断。命令要求的是电站保持可用，并不等于全时满负荷发电。公告所称成本和保供效果属于主管部门立场，实际运行仍需结合调度与结算记录。\n关键数字：1420兆瓦（机组总容量）｜2026年11月15日（续令起点）｜2027年2月12日（本次终点）\n意义：算力扩张增加了负荷，但可靠供电仍取决于冬季顶峰时段能动用多少容量。延迟退役能缓解短期缺口，也会带来燃料、环保与费用分担问题。对具备火电、核电和储能资源的区域，资源结构的价值需用顶峰贡献、检修安排和极端天气表现衡量。新增机房的年均绿电比例之外，逐时用电保障和备用安排同样影响交付可信度。\nEN: This order is in effect from November 15, 2026, through February 12, 2027.",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "政策原文与已核实供电、算力数据，适合产业与区域比较。"
+      },
+      "sources": [
+        {
+          "name": "美国能源部·应急令公告",
+          "url": "https://www.energy.gov/articles/energy-secretary-keeps-critical-coal-fired-generation-operational-ahead-winter-midwest",
+          "originalTitle": "Energy Secretary Keeps Critical, Coal-Fired Generation Operational Ahead of Winter in the Midwest"
+        },
+        {
+          "name": "美国能源部·202-26-51号令原文",
+          "url": "https://www.energy.gov/documents/doe-order-no-202-26-51",
+          "originalTitle": "DOE Order No. 202-26-51"
+        }
+      ]
+    },
+    {
+      "id": "marvell-penguin-cxl-memory-expansion",
+      "category": "海外",
+      "title": "Marvell与Penguin开发跨机架内存",
+      "brief": "两家公司计划复用DDR4并开发光互联共享内存。意义：算力产出也受内存利用率约束。",
+      "summary": "美国Marvell和Penguin Solutions于11月16日美东时间9时公布合作，提出两级内存扩展路线。服务器级方案把Marvell Structera X控制器接入Penguin SMART扩展卡，经PCIe 5.0与CXL 2.0连接退役服务器的高密度DDR4内存。跨机架方案则把光互联与MemoryAI内存设备、ComputeAI系统结合，目标是形成可跨机架分配的共享内存池。公告指出，推理和智能体的上下文增长使每节点内存需求增加。双方预计前一类产品在2026年底前进入验证与企业部署，整合光互联的扩展服务器在2027年下半年送样。公告未给出统一的节电百分比或已部署规模，这些仍属于产品计划。原文所称“通过回收现有高密度DDR4内存模块解锁更多内存容量”，强调了存量资源复用。\n关键数字：PCIe 5.0（连接接口）｜CXL 2.0（内存扩展协议）｜2027年下半年（光互联方案送样目标）\n意义：机房经济性除用电规模，还取决于昂贵加速器是否因内存不足而等待。复用内存与跨机架共享可以改变服务器配置，但会增加时延、调度和互联要求。具备工业运维与系统集成人才的区域，可在硬件更新中体现工程能力，收益仍要通过真实任务吞吐、每请求成本和故障隔离效果验证。更大的内存池要与配电和散热设计一起评价。\nEN: recycling existing high-density DDR4 memory modules",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "政策原文与已核实供电、算力数据，适合产业与区域比较。"
+      },
+      "sources": [
+        {
+          "name": "Penguin Solutions·联合公告",
+          "url": "https://ir.penguinsolutions.com/news/news-details/2026/Marvell-and-Penguin-Solutions-Collaborate-to-Address-Data-Center-AI-Memory-and-Accelerate-Inference-at-Scale/default.aspx",
+          "originalTitle": "Marvell and Penguin Solutions Collaborate to Address Data Center AI Memory and Accelerate Inference at Scale",
+          "publishedAt": "2026-11-16T09:00:00-05:00"
+        },
+        {
+          "name": "6ix·公司新闻分发时间",
+          "url": "https://6ix.com/news/marvell-and-penguin-solutions-collaborate-to-address-data-center-ai-memory-and-accelerate-inference-at-scale",
+          "originalTitle": "Marvell and Penguin Solutions Collaborate to Address Data Center AI Memory and Accelerate Inference at Scale",
+          "publishedAt": "2026-11-16T09:00:00-05:00"
+        }
+      ]
+    },
+    {
+      "id": "nokia-aigf-northern-consortium",
+      "category": "海外",
+      "title": "北欧五家企业组建多站点AI联盟",
+      "brief": "五家企业拟以四国站点参与欧洲AI项目招标。意义：供电资源和网络连接共同影响集群布局。",
+      "summary": "诺基亚11月16日上午8时（阿姆斯特丹时间）公布，Nokia、Nscale、Skeleton、Telia和Verda共同组建AI Gigafactory Northern联盟，拟向欧洲高性能计算联合事业体的招标提交建设运营方案。规划连接芬兰奥卢、爱沙尼亚Iru、拉脱维亚瓦尔米耶拉，以及瑞典一个尚未确定的地点，整合计算、主权云、通信与低碳供能。诺基亚负责连接网络，Nscale与Verda提供云和算力能力，Telia承担连接与运营，Skeleton提供高功率系统。公司称，多站点布局可接入不同电源并分散单点风险。公告中的300亿欧元是欧盟InvestAI拟动员的总体资金，不能等同于本联盟已获融资。原文只确认“合作方打算提交投标”，尚未披露中标、最终站点容量或商业投运日。\n关键数字：5家（创始企业）｜4国（规划站点所在国）｜300亿欧元（欧盟项目整体动员目标）\n意义：跨区域算力集群需要同时处理电源、网络、数据治理和运营衔接。多站点可以利用不同地区的能源条件，但能否形成统一服务，还取决于网络时延、业务可迁移性及各站交付节奏。东北地区的能源与工业基础可为多节点布局提供比较条件，区域协作的价值要落实到可交付资源和服务等级。联盟成立提供了组织框架，工程落地仍有招标和建设环节。\nEN: The partners intend to submit a bid",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "政策原文与已核实供电、算力数据，适合产业与区域比较。"
+      },
+      "sources": [
+        {
+          "name": "诺基亚·联盟公告",
+          "url": "https://www.nokia.com/newsroom/european-technology-leaders-form-ai-gigafactory-northern-consortium-to-build-trusted-sustainable-ai-infrastructure/",
+          "originalTitle": "European technology leaders form AI Gigafactory Northern consortium to build trusted, sustainable AI infrastructure",
+          "publishedAt": "2026-11-16T08:00:00+01:00"
+        },
+        {
+          "name": "AI Gigafactory Northern·联盟原文",
+          "url": "https://aigfnorthern.com/newsroom/european-technology-leaders-form-ai-gigafactory-northern-consortium/",
+          "originalTitle": "European technology leaders form AI Gigafactory Northern consortium to build trusted, sustainable AI infrastructure"
+        }
+      ]
+    },
+    {
+      "id": "storage-15th-plan-market-mechanisms",
+      "category": "中国",
+      "title": "储能规划解读明确3亿千瓦目标",
+      "brief": "官方解读提出2030年新型储能3亿千瓦、平均约3小时。意义：市场收益与顶峰能力成为配置依据。",
+      "summary": "湖南省工信厅11月16日转载《推动新型储能进入市场化发展阶段》解读，披露国家发展改革委、国家能源局《“十五五”新型储能实施方案》的目标与应用方向。文件落款为10月29日，文号发改能源〔2026〕1565号，本条记录的是窗口内的官方解读。到2030年，全国新型储能目标为3亿千瓦、平均时长约3小时，并提出新能源基地配置约5000万至6000万千瓦，可承担顶峰保供的电网侧独立储能约1.4亿千瓦。解读强调一体化调度与参与市场，鼓励源网荷储、绿电直连、虚拟电厂等模式应用储能，并支持八大算力枢纽和算电协同区建设。晋城市能源局同日公开转发文件正文，核对了文号与落款。各类装机目标的口径存在包含关系，不能直接相加。\n关键数字：3亿千瓦（2030年总目标）｜约3小时（平均储能时长）｜约1.4亿千瓦（电网侧独立储能顶峰目标）\n意义：储能从装机扩张进入市场运行阶段，收益更依赖实际充放电、顶峰贡献与成本回收规则。平均时长目标也提示，仅比较功率大小会漏掉持续供电能力。对兼有新能源、供热与工业负荷的东北区域，储能配置需要匹配季节和逐时负荷，分别核算电能量、容量与辅助服务收入。政策所列方向提供了制度背景，具体项目收益与补偿资格仍须一事一议核实。",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "政策原文与已核实供电、算力数据，适合产业与区域比较。"
+      },
+      "sources": [
+        {
+          "name": "湖南省工信厅·官方转载解读",
+          "url": "https://gxt.hunan.gov.cn/gxt/xxgk_71033/gzdt/rdjj/202611/t20261116_34102265.html",
+          "publishedAt": "2026-11-16T09:16:00+08:00"
+        },
+        {
+          "name": "晋城市能源局·文件转发",
+          "url": "https://xxgk.jcgov.gov.cn/szfgzbm/jcsnyj/fdzdgknr_31618/fgwj_31628/202611/t20261116_2412293.shtml"
+        }
+      ]
+    },
+    {
+      "id": "china-october-power-generation-2026",
+      "category": "中国",
+      "title": "10月风光发电增长，规上总量下降",
+      "brief": "10月规上发电量7940亿千瓦时，同比降2.1%。意义：能源结构变化与总需求变化要分别判断。",
+      "summary": "国家统计局11月16日10时发布2026年10月份能源生产情况。10月规模以上工业发电量7940亿千瓦时，同比下降2.1%，日均发电256.1亿千瓦时。1至10月累计发电82904亿千瓦时，同比增长1.8%。分电源看，10月火电下降7.3%、水电下降18.9%，核电增长17.5%，风电增长33.7%，太阳能发电增长31.0%。这些同比指标反映规上工业生产情况，统计范围为年主营业务收入2000万元及以上的工业企业。统计局提示，企业调查范围会变化，同比计算使用可比口径。全国发电总量的单月变动同时受到负荷和不同电源出力影响，不能凭风光高增速推导某省已有多少可供数据中心使用的富余容量。该统计也不直接给出数据中心专属用电规模。\n关键数字：7940亿千瓦时（10月发电量）｜−2.1%（同比）｜33.7%（风电同比增幅）\n意义：电源结构正在变化，风光增量与水火出力回落可以同时发生。计算负荷能否落地，仍需把全年电量与冬夏顶峰的可靠功率分开核查。东北具有风光火核组合，但企业供电安排要落到所在节点的网架、检修与调峰条件。对算电协同项目，可靠容量和逐时绿电匹配比单一同比数字更能解释运行约束，跨省交易也需同步考虑通道可用性。",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "政策原文与已核实供电、算力数据，适合产业与区域比较。"
+      },
+      "sources": [
+        {
+          "name": "国家统计局·能源生产数据",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965837.html",
+          "publishedAt": "2026-11-16T10:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "wuhan-compute-voucher-application-launch",
+      "category": "中国",
+      "title": "武汉启动算力券申领与分批兑现",
+      "brief": "武汉公布首批算力券兑付材料提交窗口。意义：实际使用记录成为算力需求支持的核验环节。",
+      "summary": "武汉市数据局11月16日16时58分发布通知，按《武汉市算力券管理办法》（武数据规〔2026〕2号）启动算力券申领。需求方通过武汉城市算力网公共服务平台申领，窗口自当日起至2027年10月29日，或政策周期内资金兑付完毕时止。首批兑付覆盖2026年10月29日至11月30日实际使用的算力或词元，相关材料须于12月1日至8日通过平台提交。流程包括需求方申领、使用后发起兑现、按办法审核与分批集中兑付，通知写明平台内交易“免申即享”。本次通知给出的是申领与兑现安排，补贴比例、供需方资格及交易限制仍以管理办法和审核结果为准。不同申报批次的实际使用期与材料截止日需要分别核对，提前领券不等于已经获得资金。\n关键数字：10月29日至11月30日（首批实际使用期）｜12月1日至8日（资料提交期）｜2027年10月29日（申领窗口最晚终点）\n意义：算力补贴与实际消费记录衔接，有助于观察需求是否形成真实调用，而非只看机柜建设。平台化交易也会影响订单、账单与使用量的核验方式。其他地区的算力券可以据此比较政策怎样连接供给与应用，但不同地区财政预算、对象和兑现规则不能互用。产业评估应把申领、消耗和回款分成三个阶段，资格和资金兑现时点须一事一议核实。",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "政策原文与已核实供电、算力数据，适合产业与区域比较。"
+      },
+      "sources": [
+        {
+          "name": "武汉市数据局·申领通知",
+          "url": "https://whsj.wuhan.gov.cn/tzgg_93641/202611/t20261116_2880553.shtml",
+          "publishedAt": "2026-11-16T16:58:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "liaoning-reliable-capacity-compensation",
+      "category": "辽宁",
+      "title": "辽宁公布370元可靠容量补偿标准",
+      "brief": "辽宁2027年可靠容量补偿标准为370元/千瓦·年。意义：储能收益与顶峰贡献和清单认定挂钩。",
+      "summary": "辽宁省发展改革委与省工信厅11月9日公布《关于建立发电侧可靠容量补偿机制的通知》，自2027年1月1日起试行。现阶段范围包括合规在运的公用煤电、电网侧独立新型储能及特定省间外购电，并由主管部门认定主体清单。2027年度标准为每千瓦每年370元，按核定可靠容量、容量供需系数和相关扣减计算，按月结算、按年清算。文件同时规定，煤电选择中长期价格联动时执行370元并配套运行成本补偿，选择固定价格、不联动时按165元执行且暂不实行运行成本补偿。补偿费由工商业用电、独立储能充电、抽蓄抽水及外送电量分摊。因而，额定装机乘以370元只是粗略上限式算术，实际收入还受核定容量、履约和清算影响。\n关键数字：370元/千瓦·年（2027年标准）｜165元/千瓦·年（煤电不联动合同情形）｜2027年1月1日（试行起点）\n意义：容量价值逐步转向可核验的顶峰贡献，能可靠出力的资源可获得更稳定的成本回收渠道。对独立储能，持续放电时长、充电条件与调度履约都会影响核定结果。辽宁已有多电源与工业负荷基础，这一机制有助于把调节资源的价值传导到市场。费用分摊也会影响终端用能成本，算力项目评价需要把电量价格、容量分摊和备用需求合并核算，具体清单资格须一事一议核实。",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "政策原文与已核实供电、算力数据，适合产业与区域比较。"
+      },
+      "sources": [
+        {
+          "name": "辽宁省发展改革委·政策原文",
+          "url": "https://fgw.ln.gov.cn/fgw/zc/zxzc/2026110915280075305/index.shtml"
+        },
+        {
+          "name": "辽宁省发展改革委·政策解读",
+          "url": "https://fgw.ln.gov.cn/fgw/zc/zcjd/2026110915360553973/index.shtml"
+        }
+      ]
+    },
+    {
+      "id": "liaoning-green-power-export-october",
+      "category": "辽宁",
+      "title": "辽宁前十月新能源外送增150.22%",
+      "brief": "辽宁前十月新能源外送43.74亿千瓦时。意义：绿色算力供能要同时看省内负荷和外送履约。",
+      "summary": "辽宁省政府网站11月11日刊载辽宁日报报道，截至10月末，全省绿电交易量117.52亿千瓦时，绿证交易294.02万张、同比增长182.44%，新能源外送电量43.74亿千瓦时、同比增长150.22%。这里的绿电交易、绿证交易和新能源外送是三个不同口径，不能简单相加。报道披露，前十月全省电源总装机9530.66万千瓦，清洁能源占比58.17%，总发电量2185.53亿千瓦时，其中清洁能源发电量1147亿千瓦时。参与绿电交易的经营主体超过700户，覆盖先进制造、绿色算力等场景。当地以年度和月度常态化交易、双边协商及挂牌等方式组织绿电流通，并辅以溯源核验。所列电量体现交易与生产规模，未给出某个算力项目可立即取得的容量或固定绿电价格。\n关键数字：117.52亿千瓦时（绿电交易量）｜43.74亿千瓦时（新能源外送量）｜150.22%（新能源外送同比）\n意义：跨省外送增长说明清洁电力的市场流通正在扩大，也使本地消纳与外送合同之间的协调更重要。建设绿色算力既需低碳电量，也需与负荷曲线一致的可靠供能。辽宁的多元电源和跨区通道提供了组合空间，但单看全年交易量难以判断冬季尖峰能否满足新增机房。可交付容量、绿电来源与交易履约应在同一时段口径下比较，才能反映区域能源条件的真实价值。",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "政策原文与已核实供电、算力数据，适合产业与区域比较。"
+      },
+      "sources": [
+        {
+          "name": "辽宁省政府·辽宁日报现场报道",
+          "url": "https://www.ln.gov.cn/web/ywdt/jrln/wzxx2018/2026111107032331582/index.shtml"
+        }
+      ]
+    },
+    {
+      "id": "liaoning-services-plan-compute-network",
+      "category": "辽宁",
+      "title": "辽宁规划建设双城与辽西北算力集群",
+      "brief": "辽宁服务业规划提出沈阳、大连智算与辽西北绿色算力集群。意义：算力布局与产业服务共同推进。",
+      "summary": "辽宁省政府办公厅11月11日印发、官网11月12日公开《辽宁省“十五五”服务业发展规划》，文号辽政办发〔2026〕28号。规划在软件信息部分提出布局全省一体化算力网络，建设沈阳、大连智算集群与辽西北绿色算力集群，建强国家新一代人工智能公共算力开放创新平台。配套方向包括数据标注、认证、信创适配和智改数转，做优沈阳国家级数据标注基地与大连国家级数据产业集聚区。到2030年，数字经济核心产业增加值占地区生产总值比重目标为6.5%，营业收入超亿元软件企业达到100家，建设5G工厂100个。规划还提出健全绿电直连与交易机制。上述属于省级发展目标，不代表各站点已经投运，也未给出本批算力集群的统一装机规模。\n关键数字：6.5%（2030年数字经济核心产业增加值占比目标）｜100家（亿元软件企业目标）｜100个（5G工厂目标）\n意义：算力网络布局与数据、软件和工业应用服务并列，可以把机房能力连接到当地制造场景。沈阳、大连的人才和软件资源与辽西北能源条件存在互补空间，能否转化为业务仍取决于连接质量、任务迁移和稳定付费需求。区域比较既要看供电设施，也要看可提供持续服务的团队与应用客户。规划为协同明确方向，工程建设、节能审查及资源保障仍需逐项落实。",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "政策原文与已核实供电、算力数据，适合产业与区域比较。"
+      },
+      "sources": [
+        {
+          "name": "辽宁省政府·服务业规划原文",
+          "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfbgtwj/2026n/2026111216243141103/index.shtml"
+        }
+      ]
+    }
+  ]
+}

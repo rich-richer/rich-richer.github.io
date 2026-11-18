@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-18T22:38:37+08:00",
+  "coverage": {
+    "start": "2026-11-09T12:35:53+08:00",
+    "end": "2026-11-16T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "ai-generated-code-open-source-debate",
+      "title": "AI写的代码该开放源码吗",
+      "brief": "开发者提议AI生成代码开放源码，可从贡献归属与项目许可做一组观点对照。",
+      "summary": "开发者Jakub Jankiewicz提出，AI生成代码应开放源码。选题可先把作者主张与现行规则、项目自行选择的许可分开核对。这篇文章进入Hacker News的11月15日讨论列表。北京时间11月18日22:38补发核查时，讨论页显示1281 points、670 comments；这些是本次采集读数，周一当时的计数未核实。图文可整理作者与反对意见各自的依据，短视频可用一段人机协作的改稿记录展示贡献如何产生，长内容可请开源维护者说明项目如何审查贡献。涉及具体许可适用或权利争议，应向知识产权专业人员核实。",
+      "category": "海外",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "有公开平台讨论与作者原文，适合从AI协作、开源维护及人类贡献三个角度解释争议。"
+      },
+      "sources": [
+        {
+          "name": "作者·原文",
+          "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+          "originalTitle": "All AI-generated code should be Open Source"
+        },
+        {
+          "name": "Hacker News·讨论指标",
+          "url": "https://news.ycombinator.com/item?id=50507303",
+          "originalTitle": "All AI-generated code should be Open Source"
+        }
+      ]
+    },
+    {
+      "id": "pypi-security-labels-retrospective",
+      "title": "软件包有来源证明，就够安全吗",
+      "brief": "PyPI项目页把文件来源状态集中展示，可录屏解释开发者如何读这些标记。",
+      "summary": "PyPI于11月6日公布项目页安全信息改版，11月14日的Hacker News讨论再次带起该话题。北京时间11月18日22:38补发核查时，帖子显示279 points、132 comments；这些是当前采集读数，历史周一计数未核实。官方原文说明安全页展示发布文件的来源证明，也提供不完整来源等提示。图文可逐项说明标记所回答的问题，短视频可展示同一项目不同文件的来源状态，长内容可请维护者说明发布流程变更如何触发提醒。讨论应把来源核验和代码行为检查都纳入视野，视频中显示的界面注明录制时间。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "界面变化能用录屏呈现，官方解释可支撑读者辨认来源证明和发布流程。"
+      },
+      "sources": [
+        {
+          "name": "PyPI·改版原文",
+          "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+          "originalTitle": "PyPI's redesigned project pages with clearer security signals are now live"
+        },
+        {
+          "name": "Hacker News·讨论指标",
+          "url": "https://news.ycombinator.com/item?id=50497892",
+          "originalTitle": "PyPI's redesigned project pages with clearer security signals are now live"
+        }
+      ]
+    },
+    {
+      "id": "deepseek-v3-jax-teaching-demo",
+      "title": "约200行代码，怎样讲清模型结构",
+      "brief": "开发者用JAX做DeepSeek V3结构演示，适合拆解注意力、专家路由和训练规模。",
+      "summary": "开发者Vaibhaav Tiwari公开了一个约200行JAX代码的DeepSeek V3架构演示，11月14日在Hacker News发帖。北京时间11月18日22:38补发核查时，帖子显示276 points、30 comments；这些是本次采集读数，周一当时计数未核实。作者说明项目用于展示结构，规模和能力需要依据具体配置理解。B站长视频可用结构图解释注意力缓存和专家路由，短视频可拿一段函数说明代码行数与训练计算量如何分别衡量，图文可做阅读路径和概念对照。复现时记录硬件、数据和配置，公布观察结果及限制。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "代码和作者说明均公开，适合可核验的模型原理教学。"
+      },
+      "sources": [
+        {
+          "name": "作者·代码与说明",
+          "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+          "originalTitle": "DeepSeek V3 in pure JAX"
+        },
+        {
+          "name": "Hacker News·讨论指标",
+          "url": "https://news.ycombinator.com/item?id=50497589",
+          "originalTitle": "Show HN: DeepSeek V3 in ~200 lines of pure Jax"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-18T22:40:54+08:00",
+  "coverage": {
+    "start": "2026-11-09T12:35:53+08:00",
+    "end": "2026-11-16T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "claude-fable-mythos-52-launch",
+      "title": "Claude升级Fable与Mythos 5.2，标准API降价",
+      "brief": "Anthropic升级Fable与Mythos 5.2，标准API价格下调。相同任务可复测输出质量和成本。",
+      "summary": "11月9日，Anthropic发布Claude Fable与Mythos 5.2，标准API价格较5.1版下降20%。这让团队能用相同任务重新比较质量、速度和费用。公司给出的价格为每百万输入、输出词元分别8美元和40美元，并称输出提速最高30%。Fable面向普通订阅和开发者，Mythos用于经核准的网络安全与生物研究。可在Claude模型列表或平台确认权限，用自己的样本核对效果。\nEN: Anthropic released Fable and Mythos 5.2 with lower standard API prices; Mythos access requires verification.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "Anthropic升级Fable与Mythos 5.2，标准API价格下调。相同任务可复测输出质量和成本。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic·模型公告",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "originalTitle": "Introducing Claude Fable 5.2 and Claude Mythos 5.2"
+        },
+        {
+          "name": "Anthropic·Fable产品说明",
+          "url": "https://www.anthropic.com/claude/fable",
+          "originalTitle": "Claude Fable 5.2"
+        }
+      ]
+    },
+    {
+      "id": "gemini-4-hydrogen-agentic-workflows",
+      "title": "Google推出Gemini 4 Hydrogen，面向日常智能体工作",
+      "brief": "Hydrogen进入Gemini应用、API及Antigravity。开发者可比较日常执行任务的费用与耗时。",
+      "summary": "Google于11月12日推出Gemini 4 Hydrogen，面向编程和多步智能体工作，提供100万词元上下文。公告价格为每百万输入1.5美元、输出7.5美元，整个上下文区间同价。产品进入AI Studio、Gemini API和应用等渠道，Antigravity面向付费Pro和Ultra用户提供。使用时先确认所在账号的模型入口，再用同一批任务对照耗时与费用。\nEN: Google launched Gemini 4 Hydrogen for coding and agent workflows, with a one-million-token context window.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "Hydrogen进入Gemini应用、API及Antigravity。开发者可比较日常执行任务的费用与耗时。"
+      },
+      "sources": [
+        {
+          "name": "Google·官方发布",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "originalTitle": "Introducing Gemini 4 Hydrogen for Agentic Workflows",
+          "publishedAt": "2026-11-12T18:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "applied-materials-fy2026-q4-results",
+      "title": "应用材料季度营收增53%，全年达344亿美元",
+      "brief": "应用材料第四财季营收104.1亿美元。设备商财报提供了观察芯片资本开支的一个样本。",
+      "summary": "应用材料11月12日公布，截至10月25日的第四财季营收104.1亿美元，同比增53%，美国通用会计准则（GAAP）每股收益3.40美元。2026财年全年营收344.5亿美元，同比增21%。公司把AI带动的半导体需求列为增长因素。季度营收、每股收益与管理层对后续需求的判断各有口径，后续仍需对照订单、交付和客户投资计划。\nEN: Applied Materials reported quarterly revenue of $10.41 billion, up 53%, and fiscal-year revenue of $34.45 billion.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "应用材料第四财季营收104.1亿美元。设备商财报提供了观察芯片资本开支的一个样本。"
+      },
+      "sources": [
+        {
+          "name": "应用材料·业绩公告",
+          "url": "https://investors.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026",
+          "originalTitle": "Applied Materials Announces Fourth Quarter and Fiscal Year 2026 Results",
+          "publishedAt": "2026-11-12T16:01:00-05:00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-wallet-agent-payments-launch",
+      "title": "ChatGPT Wallet面向美国Pro用户试行",
+      "brief": "Wallet通过dots试行代理支付，每次购买需用户核对并通过安全验证。",
+      "summary": "OpenAI于11月13日发布ChatGPT Wallet，初期通过dots面向美国ChatGPT Pro用户开放。用户先核对商品、总价及所选卡片，再通过安全检查批准购买。支付网络随后生成代替真实卡号的支付令牌，供商家和智能体使用。官方将后续完全委托采购列为未来方向。符合资格的用户可在dots查看入口，使用前核对支持的卡片和商家。\nEN: ChatGPT Wallet began limited access for US Pro users, with user review and a security check before each purchase.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "Wallet通过dots试行代理支付，每次购买需用户核对并通过安全验证。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI·产品公告",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+          "originalTitle": "Introducing ChatGPT Wallet"
+        }
+      ]
+    },
+    {
+      "id": "aws-api-mcp-fix-cross-publication",
+      "title": "AWS修复API MCP服务器策略绕过漏洞",
+      "brief": "AWS建议升级至1.5.1或更新版本，部署者应核对自行维护的分支。",
+      "summary": "【已确认漏洞】AWS公告确认，其API模型上下文协议（MCP）服务器存在操作名称匹配问题，可能放行本应禁止或需确认的云操作。修复状态为已修复，官方建议升级至1.5.1或更新版本。本条提示部署者检查运行版本和自行维护分支的补丁情况。影响范围与技术说明见本站11月14日《AI安全公开动态》的完整报道。\nEN: AWS patched a policy bypass in its API MCP server and recommends upgrading to version 1.5.1 or later.",
+      "category": "AI安全观察",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AWS建议升级至1.5.1或更新版本，部署者应核对自行维护的分支。"
+      },
+      "sources": [
+        {
+          "name": "本站·AI安全公开动态（完整报道）",
+          "url": "https://rich-richer.github.io/p/ai-safety/?date=2026-11-14#aws-api-mcp-policy-bypass-cve-2026-125271"
+        },
+        {
+          "name": "AWS·安全公告",
+          "url": "https://aws.amazon.com/security/security-bulletins/2026-176-aws/",
+          "originalTitle": "CVE-2026-125271 - AWS API MCP Server Security Policy Bypass via Incorrect Operation Name Normalization"
+        }
+      ]
+    },
+    {
+      "id": "cisco-q1-fy2027-results",
+      "title": "思科季度营收增24%，网络产品增43%",
+      "brief": "思科季度营收185亿美元，网络产品增长43%，显示企业和云客户的网络需求。",
+      "summary": "思科11月12日公布，截至10月24日的2027财年第一季度营收185亿美元，同比增24%；GAAP净利润46亿美元，同比增59%。网络产品营收增43%，服务营收增1%。公司同时上调2027财年对超大规模云客户的AI基础设施收入预期至90亿美元。后一个数字属于管理层预期，季度已实现营收则来自本次财报。\nEN: Cisco reported revenue of $18.5 billion, up 24%, with networking product revenue rising 43%.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "思科季度营收185亿美元，网络产品增长43%，显示企业和云客户的网络需求。"
+      },
+      "sources": [
+        {
+          "name": "思科·业绩公告",
+          "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FIRST-QUARTER-EARNINGS/default.aspx",
+          "originalTitle": "CISCO REPORTS FIRST QUARTER EARNINGS"
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs-kotoba-acquisition-announcement",
+      "title": "ElevenLabs宣布收购日本语音公司Kotoba",
+      "brief": "ElevenLabs拟整合Kotoba的日语语音能力，交易仍需满足交割条件。",
+      "summary": "ElevenLabs于11月16日宣布收购日本语音AI公司Kotoba。后者的Koto模型覆盖日语语音合成、识别和语音到语音翻译，目标包括企业语音智能体。公告称，结合Kotoba的日语研究与本地经验，可改进语气、停顿和交谈习惯的处理。交易预计在2026年第四季度晚些时候完成，仍需监管批准等惯常条件，公告未披露交易金额。\nEN: ElevenLabs announced a deal to acquire Japanese voice-AI company Kotoba, subject to customary closing conditions.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "ElevenLabs拟整合Kotoba的日语语音能力，交易仍需满足交割条件。"
+      },
+      "sources": [
+        {
+          "name": "ElevenLabs·公司公告",
+          "url": "https://elevenlabs.io/blog/kotoba",
+          "originalTitle": "ElevenLabs acquires Kotoba to advance Japanese voice AI",
+          "publishedAt": "2026-11-16T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "spotify-home-feed-controls",
+      "title": "Spotify增加主页内容移除和反馈选项",
+      "brief": "Spotify增加主页整理工具。移除条目只清理当前展示，“不感兴趣”会影响后续推荐。",
+      "summary": "Spotify于11月12日公布三项主页控制更新，用户可从顶部区域或最近播放区域移除单个条目，并对节目或作者标记“不感兴趣”。官方说明，从某一区域移除内容只整理页面展示，“不感兴趣”则帮助调整后续推荐。对播客创作者而言，后台应结合受众留存和收听反馈观察变化。听众可长按条目查看适用选项。\nEN: Spotify added Home controls for removing items and marking shows or authors as not interesting to refine recommendations.",
+      "category": "创作者平台",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "Spotify增加主页整理工具。移除条目只清理当前展示，“不感兴趣”会影响后续推荐。"
+      },
+      "sources": [
+        {
+          "name": "Spotify·产品公告",
+          "url": "https://newsroom.spotify.com/2026-11-12/home-feed-updates/",
+          "originalTitle": "Three New Ways to Shape What You See on Spotify Home"
+        }
+      ]
+    },
+    {
+      "id": "nasa-escapade-powered-earth-flybys",
+      "title": "NASA双探测器完成地球借力，转赴火星",
+      "brief": "ESCAPADE两艘探测器结合地球引力与发动机点火，分别在11月7日、9日完成飞掠。",
+      "summary": "NASA于11月9日确认，两艘ESCAPADE探测器分别在美东时间11月7日和9日完成地球飞掠，以引力辅助结合发动机点火转向火星。任务将用两处同时观测研究太阳风与火星磁场、上层大气的相互作用。两器在2025年发射后先停留于地球附近的特殊轨道，再等待这次出发机会，展示了一种可放宽火星发射窗口约束的航线。\nEN: NASA confirmed that both ESCAPADE spacecraft completed powered Earth flybys and are now headed toward Mars.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "ESCAPADE两艘探测器结合地球引力与发动机点火，分别在11月7日、9日完成飞掠。"
+      },
+      "sources": [
+        {
+          "name": "NASA·任务更新",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
+          "originalTitle": "NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars",
+          "publishedAt": "2026-11-09T11:01:47-05:00"
+        }
+      ]
+    },
+    {
+      "id": "hubble-roman-gravitational-lens-sample",
+      "title": "哈勃引力透镜图像为Roman观测铺路",
+      "brief": "NASA公布引力透镜图像样本，帮助研究者为Roman的大视场巡天准备识别和分析工具。",
+      "summary": "NASA于11月12日介绍一组哈勃引力透镜图像，展示前景星系质量如何弯曲、放大远处星系的光。研究者拟据图像建立透镜模型，测量前景物体的质量分布，并为Roman望远镜更大规模的样本分析作准备。图像中的细小偏差可成为寻找暗物质小团块的线索；对暗物质模型的检验仍有待后续观测和分析。\nEN: Hubble lens images are helping researchers prepare Roman surveys and test how dark matter is distributed.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "NASA公布引力透镜图像样本，帮助研究者为Roman的大视场巡天准备识别和分析工具。"
+      },
+      "sources": [
+        {
+          "name": "NASA·哈勃科学",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+          "originalTitle": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
+          "publishedAt": "2026-11-12T08:18:40-05:00"
+        }
+      ]
+    },
+    {
+      "id": "ibm-nighthawk-r3-quantum-roadmap",
+      "title": "IBM公布520量子比特处理器计划",
+      "brief": "IBM提出Nighthawk r3处理器及2027年互联计划，性能目标仍待实机验证。",
+      "summary": "IBM于11月11日公布Nighthawk r3计划，目标是在520个可编程量子比特上执行一万次量子操作，并在2027年互联两颗处理器。公司同时披露，现有r2支持在120个量子比特上运行逾7500次操作，合作方已执行340亿条量子线路。提速对照的是此前IBM处理器上的特定任务；r3的规格与互联规模属于研发目标。\nEN: IBM outlined a 520-qubit Nighthawk r3 processor and a 2027 plan to connect two chips; these remain development targets.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "IBM提出Nighthawk r3处理器及2027年互联计划，性能目标仍待实机验证。"
+      },
+      "sources": [
+        {
+          "name": "IBM·研发公告",
+          "url": "https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027",
+          "originalTitle": "IBM Quantum Nighthawk Demonstrates New Levels of Speed and Quality, with Plans to Scale Beyond 1,000 Qubits in 2027"
+        }
+      ]
+    }
+  ]
+}
