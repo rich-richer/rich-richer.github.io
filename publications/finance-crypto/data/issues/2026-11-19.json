@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T11:25:49+08:00",
+  "coverage": {
+    "start": "2026-11-16T23:59:59+08:00",
+    "end": "2026-11-19T11:25:49+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "fed-october-minutes-november-18",
+      "title": "美联储纪要显示多数与会者倾向进一步加息",
+      "brief": "美联储10月维持利率，纪要显示几乎所有与会者在其基准假设下认为加息可能合适。接下来仍要看通胀和就业数据。",
+      "summary": "本刊仅供学习，不构成投资建议；投资有风险。本期主线：美联储纪要显示进一步加息仍在讨论，美股主要ETF从上期基准收盘至今均下跌。纪要于北京时间11月19日03:00公布。10月会议以10票对2票维持联邦基金利率目标区间在3.75%至4.00%，两名反对者当时主张加息25个基点（basis points），即0.25个百分点。几乎所有与会者认为，在各自对通胀和就业的基准假设下，进一步上调利率可能合适。12月会议将根据收到的数据、经济前景和风险作出决定。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "纪要把已经表决的利率与参与者对未来路径的判断放在同一份官方材料内，便于区分政策和预期。"
+      },
+      "sources": [
+        {
+          "name": "美联储",
+          "originalTitle": "Minutes of the Federal Open Market Committee, October 27–28, 2026",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+          "publishedAt": "2026-11-18T14:00:00-05:00"
+        },
+        {
+          "name": "美联储发布通知",
+          "originalTitle": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+          "publishedAt": "2026-11-18T14:00:00-05:00"
+        }
+      ]
+    },
+    {
+      "id": "us-etf-nov-18-close",
+      "title": "美股ETF收盘分化，三只均低于上期基准",
+      "brief": "美东11月18日，SPY跌0.31%、QQQ涨0.39%、VTI跌0.20%。三只基金均比上期采用的收盘价低约3%。",
+      "summary": "美东11月18日16:00（北京时间19日05:00）收盘，交易型开放式指数基金（ETF）SPY报730.20美元，日跌0.31%；QQQ报659.51美元，日涨0.39%；VTI报359.48美元，日跌0.20%。以上期采用的美东11月13日收盘为基准，依次累计下跌3.20%、3.00%、3.13%，按收盘价计算，不含分红再投资。美联社的收盘报道记录了英伟达公布业绩后股价由涨转跌、其他AI股震荡，以及标普500和纳斯达克综合指数收盘方向分化。比较基金涨跌时，还要看它们跟踪的指数和成分权重。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "以同一供应商的收盘序列衔接上期，便于比较当日分化与区间回撤。"
+      },
+      "sources": [
+        {
+          "name": "Stock Analysis",
+          "originalTitle": "SPY Stock Price History",
+          "url": "https://stockanalysis.com/etf/spy/history/"
+        },
+        {
+          "name": "Stock Analysis",
+          "originalTitle": "QQQ Stock Price History",
+          "url": "https://stockanalysis.com/etf/qqq/history/"
+        },
+        {
+          "name": "Stock Analysis",
+          "originalTitle": "VTI Stock Price History",
+          "url": "https://stockanalysis.com/etf/vti/history/"
+        },
+        {
+          "name": "美联社",
+          "originalTitle": "How major US stock indexes fared Wednesday 11/18/2026",
+          "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-990749d3d269f7ef05b9f6c089713a58"
+        }
+      ]
+    },
+    {
+      "id": "world-bank-stablecoins-exploration",
+      "title": "世界银行与花旗、Circle探索稳定币支付",
+      "brief": "世界银行集团将探索以受监管的美元稳定币拨付项目资金。判断能否节省成本，要看资金从拨出到当地收款的全流程。",
+      "summary": "世界银行集团11月17日宣布，将与花旗和Circle研究用受监管的美元稳定币（stablecoin）拨付项目资金。花旗提供接入现有银行网络的能力，Circle提供USDC发行和结算基础设施。首阶段拟在允许使用数字资产的借款国探索由机构居中、可与传统银行系统协作的模式。公告披露的是探索计划，未公布参与国名单、上线时间或实际节省额。后续衡量效果，应比较资金从拨出到当地收款的全程耗时，并计入换汇、合规审查及兑换费用。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "以官方公告区分机构支付探索、现行银行渠道与尚待验证的成本收益。"
+      },
+      "sources": [
+        {
+          "name": "世界银行集团",
+          "originalTitle": "World Bank Group Explores Regulated Stablecoins to Modernize Payments, Redirect Resources to Development Impact",
+          "url": "https://www.worldbank.org/en/news/press-release/2026/11/17/world-bank-group-explores-regulated-stablecoins-to-modernize-payments-redirect-res"
+        }
+      ]
+    },
+    {
+      "id": "cn-hk-nov-18-close",
+      "title": "沪深股指小涨，恒生指数跌0.91%",
+      "brief": "11月18日上证指数涨0.09%、深证成指涨0.20%、恒指跌0.91%。与16日收盘相比，三项均下跌。",
+      "summary": "11月18日收盘，上证综指报3587.83点，日涨0.09%；深证成指报10659.41点，日涨0.20%；恒生指数报23294.75点，日跌0.91%。以11月16日收盘为基准，三项依次累计下跌0.41%、0.29%、1.93%。上海证券报报道，沪深两市全天成交约1.37万亿元，算力概念股领涨。新华社记录，香港国企指数与恒生科技指数当天也下跌。单日指数上涨反映成分股加权后的结果，成交额和板块分布可帮助判断上涨范围。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "同列沪、深、港已结束的交易时段，便于用一致的基准比较。"
+      },
+      "sources": [
+        {
+          "name": "上海证券报（同花顺转载）",
+          "url": "https://stock.10jqka.com.cn/20261118/c681953990.shtml",
+          "publishedAt": "2026-11-18T16:13:22+08:00"
+        },
+        {
+          "name": "新华社",
+          "url": "https://www.xinhuanet.com/20261118/2d1c360df96a4ec7a704bf90be5f8f1d/c.html",
+          "publishedAt": "2026-11-18T18:02:26+08:00"
+        },
+        {
+          "name": "博时基金（界面新闻）",
+          "url": "https://www.jiemian.com/article/15346907.html",
+          "publishedAt": "2026-11-18T16:40:00+08:00"
+        },
+        {
+          "name": "同花顺金融研究中心",
+          "url": "https://yuanchuang.10jqka.com.cn/20261116/c681853615.shtml",
+          "publishedAt": "2026-11-16T15:03:02+08:00"
+        },
+        {
+          "name": "新华社",
+          "url": "https://www.news.cn/gangao/20261116/6f219003aef4436c86256eb60201ca03/c.html",
+          "publishedAt": "2026-11-16T17:52:57+08:00"
+        }
+      ]
+    },
+    {
+      "id": "btc-eth-nov-19-fixed-snapshot",
+      "title": "比特币和以太币较上期样本均下跌",
+      "brief": "北京时间11月19日08:00，比特币约6.30万美元、以太币约1775美元，较16日同一时点均下跌。",
+      "summary": "据CoinGecko历史接口，北京时间11月19日08:00，比特币（BTC）美元汇总报价为62,996.68，以太币（ETH）为1,775.10。与上期使用的11月16日08:00样本65,305.28美元和1,834.53美元相比，分别下跌3.54%和3.24%。两端均取协调世界时（UTC）00:00的样本。加密货币全天交易，这组数据只描述两个取样点之间的价格变化。CoinGecko说明，历史样本可能在两天内更新。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "沿用上期数据服务并统一取样钟点，避免把口径差异混进区间变化。"
+      },
+      "sources": [
+        {
+          "name": "CoinGecko · 比特币历史样本",
+          "originalTitle": "Coin Historical Data by ID — Bitcoin",
+          "url": "https://api.coingecko.com/api/v3/coins/bitcoin/history?date=19-11-2026&localization=false"
+        },
+        {
+          "name": "CoinGecko · 以太币历史样本",
+          "originalTitle": "Coin Historical Data by ID — Ethereum",
+          "url": "https://api.coingecko.com/api/v3/coins/ethereum/history?date=19-11-2026&localization=false"
+        },
+        {
+          "name": "CoinGecko接口文档",
+          "originalTitle": "Coin Historical Data by ID",
+          "url": "https://docs.coingecko.com/reference/coins-id-history"
+        }
+      ]
+    },
+    {
+      "id": "lesson-index-etf",
+      "title": "一词一课：指数与ETF",
+      "brief": "指数按规则衡量一篮子证券的表现，ETF份额在交易所买卖。读涨跌表之前，先确认基金跟踪哪个指数。",
+      "summary": "市场指数（market index）像按固定规则制作的成绩单，指数基金力求跟踪这张成绩单，ETF则是可以在交易所买卖份额的一种基金。就像不同课程有不同的评分权重，两只基金即使都持有美国股票，也可能因跟踪指数不同出现本期那样的单日分化。常见误区是把ETF盘中成交价等同于每份基金资产净值（NAV）。成交价由市场撮合，可能高于或低于净值。小练习：两只ETF名称都写着美股，优先比较什么？A. 跟踪指数及成分权重 B. 基金简称的长短 C. 份额价格是否相同。答案A，指数规则决定基金拟跟踪的组合。",
+      "category": "一词一课",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "接续上期的股票与公司所有权，用本期基金涨跌分化解释指数和ETF的关系。"
+      },
+      "sources": [
+        {
+          "name": "美国证监会投资者教育网站",
+          "originalTitle": "Index Funds",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-4"
+        },
+        {
+          "name": "美国证监会投资者教育网站",
+          "originalTitle": "Characteristics of Mutual Funds and Exchange-Traded Funds (ETFs) – Investor Bulletin",
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/characteristics-mutual-funds-exchange-traded-funds"
+        }
+      ]
+    },
+    {
+      "id": "read-us-housing-starts-november-release",
+      "title": "新闻怎么读：美国开工与许可为何分化",
+      "brief": "美国10月新屋开工估计环比升9.9%，许可降7.4%。解读时先追问，开工升幅是否超出统计误差。",
+      "summary": "北京时间11月18日21:30，美国人口普查局和住房与城市发展部公布，10月私人住宅开工的季调年化值为130.9万套，比上月估计值升9.9%；获准建设的住宅为129.5万套，降7.4%。解读时先问三个问题。第一，许可与开工处在哪个施工阶段？第二，年化值是把当月节奏换算为一年，本月实际开建数应查哪一列？第三，升幅是否超出抽样波动？官方给出的开工环比90%置信区间为−6.9%至+26.7%，包含零。两个指标方向分化，开工数据仍需结合后续月份和修订观察。",
+      "category": "新闻怎么读",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "借官方住宅数据练习区分年化值、建设阶段与统计显著性。"
+      },
+      "sources": [
+        {
+          "name": "美国人口普查局、住房与城市发展部",
+          "originalTitle": "Monthly New Residential Construction, October 2026",
+          "url": "https://www.census.gov/construction/nrc/pdf/newresconst_202610.pdf",
+          "publishedAt": "2026-11-18T08:30:00-05:00"
+        },
+        {
+          "name": "美国人口普查局",
+          "originalTitle": "New Residential Construction — Methodology",
+          "url": "https://www.census.gov/construction/nrc/methodology.html"
+        }
+      ]
+    },
+    {
+      "id": "calendar-michigan-consumer-surveys-nov-20",
+      "title": "11月20日发布密歇根大学消费者调查终值",
+      "brief": "北京时间11月20日23:00，密歇根大学计划公布11月消费者调查终值。可对照月初初值，查看信心和通胀预期是否修订。",
+      "summary": "密歇根大学消费者调查项目计划于美东11月20日10:00，也就是北京时间23:00，公布11月终值。月初公布的消费者信心指数（Index of Consumer Sentiment）初值为51.0，10月终值为48.0。终值纳入初值发布后完成的访谈，适合与当月初值对照，也可比较家庭对未来一年物价涨幅的预期是否改变。该调查记录受访者的判断，实际物价变化要看相应的价格统计。",
+      "category": "财经日历",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "提供下期前有明确官方时间的发布，并解释如何对照初值和终值。"
+      },
+      "sources": [
+        {
+          "name": "密歇根大学消费者调查",
+          "originalTitle": "Surveys of Consumers",
+          "url": "https://www.sca.isr.umich.edu/"
+        },
+        {
+          "name": "密歇根大学消费者调查",
+          "originalTitle": "Release Dates for 2026",
+          "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628"
+        }
+      ]
+    }
+  ]
+}

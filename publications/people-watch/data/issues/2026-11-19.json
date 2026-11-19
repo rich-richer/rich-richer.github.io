@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T11:25:49+08:00",
+  "coverage": {
+    "start": "2026-11-12T11:25:49+08:00",
+    "end": "2026-11-19T11:25:49+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "amodei-anthropic-ipo-pricing",
+      "title": "阿莫迪：Anthropic 首次公开募股定价83美元",
+      "brief": "Anthropic 定价每股83美元，拟于美东11月19日在纳斯达克交易。",
+      "summary": "美东时间11月18日，达里奥·阿莫迪领导的 Anthropic 公布首次公开募股（IPO）定价为每股83美元。意义：上期的路演进入定价阶段，投资者现在可以区分公司新发股与原股东出售的份额。此次共发售9.8亿股，按定价合计约813.4亿美元，其中约9.56亿股由公司出售，余下部分来自原股东，公司不会获得后者的售股款。公司预计股票于美东11月19日在纳斯达克开始交易，代码 ANT。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "延续上期路演报道，核对最终定价、发售规模及公司实际受益的股份范围。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "originalTitle": "Anthropic prices initial public offering"
+        },
+        {
+          "name": "纳斯达克提交美国证交会文件",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000135445726001088/ANT_8A_Cert_0002130357.pdf",
+          "originalTitle": "Nasdaq Regulation: Anthropic, PBC listing certification"
+        },
+        {
+          "name": "美联社",
+          "url": "https://apnews.com/article/70b660ddf900d90bbf484ecdf1fb441c",
+          "originalTitle": "Anthropic to debut on Wall Street with a $1.5 trillion valuation in the biggest IPO of all time",
+          "publishedAt": "2026-11-18T22:24:43Z"
+        }
+      ]
+    },
+    {
+      "id": "jensen-huang-nvidia-leadership-transition",
+      "title": "黄仁勋：卸任英伟达 CEO 后回应回归呼声",
+      "brief": "英伟达任命财务长克雷斯为临时 CEO。黄仁勋说，若董事会邀请，他愿意回任。",
+      "summary": "美国当地时间11月12日，英伟达宣布联合创始人黄仁勋辞去总裁、首席执行官（CEO）和董事职务，由兼任执行副总裁的财务长科莱特·克雷斯出任临时 CEO，并继续负责财务。董事会宣布启动永久继任者遴选，考虑公司内外人选。11月17日，黄仁勋公开表示，如果董事会认定回归符合相关各方利益，他愿意回任。该表态给出了本人意愿，继任安排仍以董事会公告为准。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "核对英伟达治理变动与当事人的正式公开表态，时间线有官方公告及美联社转载原文支持。"
+      },
+      "sources": [
+        {
+          "name": "英伟达新闻中心",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+          "originalTitle": "NVIDIA Announces CEO Transition"
+        },
+        {
+          "name": "美联社",
+          "url": "https://apnews.com/article/jensen-huang-return-nvidia-0f6d83fc6d97a30fc54bd66b5ac42eda",
+          "originalTitle": "Jensen Huang breaks his silence. Read his full statement here",
+          "publishedAt": "2026-11-17T19:27:38Z"
+        }
+      ]
+    },
+    {
+      "id": "warren-buffett-family-foundations-2026",
+      "title": "巴菲特：向四家基金会捐赠922.5万股",
+      "brief": "巴菲特把6150股伯克希尔 A 类股转换为922.5万股 B 类股，用于向四家基金会捐赠。",
+      "summary": "美国当地时间11月16日，伯克希尔哈撒韦公告称，荣誉董事长沃伦·巴菲特将把6,150股 A 类股转换为922.5万股 B 类股并捐给四家家族基金会。其中苏珊·汤普森·巴菲特基金会获得369万股，另外三家基金会各获184.5万股。巴菲特在随公告发布的感恩节致辞中，把此次捐赠放在此前披露的长期计划中，并指出捐助规模逐年增长的目标会受市场状况影响。",
+      "category": "金融与加密",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "以公司公告逐项核对捐赠结构，衔接荣誉董事长交接后的公开动向。"
+      },
+      "sources": [
+        {
+          "name": "伯克希尔哈撒韦",
+          "url": "https://www.berkshirehathaway.com/news/nov1626.pdf",
+          "originalTitle": "News Release and Thanksgiving Message from Warren Buffett"
+        },
+        {
+          "name": "美联社",
+          "url": "https://apnews.com/article/warren-buffett-berkshire-hathaway-thanksgiving-philanthropy-87fdbf321cffc98ecb9b1f7242ba2437",
+          "originalTitle": "Warren Buffett says kindness “compounds” as he gifts about $5.5 billion to his family’s foundations",
+          "publishedAt": "2026-11-16T15:11:00Z"
+        }
+      ]
+    },
+    {
+      "id": "elon-musk-spacex-dragon-crs35-return",
+      "title": "马斯克：SpaceX 龙飞船返航延期",
+      "brief": "加州外海回收区天气不利，SpaceX 与 NASA 推迟了龙飞船的脱离空间站安排。",
+      "summary": "美东时间11月18日，美国国家航空航天局（NASA）称，由于加州外海溅落区天气不利，NASA 与马斯克旗下 SpaceX 取消当天让龙飞船脱离国际空间站的计划。NASA 随后把最早脱离时间改为美东11月20日12:05，即北京时间11月21日01:05，仍取决于天气。此行属于第35次商业补给任务的返回段，飞船将把科研样本和硬件送回地球。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "记录马斯克所属公司的民用航天任务进度，NASA 同时公开了延期原因与后续窗口。"
+      },
+      "sources": [
+        {
+          "name": "NASA 新闻稿",
+          "url": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
+          "originalTitle": "NASA to Cover 35th SpaceX Resupply Mission Space Station Departure"
+        },
+        {
+          "name": "NASA 空间站博客",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
+          "originalTitle": "NASA, SpaceX Stand Down from Dragon’s Undocking on Wednesday",
+          "publishedAt": "2026-11-18T01:44:00-05:00"
+        }
+      ]
+    },
+    {
+      "id": "andrew-ng-openworker-harness",
+      "title": "吴恩达：在公开信中介绍智能体运行框架",
+      "brief": "吴恩达介绍开源 OpenWorker，并用文件整理例子解释怎样限定智能体的操作范围。",
+      "summary": "美国太平洋时间11月13日，吴恩达在 DeepLearning.AI 的《The Batch》公开信中介绍 OpenWorker 智能体运行框架开发工具包（SDK），并把这类框架纳入他维护的 AI 工程技能地图。他把运行框架解释为围绕模型组织上下文、工具与权限约束的代码，并以整理文件为例，说明如何把操作限定在指定目录，并在移动文件之前请求确认。信中还提到，面试越来越常问候选人有没有亲手做过这类框架，这是他对招聘动向的观察。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "追踪吴恩达更新工程技能地图的公开说明，保留对权限边界的解释。"
+      },
+      "sources": [
+        {
+          "name": "DeepLearning.AI《The Batch》",
+          "url": "https://www.deeplearning.ai/the-batch/issue-379/",
+          "originalTitle": "GPT-6 Cyber Versus Linux, The Problem With LLM-Powered Search, LLMs Edit Model Weights, Agentic Doc Retrieval",
+          "publishedAt": "2026-11-13T07:00:00-08:00"
+        }
+      ]
+    },
+    {
+      "id": "justin-sun-tron-aave-android",
+      "title": "孙宇晨：波场接入 Aave 移动端",
+      "brief": "波场与 Aave Labs 公告，Aave 移动应用在安卓端开放早期体验，并新增波场 USDT 入金支持。",
+      "summary": "美东时间11月17日，孙宇晨创办的波场（TRON）与 Aave Labs 分别公告，Aave 应用在安卓端开放早期体验，同时支持经波场网络转入美元稳定币 USDT。Aave Labs 称，安卓新用户可能需要先加入等候名单，服务范围随地区而异。该应用不属于银行，资金没有政府存款保险。两份公告披露的是产品接入，均由机构发布。",
+      "category": "金融与加密",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "关注名单内人物所创办组织的公开产品进展，两家机构各有公告可供交叉验证。"
+      },
+      "sources": [
+        {
+          "name": "波场 DAO 公告",
+          "url": "https://www.globenewswire.com/news-release/2026/11/17/3405078/0/en/aave-app-launches-on-tron-bringing-usdt-deposits-to-mobile-users-on-android-and-ios.html",
+          "originalTitle": "Aave App Launches on TRON, Bringing USDT Deposits to Mobile Users on Android and iOS",
+          "publishedAt": "2026-11-17T12:00:00-05:00"
+        },
+        {
+          "name": "Aave Labs",
+          "url": "https://aave.com/blog/aave-app-android",
+          "originalTitle": "Aave App Launches on Android With USDT Deposits on TRON"
+        }
+      ]
+    }
+  ]
+}

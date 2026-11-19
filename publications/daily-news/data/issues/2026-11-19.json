@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T11:25:49+08:00",
+  "coverage": {
+    "start": "2026-11-16T23:59:59+08:00",
+    "end": "2026-11-19T11:25:49+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "openai-gpt-62-astra-sol",
+      "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol",
+      "brief": "OpenAI 推出两款 GPT-6.2。Astra 标准 API 输入、输出单价较上代各降 20%，Sol 沿用上代费率。",
+      "summary": "OpenAI 于美东时间 11 月 17 日推出 GPT-6.2 Astra 和 Sol。意义：复杂任务的调用单价下降，日常任务仍可核算后选用价格更低的 Sol。Astra 的标准 API 输入、输出单价较上代各降 20%，Sol 沿用上代费率。可在 ChatGPT Work 或 Codex 桌面端的模型列表确认是否已开放，API 也已开放。\nEN: OpenAI released GPT-6.2 Astra and Sol for Work, Codex and the API. Astra’s standard input and output rates fell 20%. Sol kept its predecessor’s rates.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "两款模型同时覆盖日常与复杂工作，价格与入口变化对常用工作流有直接影响。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "originalTitle": "Introducing GPT-6.2 Astra and Sol",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/jr7fqw95e5ihuevr1rzib208l"
+          }
+        },
+        {
+          "name": "OpenAI 帮助中心",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "originalTitle": "ChatGPT release notes"
+        },
+        {
+          "name": "Artificial Analysis",
+          "url": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+          "originalTitle": "OpenAI’s release of GPT-6.2 Astra and GPT-6.2 Sol delivers the #2 model in the Artificial Analysis Intelligence Index and most of the Cost per Task Pareto frontier"
+        }
+      ]
+    },
+    {
+      "id": "gemini-4-neon-launch",
+      "title": "Google 推出 Gemini 4 Neon",
+      "brief": "Gemini 4 Neon 支持百万词元上下文。意义：开发者可用付费 API 处理长文档和多模态资料。",
+      "summary": "Google 于美国时间 11 月 18 日发布 Gemini 4 Neon，面向多步骤编程与分析工作，支持百万词元（token）上下文。付费 API 每百万输入和输出词元分别为 3 和 15 美元。Google AI Pro 和 Ultra 用户可在 Gemini 应用的模型列表查看推送状态。\nEN: Google launched Gemini 4 Neon with a one-million-token context window and API rates of $3 per million input tokens and $15 per million output tokens.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "百万词元上下文、明确的 API 费率与消费端入口影响模型选择。"
+      },
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "originalTitle": "Introducing Gemini 4 Neon",
+          "publishedAt": "2026-11-18T21:00:00+00:00",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw"
+          }
+        },
+        {
+          "name": "Artificial Analysis",
+          "url": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain",
+          "originalTitle": "Google continues to accelerate its release cadence with Gemini 4 Neon"
+        }
+      ]
+    },
+    {
+      "id": "voyager-one-light-day-telemetry",
+      "title": "轨道模型显示旅行者 1 号抵达一光日",
+      "brief": "NASA 轨道模型显示旅行者 1 号达到一光日。信号单程约 24 小时，故障排查可能持续数周。",
+      "summary": "NASA 的轨道模型显示，旅行者 1 号于北京时间 11 月 18 日 18:16 首次达到距地球一光日，约 259 亿公里。NASA 随后通报，地面仍收到载波，科学和工程数据自 11 月 14 日起中断，任务团队计划用载波和轨道计算确认里程碑。\nEN: NASA’s trajectory model puts Voyager 1 one light-day from Earth. Ground stations still receive a carrier signal, but telemetry has stopped.",
+      "category": "科学",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "首次一光日里程碑与通讯故障相遇，载波和工程数据的区别决定如何解读里程碑。"
+      },
+      "sources": [
+        {
+          "name": "NASA 科学博客",
+          "url": "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
+          "originalTitle": "Voyager 1 Engineers Analyze Data Issue, Ready to Confirm Light-day",
+          "publishedAt": "2026-11-18T20:37:26-05:00"
+        },
+        {
+          "name": "NASA 任务追踪",
+          "url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/",
+          "originalTitle": "Where are Voyager 1 and Voyager 2 Now?"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-ignite-mai-models",
+      "title": "微软在 Ignite 发布七款 MAI 模型",
+      "brief": "微软发布七款 MAI 模型，覆盖编码、图像与实时语音等场景。",
+      "summary": "微软 11 月 17 日在 Ignite 发布七款自研 MAI 模型，包括面向代码任务的 MAI Code 2 和可直接进行语音对话的 MAI Realtime 1。后者起价为每音频分钟 0.01 美元，微软表示兼容 OpenAI Realtime API，现有语音应用团队可据此评估迁移。\nEN: Microsoft debuted seven MAI models at Ignite. Its first speech-to-speech model starts at $0.01 per audio minute.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "开发者可按编码与语音等业务场景核对模型覆盖范围和单位成本。"
+      },
+      "sources": [
+        {
+          "name": "Microsoft AI",
+          "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "originalTitle": "Seven new world-class models at scalable price-performance",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/z9zhvfj8o8zp2yp433eizf3uk"
+          }
+        },
+        {
+          "name": "Microsoft AI",
+          "url": "https://microsoft.ai/news/introducing-mai-realtime-1/",
+          "originalTitle": "MAI Realtime 1: Leading voice AI at $0.01 per audio minute"
+        }
+      ]
+    },
+    {
+      "id": "project-genie-4-rollout",
+      "title": "Project Genie 开放 Genie 4",
+      "brief": "Google 开放 Genie 4，探索互动场景时可改环境并听到实时生成的声音。",
+      "summary": "Google 11 月 18 日更新 Project Genie。世界模型（world model）Genie 4 允许用户在探索时用文字改变环境，并生成随场景变化的声音。符合条件的 Google AI Ultra 订阅者可在 Project Genie 网页试用，Pro 用户可申请加入候补名单。\nEN: Google’s updated Project Genie lets eligible Ultra subscribers change worlds while exploring, with audio that adapts in real time.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "产品从生成可探索场景推进到探索时即时编辑，且公开了试用资格。"
+      },
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "originalTitle": "Genie 4 is now available",
+          "publishedAt": "2026-11-18T18:00:00+00:00",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/rubpebtbkzpp1fpbtvw0kt8v2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "google-ai-studio-fullstack-android",
+      "title": "Google AI Studio 支持全栈安卓应用",
+      "brief": "Google AI Studio 扩展安卓构建工具，支持登入、数据存储与 Google Play 测试分发。",
+      "summary": "Google 11 月 17 日宣布，AI Studio 可用 Gemini 4 Carbon 和 Hydrogen 生成使用 Kotlin 的安卓应用，并配置 Firebase 后端服务，包括登录与数据存储。开发者可先用浏览器内的安卓模拟器预览，再通过 Google Play 测试分发流程在真机上验证。\nEN: Google AI Studio now builds full-stack Kotlin Android apps with Firebase and supports testing on devices through Google Play.",
+      "category": "AI科技",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把安卓原型、后端配置与真机验证合到同一个开发入口，和普通网页原型工具有明确区别。"
+      },
+      "sources": [
+        {
+          "name": "Google Developers Blog",
+          "url": "https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio/",
+          "originalTitle": "Build full-stack Android apps with Gemini in Google AI Studio",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/ujx1ebv207quqahxh2ypzibqd"
+          }
+        }
+      ]
+    },
+    {
+      "id": "openai-frontier-risk-controls",
+      "title": "OpenAI 披露前沿模型风险管控流程",
+      "brief": "OpenAI 公开从训练、内部试用到对外部署的安全控制和事件披露流程。",
+      "summary": "OpenAI 11 月 18 日发布前沿模型风险管理说明，介绍研究环境隔离、内部使用前的对齐评估与监测、对外部署防护以及事件调查和披露流程。证据口径为厂商防护说明，描述的是运行中的防护措施及披露流程。\nEN: OpenAI outlined its frontier-model safeguards across research, internal and external deployment, and incident response.",
+      "category": "AI安全观察",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "这次披露让读者能查到模型各阶段的防护与事件响应安排。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/managing-frontier-ai-risk/",
+          "originalTitle": "Managing frontier AI risk: From training to deployment",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/na2nxuqq5bxz0us1vjup0l259"
+          }
+        }
+      ]
+    },
+    {
+      "id": "target-2026-q3-sales-tariff-refunds",
+      "title": "塔吉特季度销售额增 7.1%",
+      "brief": "塔吉特第三季度净销售额同比增长 7.1%，关税退款贡献每股收益 0.50 美元。",
+      "summary": "美国零售商塔吉特 11 月 18 日公布财报，第三季度净销售额达 271 亿美元，增长 7.1%，可比销售增长 5.6%。稀释每股收益为 2.65 美元，其中 0.50 美元来自关税退款；看利润增幅时，可把这项收益与经营改善分开。\nEN: Target’s Q3 net sales rose 7.1% to $27.1 billion. Tariff refunds added $0.50 to diluted earnings of $2.65 per share.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "同时披露销售改善与关税退款，能区分经营走势和单独列出的利润贡献。"
+      },
+      "sources": [
+        {
+          "name": "Target",
+          "url": "https://corporate.target.com/press/release/2026/11/target-corporation-reports-third-quarter-earnings",
+          "originalTitle": "Target Corporation Reports Third Quarter Earnings"
+        }
+      ]
+    },
+    {
+      "id": "disney-fy2026-q4-results",
+      "title": "迪士尼季度营收增 16%",
+      "brief": "迪士尼第四财季收入约 259 亿美元，财年日历比上年多一周。",
+      "summary": "迪士尼 11 月 17 日披露，第四财季营收约 259 亿美元，同比增长 16%，各业务分部营业利润合计增长 43% 至约 50 亿美元。公司提示，该季度比上年同期多一周营业时间，财报附有按业务估算的额外一周影响。\nEN: Disney’s fiscal Q4 revenue rose 16% to $25.9 billion, and segment operating income rose 43%. The quarter had an extra week.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "财报的额外一周说明有助于正确理解营收增幅。"
+      },
+      "sources": [
+        {
+          "name": "迪士尼股东信",
+          "url": "https://s206.q4cdn.com/979796730/files/content_files/q4-fy26-earnings.pdf",
+          "originalTitle": "The Walt Disney Company Reports Fourth Quarter and Full Year Earnings for Fiscal 2026"
+        },
+        {
+          "name": "迪士尼",
+          "url": "https://thewaltdisneycompany.com/news/disney-q4-earnings-2026/",
+          "originalTitle": "Disney Q4 FY26 Earnings: Commentary from CEO Josh D’Amaro",
+          "publishedAt": "2026-11-17T14:18:01+00:00"
+        }
+      ]
+    },
+    {
+      "id": "home-depot-2026-q3-results",
+      "title": "家得宝季度销售额增长 4.9%",
+      "brief": "家得宝季度销售为 434 亿美元，同比增 4.9%，可比销售增长 2.2%。",
+      "summary": "家得宝 11 月 17 日披露第三财季销售额为 434 亿美元，同比增长 4.9%。美国业务可比销售与整体可比销售均增长 2.2%。公司更新了财年指引，预计全年总销售额约增 4.5%、可比销售约增 1.4%。\nEN: Home Depot reported $43.4 billion in quarterly sales, up 4.9%, with comparable sales up 2.2%.",
+      "category": "市场商业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "总销售与可比销售同时披露，便于观察家居零售需求。"
+      },
+      "sources": [
+        {
+          "name": "家得宝投资者关系",
+          "url": "https://ir.homedepot.com/news-releases/2026/11-17-2026-110221331",
+          "originalTitle": "The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance"
+        }
+      ]
+    },
+    {
+      "id": "youtube-creator-premiere-slate",
+      "title": "YouTube 公布创作者新节目单",
+      "brief": "YouTube 展示新一批原创系列，厨师节目 Chef 将用日更短片搭配长集。",
+      "summary": "YouTube 11 月 18 日发布创作者首映展节目单。Nick DiGiovanni 的《Chef》已上线首部长集和第一视角短片，平台称短片将日更，长集在 2026 年至 2027 年陆续推出。名单还包括 Emma Chamberlain 的文化观察系列和网球选手萨巴伦卡的纪实系列。\nEN: YouTube unveiled new creator-led shows, including Chef, which pairs daily first-person Shorts with full-length episodes.",
+      "category": "创作者平台",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "平台公布了可核实的创作者项目，其中长短视频搭配有具体排期。"
+      },
+      "sources": [
+        {
+          "name": "YouTube 官方博客",
+          "url": "https://blog.youtube/news-and-events/youtube-creator-premieres-slate-2026/",
+          "originalTitle": "Coming soon to YouTube: A first look at the next wave of must-see creator-led entertainment",
+          "publishedAt": "2026-11-18T04:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nasa-kuiper-belt-ancient-ice",
+      "title": "NASA 从尘埃中找到远古冰的线索",
+      "brief": "NASA 在高空采集的尘粒中发现重氧同位素线索，指向海王星外的远古水冰。",
+      "summary": "NASA 11 月 18 日披露，研究人员分析了从地球平流层采集的 12 颗尘埃。研究团队根据粒子留下的痕迹追溯样本来源，在其中发现早期水与尘埃反应形成的矿物。氧同位素结果为海王星外柯伊伯带曾存在富含重氧的水冰提供了证据。\nEN: NASA found minerals in stratospheric dust that point to an ancient reservoir of heavy-oxygen ice beyond Neptune.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "平流层微粒提供了外太阳系水冰组成的新证据，便于解释这一推断怎样得出。"
+      },
+      "sources": [
+        {
+          "name": "NASA 科学博客",
+          "url": "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/",
+          "originalTitle": "NASA Scientists Find Clues to Ancient Ice Beyond Neptune",
+          "publishedAt": "2026-11-18T15:54:51-05:00"
+        }
+      ]
+    },
+    {
+      "id": "nasa-california-wildfire-lidar",
+      "title": "NASA 绘制加州野火研究三维地图",
+      "brief": "NASA 用机载激光雷达制作加州全州三维地形图，每像素覆盖约 1 平方米。",
+      "summary": "NASA 11 月 18 日介绍新的加州三维地形图，团队用机载激光雷达（lidar）和美国地质调查局的数据拼合全州地图，每像素覆盖约 1 平方米。团队计划与加州机构合作，用地图开发野火风险评估和生态系统管理所需的产品。\nEN: NASA mapped California at one square meter per pixel using airborne lidar. The maps will support planned wildfire-risk tools.",
+      "category": "科学",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "公开资料明确给出覆盖范围、分辨率与后续应用，读者可以区分地图产出与风险评估计划。"
+      },
+      "sources": [
+        {
+          "name": "NASA 科学博客",
+          "url": "https://science.nasa.gov/blogs/science-news/2026/11/18/california-wildfire-risk-3d-maps/",
+          "originalTitle": "NASA Researchers Create 3D Maps of California to Assess Wildfire Risk",
+          "publishedAt": "2026-11-18T14:20:11-05:00"
+        }
+      ]
+    }
+  ]
+}

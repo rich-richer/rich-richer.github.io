@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T11:25:49+08:00",
+  "coverage": {
+    "start": "2026-11-16T23:59:59+08:00",
+    "end": "2026-11-19T11:25:49+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "gpt-62-astra-sol-task-selection",
+      "title": "GPT-6.2 双模型，接同一份活怎么选",
+      "brief": "OpenAI推出 Astra 和 Sol。切入：给两款模型同一份任务，比较一次交付的耗时和返工量。",
+      "summary": "OpenAI 于美国时间 11 月 17 日发布 GPT-6.2 Astra 和 Sol，分别面向高难度项目和日常工作。切入点是同一份活交给谁，最后少改几次。北京时间 11 月 19 日 11:22 采集，X 官方帖的公开镜像显示 35,468 次点赞、9,663,145 次浏览；同日上午 11:19，AIHOT 热点榜列第 1。抖音短视频：用同一页公开资料生成一张要点卡，逐条核对事实。B 站长视频：让两款模型从同一份模拟表格做周报，记录耗时、错项和人工复核的分钟数。图文可附上测试材料与评分表，方便复现。",
+      "category": "海外",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "同日发布的两款模型允许用一组公开任务对比耗时与返工，便于办公用户判断适用场景。"
+      },
+      "sources": [
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-11-19#openai-gpt-62-astra-sol"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "originalTitle": "Introducing GPT-6.2 Astra and Sol",
+          "via": {
+            "name": "AIHOT·公开热点榜",
+            "url": "https://aihot.news/api/v1/hot-topics"
+          }
+        },
+        {
+          "name": "X·OpenAI 官方帖",
+          "url": "https://x.com/OpenAI/status/2122750124543926515",
+          "via": {
+            "name": "Teapawt 公开镜像",
+            "url": "https://www.teapawt.org/OpenAI/status/2122750124543926515"
+          },
+          "publishedAt": "2026-11-17T17:54:03+00:00"
+        }
+      ]
+    },
+    {
+      "id": "gemini-neon-office-document-test",
+      "title": "Gemini 4 Neon 读表能核对出处吗",
+      "brief": "Google推出 Gemini 4 Neon。切入：让它核对说明文件与表格，检查结果能否追溯到原件。",
+      "summary": "Google 于美国时间 11 月 18 日推出 Gemini 4 Neon，面向部分付费用户和开发者逐步开放。北京时间 11 月 19 日 11:22 采集，X 上 Gemini 官方帖的公开镜像显示 2,212 次点赞、136,282 次浏览；同日上午 11:19，AIHOT 热点榜列第 2。短视频切入：用模拟采购说明和订单表测试能否找到三处不一致，画面逐条展示原文出处。B 站长视频：固定原始文件和任务，比较低档与高档推理的漏检率、等待时间，以及是否标出仍需人工核对的问题。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "采购核对展示模型能否提供可查的页码与单元格位置，观众可以直接复测。"
+      },
+      "sources": [
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-11-19#gemini-4-neon-launch"
+        },
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+          "originalTitle": "Introducing Gemini 4 Neon",
+          "via": {
+            "name": "AIHOT·公开热点榜",
+            "url": "https://aihot.news/api/v1/hot-topics"
+          }
+        },
+        {
+          "name": "X·Gemini 官方帖",
+          "url": "https://x.com/GeminiApp/status/2123168704662012079",
+          "via": {
+            "name": "Teapawt 公开镜像",
+            "url": "https://www.teapawt.org/GeminiApp/status/2123168704662012079"
+          },
+          "publishedAt": "2026-11-18T21:37:20+00:00"
+        }
+      ]
+    },
+    {
+      "id": "tencent-hy4-flash-weight-release",
+      "title": "混元 Hy4 flash 开放权重，怎么选版本",
+      "brief": "混元开放 Hy4 flash 三类权重。切入：用同一张截图比较指令版和 FP8 版，再解释基础版的用途。",
+      "summary": "腾讯混元 11 月 18 日宣布开放 Hy4 flash 指令版、FP8 量化版和基础版权重。北京时间 11 月 19 日 11:20，GitHub 仓库为 60 星，Hugging Face 指令版模型页的近月下载计数为 159；11:22，X 上混元官方帖的公开镜像显示 1,727 次点赞、165,057 次浏览。图文切入：用一张选型表讲清指令版、量化版和基础版面向哪些使用者。B 站长视频：用同一张授权截图测试指令版与 FP8 版，记录运行环境、显存和识别结果，再解释基础版的用途。",
+      "category": "国内",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "开发者平台有可复核数据，版本对照能回答创作者关于本地测试和部署成本的实际问题。"
+      },
+      "sources": [
+        {
+          "name": "腾讯混元·GitHub",
+          "url": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+          "originalTitle": "Tencent-Hunyuan/Hy4-flash"
+        },
+        {
+          "name": "Hugging Face·模型与下载计数",
+          "url": "https://huggingface.co/tencent/Hy4-flash",
+          "originalTitle": "tencent/Hy4-flash"
+        },
+        {
+          "name": "X·腾讯混元官方帖",
+          "url": "https://x.com/TencentHunyuan/status/2122912575302119554",
+          "via": {
+            "name": "Teapawt 公开镜像",
+            "url": "https://www.teapawt.org/TencentHunyuan/status/2122912575302119554"
+          },
+          "publishedAt": "2026-11-18T04:39:34+00:00"
+        }
+      ]
+    }
+  ]
+}
