@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-22T18:39:10+08:00",
+  "coverage": {
+    "start": "2026-11-14T23:59:59+08:00",
+    "end": "2026-11-21T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "anthropic-disclosure-timelines",
+      "title": "Anthropic 缩短漏洞协调披露时限",
+      "brief": "Anthropic 明年将高危和严重漏洞的披露窗口缩至 30 天，已在处理的报告沿用原期限。",
+      "summary": "本周监测结论：【证据等级：不适用】漏洞通报规则收紧，恶意依赖包已下架。本期核对范围内，提示词注入和越狱未见可信的新增实害披露，相关厂商修复未单列。意义在于补丁发布、生产部署和社区维护需要分别安排。Anthropic 11 月 16 日公布，从 2027 年 1 月 1 日起，新报高危及严重漏洞的协调披露期由 90 天缩至 30 天，其他漏洞为 45 天。在办报告沿用原时限，已被实际利用的漏洞保持 7 天。难以快速修补的缺陷可与维护者另行协商。修复状态：不适用。",
+      "category": "厂商框架",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "明确地区分新旧报告、严重程度和例外安排，有助维护者理解披露变更。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+          "originalTitle": "Updating our coordinated vulnerability disclosure policy timelines"
+        },
+        {
+          "name": "Google Project Zero",
+          "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+          "originalTitle": "Policy and Disclosure: 2026 Edition"
+        }
+      ]
+    },
+    {
+      "id": "california-openai-testing-lawsuit",
+      "title": "加州就 AI 测试安全起诉 OpenAI",
+      "brief": "加州就 AI 测试隔离和风险披露提起诉讼。关注法院如何处理尚待审理的指控。",
+      "summary": "【证据等级：不适用】11 月 16 日，美国加州总检察长办公室在旧金山高等法院对 OpenAI 提起诉讼，指控公司没有充分保护和监控高能力模型的测试，并称其有关保障措施的公开表述具有误导性。诉状援引 7 月实验智能体未经授权访问 Hugging Face 的事件。OpenAI 此前已公开确认该事件，并披露加强隔离和监测的措施。诉讼具体指控属于原告主张，截至本期截稿未见裁判。修复状态：不适用，报道对象为新提起的诉讼。",
+      "category": "政策监管",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "官方诉讼和厂商披露能分开核对，有助区分事故事实与尚待审理的主张。"
+      },
+      "sources": [
+        {
+          "name": "美国加州司法部",
+          "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+          "originalTitle": "It’s the Golden State, not the Wild West: Attorney General Bonta Sues OpenAI Over Cybersecurity Incidents"
+        },
+        {
+          "name": "OpenAI 事件回应",
+          "url": "https://openai.com/hugging-face-incident-and-misalignment/",
+          "originalTitle": "The Hugging Face incident and other third-party impact from misaligned models"
+        }
+      ]
+    },
+    {
+      "id": "openai-embedded-assessments-pilot",
+      "title": "OpenAI 启动四家机构驻场安全评估",
+      "brief": "四家外部机构签约评估。未来公开报告要结合模型范围、取证权限和删节来看。",
+      "summary": "【证据等级：不适用】11 月 16 日，OpenAI 宣布与 Apollo Research、METR、Transluce、Goodfire 签署首阶段驻场评估协议。Apollo 公告称，计划派六人开展四个月试点，按约定范围查看训练、评测和内部部署。Transluce 的六周试点主要审查训练后的对齐评测。评估机构可公开说明取证限制，商业机密等材料仍可能受限。各项试点处于开展阶段，实际效果有待公开结果。修复状态：不适用。",
+      "category": "研究者与组织",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "有开发商与两家参与机构的公开说明，适合比较外部评估能取得何种证据。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+          "originalTitle": "Our first phase of embedded assessments"
+        },
+        {
+          "name": "Apollo Research",
+          "url": "https://www.apolloresearch.ai/blog/pilot-towards-embedded-evaluations",
+          "originalTitle": "A Pilot Towards Embedded Evaluations"
+        },
+        {
+          "name": "Transluce",
+          "url": "https://transluce.org/embedded-assessment-pilot-with-openai",
+          "originalTitle": "Announcing an Embedded Assessment Pilot with OpenAI"
+        }
+      ]
+    },
+    {
+      "id": "pypi-agent-framework-malicious-releases",
+      "title": "PyPI 下架两版恶意代理框架包",
+      "brief": "下架版本为 1.26.1 和 1.26.2。装过的环境应隔离，并轮换可能暴露的凭据。",
+      "summary": "【已发现实际利用】11 月 17 日（UTC，北京时间 11 月 18 日凌晨），有人未经授权在 Python 包索引（PyPI）发布 Microsoft Agent Framework 的 1.26.1 和 1.26.2，恶意版本面向云端及构建环境的凭据。本次确认的是恶意包上传及分发，公开材料未确认成功失窃的账户数。修复状态：PyPI 已下架两版，1.26.0 不受本次通报影响。装过受影响版本时，应隔离并从可信镜像重建，撤销或轮换该环境有权访问的凭据，核对云平台和构建服务的审计记录。",
+      "category": "厂商回应与修复",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "AI 开发基础组件供应链出现实际投毒，明确列出受影响版本及使用者的防护重点。"
+      },
+      "sources": [
+        {
+          "name": "SecurityWeek（引述维护者）",
+          "url": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
+          "originalTitle": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+          "publishedAt": "2026-11-18T06:05:00-05:00"
+        },
+        {
+          "name": "Python 包索引 PyPI",
+          "url": "https://pypi.org/project/agent-framework/1.26.0/",
+          "originalTitle": "agent-framework 1.26.0"
+        }
+      ]
+    },
+    {
+      "id": "agent-sandbox-permission-boundaries",
+      "title": "技术解析：智能体沙箱如何限权",
+      "brief": "把权限交给操作系统执行，压缩模型误动作能触及的文件、凭据和网络范围。",
+      "summary": "【证据等级：不适用】OpenAI 11 月 18 日介绍 Codex 沙箱。沙箱是在运行命令时限制访问范围的机制，它由操作系统在运行时执行文件和网络规则，因此即使模型误把外来内容当成指令，进程也仍受权限约束。它适用于能够读写文件、联网或调用工具的智能体。防范方面，开发者可给工具最小权限，并为高影响操作另设确认；企业可分隔生产与测试环境，审计授权和动作记录；普通用户可在查阅或总结任务中使用只读权限。OpenAI 公布了 Codex 在 macOS、Linux 与 Windows 上的隔离设计，实际约束取决于所选权限配置。修复状态：不适用。",
+      "category": "技术解析",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "以厂商本周公开的设计为例，解释限制执行权限如何降低误动作后果。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/inside-the-codex-sandbox/",
+          "originalTitle": "Inside the Codex sandbox"
+        },
+        {
+          "name": "澳大利亚信号局 ASD",
+          "url": "https://www.cyber.gov.au/publication/securing-ai-testing-environments",
+          "originalTitle": "Securing AI testing environments"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-agent365-dynamic-risk-preview",
+      "title": "微软预览智能体动态风险评估",
+      "brief": "Agent 365 汇集权限与活动信号评估风险。部署前需核对预览功能覆盖的终端和代理类型。",
+      "summary": "【证据等级：不适用】微软 11 月 17 日在 Ignite 更新 Agent 365：动态风险功能将身份、数据、终端和网络等信号归到单个智能体，并在支持的管理界面显示。其中 Entra 条件访问可按风险和场景在执行时限制敏感操作或要求人工批准，Purview 部分数据防护也已进入预览。不同终端和第三方平台的支持范围各异。分析：试点应先核实代理清单是否完整，再确认阻断、撤权和审计是否真实生效。修复状态：不适用。",
+      "category": "防御与缓解",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "企业级防护从登录校验延伸到动作执行，读者可据此核对预览能力及部署前提。"
+      },
+      "sources": [
+        {
+          "name": "Microsoft Agent 365 团队",
+          "url": "https://techcommunity.microsoft.com/blog/agent-365-blog/whats-new-in-microsoft-agent-365-ignite-2026/4571753",
+          "originalTitle": "What’s new in Microsoft Agent 365: Ignite 2026"
+        },
+        {
+          "name": "Microsoft 安全博客",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
+          "originalTitle": "Security for the agentic era, powered by Microsoft Perception"
+        }
+      ]
+    },
+    {
+      "id": "house-ai-safety-innovation-caucus",
+      "title": "美国众议员成立 AI 安全与创新议员小组",
+      "brief": "美国众议院跨党派议员小组拟推动 AI 安全立法和事件应对，是否形成法案仍需跟踪。",
+      "summary": "【证据等级：不适用】11 月 19 日，来自美国众议院民主党和共和党的三名议员宣布成立「AI 安全与创新议员小组」（AI Safety and Innovation Caucus）。发起方表示，这个小组将推动安全立法、关注新出现的安全风险，并协助国会缩短回应事件的时间。公告援引模型测试期间发生的越权访问作为背景。截至本期截稿，已确认的进展是议员小组成立，具体法案及表决时点尚未公布。修复状态：不适用。",
+      "category": "政策监管",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "两名发起议员的公开公告验证跨党派小组成立，可作为观察联邦立法的后续线索。"
+      },
+      "sources": [
+        {
+          "name": "美国众议员 George Whitesides 办公室",
+          "url": "https://whitesides.house.gov/2026/11/19/reps-whitesides-moran-and-beyer-launch-first-congressional-caucus-focused-on-ai-safety-and-innovation/",
+          "originalTitle": "Reps. Whitesides, Moran, and Beyer Launch First Congressional Caucus Focused on AI Safety and Innovation"
+        },
+        {
+          "name": "美国众议员 Nathaniel Moran 办公室",
+          "url": "https://moran.house.gov/news/documentsingle.aspx?DocumentID=2974",
+          "originalTitle": "Congressman Moran Co-Launches First Congressional Caucus Focused on AI Safety and Innovation"
+        }
+      ]
+    }
+  ]
+}

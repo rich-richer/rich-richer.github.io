@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-22T18:39:05+08:00",
+  "coverage": {
+    "start": "2026-11-14T23:59:59+08:00",
+    "end": "2026-11-21T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "report-machine-vision-sme-summary",
+      "title": "执行摘要：中小加工厂会为单工位视觉质检付费吗",
+      "brief": "先做一处外观复检，拿跨批次盲测和实际回款验证付费需求。",
+      "summary": "本期问题：中国中小型精密零件加工厂会为一处视觉质检工位付费吗？\n结论：先切入已有人工复检、可稳定取像且能核对返工成本的一类零件，以付费试点验证订单。依据：八部门1月7日公开的《“人工智能+制造”专项行动实施意见》纳入机器视觉质检，地方改造试点和设备商财报也提供了场景及供给信号。置信度：中，公开证据能确认行业投入方向，单工位的售价、客户预算和复制成本仍需用真实样件、跨批次验收和回款验证。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "把政策热度转为有明确买方、验收和回款指标的创业问题。"
+      },
+      "sources": [
+        {
+          "name": "工业和信息化部",
+          "url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202512/8b6a31547603437db54d6596d33d04c4.pdf",
+          "originalTitle": "“人工智能+制造”专项行动实施意见"
+        },
+        {
+          "name": "宁波市人大常委会网站",
+          "url": "https://www.nbrd.gov.cn/col/col1229630095/ssljrmdbdhlchy/hydt/art/2026/art_3df087fa87a64506b03b71ec8a3921c5.html",
+          "originalTitle": "2026年宁波市政府工作报告"
+        }
+      ]
+    },
+    {
+      "id": "mosaico-robotics-data-seed",
+      "title": "Mosaico 获750万欧元种子轮",
+      "brief": "意大利 Mosaico 为机器人团队管理传感器记录，获750万欧元种子轮。启示：先卖数据回放。",
+      "summary": "意大利帕尔马的种子阶段公司 Mosaico 将相机、惯性传感器等异构记录整理为可搜索和回放的数据，面向机器人研发团队。开源核心可自行部署，企业版凭审计、权限和定制接入收费，具体价格需询价。11月16日，领投方 United Ventures 公布750万欧元种子轮，并称社区超过1,200人。社区规模属于投资方披露，尚未找到付费客户数或经审计的营收。分析：国内可从工厂机器人故障片段回放切入，用节省的工程排查时间与自建脚本方案比较。训练数据需有使用授权，定制接入和长期维护会挤压毛利。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "种子轮资金与开源产品可核对，机器人数据管理与实体设备是两种交付。"
+      },
+      "sources": [
+        {
+          "name": "United Ventures",
+          "url": "https://unitedventures.com/2026/11/16/building-the-data-foundation-for-physical-ai-why-we-invested-in-mosaico/",
+          "originalTitle": "Building the Data Foundation for Physical AI. Why We Invested in Mosaico"
+        },
+        {
+          "name": "Mosaico",
+          "url": "https://mosaico.dev/",
+          "originalTitle": "Mosaico: The Data Platform for Robotics and Physical AI"
+        }
+      ]
+    },
+    {
+      "id": "applied-compute-panw-acquisition",
+      "title": "Palo Alto 拟以45亿美元收购 Applied Compute",
+      "brief": "Palo Alto Networks 签约拟以股票收购企业模型服务商。启示：训练和推理的价值要分开量。",
+      "summary": "美国未上市企业 Applied Compute 给企业提供开放权重模型的后训练、部署和推理。训练服务与托管推理是可区分的收费环节，企业合同价未公开。11月18日，Palo Alto Networks 签署收购协议，对价为约45亿美元股票，可按协议调整且受交割条件约束。标的11月2日自报年化收入运行率达1亿美元，该口径为按现时收入速度折算。分析：中国本地方案可用授权业务数据验证小模型的质量、延时和推理开支，已有云平台是直接竞品。模型许可、数据权限和算力支出都会影响复制。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "收购对价与标的自报年化口径可分别核实，便于观察企业模型服务的可售环节。"
+      },
+      "sources": [
+        {
+          "name": "Palo Alto Networks 提交美国证交会",
+          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/panw-20261117.htm",
+          "originalTitle": "Form 8-K: Palo Alto Networks, Inc."
+        },
+        {
+          "name": "Applied Compute",
+          "url": "https://www.appliedcompute.com/company/100m-run-rate-fundraise",
+          "originalTitle": "Applied Compute hits $100M run rate and raises $350M"
+        },
+        {
+          "name": "Applied Compute 推理产品",
+          "url": "https://www.appliedcompute.com/inference",
+          "originalTitle": "Inference"
+        }
+      ]
+    },
+    {
+      "id": "replit-missions-launch",
+      "title": "Replit 发布可设预算的 Missions",
+      "brief": "Replit 让团队按目标与预算委派软件项目。启示：交付要用验收项和费用衡量。",
+      "summary": "11月17日，美国软件平台 Replit 发布 Missions，面向需开发内部应用的企业团队，由多个智能体按目标、预算和边界协作。平台设订阅与用量计费，发布稿未给 Missions 的统一价格。公司披露内部演示在两天、3,000美元预算内搭建应用监控功能，未披露该产品营收；3月11日公告中的4亿美元是平台融资。分析：国内可选一个非关键内部工具试做，用交付时间、验收结果和复核工时与现有低代码平台比较。接入企业代码库前，先划清数据、第三方依赖、部署权限和维护责任。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "可设预算的项目式交付提供了独立于生成速度的采购和验收口径。"
+      },
+      "sources": [
+        {
+          "name": "Replit 产品公告",
+          "url": "https://replit.com/blog/introducing-replit-missions",
+          "originalTitle": "Introducing Replit Missions"
+        },
+        {
+          "name": "Replit 定价",
+          "url": "https://replit.com/pricing",
+          "originalTitle": "Pricing and Plans"
+        },
+        {
+          "name": "Replit 融资公告",
+          "url": "https://replit.com/blog/replit-raises-400-million-dollars",
+          "originalTitle": "The Future is Actually Very Human"
+        }
+      ]
+    },
+    {
+      "id": "report-machine-vision-sme-demand",
+      "title": "需求与市场：从一处人工复检找买方",
+      "brief": "先量返工、漏检与复核工时，再问质量部门有无改造预算。",
+      "summary": "西安市政府办公厅4月30日印发的方案把汽车零部件及配件纳入数字化城市试点。到2027年的“360家达到二级及以上”是四个细分行业合计的政策目标，范围大于单工位视觉质检。宁波企业服务平台1月15日转引《宁波晚报》，报道当地企业在塑料与金属加工中使用AI质检。分析：优先问近三个月有批量返工、能保留缺陷样件且质量经理能动用预算的厂。需要补的市场证据是每家有多少符合条件的工位、年均损失和预算上限。试点名单只能定位访谈对象。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把政策覆盖、案例需求和可支付客户三个范围分开。"
+      },
+      "sources": [
+        {
+          "name": "西安市人民政府",
+          "url": "https://www.xa.gov.cn/gk/zfgb/2026ndlq/wjfb/2052220401460727810.html",
+          "originalTitle": "关于印发制造业数字化转型及中小企业城市试点实施方案的通知"
+        },
+        {
+          "name": "宁波企业服务平台转载《宁波晚报》",
+          "url": "https://qf.ningbo.gov.cn/qfpt/fwbk/xmfw/xmzx/xwzx/art/2026/art_87e04e0419304c8786ad477aaef6a1a4.html",
+          "originalTitle": "今年宁波智能制造的目标明确：让“AI+”成为全行业普惠"
+        }
+      ]
+    },
+    {
+      "id": "report-machine-vision-sme-peers",
+      "title": "对标公司：Cognex 与凌云光",
+      "brief": "两家披露的公司营收能证明已有商业规模，报价仍需按同一真实工位比较。",
+      "summary": "美国 Cognex 销售视觉传感器、系统和软件，2026年11月4日披露第三季度营收3.13亿美元，同比增长13%。中国凌云光提供视觉系统和智能装备，10月30日披露第三季度营业收入约8.23亿元，同比增长8.36%。以上均为公司整体营收。两家经营范围都超出精密加工中小厂单工位，公开数据无法拆出这一细分市场的收入和毛利。分析：创业团队可拿同一零件、缺陷样件、节拍和接口要求询价，比较独立软件授权与现成集成方案的培训、售后和换型工时。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用两家上市公司财报定量定位现有供给，并注明收入统计边界。"
+      },
+      "sources": [
+        {
+          "name": "Cognex 提交美国证交会",
+          "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000079/a10042026-xex991xq32026ear.htm",
+          "originalTitle": "Cognex Reports Third Quarter 2026 Results"
+        },
+        {
+          "name": "凌云光经巨潮资讯网披露",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644382.PDF",
+          "originalTitle": "凌云光技术股份有限公司2026年第三季度报告"
+        }
+      ]
+    },
+    {
+      "id": "report-machine-vision-sme-economics",
+      "title": "商业模式与收入成本：按工位签单",
+      "brief": "试测、软硬件交付和换型维护分开报价，双方各算一遍回收期。",
+      "summary": "Robovision 在 AWS Marketplace 公开以部署为计费维度，机器或站点可对应一个部署单位；这是海外产品的计费样例。分析：国内可分收样件试测费、工位安装验收费和可选择的维护费。买方应扣除复核、误报返工与停线损失，供应商应计入相机、光源、工控机、标注、现场调试、差旅、质保和渠道分成。演算用假设：首装4.8万元、年维护0.6万元，扣维护费用前年节省为3.6万元时，简单回收期约19个月。这个数只示范计算方式。报价应由工艺节拍、实际损失和同类项目的书面报价确定。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "同时给出买方回收期和服务商成本核算口径，让意愿能被报价验证。"
+      },
+      "sources": [
+        {
+          "name": "Robovision 的 AWS Marketplace 产品页",
+          "url": "https://aws.amazon.com/marketplace/pp/prodview-fpvd52llivpcc",
+          "originalTitle": "Robovision AI Platform"
+        }
+      ]
+    },
+    {
+      "id": "report-machine-vision-sme-moat",
+      "title": "竞争与进入门槛：光学工装和换型",
+      "brief": "用规则视觉做同成本基线，再比跨批次误报、漏检和换型时间。",
+      "summary": "奥普特8月20日披露的半年报描述了相机、光源、光学成像、边缘计算及现场相结合的工业视觉供给，并指出换型加快会推高成像和小样本识别要求。分析：竞争来自设备商、原产线集成商以及现行规则视觉。可先定照明、定位和检测范围，再在相同节拍下对照两类方案。业务门槛在于同类零件换型时能复用光路、工装和接口，且不必每次重新驻厂数周。已有规则一旦覆盖固定尺寸或清晰缺件，模型可先处理规则难判的外观变异。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用成像、工装和换型解释可复制性的技术与服务壁垒。"
+      },
+      "sources": [
+        {
+          "name": "奥普特经巨潮资讯网披露",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-20/1225482199.PDF",
+          "originalTitle": "广东奥普特科技股份有限公司2026年半年度报告"
+        }
+      ]
+    },
+    {
+      "id": "report-machine-vision-sme-china",
+      "title": "中国落地条件：本地部署与本地售后",
+      "brief": "按地区核对项目资格，和集成商签清接口、样件授权、验收及回款。",
+      "summary": "南京市工信局9月公开的试点征集把生产质量管理列入三个试点细分行业的改造范围。西安经开区同期公布的申报流程涉及第三方评测、投入金额审核，以及服务商资源池要求。两地属于具体通知，适用行业、时间与项目条件应分别核对。分析：先找能负责安装和售后的本地集成商，在客户厂内留图、限制账号与数据访问。合同列好样件授权、留存期限、生产系统接口、换型服务和故障回退。由质量负责人签验收，工厂按合同节点付款，软件许可和所涉行业要求在进场前核对。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "给国内供应链合作、项目验收与现金回款一个可执行边界。"
+      },
+      "sources": [
+        {
+          "name": "南京市工业和信息化局",
+          "url": "https://gxj.nanjing.gov.cn/njsjjhxxhwyh/202609/t20260902_5903812.html",
+          "originalTitle": "南京市中小企业数字化转型城市试点“小快轻准”产品和解决方案（第二批）征集通知"
+        },
+        {
+          "name": "西安经济技术开发区",
+          "url": "https://xetdz.xa.gov.cn/xwzx/tzgg/2100068807834447874.html",
+          "originalTitle": "2026年中小企业数字化改造项目（第四批）申报通知"
+        }
+      ]
+    },
+    {
+      "id": "report-machine-vision-sme-risks",
+      "title": "主要风险：灯光漂移会改变误漏检",
+      "brief": "跨班次、跨批次单独计误报和漏检，保留人工复判和退回人工流程。",
+      "summary": "视觉异常检测数据集 MVTec AD 2 的论文于2026年3月正式发表，作者纳入反光材料和未见照明条件，专门测试图像条件变化后的表现。分析：车间的油污、来料反光和光源衰减会影响模型判断，关键缺陷要逐类计漏检，合格样件逐批计误报。保留质检员最终裁决，先做旁路观察；急停和原工位的控制权继续由工厂管理。合同注明异常受理、日志、回退和零件换型后的重新验证。现场图可能包含客户设计或个人信息，研究数据的许可和企业样件的使用授权均须核对。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把基准测试与生产变动连起来，明确质量验收、声誉和数据风险。"
+      },
+      "sources": [
+        {
+          "name": "International Journal of Computer Vision",
+          "url": "https://link.springer.com/article/10.1007/s11263-026-02743-0",
+          "originalTitle": "The MVTec AD 2 Dataset: Advanced Scenarios for Unsupervised Anomaly Detection"
+        }
+      ]
+    },
+    {
+      "id": "report-machine-vision-sme-scenarios",
+      "title": "情景预测：用续单和换型成本分档",
+      "brief": "12个月情景用是否付费、是否续单与换型工时区分。",
+      "summary": "工信部4月13日发布年度质量工作通知，提出沿链提升质量一致性，并推动人工智能用于质量管理。分析：未来12个月，乐观情景是两家工厂在同类零件上达到预先约定的误漏检与节拍，第二工位按原报价附近签单且返工成本下降。基准情景是一个工位付费，但每次换型仍要工程师现场标定，先保留人工复核服务。保守情景是工厂只收免费演示、迟迟不给预算，或油污和反光下多次未过验收，即暂停设备投入。三种情景都是可用订单和生产记录验证的业务假设。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用合同、节拍、现场工时和返工记录替代无依据的份额预测。"
+      },
+      "sources": [
+        {
+          "name": "工业和信息化部办公厅",
+          "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_74818dccbd9749f48a55e38cb539f089.html",
+          "originalTitle": "关于做好2026年工业和信息化质量工作的通知",
+          "publishedAt": "2026-04-13T10:47:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "report-machine-vision-sme-actions",
+      "title": "30 天可验证行动：盲测再报价",
+      "brief": "十次访谈、一次现场盲测、一份明细报价，检查有没有付费意向。",
+      "summary": "Robovision 的服务说明把现有质量成本、报废和检验工时作为回收期的起点。分析：①第1周访谈10家同类零件企业的质量或生产负责人，请至少3家给出匿名基线和验收底线；②第2周从自愿授权的一家收不同批次的合格品及典型缺陷样件，由质检员封存测试标签；③第3周用同一套样件比较现行规则、人工和模型，记录每类缺陷、节拍、误漏检及换型时间；④第4周向能签字的经理提交一份有明确费用、试测边界和退出条件的报价，记录是否愿意实际支付试测费。样件不足或盲测未过时，先补样本再决定是否采购设备。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "四个可检查的产物能尽快区分示范兴趣和实际付费。"
+      },
+      "sources": [
+        {
+          "name": "Robovision",
+          "url": "https://robovision.ai/services",
+          "originalTitle": "Services"
+        }
+      ]
+    }
+  ]
+}
