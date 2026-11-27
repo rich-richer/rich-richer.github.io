@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-27T21:47:44+08:00",
+  "coverage": {
+    "start": "2026-11-16T23:59:59+08:00",
+    "end": "2026-11-23T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "alpoge-claude-riemann-lean-verification",
+      "title": "Claude 辅助的黎曼猜想证明通过独立机器核验",
+      "brief": "Lean 与 Mathlib 社区核对了黎曼猜想的标准命题，并用多套独立工具验证 Alpöge 随 Claude 完成的形式化证明。",
+      "summary": "截至北京时间11月23日，AI 研发有两项进展。一份人机协作的数学证明通过独立机器核验，另有研究试图降低模型后训练和长上下文推理的成本。11月20日，Anthropic 数学家 Levent Alpöge 公布与 Claude 协作得到的形式化证明。北京时间11月21日21:55，Lean FRO 与 Mathlib Initiative 联合声明，确认它证明的是标准的黎曼猜想，即黎曼 ζ 函数的非平凡零点实部均为二分之一。社区核对了形式命题，多套独立检查器通过导出的证明。意义在于，外部研究者能够检验模型参与推理后真正证明了什么。声明的核验范围是标准黎曼猜想。截至截稿，尚未见期刊审稿或克雷数学研究所的正式认定。",
+      "category": "智能体与应用",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "这次核验同时检查了证明的结论与每步推理，为评估 AI 辅助数学研究提供了可复查实例。"
+      },
+      "sources": [
+        {
+          "name": "Lean FRO 与 Mathlib Initiative",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "originalTitle": "Lean verification of the Riemann Hypothesis",
+          "publishedAt": "2026-11-21T13:55:00Z"
+        },
+        {
+          "name": "Levent Alpöge 原始说明",
+          "url": "https://alpo.ge/remark.pdf",
+          "originalTitle": "Levent Alpöge’s announcement on the Riemann Hypothesis"
+        },
+        {
+          "name": "克雷数学研究所",
+          "url": "https://www.claymath.org/millennium/riemann-hypothesis/",
+          "originalTitle": "Riemann Hypothesis"
+        }
+      ]
+    },
+    {
+      "id": "cspd-composable-soft-prompt-distillation",
+      "title": "用可组合软提示为同一模型增添专家能力",
+      "brief": "在固定底座上拼接为各专家训练的软提示，可以单独增删能力。现有组合结论来自一个底座、四个领域。",
+      "summary": "加州大学圣巴巴拉分校牵头，卡内基梅隆大学、苹果、英伟达等参与的预印本《强化学习专家的可组合软提示蒸馏：迈向持续后训练》（Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training）11月20日首次提交 arXiv，未经同行评审。团队冻结强化学习前的底座，把各专家的输出行为蒸馏成独立的可训练向量序列，再拼接这些软提示。23项单专家测试中，22项保留教师模型至少90%的提升。意义在于新增专家时可单独训练一个模块。组合实验仅覆盖一个底座、四个领域和一个随机种子，每个模块还会占用256个上下文位置。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "展示了保存模型底座、逐项增加能力的方案，同时报告组合规模和额外上下文开销。"
+      },
+      "sources": [
+        {
+          "name": "arXiv 预印本（首版）",
+          "url": "https://arxiv.org/abs/2611.27376v1",
+          "originalTitle": "Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training",
+          "publishedAt": "2026-11-20T09:42:47Z"
+        }
+      ]
+    },
+    {
+      "id": "seed-twindex-index-cache-offloading",
+      "title": "Twindex 把长上下文索引缓存移出显存",
+      "brief": "长上下文服务可只在显存保留压缩索引，把完整索引放到主机内存。实测速率仍受内存和硬件约束。",
+      "summary": "北京时间11月19日，纽约大学、字节跳动、弗吉尼亚理工、加州大学默塞德分校、帝国理工和普林斯顿大学作者的《Twindex：面向长上下文稀疏注意力服务的索引缓存卸载与粗到细筛选》（Twindex: Index Cache Offloading with Coarse-to-Fine Selection for Long-Context Sparse-Attention Serving）提交 arXiv，未经同行评审。将主 KV 缓存移出显存后，索引缓存会成为瓶颈。Twindex 在显存用压缩索引初筛，再用主机内存中保存的原始索引精筛，无需改模型权重。百万词元测试中，主机内存充足时，三款模型的解码吞吐为仅卸载主 KV 缓存方案的1.25至2.54倍。论文报告平均评测分数最多下降3.1%，代码在首版中仍待内部审核。",
+      "category": "推理与部署",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "区分长上下文服务中的主缓存和索引缓存，并给出相对具体基线的实际收益和代价。"
+      },
+      "sources": [
+        {
+          "name": "arXiv 预印本（首版）",
+          "url": "https://arxiv.org/abs/2611.25078v1",
+          "originalTitle": "Twindex: Index Cache Offloading with Coarse-to-Fine Selection for Long-Context Sparse-Attention Serving",
+          "publishedAt": "2026-11-18T19:19:42Z"
+        }
+      ]
+    },
+    {
+      "id": "apple-depth-pro-2-monocular",
+      "title": "苹果让单摄像头视频估深更稳定",
+      "brief": "Depth Pro 2 在同一模型里兼顾物体边缘与帧间稳定性，公开评测仍显示速度和精度取舍。",
+      "summary": "苹果团队北京时间11月20日提交预印本《Depth Pro 2：清晰且时间一致的单目度量深度估计》（Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth），未经同行评审。同一网络用帧内与跨帧注意力处理单张图或视频，并以原始分辨率输出以米为单位的深度。作者在公开基准上同时评估边界锐度和连续画面的深度波动，并发布代码和模型权重。1080p 流式测试中，小模型在英伟达 B200 上达每秒53帧，精度更高的大模型为8帧。实测是指定硬件与评测设置下的结果，端侧性能需要另测。",
+      "category": "本周重要论文",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "它将单图估深与视频估深合并到同一个模型中，并披露可复查的质量与速度取舍。"
+      },
+      "sources": [
+        {
+          "name": "arXiv 预印本（首版）",
+          "url": "https://arxiv.org/abs/2611.26603v1",
+          "originalTitle": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+          "publishedAt": "2026-11-19T18:55:41Z"
+        },
+        {
+          "name": "Apple Machine Learning Research",
+          "url": "https://machinelearning.apple.com/research/depth-pro-2-monocular",
+          "originalTitle": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth"
+        }
+      ]
+    },
+    {
+      "id": "tencent-hy4-flagship-open-weights",
+      "title": "腾讯开放旗舰 Hy4 权重",
+      "brief": "旗舰 Hy4 语言底座总计7700亿参数，每个文本词元激活490亿，采用腾讯自定义许可证。",
+      "summary": "11月20日，腾讯混元团队公开旗舰 Hy4 的指令版、FP8 量化版和预训练基础版权重。模型卡列出的语言底座总计7700亿参数，每个文本词元激活490亿，支持约104.9万词元上下文。其混合专家架构（MoE）按词元选择专家，且在独立的视觉编码器基础上理解图像等输入。下载和部署应按 Tencent Hy License 核对商业使用条件。激活参数反映参与一次计算的部分权重，部署时仍需容纳完整检查点及推理缓存。11月19日选题简报报道的是同系列 Hy4 flash 权重；本次公开的是旗舰版本。",
+      "category": "开放权重模型",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "区分同系列不同模型的权重发布，并把激活参数、部署存储及使用许可分别说明。"
+      },
+      "sources": [
+        {
+          "name": "腾讯混元模型卡（11月20日版本）",
+          "url": "https://huggingface.co/tencent/Hy4/blob/c10c0de5b6f850703fb0a90e65d1c32b558b9167/README.md",
+          "originalTitle": "Hy4 Model Card",
+          "publishedAt": "2026-11-20T03:05:49Z"
+        },
+        {
+          "name": "腾讯混元许可证",
+          "url": "https://huggingface.co/tencent/Hy4/blob/main/LICENSE",
+          "originalTitle": "Tencent Hy License, Version 1.0"
+        }
+      ]
+    },
+    {
+      "id": "openai-jagged-frontier-research-acceleration",
+      "title": "OpenAI 内部数据揭示智能体研发短板",
+      "brief": "内部估算中，智能体监控训练的成功率为79%，编写推理服务代码为25%。两类任务的自动化难度差距明显。",
+      "summary": "OpenAI 11月18日发布内部研究报告《研发提速：参差不齐的前沿》（Research acceleration: The jagged frontier）。在已经委派给内部编程智能体的任务中，估计人类需两至四小时完成的任务，其无干预成功率从3月的23%升至10月的46%。按任务类型拆分，8月至10月中旬，监控训练约为79%，编写推理和服务系统代码约为25%。报告提醒，研究人员在各时段选择交给智能体的任务可能改变，数字反映公司内部样本及其估算口径。意义在于，应先看每类工作成功率再决定哪些环节需要人审。",
+      "category": "智能体与应用",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把内部自动化的总体进步与具体任务表现分开，并交代委派样本随时间变化的限制。"
+      },
+      "sources": [
+        {
+          "name": "OpenAI 研究报告",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+          "originalTitle": "Research acceleration: The jagged frontier"
+        }
+      ]
+    },
+    {
+      "id": "classic-paper-hinton-osindero-teh-deep-belief-nets",
+      "title": "经典回顾：Hinton 怎样逐层训练深网络",
+      "brief": "用未标注样本逐层学习表示，再微调整体模型，这一路线推动了之后的深层网络研究。",
+      "summary": "多伦多大学的 Geoffrey Hinton、Simon Osindero 与新加坡国立大学的 Yee-Whye Teh 合著《深度信念网络的快速学习算法》（A Fast Learning Algorithm for Deep Belief Nets），2006年7月1日正式发表于《Neural Computation》18卷7期。面对深层生成网络难初始化的问题，作者用未标注数据逐层学习表示，再微调整体模型，顶端两层保留无向的联想记忆。在 MNIST 手写数字实验中，网络学习了图像与标签的联合分布。论文的实验集中于手写数字，较慢的整体微调和更复杂数据上的表现仍需分开考察。这项工作让逐层预训练成为深层网络研究的一条可行路线，推动了之后的无监督表示学习。",
+      "category": "经典论文回顾",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "按目录顺序回顾第7篇，并交代逐层预训练当年解决的问题与实验边界。"
+      },
+      "sources": [
+        {
+          "name": "MIT Press《Neural Computation》",
+          "url": "https://doi.org/10.1162/neco.2006.18.7.1527",
+          "originalTitle": "A Fast Learning Algorithm for Deep Belief Nets"
+        },
+        {
+          "name": "本站论文目录",
+          "url": "https://github.com/rich-richer/rich-richer.github.io/blob/main/editorial/paper-catalog.md",
+          "originalTitle": "AI 论文目录"
+        },
+        {
+          "name": "多伦多大学作者存档",
+          "url": "https://www.cs.utoronto.ca/~hinton/absps/fastnc.pdf",
+          "originalTitle": "A Fast Learning Algorithm for Deep Belief Nets"
+        }
+      ]
+    }
+  ]
+}
