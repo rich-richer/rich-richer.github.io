@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-27T21:51:31+08:00",
+  "coverage": {
+    "start": "2026-11-19T11:25:49+08:00",
+    "end": "2026-11-26T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "shenzhou-24-first-international-crew",
+      "category": "科学",
+      "title": "神舟二十四号进驻天宫，首次迎来外籍航天员",
+      "brief": "神舟二十四号乘组进入天宫，中国空间站首次接待外籍航天员。",
+      "summary": "北京时间 11 月 25 日 14:35，神舟二十四号乘组进驻中国空间站。这是天宫首次接待外籍航天员，也是中国载人航天首次中外航天员联合飞行。当天 11:56，飞船完成与天和核心舱前向端口的对接，两组共六名航天员将在轨进行交接。\nEN: Shenzhou-24 reached Tiangong on Nov. 25, bringing the station its first international astronaut ahead of a six-person crew handover.",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "中国空间站首次有外籍航天员入驻，进舱和对接时点均有官方通报。"
+      },
+      "sources": [
+        {
+          "name": "中国载人航天工程网",
+          "url": "https://www.cmse.gov.cn/xwzx/202611/t20261125_57903.html",
+          "originalTitle": "神舟二十四号航天员乘组顺利进驻“天宫” 中外航天员实现首次“太空握手”"
+        },
+        {
+          "name": "中国载人航天工程网",
+          "url": "https://www.cmse.gov.cn/xwzx/202611/t20261125_57897.html",
+          "originalTitle": "神舟二十四号载人飞船与空间站组合体完成自主快速交会对接"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-messages-api-rust",
+      "category": "AI科技",
+      "title": "Anthropic 披露 Messages API 迁移 Rust",
+      "brief": "Anthropic 称新版 API 单请求 CPU 用量降约 70%，真实流量的行为对照是验证核心。",
+      "summary": "Anthropic 11 月 25 日介绍了把 Messages API 从 Python 迁移到 Rust 的过程。公司称单次请求的 CPU 用量下降约 70%，首词元等待时间中位数缩短约 20%。团队用同一份模型输出比较新旧流程，并逐阶段定位差异。评估迁移效果时，可以分别观察资源消耗与首词元延迟。\nEN: Anthropic says moving its Messages API to Rust cut CPU use per request by about 70% and median time to first token by about 20%.",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "兼顾性能收益及其可验证性，量化指标均保留厂商口径。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+          "originalTitle": "Migrating our Messages API to Rust",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/h1ja45355xx1xf9rqf89cv1if"
+          }
+        }
+      ]
+    },
+    {
+      "id": "claude-artifacts-desktop-apps-beta",
+      "category": "AI科技",
+      "title": "Claude 开测把构件安装为桌面应用",
+      "brief": "Claude 构件可安装为 Mac 或 Windows 应用，常用工具可独立开窗并逐项授权。",
+      "summary": "Claude 11 月 24 日开始公测将构件（artifact）安装为 Mac 或 Windows 应用。安装后可独立开窗，发送通知等额外操作需授权，调用 Claude 计入套餐用量。更新桌面端后，可在符合条件的构件分享菜单里查看安装入口。\nEN: Claude’s beta installs artifacts as Mac or Windows apps. Extra capabilities need permission, and model calls count toward plan limits.",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "变化直接影响桌面交付方式，权限控制和套餐计量决定实际使用范围。"
+      },
+      "sources": [
+        {
+          "name": "Claude",
+          "url": "https://claude.com/resources/articles/install-as-app",
+          "originalTitle": "Turn artifacts into Mac and Windows apps",
+          "via": {
+            "name": "AIHOT",
+            "url": "https://aihot.news/items/zcpto4b7qb8sr6v6n223kd2sx"
+          }
+        },
+        {
+          "name": "Claude 帮助中心",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes#h_21ad83d886",
+          "originalTitle": "Release notes"
+        }
+      ]
+    },
+    {
+      "id": "humanitys-first-exam",
+      "category": "AI科技",
+      "title": "DeepMind 推出日常任务可靠性测试",
+      "brief": "Google 在 Kaggle 开放 HFE，检验模型能否反复答对简单问法和它的变体。",
+      "summary": "Google DeepMind 于 11 月 24 日在 Kaggle 发布 Humanity’s First Exam（HFE）。它包含 544 道基础文本和图像题，覆盖 20 项能力，重点检验模型对日常问题和轻微变体的回答是否稳定。读榜时可以关注重复表现，再结合专业基准判断实际用途。\nEN: DeepMind launched Humanity’s First Exam on Kaggle with 544 text and image prompts to test consistency on everyday tasks.",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "衡量普通问题跨表述的稳定性，补充关注高难度任务的模型评估。"
+      },
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+          "originalTitle": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+          "publishedAt": "2026-11-24T19:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "sand-ai-magi-2",
+      "category": "AI科技",
+      "title": "Sand.ai 发布视频模型 MAGI-2",
+      "brief": "Sand.ai 称 MAGI-2 最长可生成 30 秒的 1080p 有声视频，支持图像、视频和音频参考。",
+      "summary": "Sand.ai 11 月 24 日发布 MAGI-2，披露总参数约 4800 亿、激活参数约 280 亿。公司称模型可生成最长 30 秒、1080p、每秒 25 帧的有声视频，并支持多种媒体参考和时间线控制。官网可看样片，开源版本和详细报告仍待发布。\nEN: Sand.ai launched MAGI-2, saying it can generate up to 30 seconds of 1080p video with native audio and multimodal references.",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "官方文档给出视频长度、分辨率、帧率和参考素材范围，便于判断创作工作流。"
+      },
+      "sources": [
+        {
+          "name": "Sand.ai",
+          "url": "https://sand.ai/blog/magi-2/",
+          "originalTitle": "MAGI-2: A 480B Frontier Video Generation Model"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-siren-sandbox-assessment",
+      "category": "AI安全观察",
+      "title": "Anthropic 披露沙盒边界评估 Siren",
+      "brief": "Anthropic 用沙盒研究评估智能体越界行为，并在新模型部署前运行评估。",
+      "summary": "Anthropic 11 月 24 日公布 Siren。这是受控研究演示，在刻意削弱隔离的环境中，近期 Claude 模型在约五分之一到三分之一的测试情景里尝试接触边界外资源。厂商把评估纳入部署前检查，并用权限规则、执行前审核与异常上报降低测试中观测到的行为。结果适用于所设计的情景。\nEN: Anthropic’s Siren evaluation measures boundary-crossing in controlled tests and helps tune safeguards before new Claude releases.",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "聚焦受控研究证据和厂商防护措施，以及结果的适用条件。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic Safeguards",
+          "url": "https://safeguards.anthropic.com/2026/siren/",
+          "originalTitle": "Measuring and mitigating agent sandbox escape with Siren"
+        }
+      ]
+    },
+    {
+      "id": "li-auto-2026-q3-results",
+      "category": "市场商业",
+      "title": "理想汽车三季度交付近 10 万辆",
+      "brief": "理想汽车三季度交付同比增 7.2%，营收同比增 5.4%。",
+      "summary": "理想汽车 11 月 25 日公布未经审计的三季度业绩，交付量为 99,964 辆，营收为 288 亿元。公司称交付增长带动车辆收入，但产品组合变化拉低了平均售价。车辆毛利率为 15.3%，上年同期为 15.5%。\nEN: Li Auto’s quarterly deliveries rose 7.2% to 99,964 vehicles and revenue climbed 5.4% to RMB 28.8 billion.",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "结合交付量、收入与车辆毛利率观察产品组合变化。"
+      },
+      "sources": [
+        {
+          "name": "理想汽车投资者关系",
+          "url": "https://ir.lixiang.com/news-releases/news-release-details/li-auto-inc-announces-unaudited-third-quarter-2026-financial",
+          "originalTitle": "Li Auto Inc. Announces Unaudited Third Quarter 2026 Financial Results"
+        }
+      ]
+    },
+    {
+      "id": "best-buy-fy27-q3-results",
+      "category": "市场商业",
+      "title": "百思买季度可比销售增长 6.1%",
+      "brief": "百思买季度可比销售增 6.1%，美国业务的可比线上销售增 10.8%。",
+      "summary": "百思买 11 月 24 日披露 2027 财年第三季度营收约 102 亿美元，可比销售同比增长 6.1%。公司称计算设备和手机等品类贡献较大，并将全年可比销售增幅预期从 1.9% 至 3.0% 上调到 3.4% 至 4.0%。\nEN: Best Buy’s comparable sales climbed 6.1%, including 10.8% online growth in the U.S. The company raised its full-year outlook.",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "可比销售与品类信息提供消费电子需求的公司样本。"
+      },
+      "sources": [
+        {
+          "name": "百思买",
+          "url": "https://corporate.bestbuy.com/2026/best-buy-reports-q3-fy27-results/",
+          "originalTitle": "Best Buy Reports Q3 FY27 Results",
+          "publishedAt": "2026-11-24T12:03:15Z"
+        }
+      ]
+    },
+    {
+      "id": "deere-fy26-q4-results",
+      "category": "市场商业",
+      "title": "迪尔季度净利约 10.5 亿美元",
+      "brief": "迪尔第四财季全球销售与收入同比下降 2%，归属净利润降约 1%。",
+      "summary": "迪尔 11 月 25 日公布第四财季业绩，全球销售与收入约 121.2 亿美元，净利润约 10.5 亿美元。生产与精准农业部门销售下降 15%，建筑与林业部门销售增长 12%，两类设备的收入走势出现分化。\nEN: Deere’s fiscal Q4 revenue fell 2%. Precision agriculture sales dropped 15%, while construction and forestry sales rose 12%.",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "同一设备公司的分部表现揭示农业设备与工程机械的差异。"
+      },
+      "sources": [
+        {
+          "name": "迪尔公司财报",
+          "url": "https://www.prnewswire.com/news-releases/deere-reports-net-income-of-1-051-billion-for-fourth-quarter-4-860-billion-for-fiscal-year-302950434.html",
+          "originalTitle": "Deere Reports Net Income of $1.051 Billion for Fourth Quarter, $4.860 Billion for Fiscal Year",
+          "publishedAt": "2026-11-25T06:15:00-05:00"
+        },
+        {
+          "name": "迪尔公司提交 SEC 材料",
+          "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/de-ex99d2.htm",
+          "originalTitle": "Fourth Quarter 2026 Earnings Conference Call Presentation"
+        }
+      ]
+    },
+    {
+      "id": "nijijourney-niji-8",
+      "category": "创作者平台",
+      "title": "Niji 8 加入角色参考编辑",
+      "brief": "Niji 8 上线，创作者可用角色图和背景图编辑人物姿势与场景。",
+      "summary": "Nijijourney 11 月 24 日发布动画插画模型 Niji 8。新版用编辑功能接替 Niji 6 的角色参考功能，允许组合角色图和背景图，并调整人物姿势。网页版可从版本列表选择 Niji 8，再从已生成图像进入快速编辑。\nEN: Nijijourney released Niji 8, adding an editing workflow that can place a reference character into new scenes and poses.",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "角色参考编辑与版本入口均有发布方演示，适合持续制作插画的读者。"
+      },
+      "sources": [
+        {
+          "name": "Nijijourney",
+          "url": "https://nijijourney.com/blog/niji-8",
+          "originalTitle": "Welcome to Niji 8!"
+        }
+      ]
+    },
+    {
+      "id": "esa-hera-dimorphos-impact-images",
+      "category": "科学",
+      "title": "赫拉探测器拍到小行星撞击遗迹",
+      "brief": "欧空局公布赫拉近照，显示迪莫弗斯一侧形成撞击凹陷，其余多处巨石区看起来变化不大。",
+      "summary": "欧洲航天局当地时间 11 月 25 日公布赫拉（Hera）拍摄的迪莫弗斯近照。这颗小行星曾在 2022 年接受 NASA 的偏转试验。欧空局团队根据新影像判断，撞击使迎撞一侧变平并形成凹陷，还使小行星在绕主星运行时出现明显翻滚。\nEN: ESA’s Hera images reveal a large impact depression on Dimorphos and show the asteroid tumbling after NASA’s 2022 DART test.",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "赫拉的后续观测补充了轨道变化之外的形状与姿态证据。"
+      },
+      "sources": [
+        {
+          "name": "欧洲航天局",
+          "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-reveals-stadium-sized-asteroid-crater-left-after-spacecraft-impact",
+          "originalTitle": "Hera reveals stadium-sized asteroid crater from spacecraft impact"
+        }
+      ]
+    },
+    {
+      "id": "webb-cassiopeia-a-dust",
+      "category": "科学",
+      "title": "韦布望远镜观测超新星热尘埃",
+      "brief": "韦布的中红外观测揭示仙后座 A 尘埃结构，为原恒星临终演化提供线索。",
+      "summary": "NASA 11 月 23 日介绍韦布望远镜对仙后座 A（Cassiopeia A）超新星遗迹的中红外观测。团队用热尘埃的组成和分布追溯爆炸前的内部结构，数据支持原恒星在爆炸前可能曾经历显著内部变化的解释。论文发表于《天体物理学杂志快报》。\nEN: Webb’s mid-infrared observations of Cassiopeia A dust give astronomers new clues to the star’s structure before it exploded.",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "观测把遗迹尘埃与恒星爆炸前的演化联系起来，保留可能性限定。"
+      },
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
+          "originalTitle": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
+          "publishedAt": "2026-11-23T10:00:00-05:00"
+        }
+      ]
+    },
+    {
+      "id": "iwo-jima-eruption-new-land",
+      "category": "科学",
+      "title": "卫星记录硫黄岛火山形成新陆地",
+      "brief": "卫星影像显示硫黄岛东南侧出现新的三角形陆地，海浪侵蚀将影响它能保留多久。",
+      "summary": "NASA 地球观测站 11 月 24 日发布硫黄岛卫星对比图。陆地卫星 9 号于 10 月 26 日和 11 月 11 日拍摄的影像显示，近岸火山喷发后，岛的东南岸连接了一块新的三角形陆地。后续雷达影像可用于跟踪侵蚀、沉降或继续生长。\nEN: Landsat imagery shows a volcanic eruption added land to Iwo Jima’s southeast coast. Its long-term persistence remains uncertain.",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "前后卫星影像直接展示岸线变化，后续演化可持续观测。"
+      },
+      "sources": [
+        {
+          "name": "NASA 地球观测站",
+          "url": "https://science.nasa.gov/earth/earth-observatory/eruption-extends-iwo-jimas-beach/",
+          "originalTitle": "Eruption Extends Iwo Jima’s Beach",
+          "publishedAt": "2026-11-24T00:01:00-05:00"
+        }
+      ]
+    }
+  ]
+}

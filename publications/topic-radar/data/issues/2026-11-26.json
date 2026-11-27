@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-27T21:50:19+08:00",
+  "coverage": {
+    "start": "2026-11-19T11:25:49+08:00",
+    "end": "2026-11-26T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "magi-2-audio-video-editing-test",
+      "title": "一条有声 AI 短片能省几次返工",
+      "brief": "Sand.ai 发布有声视频模型 MAGI-2。切入：把一句台词和两处音效放进分镜，查成片返工点。",
+      "summary": "Sand.ai 在 11 月 24 日发布有声视频模型 MAGI-2，官方给出的规格上限为 30 秒、1080p。切入点是口型和音效在成片里能否对齐。11 月 27 日补发核查时，北京时间 21:46 采集的 X 官方帖公开镜像显示 2,304 次点赞、1,053,129 次浏览。这是补发当天的热度样本。抖音短视频可用原创的咖啡店分镜，核对台词口型、落杯声和关门声的时点。B 站长视频可用同一份自制素材比较一次生成与拆镜后配音两种做法，记录可用镜头、补录次数和剪辑用时。",
+      "category": "国内",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "音画对齐和补录次数可以逐项展示，适合短视频创作者判断这类工具能接手制作流程中的哪一段。"
+      },
+      "sources": [
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-11-26#sand-ai-magi-2"
+        },
+        {
+          "name": "Sand.ai·发布原文",
+          "url": "https://sand.ai/blog/magi-2/",
+          "originalTitle": "MAGI-2: A 480B Frontier Video Generation Model"
+        },
+        {
+          "name": "X·magiai_hq 官方帖",
+          "url": "https://x.com/magiai_hq/status/2125290721003680155",
+          "publishedAt": "2026-11-24T18:09:28+00:00",
+          "via": {
+            "name": "Teapawt 公开镜像",
+            "url": "https://www.teapawt.org/magiai_hq/status/2125290721003680155"
+          }
+        }
+      ]
+    },
+    {
+      "id": "niji-8-character-continuity-test",
+      "title": "Niji 8 换三个场景，角色还认得出吗",
+      "brief": "Niji 8 带来参考图编辑。切入：用同一张原创角色卡换三种场景，看看五官和服饰变没变。",
+      "summary": "Nijijourney 在 11 月 24 日发布 Niji 8，编辑功能可结合角色图和背景图。11 月 27 日补发核查时，北京时间 21:46 采集的 X 官方帖公开镜像显示 4,625 次点赞、868,944 次浏览。这是补发当天的热度样本。小红书图文可用一张原创角色卡做三格换景，标出发型、配饰和衣着里的变化。B 站长视频可固定角色和构图，各做三轮单角色图与角色加背景图的对照，展示哪些镜头仍需手修。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "连载漫画和系列图文都要维持角色辨识度，原创三格可展示参考图编辑的实际效果。"
+      },
+      "sources": [
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-11-26#nijijourney-niji-8"
+        },
+        {
+          "name": "Nijijourney·发布原文",
+          "url": "https://nijijourney.com/blog/niji-8",
+          "originalTitle": "Welcome to Niji 8!"
+        },
+        {
+          "name": "X·midjourney 官方帖",
+          "url": "https://x.com/midjourney/status/2125328040624521639",
+          "publishedAt": "2026-11-24T20:37:46+00:00",
+          "via": {
+            "name": "Teapawt 公开镜像",
+            "url": "https://www.teapawt.org/midjourney/status/2125328040624521639"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hfe-repeated-task-reliability",
+      "title": "同一道简单题，AI 换个问法还对吗",
+      "brief": "Google 推出日常题稳定性评测。切入：把一张自制价签上的同一问题换三种问法，当场核对答案。",
+      "summary": "Google DeepMind 在 11 月 24 日发布 Humanity’s First Exam（HFE），通过日常题及其变体测试模型回答的稳定性。11 月 27 日补发核查时，北京时间 21:46 采集的 X 上 Kaggle 官方帖公开镜像显示 1,348 次点赞、142,150 次浏览。这是补发当天的热度样本。抖音短视频可展示一张自制价签，把同一问题换三种问法逐一对答案。B 站长视频可在同一模型和配置下，分别重复原题和改写题，公开每次结果，并区分单次正确与全对；样本量和评分标准也一并展示。",
+      "category": "海外",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "把评测方法转为读者能复做的小实验，可直观看到单次答对和稳定答对的差别。"
+      },
+      "sources": [
+        {
+          "name": "本站·双语每日新闻（完整报道）",
+          "url": "https://rich-richer.github.io/p/daily-news/?date=2026-11-26#humanitys-first-exam"
+        },
+        {
+          "name": "Google DeepMind·发布原文",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+          "originalTitle": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability."
+        },
+        {
+          "name": "X·kaggle 官方帖",
+          "url": "https://x.com/kaggle/status/2125313430303244739",
+          "publishedAt": "2026-11-24T19:39:42+00:00",
+          "via": {
+            "name": "Teapawt 公开镜像",
+            "url": "https://www.teapawt.org/kaggle/status/2125313430303244739"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-27T21:47:32+08:00",
+  "coverage": {
+    "start": "2026-11-19T11:25:49+08:00",
+    "end": "2026-11-26T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "us-october-pce-inflation-2026",
+      "title": "美国10月PCE价格指数同比涨3.8%",
+      "brief": "美国10月PCE价格指数同比涨3.8%，核心同比涨3.3%。当月名义消费支出增加0.3%，扣除价格后持平。",
+      "summary": "本刊仅供学习，不构成投资建议；投资有风险。本期主线：美国10月物价仍涨，实际消费支出持平。北京时间11月25日21:30，美国经济分析局（BEA）公布，个人消费支出价格指数（PCE Price Index）同比涨3.8%，剔除食品和能源后同比涨3.3%，两项环比均涨0.3%。当月名义消费支出增加0.3%，扣除价格变动后的实际消费支出持平。实际可支配个人收入环比增加0.5%。判断消费强弱时，可把支出金额与经物价调整的支出分开看。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "官方价格与消费支出表同时给出名义、实际及不同通胀口径。"
+      },
+      "sources": [
+        {
+          "name": "美国经济分析局",
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+          "originalTitle": "Personal Income and Outlays, October 2026",
+          "publishedAt": "2026-11-25T08:30:00-05:00"
+        },
+        {
+          "name": "美国经济分析局原始报告",
+          "url": "https://www.bea.gov/sites/default/files/2026-11/pi1026.pdf",
+          "originalTitle": "Personal Income and Outlays, October 2026",
+          "publishedAt": "2026-11-25T08:30:00-05:00"
+        }
+      ]
+    },
+    {
+      "id": "us-etf-nov-25-close",
+      "title": "感恩节前美股震荡，三只ETF收跌",
+      "brief": "美东11月25日，SPY跌0.29%、QQQ跌0.65%、VTI跌0.18%。与上期采用的收盘基准相比，三只均跌。",
+      "summary": "美东11月26日因感恩节休市，采用25日16:00（北京时间26日05:00）的正常收盘。交易型开放式指数基金（ETF）SPY收716.70美元，跌0.29%。QQQ收633.93美元，跌0.65%。VTI收353.20美元，跌0.18%。与上期采用的美东11月18日收盘相比，依次累计下跌1.85%、3.88%、1.75%，按收盘价计算，不含分红再投资。美联社报道，AI股早盘抛压带动市场走低，部分大型科技股随后收窄跌幅，主要股指从盘中低位回升。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "用同一数据源还原节前收盘，并对齐上一期采用的美东11月18日基准。"
+      },
+      "sources": [
+        {
+          "name": "Stock Analysis",
+          "url": "https://stockanalysis.com/etf/spy/history/",
+          "originalTitle": "SPY Stock Price History"
+        },
+        {
+          "name": "Stock Analysis",
+          "url": "https://stockanalysis.com/etf/qqq/history/",
+          "originalTitle": "QQQ Stock Price History"
+        },
+        {
+          "name": "Stock Analysis",
+          "url": "https://stockanalysis.com/etf/vti/history/",
+          "originalTitle": "VTI Stock Price History"
+        },
+        {
+          "name": "美联社",
+          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-10044b4fb55d3ff20fde9ba9e9acaab1",
+          "originalTitle": "Wall Street recovers most early losses as pullback in AI stocks eases"
+        }
+      ]
+    },
+    {
+      "id": "ecb-dlt-collateral-expansion",
+      "title": "欧央行将扩大合格抵押品范围",
+      "brief": "欧洲央行同意有条件纳入经欧盟试点制度许可的平台发行的可流通资产，计划2027年6月实施。",
+      "summary": "欧洲央行（ECB）11月23日宣布，理事会同意，欧盟分布式账本技术（DLT）试点制度许可的平台发行的可流通资产，可在满足条件后纳入欧元体系信贷操作的抵押品范围。资产仍须符合通用抵押品标准，并经符合条件的连接接入运营合格结算系统的中央证券存管机构。平台还须满足有关结算终局性和关键职能外包等要求。细则预计2027年春公布，计划同年6月实施。判断某项资产能否用于抵押，要同时核对发行平台、结算链路和资产本身的资格。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "跟踪欧元体系如何把受监管的代币化证券接入既有抵押与结算制度。"
+      },
+      "sources": [
+        {
+          "name": "欧洲央行",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
+          "originalTitle": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral"
+        },
+        {
+          "name": "意大利央行转载欧洲央行公告",
+          "url": "https://www.bancaditalia.it/media/bce-comunicati/documenti/2026/ecb-pr261123-en.pdf",
+          "originalTitle": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral"
+        }
+      ]
+    },
+    {
+      "id": "cn-hk-nov-26-close",
+      "title": "沪深近乎持平，恒指涨1.19%",
+      "brief": "11月26日上证综指涨0.01%、深证成指跌0.02%、恒指涨1.19%。对比上期采用的11月18日收盘，三项均跌。",
+      "summary": "11月26日收盘，上证综指报3476.88点，日涨0.01%。深证成指报10084.04点，日跌0.02%。恒生指数报22226.88点，日涨1.19%。与上期使用的11月18日收盘相比，依次累计下跌3.09%、5.40%、4.58%。新华财经报道，A股贵金属和元件板块涨幅靠前。新华社记录，香港国企指数和恒生科技指数当天均上涨。单日反弹和区间累计比较回答的是两个时间尺度的问题。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "对齐同一期采用的沪深港收盘日期，同时给出单日和区间口径。"
+      },
+      "sources": [
+        {
+          "name": "新华财经",
+          "url": "https://www.cnfin.com/gs-lb/detail/20261126/4500639_1.html"
+        },
+        {
+          "name": "新华社",
+          "url": "https://www1.xinhuanet.com/fortune/20261126/863e770e65b246a0a5eac542c55b9990/c.html",
+          "publishedAt": "2026-11-26T18:47:31+08:00"
+        },
+        {
+          "name": "博时基金（界面新闻）",
+          "url": "https://www.jiemian.com/article/15346907.html",
+          "publishedAt": "2026-11-18T16:40:00+08:00"
+        },
+        {
+          "name": "新华社",
+          "url": "https://www.xinhuanet.com/20261118/2d1c360df96a4ec7a704bf90be5f8f1d/c.html",
+          "publishedAt": "2026-11-18T18:02:26+08:00"
+        }
+      ]
+    },
+    {
+      "id": "btc-eth-nov-26-fixed-snapshot",
+      "title": "比特币和以太币较上期样本下跌",
+      "brief": "北京时间11月26日08:00，比特币约6.04万美元、以太币约1691美元，较19日同一时点分别跌4.16%和4.76%。",
+      "summary": "CoinGecko历史接口显示，北京时间11月26日08:00，比特币（BTC）美元汇总报价为60,374.15，以太币（ETH）为1,690.52。上期采用的11月19日08:00样本分别为62,996.68美元和1,775.10美元，本期较这两个基准分别下跌4.16%和4.76%。两次取样钟点均为协调世界时（UTC）00:00。加密资产全天交易，两点间的涨跌只反映这一采样区间，各交易场所的报价可能有差异。",
+      "category": "市场速览",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "使用同源同钟点样本，避免把时点和计价差异混进区间表现。"
+      },
+      "sources": [
+        {
+          "name": "CoinGecko · 比特币历史样本",
+          "url": "https://api.coingecko.com/api/v3/coins/bitcoin/history?date=26-11-2026&localization=false",
+          "originalTitle": "Coin Historical Data by ID — Bitcoin"
+        },
+        {
+          "name": "CoinGecko · 以太币历史样本",
+          "url": "https://api.coingecko.com/api/v3/coins/ethereum/history?date=26-11-2026&localization=false",
+          "originalTitle": "Coin Historical Data by ID — Ethereum"
+        },
+        {
+          "name": "CoinGecko接口文档",
+          "url": "https://docs.coingecko.com/reference/coins-id-history",
+          "originalTitle": "Coin Historical Data by ID"
+        }
+      ]
+    },
+    {
+      "id": "cftc-financial-resources-crypto-advisory",
+      "title": "美期监会两部门解释加密资产如何计入财务储备",
+      "brief": "美期监会两部门发布工作人员意见，说明特定衍生品机构计入加密资产时的折价和流动性口径。",
+      "summary": "美国商品期货交易委员会（CFTC）两部门11月23日发布第26-31号工作人员意见，讨论掉期执行设施、指定合约市场和衍生品清算机构以部分加密资产满足运营财务资源要求的条件。文件以比特币、以太币及支付稳定币为例，说明市值应适用相应折价，还要符合各类机构现有的流动性要求。文件表达发布部门的观点，现行规则继续适用。这份意见讨论的是机构维持运营的资源要求，清算机构用于应对参与者违约的资源另有规定。",
+      "category": "数字货币与区块链",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "说明监管意见涉及的机构类型和适用范围，避免扩展成全面放开。"
+      },
+      "sources": [
+        {
+          "name": "美国商品期货交易委员会",
+          "url": "https://www.cftc.gov/csl/26-31/download",
+          "originalTitle": "CFTC Staff Letter No. 26-31"
+        },
+        {
+          "name": "美国商品期货交易委员会公告",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9331-26",
+          "originalTitle": "CFTC Staff Issues Advisory Concerning the Use of Crypto Assets to Satisfy Financial Resources Requirements"
+        }
+      ]
+    },
+    {
+      "id": "bank-of-korea-nov-26-rate-increase",
+      "title": "韩国央行把基准利率上调至3.25%",
+      "brief": "韩国央行11月26日加息25个基点，投票结果为5票支持、2票主张维持原利率。",
+      "summary": "韩国央行11月26日把基准利率（base rate）从3.00%上调至3.25%，五名委员支持加息，两名委员主张维持3.00%。央行公告把经济增长走强、通胀可能持续高于目标以及金融稳定风险列为决策依据。该行预计2027年总体通胀为2.4%，此前预测为2.3%。加息和投票结果已公布，通胀数字是央行预测，后续决策仍取决于实际物价、经济活动和金融稳定。",
+      "category": "金融要闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "补充亚洲央行动向，区分正式利率决议与预测。"
+      },
+      "sources": [
+        {
+          "name": "韩国央行",
+          "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?menuNo=400022&nttId=11067085",
+          "originalTitle": "Monetary Policy Decision & Opening Remarks to the Press Conference (November 26, 2026)"
+        }
+      ]
+    },
+    {
+      "id": "lesson-diversification-and-loss-tolerance",
+      "title": "一词一课：风险、分散与亏得起",
+      "brief": "分散投资可减少单一公司或行业带来的冲击。判断亏损承受力，还要算钱什么时候要用。",
+      "summary": "分散投资（diversification）像把货物放到不同车辆，单车故障时还有别的车可以到达。如果几辆车都走同一条会封闭的路，仍可能同时延误。本期三只美股ETF覆盖范围各有不同，却都低于上期收盘，说明持有多只基金也可能面对共同风险。判断自己亏不亏得起，要看下跌会不会打乱近期开支和用钱计划。小练习：一年后要用的一笔钱若跌两成就会影响学费，先查什么？A. 用款时间与可承受损失 B. 基金数量 C. 上周涨幅。答案A。",
+      "category": "一词一课",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "接续指数与ETF，用共同市场风险说明分散效果和损失承受能力。"
+      },
+      "sources": [
+        {
+          "name": "美国证监会投资者教育网站",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/diversification",
+          "originalTitle": "Diversification"
+        }
+      ]
+    },
+    {
+      "id": "read-us-gdp-q3-second-estimate",
+      "title": "新闻怎么读：美国三季度GDP为何上修",
+      "brief": "美国三季度实际GDP年化增速从初值3.4%上修至4.3%。读到上修，先确认比较的是同一个季度的两版数据。",
+      "summary": "美国经济分析局11月25日发布三季度国内生产总值（GDP）第二次估算，扣除物价后的季调年化增速由3.4%修订为4.3%，对应实际环比约1.1%。阅读时可追问三点。报道写的是同一季度的估算修订，还是两个季度的增速变化？4.3%是年化口径，换成实际季环比是多少？哪些数据变了？官方把此次上修主要归因于投资和消费支出估计上调。对第四季度的推断需要单独列出假设。",
+      "category": "新闻怎么读",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "用正式发布的修订表说明年化、环比及统计版本之间的差别。"
+      },
+      "sources": [
+        {
+          "name": "美国经济分析局",
+          "url": "https://bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+          "originalTitle": "GDP (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+          "publishedAt": "2026-11-25T08:30:00-05:00"
+        },
+        {
+          "name": "美国经济分析局原始报告",
+          "url": "https://www.bea.gov/sites/default/files/2026-11/gdp3q26-2nd.pdf",
+          "originalTitle": "GDP (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+          "publishedAt": "2026-11-25T08:30:00-05:00"
+        }
+      ]
+    },
+    {
+      "id": "calendar-us-thanksgiving-early-close",
+      "title": "美股感恩节次日提前收盘",
+      "brief": "美东11月27日美股常规交易提前至13:00结束，对应北京时间11月28日02:00。",
+      "summary": "按纽约证券交易所和纳斯达克公布的感恩节日历，美股11月26日休市，27日常规股票交易提前至美东13:00结束，对应北京时间11月28日02:00，比平常早3小时。阅读时报时，注意把交易所当地日期和北京时间分开。盘后交易和部分期权的安排可能不同，核对股票或ETF常规收盘价时应以对应市场的收盘时刻为准。",
+      "category": "财经日历",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "记录截稿时已公告、下期前发生的特别交易安排。"
+      },
+      "sources": [
+        {
+          "name": "纽约证券交易所",
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "originalTitle": "Holidays & Trading Hours"
+        },
+        {
+          "name": "纳斯达克交易者网站",
+          "url": "https://www.nasdaqtrader.com/TraderNews.aspx?id=ETA2026-69",
+          "originalTitle": "Equity Trader Alert #2026 - 69: U.S. Market Holiday Reminder: Thanksgiving"
+        }
+      ]
+    }
+  ]
+}

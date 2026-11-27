@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-27T21:48:40+08:00",
+  "coverage": {
+    "start": "2026-11-19T23:59:59+08:00",
+    "end": "2026-11-26T23:59:59+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "jensen-huang-nvidia-reinstatement",
+      "title": "黄仁勋：复任英伟达 CEO 和董事",
+      "brief": "英伟达董事会一致同意黄仁勋复任。克雷斯继续担任财务长，独立委员会的调查继续。",
+      "summary": "英伟达 11 月 23 日公告，董事会一致同意黄仁勋复任总裁、首席执行官和董事。意义：领导层恢复常态，董事会的调查与监督安排继续推进。提交给美国证交会的 8-K 文件将复任决定及生效日列为美国当地 11 月 22 日，比新闻稿早一天。科莱特·克雷斯结束临时 CEO 任期，继续担任执行副总裁兼财务长，哈维·琼斯继续担任董事会主席。公司表示独立委员会的调查将继续，也将招聘首席合规官。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "跟进上期管理层交接，分别核对决定日期、公告日期和职责分工。"
+      },
+      "sources": [
+        {
+          "name": "英伟达新闻中心",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director/",
+          "originalTitle": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director"
+        },
+        {
+          "name": "美国证交会 EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+          "originalTitle": "NVIDIA Corporation Form 8-K: November 22, 2026"
+        }
+      ]
+    },
+    {
+      "id": "musk-spacex-starmind-fcc-authorization",
+      "title": "马斯克：SpaceX 的在轨算力获部分授权",
+      "brief": "美国 FCC 有条件批准 SpaceX 轨道数据中心星座的备用通信，首个部署节点为 2033 年。",
+      "summary": "美国联邦通信委员会（FCC）太空局于当地 11 月 25 日发布 DA 26-1273 号命令，部分批准马斯克旗下 SpaceX 的 Starmind 轨道数据中心申请，其余部分暂缓。文件列出的星座上限为 100 万颗，已授予的无线电权限限于备用和紧急测控。按命令，SpaceX 最迟须于 2033 年 11 月 25 日部署并运营首颗，随后在 2035、2038 和 2040 年达到分阶段部署要求。许可范围与部署节点可逐项核对，工程交付进度还需看后续公开记录。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "以授权命令区分百万颗规模、已批准权限和未来部署进度。"
+      },
+      "sources": [
+        {
+          "name": "FCC 太空局命令（PDF 存档）",
+          "url": "https://eu-assets.contentstack.com/v3/assets/blt23eb5bbc4124baa6/bltf4cdf2af47159e12/6b071c5f5506bb38bca5b0ec/FCC_report_and_order_on_SpaceX_Starmind_AI_constellation_11-25-2026.pdf",
+          "originalTitle": "Memorandum Opinion and Order and Authorization, DA 26-1273"
+        },
+        {
+          "name": "美联社",
+          "url": "https://apnews.com/article/spacex-data-center-elon-musk-b9897fe06f851ffaf92fd304ae69075c",
+          "originalTitle": "Trump administration approves SpaceX's ambitious satellite data center plan"
+        }
+      ]
+    },
+    {
+      "id": "amodei-ai-human-governance-response",
+      "title": "阿莫迪：公开回应 AI 决策权争议",
+      "brief": "阿莫迪回应 Axios 报道，表示应由有公信力的民主程序决定 AI 的治理边界。",
+      "summary": "美东时间 11 月 25 日，Anthropic 首席执行官达里奥·阿莫迪在 X 回应 Axios 对 AI 决策权的报道，表示他反对把社会治理权交给 AI，并主张通过有公信力的民主程序治理 AI。他把特定任务的自动化与社会层面的权力让渡分开讨论。Axios 随后刊出回应报道。这一公开表态说明了阿莫迪个人的主张，企业实际如何保留人工监督仍要看部署规则和执行情况。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "关注 AI 公司负责人对自动化与公共治理权边界的公开说明。"
+      },
+      "sources": [
+        {
+          "name": "Axios（直接报道当事人回应）",
+          "url": "https://www.axios.com/2026/11/25/anthropic-dario-amodei-ai-free-will-contro-axios",
+          "originalTitle": "Anthropic CEO pushes back on Axios reporting on AI and free will",
+          "publishedAt": "2026-11-25T19:28:00Z"
+        },
+        {
+          "name": "阿莫迪的 X 公开帖",
+          "url": "https://x.com/DarioAmodei/status/2125656399392690605",
+          "via": {
+            "name": "Advance Intelligence 公开摘录",
+            "url": "https://www.advanceintelligence.ai/2026-11-25/all"
+          }
+        }
+      ]
+    },
+    {
+      "id": "andrew-ng-nvidia-deep-learning-letter",
+      "title": "吴恩达：回顾 GPU 早期进入深度学习",
+      "brief": "吴恩达在公开信里回顾英伟达很早就为斯坦福和谷歌团队的 GPU 训练提供资源。",
+      "summary": "美国太平洋时间 11 月 20 日，吴恩达在 DeepLearning.AI 的《The Batch》公开信中回忆，他推动用图形处理器（GPU）训练神经网络时，黄仁勋曾为其斯坦福和谷歌团队提供资源。他认为，英伟达早期转向深度学习工作负载并扶持外部开发团队，对行业影响很大。文章写于英伟达董事会公布复任消息之前。这里呈现的是当事人对早期合作的回顾及判断。",
+      "category": "AI 产业",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "关注吴恩达对 GPU 深度学习生态形成过程的第一人称回顾。"
+      },
+      "sources": [
+        {
+          "name": "DeepLearning.AI《The Batch》",
+          "url": "https://www.deeplearning.ai/the-batch/issue-380/",
+          "originalTitle": "Jensen Huang’s Nvidia legacy, Claude Fable 5.2 and Anthropic’s IPO, World Labs Releases Atlas to Developers",
+          "publishedAt": "2026-11-20T07:00:00-08:00"
+        }
+      ]
+    },
+    {
+      "id": "justin-sun-tron-pulsar-integration",
+      "title": "孙宇晨：波场接入 Pulsar 支付",
+      "brief": "波场 DAO 公告，Pulsar 新增波场网络 USDT 入金支持。服务可用性取决于地区及提供商。",
+      "summary": "美东时间 11 月 19 日，孙宇晨发起的波场（TRON）生态组织对外宣布，Pulsar Money 支持通过波场网络转入美元稳定币 USDT，符合条件的余额可用于该应用的虚拟卡支付。Pulsar 表示，平台对支持的稳定币入金免收自身费用，网络及第三方费用仍可能发生，功能也因地区和服务商而异。公告由机构发布，未披露这项接入的用户数或实际支付规模。",
+      "category": "金融与加密",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "记录名单内人物发起的组织的公开产品进展，保留区域和费用限制。"
+      },
+      "sources": [
+        {
+          "name": "波场 DAO 公告",
+          "url": "https://www.globenewswire.com/news-release/2026/11/19/3406909/0/en/pulsar-enables-usdt-deposits-on-tron-expanding-access-to-everyday-stablecoin-payments.html",
+          "originalTitle": "Pulsar Enables USDT Deposits on TRON, Expanding Access to Everyday Stablecoin Payments",
+          "publishedAt": "2026-11-19T11:00:00-05:00"
+        }
+      ]
+    }
+  ]
+}
