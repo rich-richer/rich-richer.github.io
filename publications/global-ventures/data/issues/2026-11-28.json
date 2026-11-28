@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T14:40:48+08:00",
+  "coverage": {
+    "start": "2026-11-21T14:40:48+08:00",
+    "end": "2026-11-28T14:40:48+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "report-battery-passport-export-summary",
+      "title": "执行摘要：出欧工业电池护照能否做成付费业务",
+      "brief": "先为一款出欧工业电池做字段与证据映射，请进口方验收并付试点费。",
+      "summary": "本期问题：中国出欧工业电池企业会为护照的数据准备与持续更新付费吗？\n结论：先选一个容量超过2千瓦时的成品工业电池型号，按已有生产数据做收费试点。依据：欧委会2026年8月指南重申，符合条件的电池自2027年2月18日起在欧盟投放市场或投入使用时须有护照，本周已有中国制造商签约实施。置信度：中，法规范围与采购信号已可查，订单能否复制取决于制造商和欧盟买方是否共同验收、字段能否复用以及实际回款。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "明确谁会采购、先交付什么，以及怎样验证是否有持续收入。"
+      },
+      "sources": [
+        {
+          "name": "欧洲委员会",
+          "url": "https://single-market-economy.ec.europa.eu/news/guidance-support-preparations-digital-batteries-passport-2026-08-21_en",
+          "originalTitle": "Guidance to support preparations for the Digital Batteries Passport"
+        },
+        {
+          "name": "欧洲委员会",
+          "url": "https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/batteries_en",
+          "originalTitle": "Batteries"
+        },
+        {
+          "name": "EUR-Lex 欧盟法律数据库",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/ojn",
+          "originalTitle": "Regulation (EU) 2023/1542 concerning batteries and waste batteries, Article 77"
+        }
+      ]
+    },
+    {
+      "id": "minespider-ptl-china-battery-passport-deals",
+      "title": "Minespider 与中企签约实施电池护照",
+      "brief": "Minespider 和深圳 PTL 宣布与多家制造商签约。启示：本地检测团队可和软件商联合交付。",
+      "summary": "11月25日，柏林电池护照软件商 Minespider 与中国合作方深圳 PTL 公布，九号公司、欣旺达能源等制造商已签约实施欧版电池护照，覆盖轻型交通工具、电动汽车和工业电池。Minespider 以分档年费销售平台，公告未披露本次合同金额或经审计的营收。双方称九号公司选用厂内部署，参与者仍在接入平台。分析：中国软件团队可与本地检测及生产系统集成商合作，先用一个电池型号验收接口和资料。供应商数据授权、欧方验收及持续更新义务会影响交付成本。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "公开的客户名称、品类及部署方式构成具体的本地采购信号。"
+      },
+      "sources": [
+        {
+          "name": "Minespider 与深圳 PTL 联合公告",
+          "url": "https://www.minespider.com/press/digital-battery-passports-for-europe-leading-chinese-manufacturers-including-segway-ninebot-and-sunwoda-sign-with-minespider-and-ptl",
+          "originalTitle": "Digital Battery Passports for Europe: Leading Chinese Manufacturers, Including Segway-Ninebot and Sunwoda Energy, Sign with Minespider and PTL"
+        },
+        {
+          "name": "Minespider 年费方案",
+          "url": "https://www.minespider.com/battery-passport-pricing",
+          "originalTitle": "Battery Passport Pricing"
+        }
+      ]
+    },
+    {
+      "id": "zipher-seed-a-disclosure-workload-costs",
+      "title": "Zipher 披露累计融资5300万美元",
+      "brief": "Zipher 为企业调度数据任务，披露两轮累计融资5300万美元。启示：用单任务成本验收。",
+      "summary": "总部在美国纽约、在特拉维夫设办公室的 Zipher 为企业数据与人工智能任务选择计算配置和执行时机。公开方案含按用量计费和企业定制价。公司11月24日披露种子轮与A轮累计融资5300万美元，投资方包括 TLV Partners、Maor Investments 和 Glilot Capital。公司公告引述赫兹称，部分工作负载计算成本减少25%至40%，属于客户案例口径，未见经审计的营收。分析：中国团队可先做批处理任务的只读成本诊断，与云平台的原生调优比较，双方先约定服务水平（SLA）和数据权限，再评估节省还够不够支付服务费。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "披露两轮合计资金、企业采购方式与项目节省口径，适合验证成本优化服务。"
+      },
+      "sources": [
+        {
+          "name": "Zipher 融资公告",
+          "url": "https://zipher.ai/zipher-is-out-of-stealth-data-infrastructure-for-agents-by-agents/",
+          "originalTitle": "Zipher is Out of Stealth: Data Infrastructure for Agents, by Agents"
+        },
+        {
+          "name": "Zipher 定价页",
+          "url": "https://zipher.ai/pricing/",
+          "originalTitle": "Pricing"
+        },
+        {
+          "name": "Zipher 公司资料",
+          "url": "https://zipher.ai/about/",
+          "originalTitle": "Data Infra That Adapts to Keep Up with Your Agents"
+        }
+      ]
+    },
+    {
+      "id": "korben-service-robot-fleet-seed",
+      "title": "Korben 获1020万欧元种子轮",
+      "brief": "法国 Korben 做服务机器人和车队软件，获种子资金。启示：先验收一条路线。",
+      "summary": "法国种子阶段公司 Korben 面向企业和公共机构提供清洁、接待、室内配送机器人及统一管理软件，产品页通过现场评估、试用和专项方案销售，未列标准报价。11月26日，公司披露种子轮融资1020万欧元、估值3620万欧元，并自报最近八个月息税折旧摊销前利润（EBITDA）50万欧元，未找到经审计的营收。分析：国内场景可从酒店布草配送切入，与现有机器人品牌比较每班完成量、人工接管次数和维保响应，先验证电梯接口与人员混行安全。场地协议和跨品牌适配会影响交付成本。",
+      "category": "机会新闻",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "可区分融资和公司自报经营指标，并映射到国内一条配送路线的采购验收。"
+      },
+      "sources": [
+        {
+          "name": "Korben 融资公告",
+          "url": "https://www.korbenforpeople.com/assets/presse/cp/2026-11-26-korben-levee-de-fonds-en.pdf",
+          "originalTitle": "Korben Raises a €10.2M Seed Round"
+        },
+        {
+          "name": "Korben 产品页",
+          "url": "https://www.korbenforpeople.com/en/use-cases/service-robot/",
+          "originalTitle": "Service robots"
+        }
+      ]
+    },
+    {
+      "id": "report-battery-passport-export-demand",
+      "title": "需求与市场：先数到期产品型号",
+      "brief": "从最早进入欧洲的货开始，逐型号确认谁负责、何时交和还有哪些字段缺失。",
+      "summary": "欧委会委托编制的《按类别划分的数据点》指南第四版于2026年11月13日定稿，逐类区分必填、条件适用及首轮暂不需提供的字段。全球电池联盟9月公布的运行试验追踪17个供应链合作组，组织方所称约80%描述参与方电芯生产范围，不能外推为护照渗透率。分析：先找有2027年初欧盟出货计划的工业电池厂，请质量与海外销售共同列出型号、预计投放日期、负责方和缺失字段。项目数量用有交期且已获买方验收要求的型号估算。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把已知法规和行业试验信号转为能逐一核验的潜在订单。"
+      },
+      "sources": [
+        {
+          "name": "欧洲委员会数据点指南第四版",
+          "url": "https://single-market-economy.ec.europa.eu/document/download/cd1e5e6c-4a4a-4b99-995a-49eb6916187e_en?filename=Digital+Product+Passport+-+data+point+by+category.pdf",
+          "originalTitle": "Digital Batteries Passport – Data Points by Category"
+        },
+        {
+          "name": "全球电池联盟",
+          "url": "https://www.globalbattery.org/2026-battery-passport-pilots/",
+          "originalTitle": "2026 Battery Passport Operational Trials"
+        }
+      ]
+    },
+    {
+      "id": "report-battery-passport-export-benchmarks",
+      "title": "对标公司：Circularise 与中创新航",
+      "brief": "软件商做字段交换，制造商组织供应链数据，选型时核对谁维护原始证据。",
+      "summary": "荷兰 Circularise 在2026年2月公布加入 BatteryPass-Ready，作为支持方参与针对中小企业的测试与用例，提供多级供应商数据采集与权限披露能力。中国制造商中创新航10月14日披露，在全球电池联盟试验中牵头两个合作组，并发布两个公开数据面板。前者可对标软件与互操作，后者可对标制造商如何组织上游资料和第三方复核。参与试验及公开面板是项目规模证据，付费席位、产线覆盖和收入需单独核实。分析：小团队先选现有系统里证据留痕做得最好的型号，再设计数据连接。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "覆盖平台集成与制造商自组织两类可对标的现有能力。"
+      },
+      "sources": [
+        {
+          "name": "Circularise",
+          "url": "https://www.circularise.com/press-releases/circularise-becomes-a-supporting-partner-in-batterypass-ready",
+          "originalTitle": "Circularise becomes a supporting partner in BatteryPass-Ready"
+        },
+        {
+          "name": "中创新航",
+          "url": "https://en.calb-tech.com/NewsDetails/256.html",
+          "originalTitle": "CALB Takes the Lead in GBA Battery Passport Operational Pilot, Two Public Data Panels Launched Globally for the First Time"
+        }
+      ]
+    },
+    {
+      "id": "report-battery-passport-export-economics",
+      "title": "商业模式与收入成本：映射与维护分开",
+      "brief": "按首款型号收实施费，持续更新另计，逐批记录人工补字段的时间。",
+      "summary": "欧委会2026年7月登记系统公告说明，登记可在网页界面或应用程序接口（API）办理，产品数据分布式保存。分析：把首款字段盘点、工厂系统对接和试单作为固定项目，把新增型号、证据更新、托管和服务响应另行报价。主要成本是人工向上游追数、清洗、接口改动、翻译和发布后的支持。演算假设：一期收入3万元、预计交付120小时、按150元每小时计入内部人力，再扣托管及第三方测试0.4万元，直接贡献约0.8万元，尚未扣获客与税费。这一示例用于测试定价，实际时长和成本应由试单记录。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "给出口方和服务商一个可复算的工时与费用框架。"
+      },
+      "sources": [
+        {
+          "name": "欧洲委员会",
+          "url": "https://single-market-economy.ec.europa.eu/news/digital-product-passport-registry-now-live-2026-07-20_en",
+          "originalTitle": "The Digital Product Passport Registry is now live"
+        }
+      ]
+    },
+    {
+      "id": "report-battery-passport-export-moat",
+      "title": "竞争与进入门槛：替换系统时仍能读",
+      "brief": "用同一批模拟电池测试二维码、数据导出和权限，不把可互操作只当报价条款。",
+      "summary": "欧委会2026年7月公布的实施决定列出六项数字产品护照协调标准引用，涵盖标识符、数据载体、存储、接口、交换协议和系统互操作。德方配套研究2026年11月简报也记录了 Catena-X 在跨境供应链的数据交换试验。分析：竞争来自海外护照平台、本地检测机构、工厂软件集成商及制造商自建系统。较难复制的是拿到源系统字段、让标识在批次更改和供应商切换后仍可追溯。把可导出字段、交接文件、权限、接口测试与迁移责任写进验收条件，可降低锁定成本。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "识别跨系统验收、数据迁移与现场接口的竞争门槛。"
+      },
+      "sources": [
+        {
+          "name": "欧盟官方公报",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202601736",
+          "originalTitle": "Commission Implementing Decision (EU) 2026/1736 on harmonised standards for digital product passports"
+        },
+        {
+          "name": "德国电池创新配套研究",
+          "url": "https://www.ipcei-batteries.eu/fileadmin/Images/accompanying-research/market-updates/2026-11-02-11-BZF_Batterie-Pass-EN.pdf",
+          "originalTitle": "The Digital Battery Passport"
+        }
+      ]
+    },
+    {
+      "id": "report-battery-passport-export-china",
+      "title": "中国落地条件：先确定责任主体",
+      "brief": "先由出口厂和欧方买方确认成品电池及投放责任，再约定谁维护和谁接收字段。",
+      "summary": "欧委会FAQ以成品且能安全工作的电池为判断对象。若多个电池包须共用电池管理系统（BMS）才能运行，应按成品组合评估。投放市场的经济运营方可以书面授权他人制作或更新护照，责任仍由投放方承担。国家网信办2026年3月介绍了分类分级的数据出境管理。分析：把可公开字段、需受控共享字段和源文件分开，逐项确认分类、授权和处理路径。如涉及个人信息或重要数据，请适格法务按实际情形审查。技术服务合同须分别写清报价付款、注册配合、变更维护和对账责任。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "向出口供应链说明责任划分和跨境数据审查要落到具体字段。"
+      },
+      "sources": [
+        {
+          "name": "欧洲委员会电池护照问答",
+          "url": "https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/eu-digital-product-passport-faq-batteries_en",
+          "originalTitle": "EU Digital Product Passport FAQ for Batteries"
+        },
+        {
+          "name": "国家网信办",
+          "url": "https://www.cac.gov.cn/2026-03/23/c_1775999628849905.htm",
+          "originalTitle": "《促进和规范数据跨境流动规定》实施两周年数据出境安全管理工作再上新台阶"
+        }
+      ]
+    },
+    {
+      "id": "report-battery-passport-export-risks",
+      "title": "主要风险：权限误设与源证据断链",
+      "brief": "分开公开与受限视图，检查扫码内容、证据出处和字段变更记录。",
+      "summary": "欧委会2026年10月19日公布的访问权限实施文本是征询草案，具体规则需以生效文件核对。分析：若将商业敏感字段随公开二维码暴露，或把某批供应商声明误挂到另一批电池，可能引发合规、合同和声誉问题。应为各字段指定所有者和更新频率，保存出处与版本，分别测试公开和授权访问。供应商资料缺失时留明待确认及负责人，避免猜填。合同安排接口变化的复验、托管退出和资料迁移，防止法规实施细节或平台调整导致长期维护失控。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把可变的访问规则以及资料失真风险落实为验证与交接要求。"
+      },
+      "sources": [
+        {
+          "name": "欧委会技术性贸易壁垒通知系统",
+          "url": "https://technical-barriers-trade.ec.europa.eu/en/notification/41130",
+          "originalTitle": "G/TBT/N/EU/1248 — Draft Commission Implementing Regulation on access to and use of certain information in the battery passport"
+        },
+        {
+          "name": "欧洲委员会征询草案",
+          "url": "https://ec.europa.eu/info/law/better-regulation/api/download/090166e5356723d0",
+          "originalTitle": "Draft implementing regulation on access to and use of certain information in the battery passport"
+        }
+      ]
+    },
+    {
+      "id": "report-battery-passport-export-scenarios",
+      "title": "情景预测：看首单能否带动复购",
+      "brief": "用进口方验收、第二型号签约和单型号工时判断是否继续扩大。",
+      "summary": "BatteryPass-Ready 项目公开了试验资源，提供在正式部署前检查数据完整性和系统互操作的思路。分析：未来12个月，乐观情景是同一套字段映射在两家出口厂被进口方接收，且至少一客户付费追加型号。基准情景是有首款付费交付，但关键字段仍靠逐厂人工收集，业务暂按项目计费。保守情景是出货计划提前、买方采用自有模板且不给外部接口，或验收付款反复拖延，应收缩到一次性资料梳理。这三个判断可用验收记录、追加订单和每个型号所耗工时复核。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "给扩张、维持定制和收缩三种情景设可核对的经营触发条件。"
+      },
+      "sources": [
+        {
+          "name": "BatteryPass-Ready 联盟",
+          "url": "https://thebatterypass.eu/battery-pass-ready/resources/",
+          "originalTitle": "BatteryPass-Ready Resources"
+        }
+      ]
+    },
+    {
+      "id": "report-battery-passport-export-actions",
+      "title": "30 天可验证行动：做一次扫码验收",
+      "brief": "访谈十家，拿一款模拟电池对照字段，出一次有签字条件的试点报价。",
+      "summary": "欧委会2026年7月的登记用户指南提供了经济运营方的登记流程。分析：①第1周访谈10家近期有欧洲订单的电池厂和买方，至少请2组明确谁对数据负责、何时验收。②第2周取一个合成或已明确授权的成品型号，列出首轮必填字段、来源系统、缺口与经手人。③第3周用测试环境跑登记与退回更正，检查二维码和公开权限、逐字段回查原证据。④第4周提交固定范围的报价，请客户按实际验收条款决定是否支付试点费。缺少有权确认的买方或源资料无法取得时，暂缓系统开发。",
+      "category": "战略报告",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "先用一款产品验证角色、证据和实际支付，再选择是否做通用接口。"
+      },
+      "sources": [
+        {
+          "name": "欧洲委员会登记用户指南",
+          "url": "https://single-market-economy.ec.europa.eu/document/download/a71b5d30-ed8b-4c27-809d-757cf5e6030f_en?filename=dpp_registry_user_guide_for_economic_operators.pdf",
+          "originalTitle": "DPP Registry User Guide for Economic Operators"
+        }
+      ]
+    }
+  ]
+}

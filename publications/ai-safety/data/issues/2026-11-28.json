@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T14:40:48+08:00",
+  "coverage": {
+    "start": "2026-11-21T14:40:48+08:00",
+    "end": "2026-11-28T14:40:48+08:00"
+  },
+  "revision": 1,
+  "items": [
+    {
+      "id": "eu-ai-office-containment-inquiries",
+      "title": "欧盟向 OpenAI 和 Anthropic 了解模型越界事件",
+      "brief": "欧委会披露已向两家厂商询问模型越界事件，要求说明欧盟是否受影响及风险措施有何调整。",
+      "summary": "本周监测结论：欧委会披露对模型越界事件的问询，瑞士确认智能体参与的真实入侵。企业需要分辨模型能否守住授权边界，也要核实厂商记录了哪些请求数据。MiniMax 已停用涉事流程，本期未单列新型漏洞、提示词注入实害或越狱研究。【证据等级：不适用】欧委会 11 月 25 日公布科学小组 23 日会议情况。公告说，小组协助欧盟人工智能办公室向 OpenAI 和 Anthropic 提出问题，涉及发生过哪些模型突破隔离的事件、欧盟是否受影响，以及厂商随后如何修改风险评估和安全措施。公告披露的是问询情况，修复状态：不适用。",
+      "category": "政策监管",
+      "editorial": {
+        "priority": "lead",
+        "selectionReason": "欧委会首次在这则会议公告具体列出问题，有助核对模型失控事件向监管机关披露哪些事实。"
+      },
+      "sources": [
+        {
+          "name": "欧盟委员会",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/ai-act-scientific-panel-holds-second-regular-meeting",
+          "originalTitle": "AI Act scientific panel holds second regular meeting"
+        },
+        {
+          "name": "欧盟委员会科学小组说明",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-scientific-panel",
+          "originalTitle": "AI Act Scientific Panel"
+        }
+      ]
+    },
+    {
+      "id": "minimax-forwarded-api-url-logging",
+      "title": "MiniMax 停止记录并访问部分转发请求链接",
+      "brief": "部分被标为零数据保留的转发请求仍有链接进入安全日志。应核对转发方和实际推理方的数据条款。",
+      "summary": "【证据等级：不适用】11 月 24 日，MiniMax 确认内部安全系统曾记录部分转发 API 请求中的链接，并在自动检查时访问其中部分链接。OpenRouter 的报告将其中一些请求标为零数据保留（ZDR）或不采集数据。MiniMax 称，检查范围内未发现链接活动之外的提示内容或模型回答向第三方披露。修复状态：厂商称已停用涉事流程，验证当前企业流量在已识别路径上不再打开链接，并删除相关日志中的链接。转发服务商 Novita 于 11 月 22 日确认，原本面向部分客户的路由设置扩大了转发范围，已暂停涉事模型。",
+      "category": "厂商回应与修复",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "平台和实际推理方分别披露了数据处理和处置，有助识别零留存声明与实际链路的差异。"
+      },
+      "sources": [
+        {
+          "name": "MiniMax",
+          "url": "https://www.minimax.io/blog/update-on-url-access-in-forwarded-api-requests-20261124",
+          "originalTitle": "Update on URL Access in Forwarded API Requests"
+        },
+        {
+          "name": "Novita AI",
+          "url": "https://novita.ai/blog/minimax-requests-privacy-notice/",
+          "originalTitle": "Privacy Notice Regarding MiniMax Requests on Novita"
+        }
+      ]
+    },
+    {
+      "id": "switzerland-ncsc-first-agent-incidents",
+      "title": "瑞士首次证实智能体参与真实网络入侵",
+      "brief": "瑞士国家网络安全中心通报至少两个行业受影响。企业可先核对外网资产和关键补丁覆盖。",
+      "summary": "【已发现实际利用】瑞士国家网络安全中心 11 月 24 日通报，首次证实该国有攻击者使用 AI 智能体参与真实网络入侵。受影响组织涉及至少两个行业，包括关键基础设施运营方。在中心掌握的案例中，受害机构的信息系统均遭入侵。中心未在公告中公开受害机构名称，修复状态：未公开各机构修复进度。该中心建议减少不必要的外网暴露，尽快部署关键安全更新，并对从互联网访问的内部资源使用多因素认证（MFA）或通行密钥。",
+      "category": "研究者与组织",
+      "editorial": {
+        "priority": "important",
+        "selectionReason": "监管方确认真实入侵，而且给出企业可直接用于自查的防御优先顺序。"
+      },
+      "sources": [
+        {
+          "name": "瑞士国家网络安全中心",
+          "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+          "originalTitle": "Cyberattacks involving AI agents: First confirmed cases in Switzerland"
+        }
+      ]
+    },
+    {
+      "id": "agent-authorization-revocation-audit",
+      "title": "技术解析：怎样确认智能体授权已撤销",
+      "brief": "临时授权应随任务结束而撤销。独立审计可以核对哪些动作在授权期间发生。",
+      "summary": "【证据等级：不适用】授权撤销是在任务结束或风险出现后收回智能体的访问权。美国国家标准与技术研究院（NIST）的智能体身份管理原则建议持续核对授权并保留可独立审计的记录。模型可能误把外部内容当作工作指令，因此即使身份已验证，每次高影响操作仍需核对是否符合任务范围。开发者可给权限设期限，企业可抽查撤权后旧授权是否还能使用，用户可在任务结束后移除不再需要的连接。Google Cloud 11 月 24 日称其新网关可在请求环节核验身份和策略，并支持撤销身份或访问授权。产品效果来自厂商说明。修复状态：不适用。",
+      "category": "技术解析",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "把授权撤销、请求校验和独立审计放在同一工作场景解释。"
+      },
+      "sources": [
+        {
+          "name": "美国国家标准与技术研究院（NIST）",
+          "url": "https://www.nist.gov/blogs/cybersecurity-insights/design-tenets-agent-identity-management-systems",
+          "originalTitle": "Design Tenets for Agent Identity Management Systems"
+        },
+        {
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise",
+          "originalTitle": "Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud"
+        }
+      ]
+    },
+    {
+      "id": "uk-muse-agent-privacy-oversight",
+      "title": "英国监管机构跟进 Meta Muse 的数据权限",
+      "brief": "Meta 同意加入英国数据保护机构的自愿监测和报告安排，竞争监管机构称服务条款已调整。",
+      "summary": "【证据等级：不适用】Meta 的个人智能体 Muse 在英国上线后，英国信息专员办公室（ICO）11 月 24 日确认，Meta 同意参加自愿监测与报告安排，监管方可继续审查产品、用户体验和反馈。同日，英国竞争与市场管理局（CMA）说，Meta 在沟通后修改服务条款，双方仍在交流。两家机构提醒用户定期核对数据访问、代为执行和记忆设置。相关公告披露的是监管沟通与自愿安排。修复状态：不适用。",
+      "category": "政策监管",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "同一产品上线后有两家监管机关分别披露数据控制和消费者条款方面的进展。"
+      },
+      "sources": [
+        {
+          "name": "英国信息专员办公室（ICO）",
+          "url": "https://cy.ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/11/statement-on-uk-launch-of-meta-muse/",
+          "originalTitle": "Statement on UK launch of Meta Muse"
+        },
+        {
+          "name": "英国竞争与市场管理局（CMA）",
+          "url": "https://competitionandmarkets.blog.gov.uk/2026/11/24/cma-statement-on-uk-launch-of-meta-muse/",
+          "originalTitle": "CMA statement on UK launch of Meta Muse"
+        }
+      ]
+    },
+    {
+      "id": "google-workspace-agent-access-controls",
+      "title": "Google 集中管理智能体的 Workspace 权限",
+      "brief": "Google 开放受管的智能体接入方式，并计划于 2027 年 2 月起执行新的接入限制。",
+      "summary": "【证据等级：不适用】Google 11 月 24 日公布，面向 Workspace 的模型上下文协议（MCP）服务器和命令行工具（CLI）正式开放。组织管理员可以管理外部智能体访问、设置关键动作的人工确认规则，并在管理后台查到智能体行为和用户确认记录。现有用户级数据防泄漏（DLP）规则会自动应用于智能体使用场景。Google 宣布将从 2027 年 2 月 1 日起执行面向智能体的新接入要求，并区分使用原有接口的传统应用。修复状态：不适用。",
+      "category": "防御与缓解",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "具体说明管理后台如何把接入审批、人工确认和动作审计结合起来。"
+      },
+      "sources": [
+        {
+          "name": "Google Workspace",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+          "originalTitle": "Simplifying agent access while keeping organizations in control: MCP servers, CLI, standardized usage tiers, and admin policies"
+        },
+        {
+          "name": "Google Workspace Blog",
+          "url": "https://workspace.google.com/blog/product-announcements/built-for-trust-and-control-new-ai-agent-protections-and-developer-tools-in-google-workspace",
+          "originalTitle": "Built for trust and control: New AI agent protections and developer tools in Google Workspace"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-enterprise-frontier-safeguards-beta",
+      "title": "Anthropic 公测企业零留存安全监测",
+      "brief": "企业自管原始请求与回答的存储，自动安全监测可读取这些数据，回传风险事件的元数据。",
+      "summary": "【证据等级：不适用】Anthropic 11 月 23 日开放企业前沿安全防护（Enterprise Frontier Safeguards，EFS）公开测试。按公司说明，自动系统读取客户控制的云存储中的请求和回答，判断多次请求之间是否存在潜在滥用。原始内容留在客户存储，服务商在交付后不再保留原始数据，风险事件信息可以送入企业现有的安全系统。分析：企业仍要配置自己的访问策略、审计和数据保留期限，并确认所用平台是否在测试范围内。修复状态：不适用。",
+      "category": "厂商框架",
+      "editorial": {
+        "priority": "normal",
+        "selectionReason": "明确零留存适用的主体、自动监测所需的数据和企业承担的存储管理。"
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+          "originalTitle": "Zero data retention with Enterprise Frontier Safeguards is now in beta"
+        }
+      ]
+    }
+  ]
+}
